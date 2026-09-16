@@ -2,7 +2,17 @@
 
 Screenshot-like design mockups generated on 16 September 2026 using the built-in image-generation tool, based on the [timeline design](../timeline-design.md) and [asset brief](../timeline-asset-brief.md). The three original views are followed by a revised browse direction. These are static concept images, not screenshots of a running Godot scene or production media assets. No GIF or runtime implementation is included.
 
-## Latest revision: vertical line with expandable strips
+## Latest exploration: horizontal timeline
+
+![Horizontal timeline with collapsed event strips](07-timeline-horizontal-collapsed-v4.png)
+
+The V3 archive style becomes a left-to-right timeline. Compact event strips alternate above and below the thin luminous line, with earlier records on the left and later records on the right.
+
+![Horizontal timeline with one expanded video reader](08-timeline-horizontal-expanded-v4.png)
+
+Opening a record shifts the timeline upward and gathers the compact strips above it, leaving room for a connected reader below. All five records retain their chronological order. These static concepts were generated with the built-in image-generation tool; they are not a running implementation. The [exact prompts and proposed interactions](prompt-horizontal-v4.md) are saved for iteration.
+
+## Previous revision: vertical line with expandable strips
 
 ![Vertical line with compact collapsed event strips](05-timeline-line-collapsed-v3.png)
 
