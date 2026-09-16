@@ -2,13 +2,25 @@
 
 Screenshot-like design mockups generated on 16 September 2026 using the built-in image-generation tool, based on the [timeline design](../timeline-design.md) and [asset brief](../timeline-asset-brief.md). The three original views are followed by a revised browse direction. These are static concept images, not screenshots of a running Godot scene or production media assets. No GIF or runtime implementation is included.
 
-## Latest revision: minimal, matte browse
+## Latest revision: vertical line with expandable strips
+
+![Vertical line with compact collapsed event strips](05-timeline-line-collapsed-v3.png)
+
+The reference image's luminous line and small event points become a vertical timeline: earlier at the top, later below. All events initially show only a short clickable strip containing the date, title, content type, and an expand control. Image, video, and text-only records share this collapsed treatment.
+
+![One video event expanded while neighboring events remain compact](06-timeline-line-expanded-v3.png)
+
+Selecting a strip opens one large connected reader. This screenshot explores shifting the timeline left and gathering compact neighbors beside it to leave room for the selected content. Collapse restores the browsing arrangement. Image events use image + text; video events use video + text; text-only events omit the media region.
+
+These two static concepts were created with the built-in image-generation tool. They do not implement clicking, expansion, or playback. The [exact prompts and interaction notes](prompt-line-v3.md) record the proposed behavior and remaining implementation questions. Earlier concepts and specifications remain available for comparison.
+
+## Previous revision: minimal, matte browse
 
 ![Minimal matte 3D timeline concept](04-timeline-browse-minimal-v2.png)
 
 Responds to feedback that the metal was too shiny and the spine too elaborate. A slender dark rail replaces the luminous column and large era rings. Thin connectors, small markers, matte graphite frames, and typographic era labels create a more modern appearance. The background architecture is simplified, while the existing events and alternating layout remain recognizable. Cyan is concentrated on the active event.
 
-This is the current concept exploration; the original images below are preserved for comparison. The reader concepts still show the earlier gold treatment. This revision does not yet change the written asset dimensions or constitute a finished material specification. The [revision prompt](prompt-minimal-v2.md) is preserved verbatim.
+This is the previous concept exploration; the original images below are preserved for comparison. The original reader concepts still show the earlier gold treatment. This revision does not change the written asset dimensions or constitute a finished material specification. The [revision prompt](prompt-minimal-v2.md) is preserved verbatim.
 
 ## Browse
 
