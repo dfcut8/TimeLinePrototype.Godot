@@ -1,0 +1,30 @@
+# Rotating spine — generation prompts
+
+Generated with the built-in image-generation tool on 16 September 2026. The existing matte browse concept was the initial reference; the first generated variant then received a targeted billboard-alignment edit. Only the final selected output is saved here. Existing concepts are unchanged.
+
+## Initial concept prompt
+
+```text
+Use case: ui-mockup. Create ONE new landscape 16:9 screenshot-like concept, an exploratory alternative to the provided matte minimal GALACTIC ARCHIVE image. The input is the visual reference. Preserve its restrained modern design, matte graphite materials, very thin frame borders, dark blue-black archive environment, delicate cyan active accent, legible sans-serif typography, and three existing event records. User requests slightly MORE 3D: a vertical timeline assembly that can turn 360 degrees around its upright spine, while all image/text planes continuously face the camera. This is an alternate idea, not a replacement.
+Composition: show the timeline at an illustrative rotation angle of 35 degrees. The spine stays VERTICAL in screen center. Give the extremely slender spine a tangible matte rectangular/faceted cross-section with two faces visible, about 12-16 pixels wide in the output, faint diffuse edge lighting and no gloss. It must remain minimal, no thick columns or ornaments.
+Spatial mechanism: three thin rigid matte arms extend RADIALLY from the upright spine at DIFFERENT heights and different azimuths around its Y axis. Make the arms visibly recede into depth, using subtle occlusion and foreshortening. Event cards are attached at their world-space endpoints, orbiting around the spine when the assembly turns. At this captured angle, the top event is left and somewhat farther back, the middle video event is right and nearest/largest, the third event is lower left at intermediate depth. This layered arrangement must convincingly convey front/back parallax and a three-dimensional rotating rig, with ample breathing room so no arm or spine hides text. Not all endpoints in a single flat plane.
+CRITICAL BILLBOARD RULE: despite these different 3D positions, ALL entire media-plus-text card faces remain parallel to the camera's image plane, fully rectangular and upright, with horizontal text baselines. They face the viewer, not the direction of their arm. NO turned-away or trapezoid-shaped text faces, NO mirrored text, NO edge-on media. Perspective scaling is allowed for farther cards, but labels stay readable. Slight matte thickness along outside edges and contact shadows communicate the cards are objects. Put clearly visible small pivot attachments behind card edges where appropriate.
+Content:
+Top event "YEAR 0", "The Archive Charter", "A shared record begins", with the same illustrative architectural media marked "IMAGE PREVIEW".
+Middle event "c. YEAR 12", "The First Transmission", "Knowledge crosses the frontier", broadcast antenna/rings poster marked "VIDEO PREVIEW", simple Play triangle and restrained cyan corner focus brackets.
+Lower event "YEAR 48", "The Outward Exchange", "Distant settlements reconnect", abstract planetary media marked "IMAGE PREVIEW".
+Small typography-only era labels at top and bottom: "THE PRESERVATION ERA" and "THE EXPANSION ERA". Keep earlier above later.
+Rotation explanation: add ONE delicate dashed elliptical arc around the lower exposed portion of the spine, two small direction arrowheads and caption "360° rotation". This arc is a faint screen annotation explaining movement, NOT solid ring geometry or ornamental hardware. Nearby concise annotation "Panels always face camera". Small unobtrusive bottom control "↔ Drag to rotate · 35°" separated from the chronology controls.
+App UI: top-left small label "OTHER IDEAS / ROTATING SPINE", then "GALACTIC ARCHIVE". Upper right "Index", "Help", "Settings". Far-right slim overview scrollbar. Bottom toolbar retains "First", "Previous", "Next", "Last", minus, "Reset view", plus, and "Event 2 of 100 · Spacing is not to scale". Avoid overfilling the footer.
+Background: quiet spacious modern dark archive with a few remote structural planes and faint space view; very subdued ambient shadows for real depth. No glossy floor, gold metal, chrome, monumental rings, Gothic arches, bright neon, banners, decorative slogans, or unnecessary interface. Use depth and separation, not shiny materials, to make it more three-dimensional. The main focus is readable camera-facing content orbiting a minimalist 3D vertical axis. Single full-screen concept, not a collage or engine editor.
+```
+
+## Final refinement prompt
+
+```text
+Refine this exact concept image with ONE targeted correction: ALL THREE exhibit panels must be camera-aligned billboards.
+Currently the upper-left and middle-right panels have tilted/sloping top and bottom edges, and the lower-left is slightly trapezoidal. Correct their whole front faces (frame, media and text together) into perfect screen-aligned RECTANGLES: top and bottom edges exactly horizontal, left and right edges exactly vertical, opposite sides parallel. No trapezoids, no roll, no perspective skew on any panel. This is the defining feature requested by the user: planes of text and images ALWAYS FACE THE CAMERA even as their positions orbit a 360-degree rotating spine.
+Preserve each panel's existing center position and approximate size. Preserve all event copy, media illustrations, thin matte borders and cyan focus brackets. Keep the differing panel sizes to suggest depth, and retain all real 3D perspective ONLY in the spine, thin connector arms, pivots and environment. Connector arms should meet the rear of each now camera-aligned card naturally. The world remains three-dimensional while the panel faces stay perfectly front-facing.
+Keep everything else unchanged: matte vertical spine with two visible faces, dark modern architecture, same three chronological events, navigation toolbar, 360-degree dotted rotation annotation, 'Panels always face camera' note and 'OTHER IDEAS / ROTATING SPINE' heading. Do not add or remove panels, do not add shine, no ornate rings. One polished wide concept screen.
+```
+
