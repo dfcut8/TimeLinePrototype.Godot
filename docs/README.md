@@ -12,12 +12,13 @@ A vertical, navigable 3D archive rendered in Godot. Time begins at the top and a
 | [External JSON content contract](timeline-data-contract.md) | Content ownership, chronology, fields, media references, validation rules, and an illustrative JSON example. |
 | [3D asset production brief](timeline-asset-brief.md) | Models, textures, materials, effects, production conventions, and delivery gates. |
 | [Reference guide](timeline-references.md) | Annotated visual and technical sources and how to apply them. |
+| [Visual concepts](concepts/README.md) | Three generated mockups showing browse, image reader, and video reader states, with review notes and exact prompts. |
 
 Read the experience document first. The content contract and asset brief are companion specifications; the reference guide explains the evidence and inspiration behind them.
 
 ## Scope and working assumptions
 
-- This delivery contains documentation only. No game code, scenes, shaders, models, textures, timeline media, or executable JSON schema is created.
+- This delivery contains documentation and visual concept mockups. No game code, scenes, shaders, 3D models, texture maps, production timeline media, or executable JSON schema is created. The follow-up mockups are static illustrations, not Godot captures.
 - The future implementation uses real 3D geometry and a constrained camera, with a 2D overlay for reading and controls.
 - The initial target is a desktop application with mouse and keyboard, one timeline loaded at a time, and media prepared separately on disk. This is a proposed baseline, not a confirmed deployment constraint.
 - The current project declares Godot `4.7` and `Forward Plus` in [project.godot](../src/project.godot). This is configuration evidence, not verification of an installed engine or working renderer. Pin the actual engine build before implementation.

@@ -1,6 +1,6 @@
 # Reference Guide
 
-Researched 16 September 2026. Links are references; no images, video, models, or textures were downloaded or generated for this task. Each application below is a proposed design interpretation unless explicitly described as an engine capability.
+Researched 16 September 2026. Links are references; no reference media was downloaded. A later visual-review pass created three original [concept mockups](concepts/README.md), separate from production assets and timeline media. Each application below is a proposed design interpretation unless explicitly described as an engine capability.
 
 ## 1. Narrative and visual references
 
@@ -18,7 +18,7 @@ The palette, archive spine, alternating frames, segmented era rings, and reading
 
 Select a small set of references around four questions: What establishes monumental scale? What makes the active object obvious? What suggests age and preservation without visual clutter? What makes a long history readable? Annotate each selected image with one property to study and one concrete application to the original asset kit.
 
-For a first visual review, compose three future concept frames: arrival at the earliest event, a middle era with both node types visible, and a selected video in the reader. The current task supplies wireframes in the [design document](timeline-design.md); polished concept images and playable mockups are later work. Reference images are study material, not delivered project assets.
+The first visual-review pass now includes [browse, image-reader, and video-reader concepts](concepts/README.md), alongside the wireframes in the [design document](timeline-design.md). These establish a proposed appearance; playable mockups, movement studies, and final artwork remain later work. External reference images are study material, not delivered project assets.
 
 ## 2. Godot technical references
 
