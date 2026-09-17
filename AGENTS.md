@@ -1,5 +1,31 @@
 # GODOT Infinite Runner (AI Assisted)
 
+## Godot objects must be subscenes
+
+For every Godot task, create each distinct game object as a self-contained,
+reusable `.tscn` scene and instance that scene into levels or other parent
+scenes. This applies to both 2D and 3D objects, even when only one instance
+is currently needed. Do not assemble an object's node hierarchy directly
+inside a level or generate that hierarchy only in a level script.
+
+- Give the scene a descriptive object name and an appropriate root node.
+- Keep all nodes needed by the object inside its scene, including visuals,
+  collision shapes and physics bodies, interaction areas, animation, audio,
+  and object-specific scripts, as applicable. Supporting nodes do not each
+  need their own scene; they belong to the object they implement.
+- Reuse or update an existing object scene when one already exists. Put
+  shared behavior and appearance in that scene; use exported properties
+  and instance transforms for per-instance configuration.
+- Spawn objects dynamically by instantiating their `PackedScene` rather
+  than reconstructing their nodes in code.
+- When changing an existing object embedded in a level, extract that
+  object's hierarchy into a subscene as part of the change, preserving its
+  behavior, transforms, and connections. Leave unrelated objects alone.
+
+For example, adding a barrel means creating `barrel.tscn` with a `Barrel`
+root and all required 2D or 3D visual, collision, and behavior nodes, then
+placing instances of `barrel.tscn` in the level.
+
 ## 3D model workflow: Blender MCP and Godot MCP
 
 For every task that creates, edits, imports, or fixes 3D models, meshes,
