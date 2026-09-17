@@ -1,0 +1,77 @@
+{
+  "asset": "archive_record_medium",
+  "issue": 32,
+  "format": "local asset handoff manifest v1",
+  "files": [
+    {
+      "path": ".gdignore",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "archive_record_medium.blend",
+      "bytes": 96689,
+      "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
+    },
+    {
+      "path": "archive_record_medium.glb",
+      "bytes": 125240,
+      "sha256": "48323b10d5209852f5e629b403f312f192152afbe0f7f6c351aef49d1cf4e8b6"
+    },
+    {
+      "path": "build_asset.py",
+      "bytes": 6210,
+      "sha256": "e5f08c237f3bb1fde60855dc70061b264cd6fab9dc165e1ca06d50863748d1ce"
+    },
+    {
+      "path": "check_roundtrip.py",
+      "bytes": 2008,
+      "sha256": "ac5367acf945d79f56b78cc5e8693ebcfe162845966dbaab670972f1f1d51235"
+    },
+    {
+      "path": "dimensions.svg",
+      "bytes": 2209,
+      "sha256": "4afe0ccdf992c249b290a5daca7d6a7897c5cc573bb3c96e48cf86844f831fa3"
+    },
+    {
+      "path": "export_validate.py",
+      "bytes": 4529,
+      "sha256": "849033d236aaea4ebab2343a7ea0b71631a71cfd771f6c887d884598588a1d18"
+    },
+    {
+      "path": "issue.json",
+      "bytes": 4095,
+      "sha256": "c4e1caa0358a510069e256b08ace42a3c4ab1a975f408ccf9c409f82eae6a37c"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 1245016,
+      "sha256": "55cdad15bdc2790c4dbbec4b58b04cdb829ee7ce543b01d876fcbc5b2b1392c2"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 1200471,
+      "sha256": "632f332107201c9c0d2cf83f546292bb8ae217cd4aea684e1682fa728ca82fcd"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 1266005,
+      "sha256": "1391cfae0ee67907aa8cde2b74e0a9e5c39bea978595827266d1d16a229ae270"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5551,
+      "sha256": "687dab6461d5eb5aa019eb6ddbd69664396fdf98c73b7ae96b8ca835d5af3932"
+    },
+    {
+      "path": "render_previews.py",
+      "bytes": 1069,
+      "sha256": "c3e6fd594fed4368d9a70343bf261f6f9940519e15c7c4c3d5a5da187e2a965e"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 6899,
+      "sha256": "951b06ca545ae1a159892024963aa17f5602600051e4beb87be791d8cee53b51"
+    }
+  ]
+}

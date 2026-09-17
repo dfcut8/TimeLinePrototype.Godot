@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#101923"/>
+<style>text{font-family:Arial,sans-serif;fill:#dfe8ee;font-size:18px}.title{font-size:30px}.small{font-size:15px;fill:#aebfc9}.body{fill:#344450;stroke:#c5d6e0;stroke-width:2}.panel{fill:#18252e;stroke:#7e939f;stroke-width:1}.dim{stroke:#6db9c9;stroke-width:1;fill:none}</style>
+<text x="55" y="58" class="title">ARCHIVE RECORD / MEDIUM</text><text x="55" y="89" class="small">Issue #32 · resolved authoring drawing · dimensions in millimeters · not a Godot capture</text>
+<text x="90" y="155">SPINE / FRONT (-Y)</text><rect class="body" x="130" y="200" width="85" height="400" rx="4"/><rect class="panel" x="144" y="217" width="57" height="366" rx="1"/>
+<path stroke="#acb9ba" stroke-width="2" d="M158 260h30m-30 10h23m-23 10h15"/><rect class="panel" x="149" y="535" width="47" height="21"/>
+<path class="dim" d="M110 200H75M110 600H75M85 200V600M78 200h14M78 600h14M130 623v25M215 623v25M130 638h85"/>
+<text x="65" y="425" transform="rotate(-90 65 425)">400</text><text x="155" y="666">85</text>
+<text x="365" y="155">BROAD COVER (+X)</text><rect class="body" x="365" y="200" width="270" height="400" rx="4"/><rect class="panel" x="374" y="210" width="252" height="380" rx="3"/><rect class="body" x="391" y="243" width="220" height="328" rx="1"/>
+<path class="dim" d="M365 623v25M635 623v25M365 638h270"/><text x="480" y="666">270</text>
+<text x="785" y="155">TOP (+Z)</text><rect class="body" x="840" y="200" width="85" height="270" rx="4"/><path class="dim" d="M946 200h35M946 470h35M970 200v270"/><text x="992" y="345">270</text>
+<circle cx="882.5" cy="335" r="5" fill="#6db9c9"/><path class="dim" d="M860 335h45M882.5 313v44"/>
+<text x="767" y="525" class="small">Pivot: nominal bottom center</text><text x="767" y="550" class="small">Blender: +Z up, -Y front</text><text x="767" y="575" class="small">glTF: +Y up, +Z front</text>
+<text x="55" y="720">Full detail envelope: 86.6 W × 273.7 D × 400 H</text><text x="55" y="751" class="small">Proposed shelf allocation: 105 pitch × 300 depth × 440 height. Actual shelf assembly remains untested.</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "selection_method": "Uniform random selection from 29 open required [3D Model] issues; optional deferred furnishings excluded.",
+  "issue": {
+    "url": "https://github.com/dfcut8/TimeLinePrototype.Godot/issues/32",
+    "title": "[3D Model] Medium archive record cassette",
+    "issue_number": 32,
+    "body": "## Purpose\nCreate **medium archive record cassette** for the current V5 horizontal timeline inside a surrounding galactic library. Required model in the proposed V5 scene kit.\n\n## References\n- [V5 direction and element inventory](https://github.com/dfcut8/TimeLinePrototype.Godot/blob/98751287e0f50d8fb4ad879f1571c28e2e2dc340/docs/concepts/spatial-library-v5/README.md)\n- [Concept board](https://github.com/dfcut8/TimeLinePrototype.Godot/blob/98751287e0f50d8fb4ad879f1571c28e2e2dc340/docs/concepts/spatial-library-v5/06-library-furnishings.png)\n- [Delivery conventions](https://github.com/dfcut8/TimeLinePrototype.Godot/blob/98751287e0f50d8fb4ad879f1571c28e2e2dc340/docs/timeline-asset-brief.md) — historical brief; V5 overrides vertical orientation, large physical frames and ornate era rings.\n\n## Model scope and specific fit checks\nMedium record variant sharing family source/materials. Resolve dimensions and bevels intentionally rather than distorting small mesh. Distinct size, consistent pivot and shelf clearance.\n\n## Dependencies\n- [Record stack shelf bay with closed back](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/28)\n- [Small archive record cassette](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/31)\n\n## Dimensional decisions\nResolve a consistent dimensional drawing, axes, pivot and attachment points in graybox before detailed modeling. Use 1 unit = 1 meter as the authoring convention. Concept projections are not authoritative drawings. The 14 m timeline, 40 m clear volume and 64 m chamber are exploratory proportions, not fixed dimensions. Validate camera clearance and readable strip scale together before final art; do not inherit obsolete vertical dimensions.\n\n## Acceptance criteria\n- [ ] Complete the model scope and specific fit checks above; record the resolved dimensions and module interfaces.\n- [ ] Inspect front, back, side, underside and end surfaces visible to an orbiting camera; clean normals/UVs, no unintended holes, seam gaps or z-fighting.\n- [ ] Reuse matte graphite/ceramic/dark-panel materials as appropriate. Keep warm architectural light subdued and the timeline dominant; silhouette remains clear without bloom. No baked event text or concept-board captions.\n- [ ] Deliver editable modeling source, glTF 2.0 `.glb`, required maps or documented shared-material dependencies, and preview render(s).\n- [ ] Document scale, transforms, pivot/axes/attachment points, triangle/material counts and source provenance/license. Add lower-detail variants only when justified; performance budgets remain provisional until measured.\n- [ ] Verify import, scale, material slots and assembly fit in the pinned Godot build; record version and results. Issue creation itself does not constitute runtime validation.\n\n## Scope boundary\nModel production and import/fit review only. Runtime orbit/panel tracking, screen-space readers, live text/icons, event media, lighting/shader behavior and content-contract extensions are separate. Focus corners and node emphasis use replaceable overlays/materials unless graybox review establishes a physical mesh need. No separate reader, character, ship, statue, city, camera track or per-event diorama is required.\n",
+    "state": null,
+    "user": null,
+    "assignees": null,
+    "labels": null,
+    "milestone": null,
+    "state_reason": null,
+    "comments": null,
+    "created_at": null,
+    "updated_at": null,
+    "closed_at": null,
+    "display_url": "https://github.com/dfcut8/TimeLinePrototype.Godot/issues/32",
+    "display_title": "[3D Model] Medium archive record cassette"
+  },
+  "user_prompt": "Take a random issue from github issues to work on a 3d model using Blender MCP. Save all results in src/assets, do not import anything in godot yet."
+}
