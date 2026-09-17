@@ -1,0 +1,75 @@
+{
+  "issue": 19,
+  "files": [
+    {
+      "path": ".gdignore",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "build_asset.py",
+      "bytes": 7565,
+      "sha256": "7841f5d9086a5dc6a126a19fa9e2c3c4f79adb263b28ff8a70cd5f311cc9603f"
+    },
+    {
+      "path": "curved_gallery.blend",
+      "bytes": 79614,
+      "sha256": "845bb397393d2ac1106972c95ddfe51ee7b17b5178c264b794ed1f9999483471"
+    },
+    {
+      "path": "curved_gallery.glb",
+      "bytes": 35780,
+      "sha256": "fe4d729051e5f7ec49012896490b75bae975dc9a96be2aefe20284354adfdf98"
+    },
+    {
+      "path": "dimensions.svg",
+      "bytes": 2163,
+      "sha256": "0d6b62b4f7648ca23abcbba867e43ad30f6f06c666d88c1a5717cb7ccadf8f46"
+    },
+    {
+      "path": "godot_validation.json",
+      "bytes": 463,
+      "sha256": "e65f450238a0d78c1b4ae4d972dfa76945b41bb88a683ffd4a629ce806f320b9"
+    },
+    {
+      "path": "preview_assembly.png",
+      "bytes": 988780,
+      "sha256": "b5d3bd3131e6881cae41cb79667d39ad846d4c079764c0b52cbadfef1132db7d"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 980199,
+      "sha256": "0ca83acf976ba8a27ceac6e25d2aeaacf328089212b887178323712caa78b785"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 979121,
+      "sha256": "b64839d2d4aad8657ddde0754882887e86d1fd839373abc6066a10706286c738"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 976539,
+      "sha256": "624c65c21d8fc3accbc3e09fe715c6be571da890867497a0172ad6a4096466f3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6982,
+      "sha256": "2dd9c72fbe1d2378f19d22293d89c31def66f60840b8aab53914e9013b75bdd6"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 728,
+      "sha256": "84903763588653ebb70fe9bad7790dcba7966215c5cfc3bdf805f78c8710e137"
+    },
+    {
+      "path": "verify_godot.gd",
+      "bytes": 4379,
+      "sha256": "06974aa6811e1215c975c793a6df73d0d1d637330516bf148c6ad9e63aaa8a83"
+    },
+    {
+      "path": "verify_godot.ps1",
+      "bytes": 1865,
+      "sha256": "db8f14fdf27dbc3c0e54787de9cc14549a0cfda820aa8b3936bbcea51d0542d7"
+    }
+  ]
+}

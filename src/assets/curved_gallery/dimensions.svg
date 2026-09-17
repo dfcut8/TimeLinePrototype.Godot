@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<rect width="1100" height="650" fill="#eef1f3"/>
+<g fill="#24333e" font-family="sans-serif">
+<text x="40" y="48" font-size="28">CURVED GALLERY / ISSUE 19</text>
+<text x="40" y="80" font-size="16">Resolved dimensions in meters · 1 unit = 1 m · interface proposal for Pier A</text>
+<text x="40" y="130" font-size="20">RADIAL CROSS-SECTION</text>
+<path d="M70 380 L70 218 L92 218 L92 350 L490 350 L490 380 Z" fill="#566775" stroke="#24333e" stroke-width="2"/>
+<g stroke="#556777" fill="none"><path d="M70 400 V420 M490 400 V420 M70 412 H490 M510 350 H530 M510 380 H530 M520 350 V380 M42 218 H56 M42 350 H56 M49 218 V350"/></g>
+<text x="230" y="442" font-size="18">3.50 slab depth</text>
+<text x="525" y="374" font-size="16">0.25</text>
+<text x="24" y="303" font-size="16" transform="rotate(-90 24 303)">1.10 parapet</text>
+<text x="65" y="192" font-size="16">0.18 thick</text>
+<text x="115" y="335" font-size="16">Deck Y = 0</text>
+<text x="65" y="480" font-size="16">Inner radius 22.00 → outer radius 25.50</text>
+<text x="65" y="507" font-size="16">15 mm profile chamfers; planar closed end seams</text>
+<text x="650" y="130" font-size="20">PLAN / REPEAT INTERFACE</text>
+<path d="M717 234 A200 200 0 0 1 769 234 L776 190 A244 244 0 0 0 710 190 Z" fill="#566775" stroke="#24333e" stroke-width="2"/>
+<path d="M743 432 L710 190 M743 432 L776 190" fill="none" stroke="#667986" stroke-dasharray="6 5"/>
+<circle cx="743" cy="432" r="4"/>
+<text x="794" y="222" font-size="16">15° sector</text>
+<text x="794" y="250" font-size="16">±7.5° radial seams</text>
+<text x="775" y="437" font-size="16">Pivot: rotunda center</text>
+<text x="650" y="480" font-size="16">Rotate +15° around Godot +Y per sector</text>
+<text x="650" y="507" font-size="16">Tier pitch 5.00; parapet-to-soffit gap 3.65</text>
+<text x="40" y="568" font-size="16">Support proposal: R24.80 at each seam, Y=-0.25; 0.40 radial × 0.30 tangential bearing area.</text>
+<text x="40" y="600" font-size="16">Central clear radius 20.00; gallery minimum faceted radius 21.99967. Plan is schematic.</text>
+</g></svg>
