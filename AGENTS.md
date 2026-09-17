@@ -1,5 +1,42 @@
 # GODOT Infinite Runner (AI Assisted)
 
+## 3D model workflow: Blender MCP and Godot MCP
+
+For every task that creates, edits, imports, or fixes 3D models, meshes,
+materials, rigs, or animations for this project:
+
+1. Check live MCP connectivity before choosing an implementation path.
+   Discover the available Blender and Godot tools; tool availability or a
+   running application process alone does not prove a live connection.
+   For Blender, call `get_addon_status` and `get_scene_info`. For Godot,
+   call `godot_editor_read` with `get_state` and verify that the connected
+   editor is using the intended project before making changes.
+2. When Blender is running and connected, use Blender MCP for model
+   inspection, authoring, editing, and export. Python executed through
+   Blender MCP is allowed. Do not silently substitute a separate headless
+   Blender process or another modeling workflow when the live connection
+   works. Inspect the existing scene first and preserve unrelated objects
+   and unsaved user work. After edits, inspect the scene and a viewport
+   screenshot to verify the result.
+3. Validate changed assets in Godot through Godot MCP when connected.
+   Import or refresh the exported asset, open the relevant project scene
+   (or a focused test scene), and run it in the engine. Check applicable
+   scale, orientation, materials, visibility, animation, and collision
+   behavior. Use runtime/spatial data for state checks and a game screenshot
+   for visual checks. Check editor import errors and available game runtime
+   errors separately; editor logs alone do not prove the game is error-free.
+   Run `godot_validate_meshes` after procedural mesh changes or when geometry
+   renders incorrectly without reported errors, before tuning lighting.
+4. If an MCP connection is unavailable, report the failed check and the
+   specific connection requirement. Continue independent work and use an
+   appropriate available fallback, but identify that fallback explicitly.
+   Never claim Blender MCP was used or Godot engine validation passed unless
+   it actually happened. Report any remaining engine validation as incomplete.
+5. In the final response, briefly state which MCPs were used, what was
+   tested in Godot, and any remaining validation gaps. Apply this workflow
+   to any delegated model work as well. An explicit user instruction for
+   the current task may override this default workflow.
+
 ## Pull requests
 
 When the user says "open pr", "create pr", "submit pr", or otherwise asks
