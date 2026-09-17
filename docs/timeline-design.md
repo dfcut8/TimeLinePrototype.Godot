@@ -1,5 +1,7 @@
 # Galactic Archive — 3D Timeline Design
 
+> Historical vertical specification. The current user-selected direction is a horizontal timeline in a spatial galactic library, with camera orbit around the fixed timeline. See the [V5 concept pack](concepts/spatial-library-v5/README.md) for the current art direction and review of earlier concepts. Vertical placement, fixed-camera restrictions, ornate forms and related acceptance criteria below need reconciliation before implementation. This task creates concept art only.
+
 Status: proposed experience specification. Companion documents: [data contract](timeline-data-contract.md), [asset brief](timeline-asset-brief.md), and [references](timeline-references.md).
 
 ## 1. Experience

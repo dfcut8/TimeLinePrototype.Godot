@@ -1,5 +1,7 @@
 # 3D Asset Production Brief
 
+> Historical production brief. The current [horizontal spatial-library concept pack](concepts/spatial-library-v5/README.md) supersedes this document's vertical proportions, gold-era monuments and fixed-front assumptions. It provides concept coverage for the full scene kit, including rear surfaces for camera orbit. Budgets and production conventions below remain provisional; no models or maps have been produced.
+
 Status: production plan only. All geometry, textures, materials, effects, and interface artwork listed here remain to be created. Event images, posters, and videos are supplied separately by the content workflow.
 
 ## 1. Visual goal

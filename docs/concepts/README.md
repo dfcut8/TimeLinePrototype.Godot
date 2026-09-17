@@ -1,8 +1,14 @@
 # Galactic Archive — Visual Concepts
 
+## Current direction: horizontal spatial library V5
+
+The horizontal layout is the selected direction. The new [spatial library concept pack](spatial-library-v5/README.md) reviews all nine earlier images and adds eight concept boards covering the surrounding library, camera orbit, timeline assembly, panels, architecture, storage, materials and readers. The camera moves around a fixed horizontal timeline. Earlier concepts below are preserved as design history.
+
+![Spatial galactic library](spatial-library-v5/01-library-key-art-refined.png)
+
 Screenshot-like design mockups generated on 16 September 2026 using the built-in image-generation tool, based on the [timeline design](../timeline-design.md) and [asset brief](../timeline-asset-brief.md). The three original views are followed by a revised browse direction. These are static concept images, not screenshots of a running Godot scene or production media assets. No GIF or runtime implementation is included.
 
-## Latest exploration: horizontal timeline
+## Horizontal V4 — layout foundation
 
 ![Horizontal timeline with collapsed event strips](07-timeline-horizontal-collapsed-v4.png)
 
@@ -50,7 +56,7 @@ Shows a large readable panel in front of the archive, with an image, summary, de
 
 Shows the video before playback, with a poster, Play, Restart, Mute, volume, and a readable transcript. The volume slider is not a video seek bar. No functional playback is present in the image.
 
-## What these concepts establish
+## What the original V1 concepts established
 
 - A consistent graphite, gold, and cyan visual language.
 - A clear vertical timeline with physical depth and a stable upright camera.

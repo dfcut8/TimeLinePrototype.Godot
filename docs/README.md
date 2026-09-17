@@ -1,8 +1,10 @@
 # 3D Timeline — Design Documentation
 
-Status: proposed design, ready for review. Prepared 16 September 2026.
+Status: concept-art review. Updated 16 September 2026. Horizontal layout is the selected direction; detailed forms remain proposals.
 
-A vertical, navigable 3D archive rendered in Godot. Time begins at the top and advances downward. Visitors select image-and-text or video-and-text events, moving through a science-fiction history with mouse or keyboard. Foundation provides thematic inspiration; the presentation assets will be original.
+A horizontal, navigable 3D archive inside a spacious galactic library. The camera orbits the central timeline; the default browse view reads earlier left and later right. Start with the [V5 spatial-library concept pack](concepts/spatial-library-v5/README.md): eight selected art boards, a review of every prior concept, and complete scene-element coverage for future modeling. Foundation provides thematic inspiration; the presentation assets are original concepts.
+
+The experience specification and original asset brief below preserve the older vertical proposal. Their camera, orientation and ornate geometry requirements are superseded by V5 and need reconciliation before implementation.
 
 ## Documents
 
@@ -12,9 +14,9 @@ A vertical, navigable 3D archive rendered in Godot. Time begins at the top and a
 | [External JSON content contract](timeline-data-contract.md) | Content ownership, chronology, fields, media references, validation rules, and an illustrative JSON example. |
 | [3D asset production brief](timeline-asset-brief.md) | Models, textures, materials, effects, production conventions, and delivery gates. |
 | [Reference guide](timeline-references.md) | Annotated visual and technical sources and how to apply them. |
-| [Visual concepts](concepts/README.md) | Three generated mockups showing browse, image reader, and video reader states, with review notes and exact prompts. |
+| [Visual concepts](concepts/README.md) | Full concept history, horizontal layout studies, and the current eight-board spatial-library art pack with exact prompts. |
 
-Read the experience document first. The content contract and asset brief are companion specifications; the reference guide explains the evidence and inspiration behind them.
+Read the V5 concept pack first for current art direction. The older experience document, content contract and asset brief preserve prior planning; the reference guide explains the original evidence and inspiration.
 
 ## Scope and working assumptions
 
@@ -30,10 +32,10 @@ Read the experience document first. The content contract and asset brief are com
 | Decision | Baseline used in these documents | When to revisit |
 | --- | --- | --- |
 | Chronological spacing | Ordered event slots, with explicit dates and a “spacing is not to scale” note | Before supporting scientifically proportional time spacing |
-| Camera | Fixed orientation with vertical movement and bounded zoom | After evaluating a graybox navigation study |
+| Camera | Orbit around the fixed horizontal timeline; stable default browse and reading views | Graybox camera clearance, end-on overlap and reverse-view chronology |
 | Reading | Modal reading overlay above the visible 3D archive | During text and input usability review |
 | Media delivery | Local content package; PNG/JPEG images and Ogg Theora video | Before choosing a download service or different video backend |
 | Content scale | 100 events as a first production target; 1,000-event stress scenario | When representative data and target hardware are available |
-| First art direction | Dark archive, brushed metal, warm gold, sparse cyan light | At art review using the asset brief |
+| Current art direction | Spacious surrounding library, matte graphite/ceramic, warm shelf light, fine cyan-white timeline | Review V5 concepts before modeling |
 
 These defaults make the proposal concrete. They are not claims of user approval or measured engine performance.
