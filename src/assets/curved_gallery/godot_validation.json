@@ -1,0 +1,22 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"height_bounds_m": [
+		-0.25,
+		1.10000002384186
+	],
+	"instances": 6,
+	"materials": [
+		"archive_graphite",
+		"archive_basalt_ceramic"
+	],
+	"passed": true,
+	"radial_bounds_m": [
+		22.0,
+		25.5000019073486
+	],
+	"scope": "Headless GLB import and assembly; GPU appearance and actual pier fit not validated",
+	"seam_error_m": 0.00000203704917112191,
+	"tier_clearance_m": 3.64999997615814,
+	"triangles": 546
+}
