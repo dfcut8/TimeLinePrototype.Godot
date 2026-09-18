@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<rect width="1100" height="560" fill="#111923"/>
+<g fill="#e5edf5" font-family="sans-serif"><text x="40" y="48" font-size="25">Timeline rail housing · resolved interface · metres</text>
+<text x="40" y="90" font-size="16">Godot: +X later · +Y up · +Z front · pivot at earlier-end center</text></g>
+<g stroke="#a9c9db" stroke-width="2" fill="#384957">
+<rect x="50" y="155" width="620" height="60"/><path d="M50 178 H670 M50 192 H670"/>
+<path fill="none" d="M50 240 V260 M670 240 V260 M50 250 H670"/>
+<path d="M812 390 L988 390 L1012 366 L1012 300 L982 288 L952 288 L952 232 L982 232 L1012 220 L1012 154 L988 130 L812 130 L788 154 L788 366 Z"/>
+<path fill="none" d="M765 130 H745 M765 390 H745 M755 130 V390 M788 415 V435 M1012 415 V435 M788 425 H1012"/>
+</g>
+<g fill="#e5edf5" font-family="sans-serif" font-size="17">
+<text x="50" y="140">Front (+Z)</text><text x="325" y="282">2.000</text>
+<text x="820" y="110">End profile (Y/Z)</text><text x="700" y="268">.120</text><text x="875" y="455">.120</text>
+<text x="50" y="335">Channel opening height: .040</text><text x="50" y="365">Inner height: .028 · seat Z: +.030</text>
+<text x="50" y="395">Flat mating planes: X = 0 and X = 2</text><text x="50" y="425">Repeat pitch: 2.000 · outer chamfers: .014</text>
+<text x="40" y="515">Diagram annotations govern; the Python profile contains exact vertex coordinates.</text></g></svg>

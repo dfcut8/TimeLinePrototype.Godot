@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/timeline_rail_housing.glb" id="1_mesh"]
+
+[node name="TimelineRailHousing" type="Node3D"]
+
+[node name="Housing" parent="." instance=ExtResource("1_mesh")]
+
+[node name="EarlierEnd" type="Marker3D" parent="."]
+
+[node name="LaterEnd" type="Marker3D" parent="."]
+position = Vector3(2, 0, 0)
+
+[node name="LightChannelSeat" type="Marker3D" parent="."]
+position = Vector3(1, 0, 0.03)
