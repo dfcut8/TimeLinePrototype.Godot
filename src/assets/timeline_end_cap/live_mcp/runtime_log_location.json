@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"completed\":true,\"duration_ms\":0,\"holder_children\":0,\"result\":\"C:/Users/dfcut/AppData/Roaming/Godot/app_userdata/Time Line Prototype\"}"
+    }
+  ],
+  "structuredContent": {
+    "completed": true,
+    "duration_ms": 0,
+    "holder_children": 0,
+    "result": "C:/Users/dfcut/AppData/Roaming/Godot/app_userdata/Time Line Prototype"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Checked 5 meshes (5 surfaces) — no integrity problems. This rules out winding, dropped triangles, degenerate UVs/tangents, and NaN data. If rendering still looks wrong, the cause is lighting or materials, not mesh data — note that SDFGI replaces constant ambient light, so shadow-side fill must come from a shadowless fill DirectionalLight rather than ambient_light_energy."
+    }
+  ]
+}
