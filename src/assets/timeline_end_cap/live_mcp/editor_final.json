@@ -1,0 +1,259 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"cursor\":147,\"match_count\":9,\"messages\":[{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":139,\"timestamp\":1811947,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:64551: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":140,\"timestamp\":1812057,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:64552: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":141,\"timestamp\":1812243,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:64553: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":142,\"timestamp\":1841968,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:54732: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":143,\"timestamp\":1842078,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:54734: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":144,\"timestamp\":1842259,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:54735: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":145,\"timestamp\":1871977,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:57057: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":146,\"timestamp\":1872108,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:57059: another client is already connected\"},{\"error_type\":1,\"file\":\"core/variant/variant_utility.cpp\",\"frames\":[{\"file\":\"res://addons/godot_mcp/core/mcp_log.gd\",\"function\":\"warn\",\"line\":11},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_accept_connection\",\"line\":122},{\"file\":\"res://addons/godot_mcp/websocket_server.gd\",\"function\":\"_process\",\"line\":39}],\"function\":\"push_warning\",\"line\":1033,\"message\":\"\",\"seq\":147,\"timestamp\":1872280,\"type\":\"[godot-mcp] Rejecting new connection from 127.0.0.1:57060: another client is already connected\"}],\"returned_count\":9,\"total_count\":100}"
+    }
+  ],
+  "structuredContent": {
+    "cursor": 147,
+    "match_count": 9,
+    "messages": [
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 139,
+        "timestamp": 1811947,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:64551: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 140,
+        "timestamp": 1812057,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:64552: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 141,
+        "timestamp": 1812243,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:64553: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 142,
+        "timestamp": 1841968,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:54732: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 143,
+        "timestamp": 1842078,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:54734: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 144,
+        "timestamp": 1842259,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:54735: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 145,
+        "timestamp": 1871977,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:57057: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 146,
+        "timestamp": 1872108,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:57059: another client is already connected"
+      },
+      {
+        "error_type": 1,
+        "file": "core/variant/variant_utility.cpp",
+        "frames": [
+          {
+            "file": "res://addons/godot_mcp/core/mcp_log.gd",
+            "function": "warn",
+            "line": 11
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_accept_connection",
+            "line": 122
+          },
+          {
+            "file": "res://addons/godot_mcp/websocket_server.gd",
+            "function": "_process",
+            "line": 39
+          }
+        ],
+        "function": "push_warning",
+        "line": 1033,
+        "message": "",
+        "seq": 147,
+        "timestamp": 1872280,
+        "type": "[godot-mcp] Rejecting new connection from 127.0.0.1:57060: another client is already connected"
+      }
+    ],
+    "returned_count": 9,
+    "total_count": 100
+  }
+}

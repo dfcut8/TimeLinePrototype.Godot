@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"completed\":true,\"duration_ms\":1,\"holder_children\":0,\"result\":true}"
+    }
+  ],
+  "structuredContent": {
+    "completed": true,
+    "duration_ms": 1,
+    "holder_children": 0,
+    "result": true
+  }
+}
