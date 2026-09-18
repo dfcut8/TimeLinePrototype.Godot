@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/event_connector_arm/event_connector_arm.glb" id="1"]
+[ext_resource type="Script" path="res://assets/event_connector_arm/event_connector_arm.gd" id="2"]
+
+[node name="EventConnectorArm" type="Node3D"]
+script = ExtResource("2")
+
+[node name="Model" parent="." instance=ExtResource("1")]
+
+[node name="SocketAttachment" type="Marker3D" parent="."]
+
+[node name="PivotAttachment" type="Marker3D" parent="."]
+position = Vector3(0, 0.45, 0)

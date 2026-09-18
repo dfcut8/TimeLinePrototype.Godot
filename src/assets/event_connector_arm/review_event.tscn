@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/event_socket/event_socket.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/event_connector_arm/event_connector_arm.tscn" id="2"]
+
+[node name="ReviewEvent" type="Node3D"]
+
+[node name="Socket" parent="." instance=ExtResource("1")]
+
+[node name="Arm" parent="." instance=ExtResource("2")]
+position = Vector3(0, 0.068, 0.074)

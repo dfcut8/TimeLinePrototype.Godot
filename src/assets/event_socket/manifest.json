@@ -1,0 +1,131 @@
+{
+  "issue": 10,
+  "files": [
+    {
+      "path": "build_asset.py",
+      "sha256": "f828b48ea5ffc6b0560dd407b62c0ff4be1580a40e7afc1b960ff0bfe97fca15",
+      "bytes": 7063
+    },
+    {
+      "path": "dimensions.svg",
+      "sha256": "c1371c9dcfc23e1c6443ca3910e258a5e72b9eb57cadfcb007dd984bbbd35926",
+      "bytes": 1272
+    },
+    {
+      "path": "event_socket.glb",
+      "sha256": "9776b904bf8375ce600155ede3297d2012130a9f17d4a1ea9de201b5186c8214",
+      "bytes": 64040
+    },
+    {
+      "path": "event_socket.glb.import",
+      "sha256": "2c82e07611650e52c8f78f25aaa5c42f79878f8f3a8aafd4854346914b9036be",
+      "bytes": 1171
+    },
+    {
+      "path": "event_socket.tscn",
+      "sha256": "bbaae378c2965ef95832aa359b7e6f1508eb2b343df6fb8707c676280a632973",
+      "bytes": 834
+    },
+    {
+      "path": "godot_assembly.png",
+      "sha256": "3c4ac6a6de7e286033de05fdd25d8a71a846e462f8e338b89277dd3167324e93",
+      "bytes": 6696
+    },
+    {
+      "path": "godot_front.png",
+      "sha256": "bada00be115dad2490291555467790222e6a8df8fad4bd18e7725238c8b570e3",
+      "bytes": 26944
+    },
+    {
+      "path": "godot_rear.png",
+      "sha256": "b3940794adbba43349b299c2b8dbb1f7ba3c57784c2e49a70650cc28be7894bb",
+      "bytes": 16717
+    },
+    {
+      "path": "godot_side.png",
+      "sha256": "d4192c2102df9aee0c1dd6a357b9a0d80be0d041b5f8604f8fa935913d464b2e",
+      "bytes": 31140
+    },
+    {
+      "path": "godot_underside.png",
+      "sha256": "ea672a17b989bb18042c1cd08e25406c4feab77b8a947b124a5bc10b63b010d5",
+      "bytes": 26760
+    },
+    {
+      "path": "godot_validation.json",
+      "sha256": "29a36ce82c5d1d71c4f35be3b8ad43698a6e3a5f1edb62cb2cb89df264375662",
+      "bytes": 957
+    },
+    {
+      "path": "import.log",
+      "sha256": "86e607c8fc8d8817ac75d271feceddcaa1e21a23733a09346df84e3bc3f9eabd",
+      "bytes": 2453
+    },
+    {
+      "path": "preview_front.png",
+      "sha256": "71e59c4d17c03eecd8ed2a2b0fd24e01ee412f66292c27f3fb418fcecd126577",
+      "bytes": 659010
+    },
+    {
+      "path": "preview_rear.png",
+      "sha256": "99cd652ea9ba9cffaa9498519b0320ffe43acbcceab2ceda3e5afc946cecefff",
+      "bytes": 654746
+    },
+    {
+      "path": "preview_side.png",
+      "sha256": "58d0eb6d125339a051844a48d822cab3fc4293850aee96895bc637706c580170",
+      "bytes": 652972
+    },
+    {
+      "path": "preview_underside.png",
+      "sha256": "b0d4d1c0bcc448130e8d817c05bbe993270498eb9224ece95869bcc74f76d42b",
+      "bytes": 670362
+    },
+    {
+      "path": "README.md",
+      "sha256": "6f556a7aa9b5d9c4ca5973427d14ee68b451ac852e6a50c747b91c3adafae231",
+      "bytes": 4168
+    },
+    {
+      "path": "reimport.log",
+      "sha256": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455",
+      "bytes": 864
+    },
+    {
+      "path": "review_assembly.tscn",
+      "sha256": "3bd79a74004a0dcc2a3339053f9e39b5e49f3cb3cc7ad701ceffb2949b8f7680",
+      "bytes": 769
+    },
+    {
+      "path": "runtime.log",
+      "sha256": "3b813cb191c3b18859316d71dc35abff83f81c09253e64abdcb8fe4ea9bfb59e",
+      "bytes": 1086
+    },
+    {
+      "path": "validation.json",
+      "sha256": "0adfb1abc10818cf6eff110f1817d0936dfdeb1210a8a92d1a099d8b5429fd16",
+      "bytes": 791
+    },
+    {
+      "path": "verify_godot.gd",
+      "sha256": "d82bc277a026dab7385adec1d2461a9602de1a77943859aefd3d025583da3075",
+      "bytes": 5278
+    },
+    {
+      "path": "verify_godot.ps1",
+      "sha256": "bfac2f589d2d37a429d9c1673f5b9fc117d6a2c35604f37c1e75c6dfb63f878f",
+      "bytes": 2704
+    },
+    {
+      "path": "source/.gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/event_socket.blend",
+      "sha256": "0cda7e2f2e00b1e0886409cc4fd69b60c5bf6521647a071d42dc9d72698c3487",
+      "bytes": 82719
+    }
+  ],
+  "asset": "event_socket"
+}

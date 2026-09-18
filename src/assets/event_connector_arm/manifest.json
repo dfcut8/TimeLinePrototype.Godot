@@ -1,0 +1,151 @@
+{
+  "issue": 11,
+  "files": [
+    {
+      "path": "build_asset.py",
+      "sha256": "24f1c3d1ab2f62815e90abc4e8875b0f8cd929d2ff85ecd85bce0ba855546eaa",
+      "bytes": 977
+    },
+    {
+      "path": "dimensions.svg",
+      "sha256": "975fe168cb6359ef2cc5beabe8925475a5cf04f78f77fbeaca0bbdaec4c8da80",
+      "bytes": 1450
+    },
+    {
+      "path": "event_connector_arm.gd",
+      "sha256": "14b5e3c8187769abe50a16960458d4c42d0d5b13e598748e0e3928715fab69ef",
+      "bytes": 808
+    },
+    {
+      "path": "event_connector_arm.glb",
+      "sha256": "dffa0fde5aeba9fc89e5c2e9aa30b3b9eb3bbca5a92d9ab685c4b84bcb16f5f0",
+      "bytes": 29780
+    },
+    {
+      "path": "event_connector_arm.glb.import",
+      "sha256": "b4827333d9c49e2c685d9e24ed5682c195968fefd99f684cb8345d304c47f487",
+      "bytes": 1199
+    },
+    {
+      "path": "event_connector_arm.tscn",
+      "sha256": "4e666fa85371a2f6e67d8da93da1f104a4dbe9f45851c662a5c38c06fc222ae3",
+      "bytes": 517
+    },
+    {
+      "path": "godot_assembly.png",
+      "sha256": "8e97ba1e1b57e64beb96adc928a88e977dc8d2c914d89fdb42ab3d7f8025a364",
+      "bytes": 9310
+    },
+    {
+      "path": "godot_front.png",
+      "sha256": "420696966e138c63339c0a1390caec9ee69ba93ba033512aa0908e2ff37f8888",
+      "bytes": 14502
+    },
+    {
+      "path": "godot_pivot_end.png",
+      "sha256": "a4e0244dcc63a2ec685eb743f9cb89f8a10af9e670d40954037e301a21d71f6a",
+      "bytes": 7096
+    },
+    {
+      "path": "godot_rear.png",
+      "sha256": "29770a7460168de899ce676843e3874414f0908c18a5a263d6fabd036098d2d9",
+      "bytes": 6664
+    },
+    {
+      "path": "godot_side.png",
+      "sha256": "85ac450f6c187c1d6cb9b43d3a45bf10979012c57bcf53b4d74ed57c10345d5c",
+      "bytes": 13746
+    },
+    {
+      "path": "godot_socket_fit.png",
+      "sha256": "dc871c2c8cbc0d0d3849a79532d32e125cfde9ba081b93a4adaf678968acd3af",
+      "bytes": 27836
+    },
+    {
+      "path": "godot_underside.png",
+      "sha256": "0e23470773951c1d5c2020e9f589eaf089260a09d641ad6a06f60400ca292656",
+      "bytes": 19556
+    },
+    {
+      "path": "godot_validation.json",
+      "sha256": "7d5bfce44b366a066c10e68fc31dc87705a228a5a752f3e81bb4a2d517b68c21",
+      "bytes": 1537
+    },
+    {
+      "path": "import.log",
+      "sha256": "de8ea2170a9d971cd2fd4c2a8b406a7da017983865406fe629cb687da560fb52",
+      "bytes": 2850
+    },
+    {
+      "path": "preview_front.png",
+      "sha256": "6638654ef440a52d29993b7361d7035870cfea4345f45990d95884975b8f586d",
+      "bytes": 639601
+    },
+    {
+      "path": "preview_rear.png",
+      "sha256": "71334e972c6991e4fbeef92e00dabf1582c033ae8f72bbaa07cc55b222afd37f",
+      "bytes": 640653
+    },
+    {
+      "path": "preview_side.png",
+      "sha256": "ba462f54fa6998a5926cec0fa588ec9a0c1180c44e48e9ddff91ac592868e667",
+      "bytes": 639033
+    },
+    {
+      "path": "preview_underside.png",
+      "sha256": "77842034addbd717979176219b8c0af63f67f8176bb77a03df49e5a2b6689553",
+      "bytes": 640175
+    },
+    {
+      "path": "README.md",
+      "sha256": "88f9ccaa05216804d0998fdec6720069dc2afe5a3f47538cacbf5e39cf38415c",
+      "bytes": 4635
+    },
+    {
+      "path": "reimport.log",
+      "sha256": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455",
+      "bytes": 864
+    },
+    {
+      "path": "review_assembly.tscn",
+      "sha256": "856969972f0d079351f1f5993e5c9e54e2d5fb0fd5bef4b83dc81b798ec4b072",
+      "bytes": 902
+    },
+    {
+      "path": "review_event.tscn",
+      "sha256": "3a70bb422c60990c60b5e06cd300ee3cffd54426e008569dc83d2a2a58eaf706",
+      "bytes": 424
+    },
+    {
+      "path": "runtime.log",
+      "sha256": "ada58489262f7b308047c6841cd6ba0e69946ac6c86167a0f4d944645a73e476",
+      "bytes": 1557
+    },
+    {
+      "path": "validation.json",
+      "sha256": "c13679b3bf7460d9c1ba5646307ab7bfe8e2cdd8a45b5d0f94b1646e44a49e90",
+      "bytes": 800
+    },
+    {
+      "path": "verify_godot.gd",
+      "sha256": "b3a6060fddae51d91e523743eebeb55e83b43640100aed38a4b13d4a68023492",
+      "bytes": 4352
+    },
+    {
+      "path": "verify_godot.ps1",
+      "sha256": "867360f4dc256410298972dd0c53d37d4dd3c2d2cbffd2d139ecf18c56fd1c19",
+      "bytes": 229
+    },
+    {
+      "path": "source/.gdignore",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/event_connector_arm.blend",
+      "sha256": "4c7ee0f279014200b567f8d0ce67974aecd204705210d5444e6ede70892037a7",
+      "bytes": 72123
+    }
+  ],
+  "asset": "event_connector_arm"
+}
