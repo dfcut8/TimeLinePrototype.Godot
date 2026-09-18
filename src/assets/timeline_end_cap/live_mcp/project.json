@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"godot_version\":\"4.7.2-stable (official)\",\"main_scene\":\"\",\"name\":\"Time Line Prototype\",\"path\":\"C:/home/src/TimeLinePrototype.Godot/src/\"}"
+    }
+  ],
+  "structuredContent": {
+    "godot_version": "4.7.2-stable (official)",
+    "main_scene": "",
+    "name": "Time Line Prototype",
+    "path": "C:/home/src/TimeLinePrototype.Godot/src/"
+  }
+}

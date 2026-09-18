@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"completed\":true,\"duration_ms\":0,\"holder_children\":0,\"result\":\"{\\\"adapter\\\":\\\"NVIDIA GeForce RTX 4080 SUPER\\\",\\\"driver\\\":\\\"d3d12\\\",\\\"renderer\\\":\\\"forward_plus\\\",\\\"scene\\\":\\\"res://assets/timeline_end_cap/review_assembly.tscn\\\"}\"}"
+    }
+  ],
+  "structuredContent": {
+    "completed": true,
+    "duration_ms": 0,
+    "holder_children": 0,
+    "result": "{\"adapter\":\"NVIDIA GeForce RTX 4080 SUPER\",\"driver\":\"d3d12\",\"renderer\":\"forward_plus\",\"scene\":\"res://assets/timeline_end_cap/review_assembly.tscn\"}"
+  }
+}

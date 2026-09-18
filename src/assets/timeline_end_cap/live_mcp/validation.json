@@ -1,0 +1,66 @@
+{
+  "channel_closure_probes_per_cap": 20,
+  "driver": "d3d12",
+  "engine": "4.7.2-stable (official)",
+  "failures": [],
+  "housing_seam_gaps_m": [
+    0.0,
+    0.0
+  ],
+  "light_seam_gaps_m": [
+    0.0,
+    0.0
+  ],
+  "meshes": [
+    {
+      "bounds": "[P: (-0.004, -0.06, -0.06), S: (0.004, 0.12, 0.12)]",
+      "emission": false,
+      "material": "archive_graphite",
+      "node": "/root/CappedRailReview/StartCap",
+      "triangles": 28
+    },
+    {
+      "bounds": "[P: (6.0, -0.06, -0.06), S: (0.004, 0.12, 0.12)]",
+      "emission": false,
+      "material": "archive_graphite.001",
+      "node": "/root/CappedRailReview/EndCap",
+      "triangles": 28
+    },
+    {
+      "bounds": "[P: (0.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+      "emission": false,
+      "material": "archive_graphite",
+      "node": "/root/CappedRailReview/Rail/ModuleA/Housing",
+      "triangles": 52
+    },
+    {
+      "bounds": "[P: (4.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+      "emission": false,
+      "material": "archive_graphite",
+      "node": "/root/CappedRailReview/Rail/ModuleC/Housing",
+      "triangles": 52
+    },
+    {
+      "bounds": "[P: (0.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+      "emission": true,
+      "material": "rail_pale_core",
+      "node": "/root/CappedRailReview/Rail/ModuleA/Light",
+      "triangles": 28
+    },
+    {
+      "bounds": "[P: (4.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+      "emission": true,
+      "material": "rail_pale_core",
+      "node": "/root/CappedRailReview/Rail/ModuleC/Light",
+      "triangles": 28
+    }
+  ],
+  "passed": true,
+  "renderer": "forward_plus",
+  "mcp": "Live Godot MCP: project verified, scene imported/opened/run, mesh validation and runtime fit checks passed",
+  "mesh_integrity": "godot_validate_meshes: 5 unique meshes / 5 surfaces, no integrity problems",
+  "visual_review": "Eight live MCP game screenshots: front, rear, underside and end-on for both caps; no bloom",
+  "runtime_log": "live_mcp/runtime.log: no errors or warnings",
+  "editor_log": "No asset/import/script errors; connection-rejection warnings from competing clients were recorded separately",
+  "physics_animation": "Not applicable: static decorative caps"
+}
