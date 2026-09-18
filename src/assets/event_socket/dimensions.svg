@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="1000" height="520" fill="#172029"/>
+<g fill="#e5eef3" font-family="sans-serif"><text x="35" y="40" font-size="24">EVENT SOCKET — interface in millimetres</text>
+<text x="35" y="74">Godot: +X chronology / +Y up / +Z front. Origin at rail centerline.</text></g>
+<g stroke="#a7c1cb" stroke-width="2" fill="#34434e">
+<rect x="45" y="160" width="500" height="240"/><circle cx="295" cy="280" r="110"/>
+<rect x="275" y="144" width="40" height="30"/><rect x="275" y="386" width="40" height="30"/>
+<circle cx="295" cy="280" r="78" fill="none" stroke="#66c7d5" stroke-width="12"/>
+<rect x="680" y="170" width="55" height="220"/>
+<path d="M640 150V410 M635 150H645 M635 410H645 M680 435H735 M680 430V440 M735 430V440" fill="none"/></g>
+<g fill="#e5eef3" font-family="sans-serif" font-size="17">
+<text x="45" y="460">Body Ø110 / mount face Ø20 / barrel Ø24</text>
+<text x="45" y="490">Attachment Y ±68, Z 74. Overall height 136.</text>
+<text x="760" y="200">Side: rear Z 60</text><text x="760" y="230">Front Z 87.5</text>
+<text x="760" y="260">Depth 27.5</text><text x="680" y="470">27.5</text>
+<text x="585" y="280">110</text><text x="230" y="125">Upper +Y</text></g></svg>

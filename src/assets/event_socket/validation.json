@@ -1,0 +1,35 @@
+{
+  "issue": 10,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "SocketBody",
+      "triangles": 508,
+      "materials": 2,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.00024273241901428543
+    },
+    {
+      "name": "UpperMount",
+      "triangles": 92,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 8.608847167561728e-06
+    },
+    {
+      "name": "LowerMount",
+      "triangles": 92,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 8.608847149521175e-06
+    }
+  ],
+  "triangles": 692,
+  "passed": true
+}

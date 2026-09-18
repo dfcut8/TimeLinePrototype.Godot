@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+<rect width="1000" height="640" fill="#172029"/>
+<g fill="#e5eef3" font-family="sans-serif"><text x="35" y="40" font-size="24">EVENT CONNECTOR ARM — millimetres</text>
+<text x="35" y="74">Godot +Y along arm. Root at socket face. Default terminal distance 450.</text></g>
+<g stroke="#a7c1cb" stroke-width="2" fill="#34434e">
+<path d="M286 560L290 564H310L314 560V536L309 529H291L286 536Z"/>
+<path d="M291 536H309V142H291Z"/>
+<path d="M291 149H309L314 142V118L310 114H290L286 118V142Z"/>
+<path d="M220 114V564 M212 114H228 M212 564H228 M345 529V564 M337 529H353 M337 564H353" fill="none"/>
+<circle cx="580" cy="180" r="56"/><circle cx="580" cy="180" r="40"/>
+</g><g fill="#e5eef3" font-family="sans-serif" font-size="18">
+<text x="160" y="345">450</text><text x="365" y="552">35 mm fitting</text>
+<text x="365" y="345">Ø18 shaft</text><text x="655" y="170">Ø28 fitting barrel</text>
+<text x="655" y="205">Ø20 contact face</text><text x="365" y="118">PivotAttachment (0, L, 0)</text>
+<text x="365" y="590">SocketAttachment (0, 0, 0)</text>
+<text x="520" y="330">Shaft start: 28</text><text x="520" y="365">Shaft end: L − 28</text>
+<text x="520" y="400">Engagement: 7 at each end</text><text x="520" y="435">Allowed L: 120–2000</text>
+<text x="35" y="620">Only shaft length changes. Fittings translate; bevels and diameters remain fixed.</text></g></svg>

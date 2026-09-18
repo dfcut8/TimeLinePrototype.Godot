@@ -1,0 +1,35 @@
+{
+  "issue": 11,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "ConnectorBase",
+      "triangles": 124,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.905967620791475e-05
+    },
+    {
+      "name": "ConnectorShaft",
+      "triangles": 60,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 9.770366892972183e-05
+    },
+    {
+      "name": "ConnectorTip",
+      "triangles": 124,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.905967624613897e-05
+    }
+  ],
+  "triangles": 308,
+  "passed": true
+}
