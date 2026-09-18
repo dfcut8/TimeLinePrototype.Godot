@@ -1,0 +1,142 @@
+{
+  "asset": "timeline_rail_housing",
+  "issue": 5,
+  "format": "local asset handoff manifest v1",
+  "files": [
+    {
+      "path": "build_asset.py",
+      "bytes": 4984,
+      "sha256": "f7431de2bc90e1c42d20b7535aa0b73d00ecf1b5192d3e72fa1888aa21adc15f"
+    },
+    {
+      "path": "dimensions.svg",
+      "bytes": 1472,
+      "sha256": "8e5cc055f6660a7e7fc79d7c8e55ffa7f2e780ce572a7f5bf19ca9e3a5152d0d"
+    },
+    {
+      "path": "godot_assembly.png",
+      "bytes": 5703,
+      "sha256": "379f47d25074b45715f63445f8d68a24c947c0a59d5399ad49a742a31055ea71"
+    },
+    {
+      "path": "godot_end.png",
+      "bytes": 12891,
+      "sha256": "ea170d3fd3c835ac581bfba4862b154aab63743910ff2298005e0739b5294202"
+    },
+    {
+      "path": "godot_front.png",
+      "bytes": 7248,
+      "sha256": "f231189098ab68dcec70ed164b65b9743272548fb92cf595f4bff727947d2595"
+    },
+    {
+      "path": "godot_rear.png",
+      "bytes": 7041,
+      "sha256": "97b9215173c3e1886a9afae816ec4166c0b463c7461818d5866090335badcd6e"
+    },
+    {
+      "path": "godot_seam.png",
+      "bytes": 12391,
+      "sha256": "ceaa07b91ab5be68e5a7893896340bb09f74e5cc076de1c6739bc78bcf7231db"
+    },
+    {
+      "path": "godot_underside.png",
+      "bytes": 8516,
+      "sha256": "1dc10afd16efd503dbbd06db18e07f308ec0b6326805a5713d267a98a81a7f95"
+    },
+    {
+      "path": "godot_validation.json",
+      "bytes": 779,
+      "sha256": "38441856a1689bc4944379534c45037b2d4ee80ef8cf6ae791ba383636eddd48"
+    },
+    {
+      "path": "import.log",
+      "bytes": 1455,
+      "sha256": "831ff4460e0a7ab32b504126d616ced157fdc48eda669415faf59044ca8cd615"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 905926,
+      "sha256": "94bb9b6421c950ff53a05406b2ced1c17f8c2c243a80ec6d131af354b0caf2c7"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 910818,
+      "sha256": "c62e6a2bea77c9e9759eed6c0c5ea8c37aceaaf0a47fb4f3d5a6a22c96c3bf47"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 930932,
+      "sha256": "4b75b655ccfc8f7fa827b55d98c2cdfb93b69d2b697b45154f17f49ea054d1e5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6057,
+      "sha256": "27bd6a8f61e731683bc7f1efc92830080dfebb51f45190c5d2e3b91396ee0aa4"
+    },
+    {
+      "path": "reimport.log",
+      "bytes": 864,
+      "sha256": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455"
+    },
+    {
+      "path": "render_previews.py",
+      "bytes": 641,
+      "sha256": "74b1c49240bf98aece530cd31cd321770e762d808fb24007ccbca9c5ee628174"
+    },
+    {
+      "path": "review_assembly.tscn",
+      "bytes": 616,
+      "sha256": "8104b038fd3e37bcfe6eddddd5757b439eef5819e58069d873d56c0dc187d338"
+    },
+    {
+      "path": "review_rig.tscn",
+      "bytes": 870,
+      "sha256": "5ab30fce9762f86c6cbb278cb33669dc84d5877ea4adf845042586a19579f5a7"
+    },
+    {
+      "path": "runtime.log",
+      "bytes": 965,
+      "sha256": "12869a55a1859118f6af4d8ecd2c177b81ea5811e89d49a518a649d60b051ad5"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "source/timeline_rail_housing.blend",
+      "bytes": 68815,
+      "sha256": "736b4dc206094815e8aa3de8cb27b9ce2a57eb0596b76a93bb894145ffc349e2"
+    },
+    {
+      "path": "timeline_rail_housing.glb",
+      "bytes": 4416,
+      "sha256": "d2587ed49b96ec898a8a5b7a5cef3dc3aa1bdf0cda9224233ed96c090f8d92f9"
+    },
+    {
+      "path": "timeline_rail_housing.glb.import",
+      "bytes": 1207,
+      "sha256": "712ffa008f8fdcb2a65c09b6da1524e9255eb186509f70a7097d389b6bbe90fb"
+    },
+    {
+      "path": "timeline_rail_housing.tscn",
+      "bytes": 484,
+      "sha256": "5599fc3ecdb3085523f852bdaedd379be73d39a19ea3885bc67fb19ea7eb6005"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 456,
+      "sha256": "bdc03f3d813206319a4198f6de06e1a534d7112c7801557bfb37f9f26db3b342"
+    },
+    {
+      "path": "verify_godot.gd",
+      "bytes": 4500,
+      "sha256": "fac997ae9f1148e9cb14c211a5921c641e373f12a03fbbc7de58a745c5e40484"
+    },
+    {
+      "path": "verify_godot.ps1",
+      "bytes": 2222,
+      "sha256": "28e937e7400ad73371784576c942baf79e6a17371b5c08ecfed2a346615025d7"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "issue": 5,
+  "blender_version": "5.2.2 LTS",
+  "triangles": 52,
+  "materials": 1,
+  "non_manifold_edges": 0,
+  "degenerate_faces": 0,
+  "signed_volume_m3": 0.02615599892237783,
+  "uv_layers": 1,
+  "module_length_m": 2,
+  "dimensions_godot_m": [
+    2,
+    0.12,
+    0.12
+  ],
+  "three_module_seam_gap_m": [
+    0,
+    0
+  ],
+  "glb_sha256": "d2587ed49b96ec898a8a5b7a5cef3dc3aa1bdf0cda9224233ed96c090f8d92f9",
+  "glb_bytes": 4416
+}
