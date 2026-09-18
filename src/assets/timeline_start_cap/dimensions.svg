@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480">
+<rect width="920" height="480" fill="#121923"/>
+<g fill="#e1e9ef" font-family="sans-serif"><text x="30" y="38" font-size="24">Earlier timeline cap — dimensions in mm</text>
+<text x="30" y="72" font-size="16">Godot: +X later, +Y up, +Z front. 1 unit = 1 metre.</text></g>
+<path d="M 100 170 L 128 142 L 312 142 L 340 170 L 340 354 L 312 382 L 128 382 L 100 354 Z" fill="#45576a" stroke="#b9cadb" stroke-width="2"/>
+<g stroke="#8cb8c9" fill="none"><path d="M100 120 H340 M100 110 V130 M340 110 V130 M365 142 V382 M355 142 H375 M355 382 H375"/><path d="M128 142 V170 H100" stroke-dasharray="4 4"/><path d="M212 262 H228 M220 254 V270"/></g>
+<g fill="#e1e9ef" font-family="sans-serif" font-size="16"><text x="202" y="111">120</text><text x="380" y="268">120</text><text x="125" y="194">14 x 14 corner</text><text x="238" y="250">Y=0, Z=0</text><text x="90" y="417">End view: solid channel closure</text>
+<text x="485" y="139">Axial side view (thickness enlarged)</text></g>
+<rect x="550" y="164" width="24" height="216" fill="#45576a" stroke="#b9cadb"/>
+<path d="M550 402 H574 M550 394 V410 M574 394 V410" stroke="#8cb8c9"/>
+<g fill="#e1e9ef" font-family="sans-serif" font-size="16"><text x="550" y="432">4</text><text x="602" y="205">X bounds: [-4, 0]</text><text x="602" y="240">Rail interface / pivot: X=0</text><text x="602" y="275">Y and Z bounds: [-60, 60]</text><text x="602" y="310">No rotation or scale on placement</text><text x="602" y="345">Matched housing cross-section</text></g></svg>

@@ -1,0 +1,33 @@
+{
+  "asset": "timeline_end_cap",
+  "sha256": {
+    "build_asset.py": "4c57e2de94fb874aaef2e57877b5b9b3cdf6789e0cd8664358ff71231c4d2b43",
+    "dimensions.svg": "aeff2f3641ad198df628a4d8ae14bea435bb54d9f9f8f401dc483f5dd56fe212",
+    "godot_assembly.png": "057992ff9135877a54730636ae9607365195bd6d2441288fc5002b3c112d3da0",
+    "godot_end_end.png": "c774891fb4c896a39a6ac5c23970007cc48d393f90cfff888d8f48030cc8fa28",
+    "godot_end_front.png": "e6e729c201f8447ff8816c8569fe9985cd5a83933dbee0e32868b2f8929427f5",
+    "godot_end_rear.png": "3fb6d3ab78b6b92437df942c5841d8485bb16dd93082fe1852864fe9513a2877",
+    "godot_end_underside.png": "5bab3ddb590a4afd2b48736acef035218ba89f9d150ed583e74496566eff9360",
+    "godot_start_end.png": "f672cc4f299607f98570a88924ec92edc0133f9ba1c8f67fc2580b693372b083",
+    "godot_start_front.png": "b39caee1388b8b25817aa8d5c9210115fcb7711bed11eab4b567a71a02de149e",
+    "godot_start_rear.png": "86a8d37f9cb8ba96e4185706566b97ca4f72cb339ac013ddc3016a7ee9e23209",
+    "godot_start_underside.png": "0aebed1023616d1d58645b497a7b44973c2ba5ab169db6939849f0d536d24789",
+    "godot_validation.json": "c61453d693da453cd778114bb3e3fdbeddbfa15134bffab45bf965e525ecd26a",
+    "import.log": "80d51566a238c4d9c536da99940e8e8bfc3bb381892492b4187b28148624f5b0",
+    "preview_end.png": "d6b2486161639879d2d803581d115620d6aaf6a6fd02de24d505e5ad19874c8a",
+    "preview_front.png": "f818f52dfc7936e513512b0ae43e4ac760c1d87a7785b6010ac7d260f31d0cd5",
+    "preview_rear.png": "e0b0dc988d6bd49ce669e8fad7541a1d4a304f31a08dda8c6b812d1863c5b85a",
+    "preview_underside.png": "cfd99b7688bf9d0f9e128934bc80dfd6c941d96e51d74e23026fb588396ae187",
+    "README.md": "96691ed66e172f35235d92913219184159e5754b02897884498d5b7143ac2a2e",
+    "reimport.log": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455",
+    "review_assembly.tscn": "550c2da1d5ed9b16c0ddb40b8a08e5d8b1fabcfb7f91a1d22b6f9f81c55b0171",
+    "runtime.log": "f3affce9ce8b27d359e553e4e00ebbf59171a61140982786391df632b193f695",
+    "source/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source/timeline_end_cap.blend": "cf81bc2557bc835aae268b57b84dda0047ed3073215ed72f7903f75e6f25fe18",
+    "timeline_end_cap.glb": "94dd5bd6724419eef94e2d0d6f04516bc33d697872617baf583232d5f3f8da9e",
+    "timeline_end_cap.tscn": "4ea6147de8b546ea040658b5a7bd648a891c6d514a23a16276bd795cbb872c8e",
+    "validation.json": "e18a4f92c1138d4e7044b8c50715aeb1931d25067c7cc7ecdf7f02beb5cdf67f",
+    "verify_godot.gd": "5363c208e36d25e66b4445031d7388e7bbc202c3f60da3fcd4d0e7614e3e4a9b",
+    "verify_godot.ps1": "f261e4d697b87ff496d07450f2b6b00339bd99b70139c6e714ce1d62c539f514"
+  }
+}
