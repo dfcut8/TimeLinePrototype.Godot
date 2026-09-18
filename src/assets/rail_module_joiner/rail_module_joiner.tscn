@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/rail_module_joiner/rail_module_joiner.glb" id="1"]
+
+[node name="RailModuleJoiner" type="Node3D"]
+
+[node name="Saddle" parent="." instance=ExtResource("1")]
+
+[node name="SeamCenter" type="Marker3D" parent="."]
+
+[node name="EarlierOverlap" type="Marker3D" parent="."]
+position = Vector3(-0.04, 0, 0)
+
+[node name="LaterOverlap" type="Marker3D" parent="."]
+position = Vector3(0.04, 0, 0)

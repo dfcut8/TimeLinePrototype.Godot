@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/rail_recessed_light_insert/rail_recessed_light_insert.glb" id="1"]
+
+[node name="RailRecessedLightInsert" type="Node3D"]
+
+[node name="Insert" parent="." instance=ExtResource("1")]
+
+[node name="EarlierEnd" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0.0375)
+
+[node name="LaterEnd" type="Marker3D" parent="."]
+position = Vector3(2, 0, 0.0375)

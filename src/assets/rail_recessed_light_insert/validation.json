@@ -1,0 +1,15 @@
+{
+  "issue": 6,
+  "blender_version": "5.2.2 LTS",
+  "triangles": 28,
+  "materials": 1,
+  "uv_layers": 1,
+  "non_manifold_edges": 0,
+  "degenerate_faces": 0,
+  "signed_volume_m3": 0.0006200000169873237,
+  "dimensions_godot_m": [
+    2,
+    0.024,
+    0.012999999999999998
+  ]
+}

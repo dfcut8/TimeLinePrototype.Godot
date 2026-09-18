@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+<rect width="1000" height="440" fill="#f5f7fa"/>
+<g font-family="sans-serif" font-size="18" fill="#202935">
+<text x="30" y="38">Rail module joiner / #7 / all dimensions in metres</text>
+<path d="M250 95 L141 95 L78 158 L78 282 L141 345 L250 345 L250 335 L145 335 L88 278 L88 162 L145 105 L250 105 Z" fill="#445363" stroke="#202935"/>
+<text x="300" y="115">End view: rear saddle; open toward +Z (right)</text>
+<text x="300" y="155">Y overall .126; Z overall .043</text>
+<text x="300" y="195">X [-.040,+.040]; .080 engagement span</text>
+<text x="300" y="235">Wall .0025; housing clearance .0005 nominal</text>
+<text x="300" y="275">Pivot at seam center; place at X=2,4,...</text>
+<text x="300" y="315">Z [-.063,-.020]; light channel remains unobstructed</text>
+<text x="30" y="405">Godot +X later / +Y up / +Z front. Section enlarged; see source profile coordinates.</text>
+</g></svg>
