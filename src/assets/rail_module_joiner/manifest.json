@@ -1,0 +1,136 @@
+{
+  "asset": "rail_module_joiner",
+  "files": [
+    {
+      "bytes": 626,
+      "path": "build_asset.py",
+      "sha256": "b248928e854646b264c2d273f2080fff55e58de5097e95e3610e8aedcc8b76b5"
+    },
+    {
+      "bytes": 974,
+      "path": "dimensions.svg",
+      "sha256": "e25103dafa12510ba8df129f9ed80e236f4eb3d266e769feb9f3e631258cf655"
+    },
+    {
+      "bytes": 4798,
+      "path": "godot_assembly.png",
+      "sha256": "c69a5e99d0d6314062778f54e3ac5d0a21d81c7cb3fb6f6b51a49bbe4549ad71"
+    },
+    {
+      "bytes": 10733,
+      "path": "godot_front.png",
+      "sha256": "5caa20812baf8df51eef90314f66fd7258f020cded614700d21d733911eae2f8"
+    },
+    {
+      "bytes": 13475,
+      "path": "godot_rear.png",
+      "sha256": "d7448ea0988b3e50b04fdcfa20e16512c0625b656cf0b36bc2b96856c405a30d"
+    },
+    {
+      "bytes": 16449,
+      "path": "godot_side.png",
+      "sha256": "d7e66a44b74d0ca2e5570b58f56ea538f2ad86780f1fb1a733d7a2c3971d98c0"
+    },
+    {
+      "bytes": 12535,
+      "path": "godot_underside.png",
+      "sha256": "15cf8c6a6114c48317e4d6dad4f0a8dca2c99f98ed0c3c6e2204d55c9ea5cf50"
+    },
+    {
+      "bytes": 1881,
+      "path": "godot_validation.json",
+      "sha256": "9d93344635c12c829753aeaccc2f16f11f57d5031abe735a2d66210267f46491"
+    },
+    {
+      "bytes": 433,
+      "path": "illuminated_rail_module.tscn",
+      "sha256": "26f3209f6bc7887286146e36c178077b30353d9d95a03938d676374b6e23d4e6"
+    },
+    {
+      "bytes": 2465,
+      "path": "import.log",
+      "sha256": "12b65795605d82750416ed3c61eac9417b630fbdd188fd70f19e377901da427b"
+    },
+    {
+      "bytes": 669218,
+      "path": "preview_end.png",
+      "sha256": "fec382ad48c0cefa8e77aa476d3a1eb4e7d503dc9581ed1f1a0401ba5588f0b6"
+    },
+    {
+      "bytes": 692081,
+      "path": "preview_front.png",
+      "sha256": "d46cbfb8237af8ba75c5c614af66e34c1dc57fb1776c1d68e79f1873caa29d71"
+    },
+    {
+      "bytes": 664055,
+      "path": "preview_rear.png",
+      "sha256": "311a231f24a76f9277d72e31ec0e4143d8d2cf7814a79ffc7017facbba398745"
+    },
+    {
+      "bytes": 694023,
+      "path": "preview_underside.png",
+      "sha256": "8bd2d27a82ef49a953bfb7b56e5e1f869007bd6fd55cc4c77c53ddf3ce5977e5"
+    },
+    {
+      "bytes": 3956,
+      "path": "rail_module_joiner.glb",
+      "sha256": "0ae502b34ec9b56e2e42e9a7a794c6ea32b2e9ea8aee1b26b0449178865e68c2"
+    },
+    {
+      "bytes": 1195,
+      "path": "rail_module_joiner.glb.import",
+      "sha256": "beefb5441244864a86e9d12389bf583376013ac49f82c5a719bf6e8c6ad3fdda"
+    },
+    {
+      "bytes": 470,
+      "path": "rail_module_joiner.tscn",
+      "sha256": "b44d8f4035da761edf790143ef37f11fb88bb66e88b9edd025b77006d519ca49"
+    },
+    {
+      "bytes": 4197,
+      "path": "README.md",
+      "sha256": "9ac43362f6c35b92162bc9e79f0ad3a75a8bcbb50d7b83b0aa5e2b6f91272e92"
+    },
+    {
+      "bytes": 2515,
+      "path": "reimport.log",
+      "sha256": "b08ea39b00637d7cbef35eb666ef4924d5486bf714227cc3062fa00ef0184b9f"
+    },
+    {
+      "bytes": 863,
+      "path": "review_assembly.tscn",
+      "sha256": "fa0316e4e519e8c0595224423e0da8e8d679a5c1accecf5870f1b53ccb74f393"
+    },
+    {
+      "bytes": 1897,
+      "path": "runtime.log",
+      "sha256": "35f2721107928dc4604f59f6e282381e276489a30a2789de0ed728a95c442146"
+    },
+    {
+      "bytes": 1,
+      "path": "source/.gdignore",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 68439,
+      "path": "source/rail_module_joiner.blend",
+      "sha256": "d3e4fc2686428fdcbcee0f656ebc076472a982cae7f93adf39f33dc42adf7e87"
+    },
+    {
+      "bytes": 278,
+      "path": "validation.json",
+      "sha256": "6a6c236a9484cc6ed2d38881acfd6d8de9896b7a65832779704245296d69ec3c"
+    },
+    {
+      "bytes": 5126,
+      "path": "verify_godot.gd",
+      "sha256": "a47d2651d9c365557d79f065c04b17ae4c2a8e13d53d262af7971172013cc28b"
+    },
+    {
+      "bytes": 2550,
+      "path": "verify_godot.ps1",
+      "sha256": "308740437443088774150e8e3c4e03a7a18c5350cf56a34b3cc0a85a488d6fbb"
+    }
+  ],
+  "issue": 7
+}

@@ -1,0 +1,76 @@
+{
+  "asset": "rail_recessed_light_insert",
+  "files": [
+    {
+      "bytes": 5412,
+      "path": "build_asset.py",
+      "sha256": "fb133f5fbae1f68a1d63b7e92c0d1f62e3b2e0a9aaf69986c6ba9a9766956c06"
+    },
+    {
+      "bytes": 995,
+      "path": "dimensions.svg",
+      "sha256": "00fd85155d7ff48f4ff1dbf0adc5f9d9cd661aedf8adf5c2153870fb71128ba6"
+    },
+    {
+      "bytes": 1881,
+      "path": "godot_validation.json",
+      "sha256": "9d93344635c12c829753aeaccc2f16f11f57d5031abe735a2d66210267f46491"
+    },
+    {
+      "bytes": 662589,
+      "path": "preview_end.png",
+      "sha256": "6b0a1a7bbd0203e993856386ba01f0efd5977b5794cad917965d5483a92034e6"
+    },
+    {
+      "bytes": 655545,
+      "path": "preview_front.png",
+      "sha256": "93221e7d30bc2b74a25d83f80057b5caec5d7a1bc02806421481f4437d74f3f5"
+    },
+    {
+      "bytes": 655262,
+      "path": "preview_rear.png",
+      "sha256": "bf11d789d7f57d772a30f124238126e952be34d9d9e0271e5cfb7f404cc077d8"
+    },
+    {
+      "bytes": 671455,
+      "path": "preview_underside.png",
+      "sha256": "25bd188573ec06e1263dc33a2c43a1efd7cc46ba7f7ee76055d3cb8aa3c14098"
+    },
+    {
+      "bytes": 3128,
+      "path": "rail_recessed_light_insert.glb",
+      "sha256": "6e492a026b034b91036b7fbc906c8a46a8432d27ed2c1def37ed07fa0df85a48"
+    },
+    {
+      "bytes": 1226,
+      "path": "rail_recessed_light_insert.glb.import",
+      "sha256": "d39a343d8fce45e71564b7e8c60f5b3bfbad23c03c4a802135461b7cca59b715"
+    },
+    {
+      "bytes": 435,
+      "path": "rail_recessed_light_insert.tscn",
+      "sha256": "2fff0cbd58abe851d218b2c34f3a69662041fefe36366821d60f61e886475df5"
+    },
+    {
+      "bytes": 3528,
+      "path": "README.md",
+      "sha256": "3d24646d4954520664fc1f62a2af673a383a5fb7aec75bbf17426fdf4b00f3ad"
+    },
+    {
+      "bytes": 1,
+      "path": "source/.gdignore",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 67993,
+      "path": "source/rail_recessed_light_insert.blend",
+      "sha256": "418d4ab38e2e67177571424d656c039642cfaefc9941a22b3a6fd8214577946b"
+    },
+    {
+      "bytes": 290,
+      "path": "validation.json",
+      "sha256": "4789d6408b796b33b73b586b7ef7475095694dd540ddb4c6b97797f4dd9eafb5"
+    }
+  ],
+  "issue": 6
+}
