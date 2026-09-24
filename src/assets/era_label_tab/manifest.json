@@ -1,0 +1,117 @@
+{
+  "asset": "era_label_tab",
+  "provenance": "Original project geometry; background Blender fallback after failed live MCP checks",
+  "license": "No new license assigned; no third-party assets",
+  "files": [
+    {
+      "path": "build_asset.py",
+      "bytes": 1034,
+      "sha256": "d377e08ec17cded301828a2a2896a0b10b0757e0b04dc916cc66854a2a7c8d6b"
+    },
+    {
+      "path": "dimensions.svg",
+      "bytes": 1432,
+      "sha256": "7795dfb17cf8320d0e46227dfe6cf165f540967975d820800861b67d43d8a1a4"
+    },
+    {
+      "path": "era_label_tab.glb",
+      "bytes": 40388,
+      "sha256": "32f5a822b21b02fed3e8fead6ace1536d8d985abb9a6212a260002ad1c541eb8"
+    },
+    {
+      "path": "era_label_tab.glb.import",
+      "bytes": 1174,
+      "sha256": "cf5b6a0c26bd507fa9b1979d0b0bff8da4599879433e40e764a3147ee083f839"
+    },
+    {
+      "path": "era_label_tab.tscn",
+      "bytes": 372,
+      "sha256": "55650e99f9adc0eabf9cb3a85d5340c3822fb5e6e268ca6840fc0e12b94f3ed2"
+    },
+    {
+      "path": "glb_inspection.json",
+      "bytes": 2643,
+      "sha256": "396347fd7e71821c16c46e2daa51c81d5a36503205584c43a2ed55d5fc91d268"
+    },
+    {
+      "path": "godot_front.png",
+      "bytes": 19301,
+      "sha256": "755928e31f23153602d36e1284c10764f9cfd7980ef4a110420f31338d03d7d9"
+    },
+    {
+      "path": "godot_rear.png",
+      "bytes": 21066,
+      "sha256": "e64365d40d28e6aaf858303f0bfa0c4483d1af81dd5b66741ca177eae0585614"
+    },
+    {
+      "path": "godot_seat.png",
+      "bytes": 25116,
+      "sha256": "13905d398de1b90188e638302382009a784f4f2af77cce279d3b1118f8994326"
+    },
+    {
+      "path": "godot_side.png",
+      "bytes": 40310,
+      "sha256": "89170f2df126ea9892efe047dd9c2c97db9b32f33fe0c4a5359624a6a49cf1ee"
+    },
+    {
+      "path": "godot_underside.png",
+      "bytes": 33519,
+      "sha256": "50c61b6e9bcf98cc3dfdbc3bb0fe9cfc0fd5f0a79f950cbb8c09c97b95f8cb2d"
+    },
+    {
+      "path": "godot_validation.json",
+      "bytes": 1611,
+      "sha256": "00b2066625a7f8d698b924a7fffa0520cceb5577f5a482fbce0adde0243a0335"
+    },
+    {
+      "path": "issue.json",
+      "bytes": 3610,
+      "sha256": "a267bd847cc0e7891444a0739545fa94b8c42f6eb91349b65b7a549e28d5175f"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 641680,
+      "sha256": "6a20a532221788b8d0b4f18f3945578ccbb2c7c8cdc10dfabc6bae84adcf7b5b"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 642897,
+      "sha256": "6da135ac8cd37b7b642f576e0e19e5b9c2ee464dca63ee9c132e617777afef31"
+    },
+    {
+      "path": "preview_side.png",
+      "bytes": 641263,
+      "sha256": "4001956a0b36063718556dc9253e22c208107d1108c58a2b9f130e31b4e6e79d"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 655706,
+      "sha256": "8f05b1a8539ba434b96bf87bfdcaf2820f4bcb1b2d77720e7facb6ce23e0a3ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4630,
+      "sha256": "52a7c96d1d8f416a6612fb46304641e7985a9d142311789c844f31c41a29247b"
+    },
+    {
+      "path": "review_assembly.tscn",
+      "bytes": 933,
+      "sha256": "48833fd4bb9e1356cc64c75ddf6d784cc08686b60b5fc8ac81f7c38d3ef18e44"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/era_label_tab.blend",
+      "bytes": 77121,
+      "sha256": "cd8e632da02638de7f49a3fc523a0df96a19df32d5078edd39bc2720e0eda0f8"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 796,
+      "sha256": "f03dd4f412d71cc8c23bb388da481875c42a4d65f973d101256e58e211b151aa"
+    }
+  ]
+}

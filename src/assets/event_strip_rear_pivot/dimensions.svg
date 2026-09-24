@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#141d26"/><g fill="#dbe6ed" font-family="sans-serif">
+<text x="40" y="48" font-size="25">REAR PIVOT · #12 · dimensions in mm</text>
+<text x="40" y="80" font-size="16">Godot +Y up / +Z front · Blender +Z up / -Y front · 1 unit = 1 m</text></g>
+<g fill="#394852" stroke="#9ab2be" stroke-width="2">
+<path d="M142 396 L298 396 L298 172 L272 172 L272 360 L168 360 L168 172 L142 172 Z"/>
+<rect x="168" y="164" width="104" height="88" rx="12"/><rect x="176" y="392" width="88" height="36" rx="6"/>
+<path d="M188 428 L252 428 L252 480 L240 488 L200 488 L188 480 Z"/>
+<circle cx="220" cy="208" r="56"/>
+<rect x="586" y="172" width="88" height="224" rx="4"/><circle cx="630" cy="208" r="44"/>
+<rect x="660" y="182" width="114" height="52"/><rect x="770" y="152" width="30" height="112" rx="6"/>
+<rect x="586" y="392" width="88" height="36" rx="6"/><rect x="598" y="428" width="64" height="60" rx="8"/>
+</g><g stroke="#63c3d4" fill="none"><path d="M220 130V510 M560 208H840 M630 390V510" stroke-dasharray="5 5"/><path d="M142 125H298 M100 152V488 M586 535H800"/></g>
+<g fill="#dbe6ed" font-family="sans-serif" font-size="17">
+<text x="190" y="117">78</text><text x="52" y="328">168</text><text x="665" y="558">107 total depth</text>
+<text x="130" y="552">FRONT (+Z)</text><text x="660" y="120">SIDE (+X)</text>
+<text x="340" y="208">Pitch +X</text><text x="340" y="231">Y=140</text><text x="340" y="422">Yaw +Y</text><text x="340" y="445">Y=30</text>
+<text x="810" y="285">Mount:</text><text x="810" y="310">Y=140</text><text x="810" y="335">Z=85</text><text x="810" y="360">face Ø48</text>
+<text x="40" y="585">Seat Ø20 at origin · yaw ±60° · pitch ±20° · neutral pose shown</text></g></svg>

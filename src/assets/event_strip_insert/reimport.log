@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+[   0% ] _update_scan_actions | Started Scanning actions... (8 steps)
+[   0% ] _update_scan_actions | era_label_tab.glb
+[  11% ] _update_scan_actions | event_connector_arm.glb
+[  22% ] _update_scan_actions | event_socket.glb
+[  33% ] _update_scan_actions | event_strip_casing.glb
+[  44% ] _update_scan_actions | event_strip_insert.glb
+[  55% ] _update_scan_actions | event_strip_rear_pivot.glb
+[  66% ] _update_scan_actions | rail_recessed_light_insert.glb
+[  77% ] _update_scan_actions | timeline_rail_housing.glb
+[ DONE ] _update_scan_actions
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+

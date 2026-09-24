@@ -1,0 +1,35 @@
+{
+  "issue": 15,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "RailTopSeat",
+      "triangles": 124,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.949372253996157e-06
+    },
+    {
+      "name": "HairlineMount",
+      "triangles": 124,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.9127138941205785e-06
+    },
+    {
+      "name": "EraLabel",
+      "triangles": 156,
+      "materials": 2,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.00017830942084762433
+    }
+  ],
+  "triangles": 404,
+  "passed": true
+}

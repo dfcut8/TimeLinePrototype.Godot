@@ -1,0 +1,26 @@
+{
+  "issue": 13,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "StripShell",
+      "triangles": 236,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0019774976131608796
+    },
+    {
+      "name": "RearMount",
+      "triangles": 140,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.8154604106324063e-05
+    }
+  ],
+  "triangles": 376,
+  "passed": true
+}

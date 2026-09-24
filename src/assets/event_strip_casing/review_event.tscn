@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/event_socket/event_socket.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/event_connector_arm/event_connector_arm.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/event_strip_rear_pivot/event_strip_rear_pivot.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/event_strip_casing/event_strip_casing.tscn" id="4"]
+
+[node name="ReviewEvent" type="Node3D"]
+
+[node name="Socket" parent="." instance=ExtResource("1")]
+
+[node name="Arm" parent="." instance=ExtResource("2")]
+position = Vector3(0, 0.068, 0.074)
+
+[node name="Pivot" parent="." instance=ExtResource("3")]
+position = Vector3(0, 0.518, 0.074)
+
+[node name="Casing" parent="Pivot/Model/Yaw/Pitch/PanelAttachment" instance=ExtResource("4")]
+
+[editable path="Pivot"]
+[editable path="Pivot/Model"]

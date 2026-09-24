@@ -1,0 +1,86 @@
+{
+  "asset": "event_strip_rear_pivot",
+  "provenance": "Original project artwork authored/exported using live Blender MCP",
+  "files": [
+    {
+      "path": "build_asset.py",
+      "bytes": 4750,
+      "sha256": "032f03e43f44e32023aecb33198fec6961e8ebc6200cb4d6794b4864b673a9ea"
+    },
+    {
+      "path": "dimensions.svg",
+      "bytes": 1823,
+      "sha256": "1ef4f0bb34bcc2befa29007f8e1e050b02bd5684fd4340650484ced22555624a"
+    },
+    {
+      "path": "event_strip_rear_pivot.gd",
+      "bytes": 675,
+      "sha256": "b2afdade104dc6e781143172a3c8abe65040d4c1aa8154000aa022702d998e23"
+    },
+    {
+      "path": "event_strip_rear_pivot.glb",
+      "bytes": 100860,
+      "sha256": "41e2d82b1ca31c87197dd6b9d1984091c717aaee2623d143e3bc338e0d18af61"
+    },
+    {
+      "path": "event_strip_rear_pivot.glb.import",
+      "bytes": 1211,
+      "sha256": "a0875f20d3ddbec0cad4583b0dc9051cdf72612c16b908a948ad2ee662eb1c06"
+    },
+    {
+      "path": "event_strip_rear_pivot.tscn",
+      "bytes": 470,
+      "sha256": "ea3e0115cf63b0dcbe83f0676f1ec0fada7ed69ba68a0d734811e2bf76097a62"
+    },
+    {
+      "path": "export_validation.json",
+      "bytes": 341,
+      "sha256": "88dd1edb09135105a8e6521a1ddb102417f1ef7b141095390e2233d6aa106f91"
+    },
+    {
+      "path": "godot_validation.json",
+      "bytes": 4052,
+      "sha256": "c9fec8b56dd519d2369f32d4f1878583b0448009ac302855e8699b37902f329a"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 660581,
+      "sha256": "df08da8fd3c9533d492bd9cc5d72896a6b8bb9d5572e1a7afb2a8eafb338c0b4"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 665700,
+      "sha256": "e6c1e0a7b47805096aaa0568047e4b822aaa46417630eb851075c2ba02f714d3"
+    },
+    {
+      "path": "preview_side.png",
+      "bytes": 658052,
+      "sha256": "e12365e35ecb9fcdbbcdcab222ab414387d0ba622a166fa666eea2ba40101e95"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 674009,
+      "sha256": "87c7f3885a29eaadd9bdf134dfc4d826a21864a255ac53cdeb76e533241cf5a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4702,
+      "sha256": "87afc0753a7f4095a0b5d9702038be511dcac7728306b34761e6454fa722c532"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/event_strip_rear_pivot.blend",
+      "bytes": 87154,
+      "sha256": "53ba2b1a04ff75885363730384b270386558b021cea41bd8ad4637502aac7797"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1472,
+      "sha256": "e10eec763d06e00c03e40c5bb072fdc272da36d057414a7191d961f9925ba391"
+    }
+  ]
+}

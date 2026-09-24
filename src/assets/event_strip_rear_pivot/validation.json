@@ -1,0 +1,62 @@
+{
+  "issue": 12,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "ConnectorSeat",
+      "triangles": 188,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.2428222883551323e-05
+    },
+    {
+      "name": "YawBearing",
+      "triangles": 188,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.5086812363563866e-05
+    },
+    {
+      "name": "PitchAxle",
+      "triangles": 188,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 7.662700645662232e-05
+    },
+    {
+      "name": "PanelStem",
+      "triangles": 92,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 2.9918444835130384e-05
+    },
+    {
+      "name": "PanelFlange",
+      "triangles": 188,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.326135462223815e-05
+    },
+    {
+      "name": "YawYoke",
+      "triangles": 220,
+      "materials": 1,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0001693069743149837
+    }
+  ],
+  "triangles": 1064,
+  "passed": true
+}
