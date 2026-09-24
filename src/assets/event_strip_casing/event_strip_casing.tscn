@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/event_strip_casing/event_strip_casing.glb" id="1"]
+
+[sub_resource type="BoxShape3D" id="PickingShape"]
+size = Vector3(0.9, 0.2, 0.03)
+
+[node name="EventStripCasing" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1")]
+
+[node name="PivotAttachment" type="Marker3D" parent="."]
+
+[node name="PresentationOrigin" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0.016)
+
+[node name="PickingProxy" type="Area3D" parent="."]
+collision_layer = 32
+collision_mask = 0
+input_ray_pickable = true
+monitoring = false
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="PickingProxy"]
+position = Vector3(0, 0, 0.015)
+shape = SubResource("PickingShape")

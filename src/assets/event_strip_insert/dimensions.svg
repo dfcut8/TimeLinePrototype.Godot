@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570">
+<rect width="1000" height="570" fill="#111b27"/>
+<g font-family="sans-serif" fill="#e5edf4">
+<text x="40" y="42" font-size="25">#14 • Blank event strip insert</text>
+<text x="40" y="76" font-size="17">All dimensions in mm • +X right • +Y up • +Z front • not to scale in depth</text>
+<rect x="62" y="130" width="874" height="174" rx="5" fill="#293744" stroke="#89b9ce" stroke-width="2"/>
+<rect x="73" y="141" width="852" height="152" fill="none" stroke="#5da6bd" stroke-dasharray="6 4"/>
+<path d="M62 112V95H936V112 M42 130H25V304H42" fill="none" stroke="#b5c9d8"/>
+<text x="470" y="91" font-size="17">874</text><text x="5" y="224" font-size="15">174</text>
+<text x="290" y="220" font-size="18">852 × 152 safe live-presentation rectangle</text>
+<text x="65" y="338" font-size="17">5 corner radius • 0.5 bevel • 873 × 173 flat front • 3 total depth</text>
+<text x="40" y="392" font-size="20">Casing depth section (numeric positions measured from casing root)</text>
+<text x="55" y="428" font-size="17">Z=15: recess floor / insert rear seat</text>
+<text x="55" y="457" font-size="17">Z=18: insert front • Z=19: live-presentation marker • Z=30: casing lip</text>
+<text x="55" y="486" font-size="17">1 clearance at each side of the 876 × 176 recess; matching concentric corner centers</text>
+<text x="55" y="527" font-size="16">Root: rear-face center. Place at casing (0, 0, 15). No baked text or physical reader.</text>
+</g></svg>

@@ -1,0 +1,154 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"mcp": "Bridge occupied; isolated pinned-engine fallback. Live MCP checks incomplete.",
+	"meshes": [
+		{
+			"bounds": "[P: (0.534, 0.518, 0.058), S: (0.032, 0.03, 0.032)]",
+			"material": "archive_graphite.004",
+			"mesh": "ConnectorSeat",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (0.522, 0.63, 0.159), S: (0.056, 0.056, 0.008)]",
+			"material": "archive_graphite.005",
+			"mesh": "RearMount",
+			"surface": 0,
+			"triangles": 140
+		},
+		{
+			"bounds": "[P: (0.1, 0.558, 0.165), S: (0.9, 0.2, 0.024)]",
+			"material": "archive_graphite.005",
+			"mesh": "StripShell",
+			"surface": 0,
+			"triangles": 236
+		},
+		{
+			"bounds": "[P: (0.522, 0.63, 0.144), S: (0.056, 0.056, 0.015)]",
+			"material": "archive_graphite.004",
+			"mesh": "PanelFlange",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (0.537, 0.645, 0.089), S: (0.026, 0.026, 0.057)]",
+			"material": "archive_graphite.004",
+			"mesh": "PanelStem",
+			"surface": 0,
+			"triangles": 92
+		},
+		{
+			"bounds": "[P: (0.524, 0.636, 0.052), S: (0.052, 0.044, 0.044)]",
+			"material": "archive_basalt_ceramic",
+			"mesh": "PitchAxle",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (0.528, 0.548, 0.052), S: (0.044, 0.018, 0.044)]",
+			"material": "archive_basalt_ceramic",
+			"mesh": "YawBearing",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (0.511, 0.564, 0.052), S: (0.078, 0.112, 0.044)]",
+			"material": "archive_graphite.004",
+			"mesh": "YawYoke",
+			"surface": 0,
+			"triangles": 220
+		},
+		{
+			"bounds": "[P: (0.522, 0.63, 0.159), S: (0.056, 0.056, 0.008)]",
+			"material": "archive_graphite.005",
+			"mesh": "RearMount",
+			"surface": 0,
+			"triangles": 140
+		},
+		{
+			"bounds": "[P: (0.1, 0.558, 0.165), S: (0.9, 0.2, 0.024)]",
+			"material": "archive_graphite.005",
+			"mesh": "StripShell",
+			"surface": 0,
+			"triangles": 236
+		},
+		{
+			"bounds": "[P: (1.434, -0.548, 0.058), S: (0.032, 0.03, 0.032)]",
+			"material": "archive_graphite.004",
+			"mesh": "ConnectorSeat",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (1.422, -0.686, 0.159), S: (0.056, 0.056, 0.008)]",
+			"material": "archive_graphite.005",
+			"mesh": "RearMount",
+			"surface": 0,
+			"triangles": 140
+		},
+		{
+			"bounds": "[P: (1.0, -0.758, 0.165), S: (0.9, 0.2, 0.024)]",
+			"material": "archive_graphite.005",
+			"mesh": "StripShell",
+			"surface": 0,
+			"triangles": 236
+		},
+		{
+			"bounds": "[P: (1.422, -0.686, 0.144), S: (0.056, 0.056, 0.015)]",
+			"material": "archive_graphite.004",
+			"mesh": "PanelFlange",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (1.437, -0.671, 0.089), S: (0.026, 0.026, 0.057)]",
+			"material": "archive_graphite.004",
+			"mesh": "PanelStem",
+			"surface": 0,
+			"triangles": 92
+		},
+		{
+			"bounds": "[P: (1.424, -0.68, 0.052), S: (0.052, 0.044, 0.044)]",
+			"material": "archive_basalt_ceramic",
+			"mesh": "PitchAxle",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (1.428, -0.566, 0.052), S: (0.044, 0.018, 0.044)]",
+			"material": "archive_basalt_ceramic",
+			"mesh": "YawBearing",
+			"surface": 0,
+			"triangles": 188
+		},
+		{
+			"bounds": "[P: (1.411, -0.676, 0.052), S: (0.078, 0.112, 0.044)]",
+			"material": "archive_graphite.004",
+			"mesh": "YawYoke",
+			"surface": 0,
+			"triangles": 220
+		},
+		{
+			"bounds": "[P: (1.422, -0.686, 0.159), S: (0.056, 0.056, 0.008)]",
+			"material": "archive_graphite.005",
+			"mesh": "RearMount",
+			"surface": 0,
+			"triangles": 140
+		},
+		{
+			"bounds": "[P: (1.0, -0.758, 0.165), S: (0.9, 0.2, 0.024)]",
+			"material": "archive_graphite.005",
+			"mesh": "StripShell",
+			"surface": 0,
+			"triangles": 236
+		}
+	],
+	"min_shell_to_connector_end_m": 0.00772446393966675,
+	"min_shell_to_yoke_front_m": 0.0306778697967529,
+	"passed": true,
+	"picking": "front/rear hits and outside-width misses",
+	"pose_samples": 450,
+	"renderer": "forward_plus",
+	"scope": "Static model/assembly verification; no camera tracking, content or room-scale acceptance"
+}

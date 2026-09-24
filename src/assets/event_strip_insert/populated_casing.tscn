@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/event_strip_casing/event_strip_casing.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/event_strip_insert/event_strip_insert.tscn" id="2"]
+
+[node name="PopulatedCasing" type="Node3D"]
+
+[node name="Casing" parent="." instance=ExtResource("1")]
+
+[node name="Insert" parent="." instance=ExtResource("2")]
+position = Vector3(0, 0, 0.015)

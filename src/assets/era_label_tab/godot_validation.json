@@ -1,0 +1,56 @@
+{
+	"articulated_samples": 18,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"insert_edge_clearance_m": 0.001,
+	"insert_front_recess_m": 0.012,
+	"live_text_offset_m": 0.001,
+	"mcp": "Both live connections unavailable; standalone Blender and isolated Godot fallback. Live MCP validation incomplete.",
+	"meshes": [
+		{
+			"bounds": "[P: (-0.437, -0.087, 0.0), S: (0.874, 0.174, 0.00301)]",
+			"material": "insert_edge",
+			"mesh": "BlankInsert",
+			"surface": 0,
+			"triangles": 138
+		},
+		{
+			"bounds": "[P: (-0.437, -0.087, 0.0), S: (0.874, 0.174, 0.00301)]",
+			"material": "presentation_dark",
+			"mesh": "BlankInsert",
+			"surface": 1,
+			"triangles": 18
+		},
+		{
+			"bounds": "[P: (-0.16, 0.085, -0.004), S: (0.32, 0.07, 0.00801)]",
+			"material": "archive_graphite",
+			"mesh": "EraLabel",
+			"surface": 0,
+			"triangles": 138
+		},
+		{
+			"bounds": "[P: (-0.16, 0.085, -0.004), S: (0.32, 0.07, 0.00801)]",
+			"material": "archive_basalt_ceramic",
+			"mesh": "EraLabel",
+			"surface": 1,
+			"triangles": 18
+		},
+		{
+			"bounds": "[P: (-0.005, 0.009, -0.005), S: (0.01, 0.078, 0.01)]",
+			"material": "archive_graphite",
+			"mesh": "HairlineMount",
+			"surface": 0,
+			"triangles": 124
+		},
+		{
+			"bounds": "[P: (-0.012, 0.0, -0.012), S: (0.024, 0.012, 0.024)]",
+			"material": "archive_graphite",
+			"mesh": "RailTopSeat",
+			"surface": 0,
+			"triangles": 124
+		}
+	],
+	"passed": true,
+	"renderer": "forward_plus",
+	"scope": "Static models, imported geometry, presentation UV and material replacement, assembly fit and casing ray picking. Room/camera/readability validation remains future work."
+}

@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/era_label_tab/era_label_tab.glb" id="1"]
+
+[node name="EraLabelTab" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1")]
+
+[node name="RailAttachment" type="Marker3D" parent="."]
+
+[node name="LabelOrigin" type="Marker3D" parent="."]
+position = Vector3(0, 0.12, 0.005)

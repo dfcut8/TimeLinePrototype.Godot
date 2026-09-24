@@ -1,0 +1,17 @@
+{
+  "issue": 14,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "BlankInsert",
+      "triangles": 156,
+      "materials": 2,
+      "uv_layers": 1,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.00045563620889532594
+    }
+  ],
+  "triangles": 156,
+  "passed": true
+}

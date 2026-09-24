@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/event_strip_insert/event_strip_insert.glb" id="1"]
+
+[node name="EventStripInsert" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1")]
+
+[node name="CasingSeat" type="Marker3D" parent="."]
+
+[node name="PresentationOrigin" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0.004)

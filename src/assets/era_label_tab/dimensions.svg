@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="570" viewBox="0 0 1000 570">
+<rect width="1000" height="570" fill="#111b27"/>
+<g font-family="sans-serif" fill="#e5edf4">
+<text x="40" y="42" font-size="25">#15 • Era tab and rail-top label mount</text>
+<text x="40" y="76" font-size="17">Dimensions in mm • +X right • +Y up • +Z front</text>
+<rect x="95" y="130" width="640" height="140" rx="8" fill="#52606c" stroke="#b8cbd6" stroke-width="2"/>
+<rect x="119" y="152" width="592" height="96" fill="none" stroke="#7cc8dd" stroke-dasharray="6 4"/>
+<rect x="405" y="268" width="20" height="150" fill="#293744" stroke="#89b9ce"/>
+<path d="M397 440V436L391 432V420L395 416H435L439 420V436L433 440Z" fill="#293744" stroke="#89b9ce"/>
+<path d="M55 440H790 M95 112V98H735V112 M755 130H778V440H755" fill="none" stroke="#b5c9d8"/>
+<text x="395" y="94" font-size="17">320</text><text x="790" y="292" font-size="17">155 overall</text>
+<text x="252" y="208" font-size="18">296 × 48 live-label safe area</text>
+<text x="452" y="358" font-size="17">10 diameter stem</text>
+<text x="55" y="467" font-size="17">Root/contact Y=0 • mount on rail top at world Y=60 • collar diameter 24</text>
+<text x="55" y="498" font-size="17">Plate: 320 × 70 × 8 • center Y=120 • front Z=4 • label marker Z=5</text>
+<text x="55" y="529" font-size="17">Plate lower edge Y=85; stem reaches Y=87 for secure engagement.</text>
+</g></svg>

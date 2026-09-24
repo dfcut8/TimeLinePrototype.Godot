@@ -1,0 +1,111 @@
+{
+  "asset": "era_label_tab",
+  "glb_version": 2,
+  "bytes": 40388,
+  "triangles": 404,
+  "meshes": [
+    {
+      "name": "EraLabel",
+      "surfaces": [
+        {
+          "triangles": 138,
+          "material": "archive_graphite",
+          "bounds_min": [
+            -0.1599999964237213,
+            0.08500000089406967,
+            -0.004000000189989805
+          ],
+          "bounds_max": [
+            0.1599999964237213,
+            0.1550000011920929,
+            0.004000000189989805
+          ]
+        },
+        {
+          "triangles": 18,
+          "material": "archive_basalt_ceramic",
+          "bounds_min": [
+            -0.1589999943971634,
+            0.0860000029206276,
+            0.004000000189989805
+          ],
+          "bounds_max": [
+            0.1589999943971634,
+            0.15399999916553497,
+            0.004000000189989805
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HairlineMount",
+      "surfaces": [
+        {
+          "triangles": 124,
+          "material": "archive_graphite",
+          "bounds_min": [
+            -0.004999999888241291,
+            0.008999999612569809,
+            -0.004999999888241291
+          ],
+          "bounds_max": [
+            0.004999999888241291,
+            0.08699999749660492,
+            0.004999999888241291
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RailTopSeat",
+      "surfaces": [
+        {
+          "triangles": 124,
+          "material": "archive_graphite",
+          "bounds_min": [
+            -0.012000000104308128,
+            0,
+            -0.012000000104308128
+          ],
+          "bounds_max": [
+            0.012000000104308128,
+            0.012000000104308128,
+            0.012000000104308128
+          ]
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "archive_graphite",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.04800000041723251,
+          0.05999999865889549,
+          0.0729999989271164,
+          1
+        ],
+        "metallicFactor": 0.2199999988079071,
+        "roughnessFactor": 0.6800000071525574
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "archive_basalt_ceramic",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0949999988079071,
+          0.1120000034570694,
+          0.125,
+          1
+        ],
+        "metallicFactor": 0.2199999988079071,
+        "roughnessFactor": 0.6800000071525574
+      }
+    }
+  ],
+  "external_dependencies": [],
+  "passed": true
+}
