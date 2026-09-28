@@ -1,0 +1,244 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 31,
+  "godot_import": "See godot_validation.json; separate isolated engine review",
+  "parts": [
+    {
+      "name": "cassette_closed_chassis",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0038609862537338133,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "ceramic_cover_left",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0004794814575135722,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "cover_inset_left",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 6.306366927124653e-05,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "cover_index_left_0",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 9.440498955574942e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "cover_index_left_1",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.6045739568250294e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "ceramic_cover_right",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 0.0004794814589390211,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "cover_inset_right",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 6.306366927124658e-05,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "cover_index_right_0",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 9.440498955575038e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "cover_index_right_1",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 5.6045739568250877e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "spine_inlay",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.136631743225882e-05,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "spine_index_0",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 9.120476248145218e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "spine_index_1",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 6.976491427952554e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "spine_index_2",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 4.526273543323643e-08,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "spine_catalog_blank",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.00006819064049e-06,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "catalog_center",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 3.4649737327700173e-07,
+      "uv_layers": 1,
+      "identity_transform": true
+    },
+    {
+      "name": "rear_binding",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume_m3": 1.9279960290838848e-05,
+      "uv_layers": 1,
+      "identity_transform": true
+    }
+  ],
+  "bounds_blender_m": {
+    "min": [
+      -0.033299997448921204,
+      -0.1128000020980835,
+      0.0
+    ],
+    "max": [
+      0.033299997448921204,
+      0.11089999973773956,
+      0.3199999928474426
+    ]
+  },
+  "dimensions_blender_m": [
+    0.06659999489784241,
+    0.22370000183582306,
+    0.3199999928474426
+  ],
+  "triangles": 1728,
+  "material_count": 4,
+  "provisional_shelf_opening_m": {
+    "width_per_record": 0.085,
+    "depth": 0.25,
+    "height": 0.36
+  },
+  "clearance_m": {
+    "side_each": 0.0092000025510788,
+    "depth_total": 0.02629999816417694,
+    "above": 0.04000000715255736
+  },
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "bytes": 125256,
+    "meshes": 1,
+    "material_surfaces": 4,
+    "triangles": 1728,
+    "sha256": "0ba81420a682a926a358b20ad3c3a64e099e07685b1056433b7d25f452fc2419",
+    "external_dependencies": []
+  },
+  "materials": [
+    {
+      "name": "archive_graphite",
+      "pbr": {
+        "baseColorFactor": [
+          0.04800000041723251,
+          0.05999999865889549,
+          0.0729999989271164,
+          1
+        ],
+        "metallicFactor": 0.2199999988079071,
+        "roughnessFactor": 0.6800000071525574
+      }
+    },
+    {
+      "name": "archive_basalt_ceramic",
+      "pbr": {
+        "baseColorFactor": [
+          0.08500000089406967,
+          0.10300000011920929,
+          0.11699999868869781,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8100000023841858
+      }
+    },
+    {
+      "name": "archive_dark_panel",
+      "pbr": {
+        "baseColorFactor": [
+          0.017999999225139618,
+          0.026000000536441803,
+          0.032999999821186066,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7599999904632568
+      }
+    },
+    {
+      "name": "archive_neutral_index",
+      "pbr": {
+        "baseColorFactor": [
+          0.4000000059604645,
+          0.4300000071525574,
+          0.41999998688697815,
+          1
+        ],
+        "metallicFactor": 0.11999999731779099,
+        "roughnessFactor": 0.6200000047683716
+      }
+    }
+  ]
+}
