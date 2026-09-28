@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "build_asset.py",
+      "bytes": 261,
+      "sha256": "bf415ae717ede6a90fc498e5612075067056ef74710a43c9c04e665c4012efeb"
+    },
+    {
+      "path": "glb_validation.json",
+      "bytes": 146,
+      "sha256": "95580d541487252c770fc3d85a4ad4d0b324e5c2aacc33e2d1714e3a3390a499"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 484041,
+      "sha256": "2249515820c8e2cb1378106ee438c7a305b9b4a6170b6629700c4515ebb92589"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 482897,
+      "sha256": "8811b66ff5b36c33dd7503a81f8c05e94d5c399de1bf2cf6edad7aefbdd13a6c"
+    },
+    {
+      "path": "preview_top.png",
+      "bytes": 485940,
+      "sha256": "88171597af5e8162a787fad97df8cde1ceaa9f81a4872695cbba1119259f1d50"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 485795,
+      "sha256": "804df5711a657ff649350c2f58762caf12f5cad2cd8da2e15a0d7449d33ae25d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 827,
+      "sha256": "1600ec604294416bcbe5ff23b35e647cb29baeb6f1d401802b559cb5229e5ba9"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/structural_pier_b.blend",
+      "bytes": 70775,
+      "sha256": "9fdd2b845fabec1b8ccefdc1192405ae5ca967ef8208c0b191a4561ec7524c45"
+    },
+    {
+      "path": "structural_pier_b.glb",
+      "bytes": 6976,
+      "sha256": "d1aa0ef7fa671f3749e7fbc3033276b8ce7fbdc5cdb2f1afd8745d8213fa80ca"
+    },
+    {
+      "path": "structural_pier_b.glb.import",
+      "bytes": 1191,
+      "sha256": "32954ba63126dc6fb0ae0bceeafefb3218ccc939150c729c5a362941eeadc6c3"
+    },
+    {
+      "path": "structural_pier_b.tscn",
+      "bytes": 570,
+      "sha256": "057d8230a330c49b60c7771197155d2dfdc244517430867e0197c94a5e494d27"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 498,
+      "sha256": "0d7d3ebffd33409ecf034d1a49b3f90da62285fb30228cb313f084a48ba73321"
+    }
+  ]
+}

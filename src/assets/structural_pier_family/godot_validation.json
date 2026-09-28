@@ -1,0 +1,31 @@
+{
+	"bearing_triangle_probes": 8,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"gallery_thickness_m": 0.25,
+	"mcp": "Unavailable; isolated local Godot CLI and GPU rendering",
+	"meshes": [
+		{
+			"bounds": "[P: (-0.45, 0.0, -0.4), S: (0.9, 4.75, 0.8)]",
+			"materials": [
+				"archive_basalt_ceramic",
+				"archive_graphite"
+			],
+			"name": "PierA",
+			"triangles": 76
+		},
+		{
+			"bounds": "[P: (-0.25, 0.0, -0.4), S: (0.5, 4.75, 0.8)]",
+			"materials": [
+				"archive_basalt_ceramic",
+				"archive_graphite"
+			],
+			"name": "PierB",
+			"triangles": 76
+		}
+	],
+	"passed": true,
+	"physics_animation": "Not applicable: static model review; no collision or animation supplied",
+	"renderer": "gl_compatibility",
+	"tier_pitch_m": 5
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="750" viewBox="0 0 1100 750">
+<rect width="1100" height="750" fill="#101923"/>
+<style>text{font-family:Arial,sans-serif;fill:#dce5ed;font-size:16px}.title{font-size:26px;font-weight:bold}.small{font-size:13px}.dim{stroke:#70cbd3;stroke-width:1;fill:none}.part{fill:#556776;stroke:#a8b7c4;stroke-width:1.5}.pocket{fill:#182936;stroke:#70cbd3}</style>
+<text x="40" y="45" class="title">STRUCTURAL PIERS A / B — RESOLVED INTERFACES</text>
+<text x="40" y="75">Metres · Godot +Y up / +Z front / +X width · bottom-centre pivot</text>
+<text x="135" y="120">A — FRONT (+Z)</text><text x="370" y="120">B — FRONT (+Z)</text>
+<!-- Front elevation, 90 px/m. -->
+<path class="part" d="M155 152.5 H227 V556.6 L231.5 565.6 V580 H150.5 V565.6 L155 556.6 Z"/>
+<path class="part" d="M390 152.5 H426 V556.6 L430.5 565.6 V580 H385.5 V565.6 L390 556.6 Z"/>
+<rect class="pocket" x="180.2" y="537.7" width="21.6" height="14.4"/>
+<rect class="pocket" x="397.2" y="537.7" width="21.6" height="14.4"/>
+<path class="dim" d="M115 152.5 V580 M108 152.5 H150 M108 580 H150"/>
+<text x="72" y="400" transform="rotate(-90 72 400)">4.75 m bearing height</text>
+<path class="dim" d="M155 140 H227 M155 133 V149 M227 133 V149 M390 140 H426 M390 133 V149 M426 133 V149"/>
+<text x="176" y="130" class="small">0.80</text><text x="393" y="130" class="small">0.40</text>
+<path class="dim" d="M150.5 600 H231.5 M150.5 590 V607 M231.5 590 V607 M385.5 600 H430.5 M385.5 590 V607 M430.5 590 V607"/>
+<text x="169" y="624">0.90 m</text><text x="386" y="624">0.50 m</text>
+<circle cx="191" cy="580" r="3" fill="#70cbd3"/><circle cx="408" cy="580" r="3" fill="#70cbd3"/>
+<text x="570" y="120">SECTION / REPEATED TIER</text>
+<path class="part" d="M625 185 H700 V318 L720 328 V340 H605 V328 L625 318 Z M625 360 H700 V545 H625 Z"/>
+<rect class="part" x="575" y="340" width="220" height="20"/>
+<path class="dim" d="M800 340 H880 M800 360 H880 M800 382 H880"/>
+<text x="805" y="325">Deck Y=5.00</text>
+<text x="805" y="352" class="small">0.25 m gallery slab</text>
+<text x="805" y="401">Bearing Y=4.75</text>
+<text x="580" y="570" class="small">Diagram of join; upper foot sits on deck.</text>
+<text x="570" y="610">Bearing: 0.30 tangential × 0.40 radial</text>
+<text x="570" y="637">Radius 24.80 m · seam spacing 15°</text>
+<text x="40" y="675">Shared depth: 0.60 shaft / 0.80 foot · vertical corner chamfer: 0.012</text>
+<text x="40" y="703">Blind pocket: 0.24 W × 0.16 H × 0.12 D · centre (0, 0.39, 0.18) at pocket back</text>
+<text x="40" y="731" class="small">Foot top Y=0.16; tapered shoulder ends Y=0.26. Section diagram schematic; written dimensions govern. No light fixture supplied.</text>
+</svg>

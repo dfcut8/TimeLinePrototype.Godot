@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="PackedScene" path="res://assets/structural_pier_a/structural_pier_a.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/structural_pier_b/structural_pier_b.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/structural_pier_family/gallery_review.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/structural_pier_family/review_rig.tscn" id="4"]
+[node name="PierGalleryReview" type="Node3D"]
+[node name="PierA" parent="." instance=ExtResource("1")]
+position = Vector3(24.8, 0, 0)
+rotation_degrees = Vector3(0, -90, 0)
+[node name="PierAUpper" parent="." instance=ExtResource("1")]
+position = Vector3(24.8, 5, 0)
+rotation_degrees = Vector3(0, -90, 0)
+[node name="PierB" parent="." instance=ExtResource("2")]
+position = Vector3(23.95496, 0, -6.418712)
+rotation_degrees = Vector3(0, -75, 0)
+[node name="PierBUpper" parent="." instance=ExtResource("2")]
+position = Vector3(23.95496, 5, -6.418712)
+rotation_degrees = Vector3(0, -75, 0)
+[node name="GalleryLeft" parent="." instance=ExtResource("3")]
+position = Vector3(0, 5, 0)
+rotation_degrees = Vector3(0, -7.5, 0)
+[node name="GalleryMiddle" parent="." instance=ExtResource("3")]
+position = Vector3(0, 5, 0)
+rotation_degrees = Vector3(0, 7.5, 0)
+[node name="GalleryRight" parent="." instance=ExtResource("3")]
+position = Vector3(0, 5, 0)
+rotation_degrees = Vector3(0, 22.5, 0)
+[node name="ReviewRig" parent="." instance=ExtResource("4")]
