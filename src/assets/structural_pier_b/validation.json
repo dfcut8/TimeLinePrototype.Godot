@@ -1,0 +1,27 @@
+{
+  "issue": 17,
+  "blender_version": "5.2.2 LTS",
+  "triangles": 76,
+  "materials": 2,
+  "non_manifold_edges": 0,
+  "degenerate_faces": 0,
+  "signed_volume_m3": 1.1672907237285761,
+  "uv_layers": 1,
+  "dimensions_godot_m": [
+    0.5,
+    4.75,
+    0.8
+  ],
+  "shaft_godot_m": [
+    0.4,
+    4.49,
+    0.6
+  ],
+  "pocket_godot_m": [
+    0.24,
+    0.16,
+    0.12
+  ],
+  "identity_transform": true,
+  "mcp": "Both live connection checks failed; local Blender CLI fallback"
+}

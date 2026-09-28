@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": ".gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dimensions.svg",
+      "bytes": 2760,
+      "sha256": "755e36720438e957b919f303d8cad8a3d788332328e7e75bfbd17578a47e3b58"
+    },
+    {
+      "path": "gallery_review.tscn",
+      "bytes": 231,
+      "sha256": "34a264b108fffe9c73c09688bf258f50da337821c758c7f5f413c0003a67e527"
+    },
+    {
+      "path": "godot_assembly.png",
+      "bytes": 13123,
+      "sha256": "1f120150ec450e4f0d6eee9cf2bc6e9bc96f30030fc2ed2d93f78b0cd4913076"
+    },
+    {
+      "path": "godot_bearing.png",
+      "bytes": 19049,
+      "sha256": "e828c28f1f40435f15674cfaac96e2dc7f087ae0d78bff9efc17ab2795f83a6d"
+    },
+    {
+      "path": "godot_front.png",
+      "bytes": 7721,
+      "sha256": "35ca6c5e73855a2e7dbcb3480a2311ff7302e2ee01395205c605741e13207432"
+    },
+    {
+      "path": "godot_pocket.png",
+      "bytes": 27701,
+      "sha256": "d853a70fcc546454141b0ddca31ee656eca7974a7479135dcd0b8d3b76830fba"
+    },
+    {
+      "path": "godot_rear.png",
+      "bytes": 9390,
+      "sha256": "fb8502d61906419cf9372e5c009d417b43ffbddd80583365d7d8ff5b61e17168"
+    },
+    {
+      "path": "godot_top.png",
+      "bytes": 10814,
+      "sha256": "a4ad71bc8f495455c23f4291724d5bfa1bd89ad8d6ec0229c2c7d75074b56aab"
+    },
+    {
+      "path": "godot_underside.png",
+      "bytes": 11102,
+      "sha256": "09aa1c0709de082a7e7169306b7db0b15adc92a9fef9f58403bd612557db5e07"
+    },
+    {
+      "path": "godot_validation.json",
+      "bytes": 740,
+      "sha256": "5425299e885dcc74bf0e232f4f888a6013b58b6997467e377583f49333526955"
+    },
+    {
+      "path": "import.log",
+      "bytes": 2666,
+      "sha256": "dfa2a2db5523e8c113c84739214aedda7557534cb9a68dd1977b16c38a1c4c1e"
+    },
+    {
+      "path": "package_manifest.py",
+      "bytes": 1931,
+      "sha256": "cc3717051a724bb9ec3535aaa1ad0b7972fa9561dca56fd37017e25732d57bf9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7721,
+      "sha256": "39bfbc71de48aafbec9261b16b1244f595aed20959ea1d8b842d01b77333f183"
+    },
+    {
+      "path": "reimport.log",
+      "bytes": 1943,
+      "sha256": "e281d7f25b3614134d0c688690112a6ee511df1abf553c03c34b0be47bbf30f7"
+    },
+    {
+      "path": "review_assembly.tscn",
+      "bytes": 1506,
+      "sha256": "78e06370d0c48c8718f8277c2d21be153229c659bc25eb8bde994fa5287641ae"
+    },
+    {
+      "path": "review_rig.tscn",
+      "bytes": 901,
+      "sha256": "3ced08c0b67cc7ca8b0380d245f7ca690962681a551eb0aa60be77cdc0a2ae51"
+    },
+    {
+      "path": "runtime.log",
+      "bytes": 926,
+      "sha256": "091becad4fc987d593f5f341c38d5b1632a1d5242b25a61098ab9d04eb3a7189"
+    },
+    {
+      "path": "verify_godot.gd",
+      "bytes": 6764,
+      "sha256": "d87180606c2a125bd6ee5e2b3c9d67f380482a9ebbda1634645b0eac2792547c"
+    },
+    {
+      "path": "verify_godot.ps1",
+      "bytes": 2582,
+      "sha256": "df096341de0944f0194628b67d0b89bee82b6aa21b8f7ab48c68741385ff0656"
+    }
+  ]
+}

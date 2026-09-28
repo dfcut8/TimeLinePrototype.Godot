@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "build_asset.py",
+      "bytes": 6085,
+      "sha256": "bd5be55db8a93f211f3ccd39a4fa35a4a1b071a616229890a5e012f7e767c106"
+    },
+    {
+      "path": "glb_validation.json",
+      "bytes": 146,
+      "sha256": "95580d541487252c770fc3d85a4ad4d0b324e5c2aacc33e2d1714e3a3390a499"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 483630,
+      "sha256": "3e789837262ffd1ba6163537bfbffec6a44c2c3afc1d87ec653dcf854e6223ee"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 482446,
+      "sha256": "419776e24622552a4dda3bb8f5cd6a25f4df86ca209fe5f92908a34fc1d4120c"
+    },
+    {
+      "path": "preview_top.png",
+      "bytes": 487259,
+      "sha256": "03ff63608663f8a161ff219264364095e7a0532c5db6496d907dc713d309070a"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 485341,
+      "sha256": "a013d8890b25aaba60b9dd8dfa233ad602f8468467eb923f51e26016161c5e81"
+    },
+    {
+      "path": "README.md",
+      "bytes": 765,
+      "sha256": "5b31162e8167526381870e824d34f3a4ff248ef6ac984056f316bba4befa6566"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/structural_pier_a.blend",
+      "bytes": 70802,
+      "sha256": "2d1b11dc215f92d44cac84cd9f4156aa95e71bd09ba7c7c2ab484e686af5b71b"
+    },
+    {
+      "path": "structural_pier_a.glb",
+      "bytes": 7004,
+      "sha256": "ff5753f7b7de3160ebfadba4441d768e1e5402ff31b213b858f1550274dc7021"
+    },
+    {
+      "path": "structural_pier_a.glb.import",
+      "bytes": 1190,
+      "sha256": "5b6c08c2247c206866b682e4fdc8f3a90f77e9df79b03f257ab7446c6244e2d2"
+    },
+    {
+      "path": "structural_pier_a.tscn",
+      "bytes": 570,
+      "sha256": "c9179eb9255b5868350a2d53e81c059069824c51d45382d1a841b1d4e3bbe2e7"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 498,
+      "sha256": "54295dba9c59ffe59c12785a134aeea3887bf80f83e2f2ade9a39ea8f07fb74c"
+    }
+  ]
+}

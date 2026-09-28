@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/curved_gallery/curved_gallery.glb" id="1"]
+[node name="GalleryReview" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]
