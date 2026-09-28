@@ -1,0 +1,13 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="PackedScene" path="res://assets/archive_record_small/archive_record_small.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_medium/archive_record_medium.glb" id="2"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/review_rig.tscn" id="4"]
+[node name="CassetteFamilyReview" type="Node3D"]
+[node name="Small" parent="." instance=ExtResource("1")]
+position = Vector3(-0.20, 0, 0)
+[node name="Medium" parent="." instance=ExtResource("2")]
+[node name="Large" parent="." instance=ExtResource("3")]
+position = Vector3(0.20, 0, 0)
+[node name="ReviewRig" parent="." instance=ExtResource("4")]
+
