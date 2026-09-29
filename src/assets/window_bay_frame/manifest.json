@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "dimensions.svg",
+      "bytes": 820,
+      "sha256": "85c573f5afd388ad0d7b4bae183eaa96492c41bb2972a85831a007051992f535"
+    },
+    {
+      "path": "issue.json",
+      "bytes": 3240,
+      "sha256": "2f49242351309b880d9bce6a75f7580335cbe38c39a256d1c8115cb3f0453e5b"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 573921,
+      "sha256": "8e80967545d7349f22dd267932e29faf7692782307b6201ac63e06475ad8b945"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 575507,
+      "sha256": "c1618be56e9c8f7ae86c7e2e8089c74ffe8ed33610867994b1939f3829a79e54"
+    },
+    {
+      "path": "preview_side.png",
+      "bytes": 576224,
+      "sha256": "d389b0ab7838db0c916271ff3c4c20fe9802caad652d9ab1400fde45a82c75a9"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 597945,
+      "sha256": "8a4ab4c4856adc2b6258e2f7f7c66b2b80c9526374a2c1c5112e5485c9ce1fe4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4204,
+      "sha256": "62dbcb85e2ffa8e5bf1955e6d7f12ff31ffbe72179b6630ebf37bb648d2c4400"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/window_bay_frame.blend",
+      "bytes": 77613,
+      "sha256": "d8b2c0bf055adab116fddd09f888eea18e3a01b172d3fbb62097e495d92bbab5"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 2025,
+      "sha256": "d975e5050ae2dc89551cbb4ffa4f0255697a9410a05090f72936b6521f93268e"
+    },
+    {
+      "path": "window_bay_frame.glb",
+      "bytes": 39492,
+      "sha256": "f070d8359d58423111ba8e60c4529dd53b5895ec3269598f4bda779656f71bbb"
+    },
+    {
+      "path": "window_bay_frame.glb.import",
+      "bytes": 1187,
+      "sha256": "e5614bcc10d6962ed26381576327cee033f04c41e1459a1906d68b66a9269a51"
+    },
+    {
+      "path": "window_bay_frame.tscn",
+      "bytes": 668,
+      "sha256": "77c7e47137f30d8bf10ed65a42a22da52a2778faa8bcd9036025c0d934cac621"
+    }
+  ]
+}

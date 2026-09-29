@@ -1,0 +1,86 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 18,
+  "parts": [
+    {
+      "name": "sill",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20966399209213257,
+      "uv_layers": 1
+    },
+    {
+      "name": "header",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20966379682731962,
+      "uv_layers": 1
+    },
+    {
+      "name": "left_jamb",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.1701120934495937,
+      "uv_layers": 1
+    },
+    {
+      "name": "right_jamb",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.1701120934495937,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_sill_inlay",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0005339964251772576,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_header_inlay",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0005339965436852272,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_sill_inlay",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0005339964251772576,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_header_inlay",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0005339965436852289,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 480,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -2.7300000190734863,
+      -0.12300000339746475,
+      0.0
+    ],
+    "max": [
+      2.7300000190734863,
+      0.12300000339746475,
+      4.75
+    ]
+  },
+  "glb_sha256": "f070d8359d58423111ba8e60c4529dd53b5895ec3269598f4bda779656f71bbb",
+  "passed": true
+}

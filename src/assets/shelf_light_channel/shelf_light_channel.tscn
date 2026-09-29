@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/shelf_light_channel/shelf_light_channel.glb" id="1"]
+[node name="ShelfLightChannel" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]
+[node name="MountLeft" type="Marker3D" parent="."]
+position = Vector3(-0.69, 0, 0)
+[node name="MountRight" type="Marker3D" parent="."]
+position = Vector3(0.69, 0, 0)

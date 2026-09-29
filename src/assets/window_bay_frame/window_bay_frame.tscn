@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/window_bay_frame/window_bay_frame.glb" id="1"]
+[node name="WindowBayFrame" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]
+[node name="Sill" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0)
+[node name="Header" type="Marker3D" parent="."]
+position = Vector3(0, 4.75, 0)
+[node name="OpeningCentre" type="Marker3D" parent="."]
+position = Vector3(0, 2.375, 0)
+[node name="LeftInterface" type="Marker3D" parent="."]
+position = Vector3(-2.73, 2.375, 0)
+[node name="RightInterface" type="Marker3D" parent="."]
+position = Vector3(2.73, 2.375, 0)
