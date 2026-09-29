@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/shelf_light_channel/shelf_light_channel.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/light_window_review/review_rig.tscn" id="4"]
+[node name="ShelfLightReview" type="Node3D"]
+[node name="Bay" parent="." instance=ExtResource("1")]
+[node name="ReviewRig" parent="." instance=ExtResource("4")]
+[node name="Light0" parent="." instance=ExtResource("2")]
+position = Vector3(0,0.692,0.175)
+[node name="Record0" parent="." instance=ExtResource("3")]
+position = Vector3(0,0.16,0)
+[node name="Light1" parent="." instance=ExtResource("2")]
+position = Vector3(0,1.252,0.175)
+[node name="Record1" parent="." instance=ExtResource("3")]
+position = Vector3(0,0.7200000000000001,0)
+[node name="Light2" parent="." instance=ExtResource("2")]
+position = Vector3(0,1.812,0.175)
+[node name="Record2" parent="." instance=ExtResource("3")]
+position = Vector3(0,1.28,0)
+[node name="Light3" parent="." instance=ExtResource("2")]
+position = Vector3(0,2.3720000000000003,0.175)
+[node name="Record3" parent="." instance=ExtResource("3")]
+position = Vector3(0,1.84,0)
+

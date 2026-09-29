@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "dimensions.svg",
+      "bytes": 844,
+      "sha256": "e242fdc8f2fa43e9b8b16ab51f5ac0ee4939182844fd8c21031a86c78dcdb62a"
+    },
+    {
+      "path": "issue.json",
+      "bytes": 3297,
+      "sha256": "a6a194ddcc26492020ee5b002c34af068b14dd063d6e80b181c6890e65845be7"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 556931,
+      "sha256": "1265359eb2a9149a419f5f633eec0b8219f1bc01625c83a55f730ab1da905a7b"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 557151,
+      "sha256": "3df6f8b12a18dab742913db6a2a4bfbd593d09f207651f04764e2ce9477880a3"
+    },
+    {
+      "path": "preview_side.png",
+      "bytes": 561640,
+      "sha256": "78d98707c61f8ce344e79490db514490e28df9bd398ea4a15fa56f3df240d942"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 574268,
+      "sha256": "136647e311d04b60ade2a8417f0f0f56bc89b6656486ea0f83811693d4edb412"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3827,
+      "sha256": "be0d45463fc4e6d1c2a8b7c8f52eaccb9e85d9bf763cff377cc7ad28d7ab0e59"
+    },
+    {
+      "path": "shelf_light_channel.glb",
+      "bytes": 9872,
+      "sha256": "c0004256ca819a7d814aef48c93aebc482bb14b936c743b4f194a9535f8556ac"
+    },
+    {
+      "path": "shelf_light_channel.glb.import",
+      "bytes": 1199,
+      "sha256": "c9d5d50d45a49d09bd86a8d3a319616a2ff4114f0a2d684ef52027f146ac6c66"
+    },
+    {
+      "path": "shelf_light_channel.tscn",
+      "bytes": 415,
+      "sha256": "3905daa189a389ba7448dc82bdad29776fdfc0e590ab1d1e52329fada4bef650"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/shelf_light_channel.blend",
+      "bytes": 72677,
+      "sha256": "a2124105d27eb8f277cd488e5c478995874883248fee584f707c079e915e401d"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1672,
+      "sha256": "cbbc7bbf589007d9699072aa6f3d67245437cc709101eb4297362c9841e26666"
+    }
+  ]
+}
