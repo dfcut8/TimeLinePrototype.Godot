@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": ".gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "build_asset.py",
+      "bytes": 7275,
+      "sha256": "672eb0e842a8f63920915758879d71a13dbc70394b1e983c583f563f744832ab"
+    },
+    {
+      "path": "create_review.py",
+      "bytes": 2635,
+      "sha256": "8843fc46e5a60ea0e9fa64c8c69dbf280995b5342f57a78005d6ad1656b81b04"
+    },
+    {
+      "path": "godot_front.png",
+      "bytes": 86342,
+      "sha256": "503af89824f06615bcde10b5b6b26d3051fd3ffef0d6f206bfb2641ee8fecc14"
+    },
+    {
+      "path": "godot_rear.png",
+      "bytes": 22776,
+      "sha256": "8c0831e1c0ee57353c3347fe38707f0c41ac20270d135f991b32dcf6ff90840d"
+    },
+    {
+      "path": "godot_side.png",
+      "bytes": 33911,
+      "sha256": "52bc258cd3e053a85b4a92276a3c0c6ba99aa46df4f4f4268a60c4b0c0a7d024"
+    },
+    {
+      "path": "godot_underside.png",
+      "bytes": 87289,
+      "sha256": "eeb2d4e1fab036a91528d0eb492aecadbc63a2e822d93d145c2604d8fa7d931a"
+    },
+    {
+      "path": "godot_validation.json",
+      "bytes": 3173,
+      "sha256": "3daabf1d309b8e3f6d2d95caaaf432f10265bf03ffb721f76ef382442e71bd87"
+    },
+    {
+      "path": "import.log",
+      "bytes": 3685,
+      "sha256": "8687a3795b168ddb53cfac7776c5a06f962885333d9bd07f32c2ea2d3fa540f4"
+    },
+    {
+      "path": "package_delivery.py",
+      "bytes": 2348,
+      "sha256": "dfbdd359f0d66c136ea5c0d098a08b0f128a3b4218239960c6da9b7ea6329e37"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2285,
+      "sha256": "886b2bfebc682c3deeb3429d38cb395d9414c2a3402948410948d02643c11c31"
+    },
+    {
+      "path": "reimport.log",
+      "bytes": 864,
+      "sha256": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455"
+    },
+    {
+      "path": "review_assembly.tscn",
+      "bytes": 12694,
+      "sha256": "0c5a3f0321f26ec1c10e7a7b9ecf4d24cbca8ad1a4d4bfa8d691d0b388e08a02"
+    },
+    {
+      "path": "runtime.log",
+      "bytes": 2805,
+      "sha256": "ceded4d7ce3b39eaa0b87601b068e24cca07569475a08bb4201e6dcda3800491"
+    },
+    {
+      "path": "verify_godot.gd",
+      "bytes": 5031,
+      "sha256": "e6d0c94878d82c5c90ce9f69283cfba3e18b8ab05ef12161e4df6985956b034a"
+    },
+    {
+      "path": "verify_godot.ps1",
+      "bytes": 2954,
+      "sha256": "4d7d516487e38586d6e87e677803773d34110cf74c512290d560c584829884b0"
+    }
+  ]
+}

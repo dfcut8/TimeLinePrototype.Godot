@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+<rect width="960" height="720" fill="#18212c"/>
+<g fill="none" stroke="#91aabd" stroke-width="2">
+<rect x="70" y="80" width="13.940000000000001" height="408"/>
+<rect x="420" y="80" width="74.8" height="408"/>
+</g>
+<g fill="#e0eaf2" font-family="sans-serif" font-size="18">
+<text x="40" y="35">record_stack_end_cap — resolved dimensions (meters)</text>
+<text x="70" y="65">Front</text><text x="420" y="65">Side / depth</text>
+<text x="540" y="260">Height 2.400 m</text>
+<text x="40" y="545">Envelope 0.082 W x 2.400 H x 0.440 D m</text>
+<text x="40" y="575">Structural thickness 0.080 m; base 0.120 m</text>
+<text x="40" y="605">Origin: floor attachment plane, +X outward</text>
+<text x="40" y="635">Right: X +0.800, yaw 0; left: X -0.800, yaw 180</text>
+<text x="40" y="665">Single bay centered at origin; scale always 1</text>
+</g></svg>

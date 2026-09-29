@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+<rect width="960" height="720" fill="#18212c"/>
+<g fill="none" stroke="#91aabd" stroke-width="2">
+<rect x="70" y="80" width="272.0" height="408"/>
+<rect x="420" y="80" width="74.8" height="408"/>
+<path d="M70 460.8h272 M420 460.8h74.8"/>
+<path d="M70 365.6h272 M420 365.6h74.8"/>
+<path d="M70 270.4h272 M420 270.4h74.8"/>
+<path d="M70 175.2h272 M420 175.2h74.8"/>
+</g>
+<g fill="#e0eaf2" font-family="sans-serif" font-size="18">
+<text x="40" y="35">record_stack_shelf_bay — resolved dimensions (meters)</text>
+<text x="70" y="65">Front</text><text x="420" y="65">Side / depth</text>
+<text x="540" y="260">Height 2.400 m</text>
+<text x="40" y="545">Overall 1.600 W x 2.400 H x 0.440 D m</text>
+<text x="40" y="575">Shelf tops: 0.160 / 0.720 / 1.280 / 1.840 m</text>
+<text x="40" y="605">Openings: 1.500 W x 0.520 H x 0.400 D m</text>
+<text x="40" y="635">Repeat pitch 1.600 m; bottom-center origin</text>
+<text x="40" y="665">Front +Z, up +Y; Blender front -Y, up +Z</text>
+</g></svg>
