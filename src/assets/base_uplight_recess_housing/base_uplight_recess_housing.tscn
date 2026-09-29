@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/base_uplight_recess_housing/base_uplight_recess_housing.glb" id="1"]
+
+[node name="BaseUplightRecessHousing" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1")]
+
+[node name="BackMount" type="Marker3D" parent="."]
+
+[node name="ApertureCenter" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0.108)
