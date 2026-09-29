@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/passage_portal_bay_frame.glb" id="1"]
+[node name="PassagePortalBayFrame" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]
+[node name="LeftInterface" type="Marker3D" parent="."]
+position = Vector3(-2.73, 0, 0)
+[node name="RightInterface" type="Marker3D" parent="."]
+position = Vector3(2.73, 0, 0)
+[node name="Header" type="Marker3D" parent="."]
+position = Vector3(0, 4.75, 0)
+[node name="OpeningCentre" type="Marker3D" parent="."]
+position = Vector3(0, 1.7, 0)

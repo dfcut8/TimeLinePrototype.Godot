@@ -1,0 +1,118 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 25,
+  "parts": [
+    {
+      "name": "left_wall_core",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.8812800400400156,
+      "uv_layers": 1
+    },
+    {
+      "name": "right_wall_core",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.8812800400400156,
+      "uv_layers": 1
+    },
+    {
+      "name": "left_jamb",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.12239998124241806,
+      "uv_layers": 1
+    },
+    {
+      "name": "right_jamb",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.12239998124241806,
+      "uv_layers": 1
+    },
+    {
+      "name": "header_reveal",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.19655980952561203,
+      "uv_layers": 1
+    },
+    {
+      "name": "upper_wall_core",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.572480038323401,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_left_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.010907386186553838,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_right_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.010907386186553847,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_upper_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.019494444889919516,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_left_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.010907386186553838,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_right_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.010907386186553847,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_upper_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.01949444488991949,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 720,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -2.7300000190734863,
+      -0.12300000339746475,
+      0.0
+    ],
+    "max": [
+      2.7300000190734863,
+      0.12300000339746475,
+      4.75
+    ]
+  },
+  "glb_sha256": "adce112951600cd2ecabc455d59c17a2723b3af024afab7e3204abcb0f83f4be",
+  "passed": true
+}
