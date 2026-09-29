@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "glTF": 2,
+  "triangles": 20,
+  "materials": [
+    "archive_basalt_ceramic"
+  ],
+  "self_contained": true
+}

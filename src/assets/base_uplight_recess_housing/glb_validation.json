@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "glTF": 2,
+  "triangles": 40,
+  "materials": [
+    "archive_graphite",
+    "archive_warm_diffuser"
+  ],
+  "self_contained": true
+}

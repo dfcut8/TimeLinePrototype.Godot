@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "build_asset.py",
+      "bytes": 6623,
+      "sha256": "5648104261f8e48486ede68c8df47ea5d9d4caa5ca5f3ce26eb2f2aa260202b2"
+    },
+    {
+      "path": "glb_validation.json",
+      "bytes": 137,
+      "sha256": "8702c157dc8f94b5fd1b6293a1077d5556a80274b80e96ca8945bb5e86ca02f8"
+    },
+    {
+      "path": "main_floor_slab.glb",
+      "bytes": 2572,
+      "sha256": "c731b446b5e614eeac0dcdfd8e7b2cd32ecfe4f99fa7de8dee4776a6f4f51063"
+    },
+    {
+      "path": "main_floor_slab.glb.import",
+      "bytes": 1183,
+      "sha256": "d10577249857450a20e151f8ca41404f3482022b95617557d1ac001c422fe1ae"
+    },
+    {
+      "path": "main_floor_slab.tscn",
+      "bytes": 605,
+      "sha256": "4e928c3d4ec4934a9f30a1070950ddb599fb442b28317496f9cb2d8a65b542f9"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 479894,
+      "sha256": "aecc5d58e54fd700e18d2b45cac7956b955e7a782fe8b6fe141a2451936b1b08"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 491698,
+      "sha256": "6207a53e2bf5e08eba41442ce0192288537645912f875ddd9265cf5fdf74357d"
+    },
+    {
+      "path": "preview_side.png",
+      "bytes": 479850,
+      "sha256": "a362ae2ff09500708c77b71f712911f840876c12be71b7ccc40d69a9882e72f3"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 487294,
+      "sha256": "7a8ffc02ecabe930f757015c5e9f6903b5d9461e37666ca5b638f677907c98ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1626,
+      "sha256": "35feeb18ea9ba717662bcc1ad57890c168000aee64236740ce43fca46f5a4426"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/main_floor_slab.blend",
+      "bytes": 68043,
+      "sha256": "789b14cfa3e9328d16f82f8abe1359bb8f5c85b78ce895f490ffc38f96ba2313"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 397,
+      "sha256": "da21340731aa704b7178c024bd3d0f5678f24a2a895f0ceffe87c3a1d0482905"
+    }
+  ]
+}

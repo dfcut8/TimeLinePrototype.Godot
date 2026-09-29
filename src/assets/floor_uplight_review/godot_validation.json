@@ -1,0 +1,26 @@
+{
+	"collision_animation": "Not applicable to static art delivery",
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"joint_ray_probes": 20,
+	"mcp": "Unavailable; CLI GPU fallback",
+	"meshes": [
+		{
+			"bounds": "[P: (-2.0, -0.25, -2.0), S: (4.0, 0.25, 4.0)]",
+			"emission_surfaces": 0,
+			"name": "Floor00",
+			"surfaces": 1,
+			"triangles": 20
+		},
+		{
+			"bounds": "[P: (-0.116, 0.32, 0.184), S: (0.232, 0.14, 0.108)]",
+			"emission_surfaces": 1,
+			"name": "Uplight",
+			"surfaces": 2,
+			"triangles": 40
+		}
+	],
+	"passed": true,
+	"pocket_ray_probes": 9,
+	"renderer": "gl_compatibility"
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="#18212c"/>
+<g font-family="sans-serif" fill="#e5edf4"><text x="40" y="45" font-size="26">FLOOR SLAB + PIER UPLIGHT | Resolved local interfaces (metres)</text>
+<g stroke="#91bac7" stroke-width="2" fill="#384957"><rect x="65" y="95" width="320" height="320"/><rect x="70" y="100" width="310" height="310"/><rect x="65" y="475" width="320" height="20"/></g>
+<text x="130" y="80" font-size="20">X: 4.000</text><text x="405" y="265" font-size="20">Z: 4.000</text><text x="400" y="492" font-size="18">Y: 0.250</text>
+<text x="75" y="245" font-size="18">Deck-centre pivot: (0,0,0)</text><text x="90" y="280" font-size="18">Repeat pitch 4 m in X/Z</text>
+<text x="65" y="450" font-size="17">2 mm top chamfer; full footprint below Y=-0.002</text>
+<text x="65" y="535" font-size="18">Deck Y=0 / underside Y=-0.250</text>
+<g stroke-width="2"><rect x="700" y="150" width="360" height="240" fill="#111820" stroke="#bcc8d1" stroke-dasharray="6 4"/><rect x="706" y="165" width="348" height="210" fill="#384957" stroke="#91bac7"/><rect x="724" y="183" width="312" height="171" fill="#18212c" stroke="#91bac7"/><path d="M740 320 L1020 320" stroke="#e2bc7e" stroke-width="13"/></g>
+<text x="700" y="105" font-size="20">PIER POCKET: 0.240 × 0.160 × 0.120</text>
+<text x="700" y="130" font-size="18">Housing: 0.232 × 0.140 × 0.108</text>
+<text x="700" y="430" font-size="18">Front (+Z), dimensions in X/Y/Z order</text>
+<text x="700" y="460" font-size="18">4 mm side / 10 mm vertical clearance</text>
+<text x="700" y="490" font-size="18">4 mm rear / 8 mm front clearance</text>
+<text x="700" y="520" font-size="18">Back-centre mount: (0, 0.39, 0.184)</text>
+<text x="700" y="550" font-size="18">Receiver back: (0, 0.39, 0.180)</text>
+<text x="40" y="610" font-size="18">Godot +Y up, +Z front. Identity scales. Drawing schematic; numeric dimensions govern.</text></g></svg>

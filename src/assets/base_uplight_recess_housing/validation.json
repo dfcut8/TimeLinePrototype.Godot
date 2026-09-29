@@ -1,0 +1,28 @@
+{
+  "issue": 26,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "Housing",
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_m3": 0.001184063928267476
+    },
+    {
+      "name": "EmissionInsert",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_m3": 6.336003751644117e-05
+    }
+  ],
+  "materials": 2,
+  "uv_sets": 1,
+  "dimensions_godot_m": [
+    0.232,
+    0.14,
+    0.108
+  ],
+  "mcp": "Unavailable; isolated Blender CLI fallback"
+}

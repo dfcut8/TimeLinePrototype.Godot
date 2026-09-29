@@ -1,0 +1,21 @@
+{
+  "issue": 20,
+  "blender_version": "5.2.2 LTS",
+  "meshes": [
+    {
+      "name": "main_floor_slab",
+      "triangles": 20,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_m3": 3.99996801107686
+    }
+  ],
+  "materials": 1,
+  "uv_sets": 1,
+  "dimensions_godot_m": [
+    4,
+    0.25,
+    4
+  ],
+  "mcp": "Unavailable; isolated Blender CLI fallback"
+}
