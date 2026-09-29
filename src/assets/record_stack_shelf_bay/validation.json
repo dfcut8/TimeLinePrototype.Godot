@@ -1,0 +1,206 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 28,
+  "parts": [
+    {
+      "name": "lower_base",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.08447999891281126,
+      "uv_layers": 1
+    },
+    {
+      "name": "upright_left",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.05016001384437123,
+      "uv_layers": 1
+    },
+    {
+      "name": "upright_right",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.05016001384437126,
+      "uv_layers": 1
+    },
+    {
+      "name": "closed_back",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.1162799858388297,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_0_deck",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.016799998533725713,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_0_rear_web",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005940001209676304,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_0_front_lip",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0003599999839067336,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_1_deck",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.01680003429651311,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_1_rear_web",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005939982769488594,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_1_front_lip",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0003599988663198772,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_2_deck",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.016799998533725713,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_2_rear_web",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005939982769488594,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_2_front_lip",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0003599988663198772,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_3_deck",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.016799998533725713,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_3_rear_web",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005940041778089267,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_3_front_lip",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.00036000244259781766,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_4_deck",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.01680007005930051,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_4_rear_web",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005940041778089267,
+      "uv_layers": 1
+    },
+    {
+      "name": "shelf_4_front_lip",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.00036000244259781766,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_finish_0",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.004377696932712022,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_finish_1",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.004377697219374005,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_finish_2",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.004377697281064685,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_finish_3",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.004377696113424714,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 660,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -0.800000011920929,
+      -0.2199999988079071,
+      0.0
+    ],
+    "max": [
+      0.800000011920929,
+      0.2199999988079071,
+      2.4000000953674316
+    ]
+  },
+  "glb_sha256": "de70601523437172c2133d19cef732553832c329ad0ef3bb138b3f7f261a173c",
+  "passed": true
+}

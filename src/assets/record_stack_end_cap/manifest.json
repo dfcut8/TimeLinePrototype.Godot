@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "dimensions.svg",
+      "bytes": 943,
+      "sha256": "6f8c0e54fa56e2852bda02c66c62ad941449521749b7ebdee660929faeb3b951"
+    },
+    {
+      "path": "issue.json",
+      "bytes": 3578,
+      "sha256": "12fd1968645e3bff6a0db99cd0595bef4c38fe97226643c066f19d49fe6eac41"
+    },
+    {
+      "path": "preview_front.png",
+      "bytes": 623867,
+      "sha256": "875ce64b27fbfa11998a9823af7f91ab7e87dbaff31fc4827146363848df3362"
+    },
+    {
+      "path": "preview_rear.png",
+      "bytes": 616570,
+      "sha256": "fecc51d0e7b863377fddd1a04413987030718ba2a17cbbeaa55575050bc0c32a"
+    },
+    {
+      "path": "preview_side.png",
+      "bytes": 619880,
+      "sha256": "39fbdb8eb3d81869595b04b0aedc57f44bdea18208212e833428d3f395e43757"
+    },
+    {
+      "path": "preview_underside.png",
+      "bytes": 623524,
+      "sha256": "2ac9253946eeba1995b1265db5139124586d9b6c3baac655fbf63ecc0d51577a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2437,
+      "sha256": "ff789b7298140e86e9b687adbcdf35e7be49b9456405183793a75247536e4588"
+    },
+    {
+      "path": "record_stack_end_cap.glb",
+      "bytes": 37428,
+      "sha256": "f6d6d736340f457513d98bc6d96a81cb360495ee91f130372bc91912c37389c5"
+    },
+    {
+      "path": "record_stack_end_cap.glb.import",
+      "bytes": 1203,
+      "sha256": "fecc3c1db18f1ade07fded989a1d51922b3f5e0c403fccf4ca3938132095c1f0"
+    },
+    {
+      "path": "record_stack_end_cap.tscn",
+      "bytes": 248,
+      "sha256": "315607f393b048560732176bdd0832b9399ae7c3d348d3eeddbdb1964ea37764"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/record_stack_end_cap.blend",
+      "bytes": 76589,
+      "sha256": "efa63abe2eedd4176f8dba4a4a7f25a1c75556da4dba1e6f368e024a09d740ac"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1635,
+      "sha256": "aacae12f34f8aebbb2e550562c25175d0e9da715baeff06aa2fcf56176196999"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 29,
+  "parts": [
+    {
+      "name": "end_base",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.004223999788284305,
+      "uv_layers": 1
+    },
+    {
+      "name": "end_closure",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.06821760627131473,
+      "uv_layers": 1
+    },
+    {
+      "name": "end_ceramic_panel",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.010643678079470812,
+      "uv_layers": 1
+    },
+    {
+      "name": "end_dark_inset",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0019939858351742286,
+      "uv_layers": 1
+    },
+    {
+      "name": "end_index_-0.12",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 2.4647938316608016e-06,
+      "uv_layers": 1
+    },
+    {
+      "name": "end_index_0.12",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 2.4647933153285515e-06,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 456,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      0.0,
+      -0.2199999988079071,
+      0.0
+    ],
+    "max": [
+      0.0820000022649765,
+      0.2199999988079071,
+      2.4000000953674316
+    ]
+  },
+  "glb_sha256": "f6d6d736340f457513d98bc6d96a81cb360495ee91f130372bc91912c37389c5",
+  "passed": true
+}
