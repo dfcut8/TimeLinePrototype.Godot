@@ -1,0 +1,110 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 24,
+  "parts": [
+    {
+      "name": "closed_wall_core",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 6.224399904361366,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_panel_0",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.024079702628139004,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_panel_1",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.024079701665234415,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_panel_2",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.024079702628139,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_base",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0025552852489973523,
+      "uv_layers": 1
+    },
+    {
+      "name": "rear_head",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.002555287445731108,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_panel_0",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.024079702628139004,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_panel_1",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.024079701665234415,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_panel_2",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.024079702628139,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_base",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0025552852489973523,
+      "uv_layers": 1
+    },
+    {
+      "name": "front_head",
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.002555287445731108,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 708,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -2.7300000190734863,
+      -0.12300000339746475,
+      0.0
+    ],
+    "max": [
+      2.7300000190734863,
+      0.12300000339746475,
+      4.75
+    ]
+  },
+  "glb_sha256": "8baed2d822a85dba551827029d634ce5efa20b84e0c31714ba210f32b0467668",
+  "passed": true
+}
