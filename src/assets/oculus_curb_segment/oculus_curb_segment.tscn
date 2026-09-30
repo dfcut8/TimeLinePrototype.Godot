@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/oculus_curb_segment/oculus_curb_segment.glb" id="1"]
+[node name="OculusCurbSegment" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]
+[node name="BeamBearing" type="Marker3D" parent="."]
+position = Vector3(10.365, 0.6, 0)
+[node name="RingCenter" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0)

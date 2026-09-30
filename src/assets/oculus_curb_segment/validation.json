@@ -1,0 +1,12 @@
+{
+  "issue": 22,
+  "blender": "5.2.2 LTS",
+  "triangles": 396,
+  "materials": 2,
+  "closed_manifold": true,
+  "signed_volume_m3": 0.9695196165269544,
+  "degenerate_faces": 0,
+  "identity_transforms": true,
+  "uv0": true,
+  "passed": true
+}

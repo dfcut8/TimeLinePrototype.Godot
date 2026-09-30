@@ -1,0 +1,17 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "issue.json": "8035d7220272eb3491ca53b1c407e76257dacd1ef80e40503b6a6198fb0f8c31",
+    "oculus_curb_segment.glb": "20496ef7a36c558bded4113f56c3f67c2cf8747563905a708a267267a95d49af",
+    "oculus_curb_segment.glb.import": "547ada1675cdf9a04f2002ea9541c399d1a6adfc39fbc21e6e2bd2a4d58753ff",
+    "oculus_curb_segment.tscn": "cb77996f4c9c7bd24d69f4b23e80fb3b7109f7bb9023bfcb1a4a6f9f4789ce1f",
+    "preview_end.png": "b9f7e8f57e29ba5c51b6a4a5ab6df82cb050576e41db4cabf6757ffded4c2a4d",
+    "preview_front.png": "b284532c7d9cda6df996154f26e70829cd4e7575ad0f1cd393bf613265d68afb",
+    "preview_rear.png": "7a99d63206ecc578741e09194b9df83e79f3d4e757d7f856713876521e9d8306",
+    "preview_underside.png": "4ca51430dbf96860024be2e65ee39be2344ecf90dc4fb8daa7c20ed504f5ffa6",
+    "README.md": "f3e14d8b73760d0e4bd513621d0b5bfc26bc58d582a53e0e899f8a3129bc169f",
+    "source/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source/oculus_curb_segment.blend": "4eb272c3437ee0dccbd7ab9dbe05ca44030643ecf6594abd49af2527552f9707",
+    "validation.json": "f6fad77adea48158ccd9da5730120179dc247e8aa6bc4356a9f7ba22e2589848"
+  }
+}

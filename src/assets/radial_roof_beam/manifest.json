@@ -1,0 +1,17 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "issue.json": "80ee7772c1f6c308340fa076735cf825d1779ea26d2e1cfb09bf424c7d71ac0b",
+    "preview_end.png": "b6bc195eb79945bb6a1d18960cfef0bde433fb967ac346d768f556f80fe2a8f9",
+    "preview_front.png": "128ad715e15733d6d76a334ed537a1e61e8d21505a0f3e23e872011b2b98e5ea",
+    "preview_rear.png": "0501c642982d99b1260d99b51a5cba1dccadcfe328d748f2be572b0a702c470a",
+    "preview_underside.png": "f536bace5cdee14ade3a212db1d8ab0ac64322d7c7c308cd14fe6ed325144c98",
+    "radial_roof_beam.glb": "2cc48b205f4a06d4163a5d8426bff490cc18368ef195c85d8d3870f02c28e717",
+    "radial_roof_beam.glb.import": "80fe0450ba76746971b82ec6f8f0999cb5a09240c63c30fadfbadf34023492a3",
+    "radial_roof_beam.tscn": "cfb2fd203439cc24ae9ec404a9f8614245886f76400f47ce658379a112ea503e",
+    "README.md": "273134fc5e770d7daa531742ebc0c3d40f90c9bc62b7127fce801ff12c1e32ad",
+    "source/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source/radial_roof_beam.blend": "5a0d2dc2a206e9143e71ee84729797a8601bf3cfcf7de5885b3f21c1f96eb73c",
+    "validation.json": "2b2461df13f7f24babd07eb1ea51082658bf1af54a90fd364d677a9c167ac7b2"
+  }
+}
