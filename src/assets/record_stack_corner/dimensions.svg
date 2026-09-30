@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="#18212b"/>
+<g font-family="sans-serif" fill="#e7edf3"><text x="35" y="45" font-size="25">#30 · RECORD STACK CORNER · meters</text>
+<path d="M90 380 L90 132 A248 248 0 0 1 338 380 L250 380 A160 160 0 0 0 90 220 Z" fill="#607783" stroke="#a8cedd" stroke-width="2"/>
+<rect x="250" y="380" width="88" height="170" fill="#293947" stroke="#95a4aa"/>
+<rect x="15" y="132" width="75" height="88" fill="#293947" stroke="#95a4aa"/>
+<circle cx="90" cy="380" r="5" fill="#a8cedd"/>
+<text x="40" y="410" font-size="16">Pivot</text><text x="100" y="280" font-size="17">Front R0.80</text>
+<text x="285" y="250" font-size="17">Back R1.24</text><text x="265" y="465" font-size="16" transform="rotate(90 265 465)">Entry bay</text>
+<text x="50" y="115" font-size="16">Exit bay</text><text x="590" y="110" font-size="20">Shelf levels / profile</text>
+<path d="M595 145H940 M595 245H940 M595 345H940 M595 445H940 M595 545H940" stroke="#a8cedd" stroke-width="6"/>
+<text x="600" y="135" font-size="16">2.40</text><text x="600" y="235" font-size="16">1.84</text><text x="600" y="335" font-size="16">1.28</text><text x="600" y="435" font-size="16">0.72</text><text x="600" y="535" font-size="16">0.16</text>
+<text x="705" y="180" font-size="16">Height 2.40 · base 0.12</text><text x="705" y="280" font-size="16">Deck thickness 0.028</text><text x="705" y="380" font-size="16">Lip/web depth 0.012</text><text x="705" y="480" font-size="16">Recess R0.82–0.87</text>
+<text x="35" y="605" font-size="16">90° local alcove bend, +X/+Z plan. Straight bays meet X=0 and Z=0. +Y up; identity scale.</text></g></svg>

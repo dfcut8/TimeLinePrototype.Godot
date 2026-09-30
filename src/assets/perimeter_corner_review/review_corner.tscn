@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_corner/record_stack_corner.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/record_stack_end_cap.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/review_rig.tscn" id="5"]
+[node name="CornerReview" type="Node3D"]
+[node name="Corner" parent="." instance=ExtResource("1")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,0,0)
+[node name="EntryBay" parent="." instance=ExtResource("2")]
+position = Vector3(1.02, 0, -0.8)
+rotation_degrees = Vector3(0,-90,0)
+[node name="ExitBay" parent="." instance=ExtResource("2")]
+position = Vector3(-0.8, 0, 1.02)
+rotation_degrees = Vector3(0,180,0)
+[node name="EntryCap" parent="." instance=ExtResource("3")]
+position = Vector3(1.02, 0, -1.6)
+rotation_degrees = Vector3(0,90,0)
+[node name="ExitCap" parent="." instance=ExtResource("3")]
+position = Vector3(-1.6, 0, 1.02)
+rotation_degrees = Vector3(0,180,0)
+[node name="Record_0_0" parent="." instance=ExtResource("4")]
+position = Vector3(0.9396926207859084, 0.16, 0.3420201433256687)
+rotation_degrees = Vector3(0,-110,0)
+[node name="Record_0_1" parent="." instance=ExtResource("4")]
+position = Vector3(0.7071067811865476, 0.16, 0.7071067811865476)
+rotation_degrees = Vector3(0,-135,0)
+[node name="Record_0_2" parent="." instance=ExtResource("4")]
+position = Vector3(0.3420201433256688, 0.16, 0.9396926207859083)
+rotation_degrees = Vector3(0,-160,0)
+[node name="Record_1_0" parent="." instance=ExtResource("4")]
+position = Vector3(0.9396926207859084, 0.72, 0.3420201433256687)
+rotation_degrees = Vector3(0,-110,0)
+[node name="Record_1_1" parent="." instance=ExtResource("4")]
+position = Vector3(0.7071067811865476, 0.72, 0.7071067811865476)
+rotation_degrees = Vector3(0,-135,0)
+[node name="Record_1_2" parent="." instance=ExtResource("4")]
+position = Vector3(0.3420201433256688, 0.72, 0.9396926207859083)
+rotation_degrees = Vector3(0,-160,0)
+[node name="Record_2_0" parent="." instance=ExtResource("4")]
+position = Vector3(0.9396926207859084, 1.28, 0.3420201433256687)
+rotation_degrees = Vector3(0,-110,0)
+[node name="Record_2_1" parent="." instance=ExtResource("4")]
+position = Vector3(0.7071067811865476, 1.28, 0.7071067811865476)
+rotation_degrees = Vector3(0,-135,0)
+[node name="Record_2_2" parent="." instance=ExtResource("4")]
+position = Vector3(0.3420201433256688, 1.28, 0.9396926207859083)
+rotation_degrees = Vector3(0,-160,0)
+[node name="Record_3_0" parent="." instance=ExtResource("4")]
+position = Vector3(0.9396926207859084, 1.84, 0.3420201433256687)
+rotation_degrees = Vector3(0,-110,0)
+[node name="Record_3_1" parent="." instance=ExtResource("4")]
+position = Vector3(0.7071067811865476, 1.84, 0.7071067811865476)
+rotation_degrees = Vector3(0,-135,0)
+[node name="Record_3_2" parent="." instance=ExtResource("4")]
+position = Vector3(0.3420201433256688, 1.84, 0.9396926207859083)
+rotation_degrees = Vector3(0,-160,0)
+[node name="ReviewRig" parent="." instance=ExtResource("5")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,0,0)

@@ -1,0 +1,68 @@
+{
+  "format": "repository-native-asset-delivery-v1",
+  "files": {
+    "curved_floor_perimeter_wedge.glb": {
+      "bytes": 33164,
+      "sha256": "917470d7c53103eb8ba5d9165d278796beff795dc852f0dc0b55494b7bd300c5"
+    },
+    "curved_floor_perimeter_wedge.glb.import": {
+      "bytes": 1235,
+      "sha256": "bc3546882446360dcf0e6b5127f3cf38c38cfc7a42869731afec31d952ea97ce"
+    },
+    "curved_floor_perimeter_wedge.tscn": {
+      "bytes": 510,
+      "sha256": "16a7d0cfe8b9ad701d6638c2d27e152a03c2d4e04ee3155caadb597b093ce3b1"
+    },
+    "dimensions.svg": {
+      "bytes": 1899,
+      "sha256": "1b9e376ae3c8b75b7e33f49c4be1c323c9b4e58a71abb1e321602afd721b6657"
+    },
+    "godot_validation.json": {
+      "bytes": 2622,
+      "sha256": "7675180fd6040e54721a2439f0dbab97a1136ddd23abe1fce58f149017c6ea42"
+    },
+    "issue.json": {
+      "bytes": 3694,
+      "sha256": "600bf540db0e3fad13e315d6b9d092cfad54aa8a2a58d0024caafc35023c94c4"
+    },
+    "preview_front.png": {
+      "bytes": 396051,
+      "sha256": "de145c8f3aad603d517b3f52ef4649c181775f5e64224ca49407c295dd2d5af5"
+    },
+    "preview_rear.png": {
+      "bytes": 396897,
+      "sha256": "195e8f51e1dc33aa7fbbc4ecab2d894022da0abf8267cee8d4f9174754ca1a5a"
+    },
+    "preview_side.png": {
+      "bytes": 392730,
+      "sha256": "750befc600197fc7ae1f8f11ce42a9b7b48c955d85c2dc1d93089f3e57e2e0ec"
+    },
+    "preview_underside.png": {
+      "bytes": 399218,
+      "sha256": "14935aa5548a82d4d290c260b0baf40216af6a9e1415270f372c74b1761824dc"
+    },
+    "README.md": {
+      "bytes": 2679,
+      "sha256": "36774da9a1fc1c691837d67fc6fec0451c6b82d21bf50c37ead915cfdcea1257"
+    },
+    "review_contact_sheet.png": {
+      "bytes": 80865,
+      "sha256": "ecbe6121810ab558cdb11f91f46fb675b1dcce23f361e4761f462c5e2ec45bd8"
+    },
+    "source/.gdignore": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source/curved_floor_perimeter_wedge.blend": {
+      "bytes": 76580,
+      "sha256": "42e105ae6e319e40bee1deb6220a6bf4bdb18561cb4d051cba715ddb05ca057d"
+    },
+    "validation.json": {
+      "bytes": 575,
+      "sha256": "14adb3f9168ebed4bd033c7a4c922e1f5197590d6a0e49b60303cedb551e5d4a"
+    }
+  },
+  "provenance": "Original project modeling; no external mesh or paid provider",
+  "license": "No new redistribution license assigned",
+  "validation": "See validation.json and shared Godot report; live MCP unavailable"
+}

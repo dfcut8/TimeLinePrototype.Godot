@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="#18212b"/>
+<g font-family="sans-serif" fill="#e7edf3"><text x="35" y="45" font-size="25">#21 · CURVED FLOOR PERIMETER · meters</text>
+<path d="M100 490 L100 74 A416 416 0 0 1 516 490 L360 490 L360 230 L100 230 Z" fill="#607783" stroke="#a8cedd" stroke-width="2"/>
+<rect x="100" y="230" width="260" height="260" fill="#293947" stroke="#95a4aa"/>
+<path d="M152 230V490 M204 230V490 M256 230V490 M308 230V490 M100 282H360 M100 334H360 M100 386H360 M100 438H360" stroke="#576873" fill="none"/>
+<circle cx="100" cy="490" r="5" fill="#a8cedd"/><text x="65" y="520" font-size="16">Pivot / chamber center</text>
+<text x="180" y="350" font-size="17">5 × 5 tiles</text><text x="175" y="373" font-size="17">within this quadrant</text>
+<text x="245" y="210" font-size="17">X/Z = 20 inner joins</text>
+<text x="410" y="310" font-size="17">R32</text><text x="425" y="530" font-size="16">+X →</text><text x="50" y="105" font-size="16">+Z ↑</text>
+<text x="590" y="120" font-size="20">Section / placement</text>
+<rect x="590" y="160" width="350" height="30" fill="#607783" stroke="#a8cedd"/>
+<text x="590" y="150" font-size="16">Y=0 deck</text><text x="590" y="217" font-size="16">Y=-0.25 underside · thickness 0.25</text>
+<text x="590" y="285" font-size="17">4 quarters × 90° = closed circumference</text>
+<text x="590" y="322" font-size="17">Interior: 10 × 10 tiles at 4 m pitch</text>
+<text x="590" y="359" font-size="17">144 arc divisions / quarter (0.625°)</text>
+<text x="590" y="396" font-size="17">Gallery: R22–25.5, on raised tiers</text>
+<text x="590" y="433" font-size="17">Identity scale; shared origin</text>
+<text x="35" y="610" font-size="16">Resolved model interface; chamber scale and orbit clearance remain provisional. Plan shown +X/+Z.</text></g></svg>

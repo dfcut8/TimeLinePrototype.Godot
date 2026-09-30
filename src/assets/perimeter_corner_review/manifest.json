@@ -1,0 +1,104 @@
+{
+  "format": "repository-native-asset-delivery-v1",
+  "files": {
+    ".gdignore": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "build_asset.py": {
+      "bytes": 8329,
+      "sha256": "36ac63e4659e3fc30d5db902665537913fc68de7257dc79ef9148f889e2699bd"
+    },
+    "build_corner.log": {
+      "bytes": 6014,
+      "sha256": "a4d4531d40961b39a529e682a2f8d8d77d1cc9f9ddbc093d53dfd024dd972e50"
+    },
+    "build_floor.log": {
+      "bytes": 2071,
+      "sha256": "586bdf6cf06e830ec78aeef4eeb47d157d80a1232ed8008585626aa91ffa5390"
+    },
+    "godot_corner_front.png": {
+      "bytes": 51596,
+      "sha256": "331ebae54fc0acfc4593cb35446d5c4e5ba88b1aab16ffc6f58a69ffb3b68457"
+    },
+    "godot_corner_rear.png": {
+      "bytes": 27650,
+      "sha256": "d8d9d3d15ea0087d092ee2b237272bc774d1cac2f863c04d1015ae3d73371103"
+    },
+    "godot_corner_side.png": {
+      "bytes": 27896,
+      "sha256": "f1fd39a4a2f70d06a70fbce070f0f637a3fdb6dd39aa925ed624d9604dc3e54b"
+    },
+    "godot_corner_underside.png": {
+      "bytes": 81687,
+      "sha256": "1b31af1b13a90161a89ac680cdd3b488397ec5834c8338f985a42b76e87b166d"
+    },
+    "godot_floor_front.png": {
+      "bytes": 21984,
+      "sha256": "d8bfa6798b5f32689ac093a44bad6f103ec7017d9ac7e619074090ba783497be"
+    },
+    "godot_floor_join_detail.png": {
+      "bytes": 26516,
+      "sha256": "3d06a7584ad5faf17de7947710da7ee7c077f0c98a9b8d08d573991f0c299da2"
+    },
+    "godot_floor_rear.png": {
+      "bytes": 22637,
+      "sha256": "987dd741169bdaf3cf2d8d8e69f7025220a64309cf2c31cb39a795d84b5957c6"
+    },
+    "godot_floor_tile_join.png": {
+      "bytes": 19563,
+      "sha256": "8ba239ad91f0c62c6914aecf314b764c5b4d5c0b0930c5ab90a2096ce878f298"
+    },
+    "godot_floor_underside.png": {
+      "bytes": 14996,
+      "sha256": "0a6f2d1943b7f8bebeafc6bca40fdcb00072afd863aa4eef0dec4b276fe465c9"
+    },
+    "godot_validation.json": {
+      "bytes": 2509,
+      "sha256": "280bb339ff31cc9ec22a6f9d3922555710e2db0f152375fc5ddbf3f78779f50f"
+    },
+    "import.log": {
+      "bytes": 4016,
+      "sha256": "73439c958c3aff30c6bd34ab6683efa4f67324b9abc672776592e76932fa1165"
+    },
+    "package_delivery.py": {
+      "bytes": 2144,
+      "sha256": "439f332db3c17a4cd996115ce89381f4b1600075bcf142bbd2c2c2cb234e5a12"
+    },
+    "README.md": {
+      "bytes": 4015,
+      "sha256": "374837bfcce21d1823d2abef2bb2be80d457497f0d4e9b8c02ecd4c55dfd5ade"
+    },
+    "reimport.log": {
+      "bytes": 1369,
+      "sha256": "400557efd7b7d1f854ff02639d7e86e1d952b46d728b872a67200d6ae37bf190"
+    },
+    "review_corner.tscn": {
+      "bytes": 3396,
+      "sha256": "e5ea4408653d6f86443ee4cf1dba85496f64c715419b2921014eac448c06e1d2"
+    },
+    "review_floor.tscn": {
+      "bytes": 13742,
+      "sha256": "03d610eb7686fe0e9f7defbaabc75d14ddf04d1d8c99086c715e549fa2cfea2f"
+    },
+    "runtime.log": {
+      "bytes": 2336,
+      "sha256": "3fee2b68050ef10f10fcad855330e5180448a520171d8456a7fd186cf995a456"
+    },
+    "verify.log": {
+      "bytes": 8074,
+      "sha256": "1193139349a1716910da4ad9c3e4ed0bbf9fc5ac17884ed8d5e0ec07cbed71bd"
+    },
+    "verify_godot.gd": {
+      "bytes": 7896,
+      "sha256": "4a1d6cb9977847776813163eb885fca47d30c873b153aa1f76d0a66bd413ea07"
+    },
+    "verify_godot.ps1": {
+      "bytes": 3257,
+      "sha256": "58a2a56dc3ee49751a4306566c5e6cf3b3f7d774d103acc9aa01c3c8633164cd"
+    }
+  },
+  "provenance": "Original project modeling; no external mesh or paid provider",
+  "license": "No new redistribution license assigned",
+  "validation": "See validation.json and shared Godot report; live MCP unavailable"
+}
