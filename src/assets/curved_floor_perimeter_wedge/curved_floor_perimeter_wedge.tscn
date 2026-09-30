@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/curved_floor_perimeter_wedge/curved_floor_perimeter_wedge.glb" id="1"]
+[node name="CurvedFloorPerimeterWedge" type="Node3D"]
+[node name="Visual" parent="." instance=ExtResource("1")]
+[node name="TileCorner" type="Marker3D" parent="."]
+position = Vector3(20,0,20)
+[node name="ArcStart" type="Marker3D" parent="."]
+position = Vector3(32,0,0)
+[node name="ArcEnd" type="Marker3D" parent="."]
+position = Vector3(0,0,32)

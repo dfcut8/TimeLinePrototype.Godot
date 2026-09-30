@@ -1,0 +1,30 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 21,
+  "parts": [
+    {
+      "name": "quarter_perimeter_closed",
+      "triangles": 588,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 101.05794122675194,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 588,
+  "materials": 1,
+  "bounds_blender": {
+    "min": [
+      0.0,
+      -32.0,
+      -0.25
+    ],
+    "max": [
+      32.0,
+      0.0,
+      0.0
+    ]
+  },
+  "glb_sha256": "917470d7c53103eb8ba5d9165d278796beff795dc852f0dc0b55494b7bd300c5",
+  "passed": true
+}

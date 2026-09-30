@@ -1,0 +1,320 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="PackedScene" path="res://assets/curved_floor_perimeter_wedge/curved_floor_perimeter_wedge.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/main_floor_slab/main_floor_slab.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/review_rig.tscn" id="3"]
+[node name="FloorReview" type="Node3D"]
+[node name="Wedge0" parent="." instance=ExtResource("1")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,0,0)
+[node name="Wedge1" parent="." instance=ExtResource("1")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,90,0)
+[node name="Wedge2" parent="." instance=ExtResource("1")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,180,0)
+[node name="Wedge3" parent="." instance=ExtResource("1")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,270,0)
+[node name="Tile_0_0" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_1" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_2" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_3" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_4" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_5" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_6" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_7" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_8" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_0_9" parent="." instance=ExtResource("2")]
+position = Vector3(-18, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_0" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_1" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_2" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_3" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_4" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_5" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_6" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_7" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_8" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_1_9" parent="." instance=ExtResource("2")]
+position = Vector3(-14, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_0" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_1" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_2" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_3" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_4" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_5" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_6" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_7" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_8" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_2_9" parent="." instance=ExtResource("2")]
+position = Vector3(-10, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_0" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_1" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_2" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_3" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_4" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_5" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_6" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_7" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_8" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_3_9" parent="." instance=ExtResource("2")]
+position = Vector3(-6, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_0" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_1" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_2" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_3" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_4" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_5" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_6" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_7" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_8" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_4_9" parent="." instance=ExtResource("2")]
+position = Vector3(-2, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_0" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_1" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_2" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_3" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_4" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_5" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_6" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_7" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_8" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_5_9" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_0" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_1" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_2" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_3" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_4" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_5" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_6" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_7" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_8" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_6_9" parent="." instance=ExtResource("2")]
+position = Vector3(6, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_0" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_1" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_2" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_3" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_4" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_5" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_6" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_7" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_8" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_7_9" parent="." instance=ExtResource("2")]
+position = Vector3(10, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_0" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_1" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_2" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_3" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_4" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_5" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_6" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_7" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_8" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_8_9" parent="." instance=ExtResource("2")]
+position = Vector3(14, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_0" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, -18)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_1" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, -14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_2" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, -10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_3" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, -6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_4" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, -2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_5" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, 2)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_6" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, 6)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_7" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, 10)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_8" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, 14)
+rotation_degrees = Vector3(0,0,0)
+[node name="Tile_9_9" parent="." instance=ExtResource("2")]
+position = Vector3(18, 0, 18)
+rotation_degrees = Vector3(0,0,0)
+[node name="ReviewRig" parent="." instance=ExtResource("3")]
+position = Vector3(0, 0, 0)
+rotation_degrees = Vector3(0,0,0)

@@ -1,0 +1,53 @@
+C:\home\src\TimeLinePrototype.Godot\src\assets\perimeter_corner_review\build_asset.py:29: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+07:02:53 | INFO: Starting glTF 2.0 export
+07:02:53 | INFO: Extracting primitive: closed_curved_back
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: corner_base
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_0_deck
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_0_front_lip
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_0_rear_web
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_1_deck
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_1_front_lip
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_1_rear_web
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_2_deck
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_2_front_lip
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_2_rear_web
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_3_deck
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_3_front_lip
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_3_rear_web
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_4_deck
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_4_front_lip
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Extracting primitive: shelf_4_rear_web
+07:02:53 | INFO: Primitives created: 1
+07:02:53 | INFO: Finished glTF 2.0 export in 0.05324840545654297 s
+C:\home\src\TimeLinePrototype.Godot\src\assets\perimeter_corner_review\build_asset.py:135: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Review world'); world.use_nodes=True
+00:11.046  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\record_stack_corner\preview_front.png'
+00:11.437  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\record_stack_corner\preview_rear.png'
+00:11.593  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\record_stack_corner\preview_side.png'
+00:11.750  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\record_stack_corner\preview_underside.png'
+
+{"blender_version": "5.2.2 LTS", "issue": 30, "parts": [{"name": "corner_base", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.08459009436654397, "uv_layers": 1}, {"name": "closed_curved_back", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.17475923521176823, "uv_layers": 1}, {"name": "shelf_0_deck", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.017591521375041396, "uv_layers": 1}, {"name": "shelf_0_rear_web", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0064375561200949285, "uv_layers": 1}, {"name": "shelf_0_front_lip", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.00030533860881693127, "uv_layers": 1}, {"name": "shelf_1_deck", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.01759155882277321, "uv_layers": 1}, {"name": "shelf_1_rear_web", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.00643753613529379, "uv_layers": 1}, {"name": "shelf_1_front_lip", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0003053376609212768, "uv_layers": 1}, {"name": "shelf_2_deck", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.01759152137504141, "uv_layers": 1}, {"name": "shelf_2_rear_web", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.006437536135293818, "uv_layers": 1}, {"name": "shelf_2_front_lip", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0003053376609212889, "uv_layers": 1}, {"name": "shelf_3_deck", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.017591521375041354, "uv_layers": 1}, {"name": "shelf_3_rear_web", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.006437600086657319, "uv_layers": 1}, {"name": "shelf_3_front_lip", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0003053406941873266, "uv_layers": 1}, {"name": "shelf_4_deck", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0175915962705049, "uv_layers": 1}, {"name": "shelf_4_rear_web", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.006437600086657375, "uv_layers": 1}, {"name": "shelf_4_front_lip", "triangles": 580, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0003053406941873075, "uv_layers": 1}], "triangles": 9860, "materials": 3, "bounds_blender": {"min": [4.8985870794684264e-17, -1.2400000095367432, 0.0], "max": [1.2400000095367432, -0.0, 2.4000000953674316]}, "glb_sha256": "b8501bbe0b570a09371d26b62b2e22d0b44d4becaaf824d2a1468d20ba24b615", "passed": true}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

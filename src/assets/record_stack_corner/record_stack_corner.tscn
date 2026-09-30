@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_corner/record_stack_corner.glb" id="1"]
+[node name="RecordStackCorner" type="Node3D"]
+[node name="Visual" parent="." instance=ExtResource("1")]
+[node name="EntryJoin" type="Marker3D" parent="."]
+position = Vector3(1.02,0,0)
+[node name="ExitJoin" type="Marker3D" parent="."]
+position = Vector3(0,0,1.02)

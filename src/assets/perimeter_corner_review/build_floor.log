@@ -1,0 +1,21 @@
+C:\home\src\TimeLinePrototype.Godot\src\assets\perimeter_corner_review\build_asset.py:29: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+07:02:42 | INFO: Starting glTF 2.0 export
+07:02:42 | INFO: Extracting primitive: quarter_perimeter_closed
+07:02:42 | INFO: Primitives created: 1
+07:02:42 | INFO: Finished glTF 2.0 export in 0.032653093338012695 s
+C:\home\src\TimeLinePrototype.Godot\src\assets\perimeter_corner_review\build_asset.py:135: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Review world'); world.use_nodes=True
+00:11.078  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\curved_floor_perimeter_wedge\preview_front.png'
+00:11.219  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\curved_floor_perimeter_wedge\preview_rear.png'
+00:11.344  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\curved_floor_perimeter_wedge\preview_side.png'
+00:11.484  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\curved_floor_perimeter_wedge\preview_underside.png'
+
+{"blender_version": "5.2.2 LTS", "issue": 21, "parts": [{"name": "quarter_perimeter_closed", "triangles": 588, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 101.05794122675194, "uv_layers": 1}], "triangles": 588, "materials": 1, "bounds_blender": {"min": [0.0, -32.0, -0.25], "max": [32.0, 0.0, 0.0]}, "glb_sha256": "917470d7c53103eb8ba5d9165d278796beff795dc852f0dc0b55494b7bd300c5", "passed": true}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,114 @@
+{
+	"cassette_back_clearance_m": 0.0385168313980102,
+	"cassette_front_clearance_m": 0.0377608060836792,
+	"cassette_headroom_m": 0.0519999523162844,
+	"cassette_instances": 12,
+	"channel_endpoint_error_m": 0.0000000000000000532721354404768,
+	"collision": "Model review only; no physics bodies",
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"floor_instances": 4,
+	"floor_seam_error_m": 0.00000241593261307571,
+	"mcp": "Unavailable; standalone GPU engine fallback",
+	"meshes": [
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "quarter_perimeter_closed",
+			"triangles": 588
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "main_floor_slab",
+			"triangles": 20
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_curved_back",
+			"triangles": 580
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "corner_base",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_deck",
+			"triangles": 580
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_0_front_lip",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_rear_web",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_deck",
+			"triangles": 580
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_1_front_lip",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_rear_web",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_deck",
+			"triangles": 580
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_2_front_lip",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_rear_web",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_deck",
+			"triangles": 580
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_3_front_lip",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_rear_web",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_deck",
+			"triangles": 580
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_4_front_lip",
+			"triangles": 580
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_rear_web",
+			"triangles": 580
+		}
+	],
+	"passed": true,
+	"remaining": "Live MCP validation, complete room/orbit placement and curved light fixture are not tested",
+	"renderer": "forward_plus",
+	"tile_instances": 100
+}
