@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/capped_timeline_rail.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/furniture_review/review_rig.tscn" id="2"]
+
+[node name="RailAssemblyReview" type="Node3D"]
+
+[node name="Rail" parent="." instance=ExtResource("1")]
+
+[node name="ReviewRig" parent="." instance=ExtResource("2")]

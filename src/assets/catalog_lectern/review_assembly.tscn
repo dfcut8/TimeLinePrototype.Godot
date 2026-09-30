@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/catalog_lectern.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/furniture_review/review_rig.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="3"]
+
+[node name="LecternReview" type="Node3D"]
+
+[node name="Lectern" parent="." instance=ExtResource("1")]
+
+[node name="Stack" parent="." instance=ExtResource("3")]
+position = Vector3(0, 0, -1.8)
+
+[node name="ReviewRig" parent="." instance=ExtResource("2")]

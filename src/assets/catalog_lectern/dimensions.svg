@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+<rect width="900" height="540" fill="#17212b"/>
+<g fill="#edf2f6" font-family="sans-serif" font-size="18">
+<text x="30" y="35">CATALOG LECTERN · meters · floor-center pivot</text>
+<text x="30" y="66">Front (+Z)                                      Side (+X), user to right</text>
+</g>
+<g stroke="#b8c9d6" stroke-width="2" fill="#465461">
+<path d="M80 140 H332 V437 H80 Z"/><path d="M90 437 H322 V460 H90 Z"/>
+<path d="M65 110 H347 V140 H65 Z"/>
+<path d="M567 118 L731 171 V437 H567 Z"/><path d="M570 437 H728 V460 H570 Z"/>
+<path d="M555 93 L744 154 L737 177 L548 116 Z"/>
+<path d="M581 98 L721 143 L720 146 L580 101 Z" fill="#25323d"/>
+</g>
+<g stroke="#84bfd6" fill="none"><path d="M65 485 H347 M785 93 V460 M548 485 H744"/><circle cx="206" cy="460" r="5"/><circle cx="649" cy="460" r="5"/></g>
+<g fill="#edf2f6" font-family="sans-serif" font-size="16">
+<text x="178" y="510">0.720</text><text x="608" y="510">0.47134</text>
+<text x="799" y="290">1.05084</text><text x="610" y="82">18° slope</text>
+<text x="35" y="530">Screen 0.620 × 0.360 × 0.008 · top 0.720 × 0.480 × 0.060 · normal offset 0.030–0.038</text>
+</g></svg>

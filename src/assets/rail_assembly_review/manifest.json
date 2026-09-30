@@ -1,0 +1,145 @@
+{
+  "root": "src/assets",
+  "files": {
+    "rail_assembly_review/godot_assembly.png": {
+      "bytes": 4132,
+      "sha256": "ae3f52eea376bed9c9513e66a198782831a1485161d66d5ee9dc0f2f9f620290"
+    },
+    "rail_assembly_review/godot_end_end.png": {
+      "bytes": 5075,
+      "sha256": "afa9fe536e87a61a3a888150163748507a43735ecb1119dd5e9c11c9f5d64207"
+    },
+    "rail_assembly_review/godot_end_front.png": {
+      "bytes": 15933,
+      "sha256": "d4c90285796d074e4188e3984e003ceab440881b5cacc7179352eb4594319084"
+    },
+    "rail_assembly_review/godot_end_rear.png": {
+      "bytes": 19696,
+      "sha256": "e14941a3bbb014014491481df60506046c44633be729fd032394dc3d16999346"
+    },
+    "rail_assembly_review/godot_end_underside.png": {
+      "bytes": 23434,
+      "sha256": "a394b60607c0ff964c33404c3d05e072b5c2770c7011f55284666ec18d275884"
+    },
+    "rail_assembly_review/godot_seam_front.png": {
+      "bytes": 10014,
+      "sha256": "f43a714d93ab272d11e36754098324f74a55f2dff19f8a71530a4951e392662f"
+    },
+    "rail_assembly_review/godot_seam_rear.png": {
+      "bytes": 12710,
+      "sha256": "e2f51b745dd4520ed6d561ce099884bde88309a9dc7c27a00ff026c4baeafe52"
+    },
+    "rail_assembly_review/godot_seam_underside.png": {
+      "bytes": 11768,
+      "sha256": "9a0c541703beea47821a6e06eadd7bd59f1d9d2c7578358ff6db70d5e0b5642e"
+    },
+    "rail_assembly_review/godot_start_end.png": {
+      "bytes": 8701,
+      "sha256": "566961abf0fcdfbf4ea21b542e00854c30b40d9b75c25e7a85895a665b4a700c"
+    },
+    "rail_assembly_review/godot_start_front.png": {
+      "bytes": 15350,
+      "sha256": "c9df73003d57c7ff2a3f22a19e91f8e9c28df227d25f63ab2c236eddb845c5fe"
+    },
+    "rail_assembly_review/godot_start_rear.png": {
+      "bytes": 12259,
+      "sha256": "c3f01deb67df0c4c1f6389d140fc4ac04ce91e60d96a43a794019df79be5c2f7"
+    },
+    "rail_assembly_review/godot_start_underside.png": {
+      "bytes": 18370,
+      "sha256": "5bb5628ad18b24c0e019b36bb0feee8723d8732af2f085f11269939c28d80212"
+    },
+    "rail_assembly_review/godot_validation.json": {
+      "bytes": 3321,
+      "sha256": "7731c57f2f6ca29465ded1efabad4d454f096288fbc13f3bcb54365ed7718e5d"
+    },
+    "rail_assembly_review/import.log": {
+      "bytes": 3486,
+      "sha256": "72536b826bdd2f68601c60d591acdd2078d0c699fa51e8bf66f28ca5df9ab515"
+    },
+    "rail_assembly_review/package_manifest.py": {
+      "bytes": 1873,
+      "sha256": "bd4b6d92938ca04138039035e380cebbbdebb341a1fadc275d1b790c17a0ab84"
+    },
+    "rail_assembly_review/README.md": {
+      "bytes": 2630,
+      "sha256": "78b3f5fed1aa979a7bc381d3d5550d9631a75db32de239fc2c64d25f5b6a99ef"
+    },
+    "rail_assembly_review/reimport.log": {
+      "bytes": 1249,
+      "sha256": "5e3954171eb7f3e4f77ad20b4688431cb5e788abebca30a8109184f7b0347ebb"
+    },
+    "rail_assembly_review/review_assembly.tscn": {
+      "bytes": 414,
+      "sha256": "19762da309ed5f291d36f0ca4fe92ee0981b1109ba634a5ed4be0e62c8374ec5"
+    },
+    "rail_assembly_review/review_contact_sheet.png": {
+      "bytes": 36545,
+      "sha256": "a4c6844d7bd3c149804e9ee5bd60a8615b38ada00c3008bf1ee571557d28d8d7"
+    },
+    "rail_assembly_review/runtime.log": {
+      "bytes": 3104,
+      "sha256": "aea14ec0abbf75505903068d5e05b57ed5173ac71b9601d089c223a2848fd599"
+    },
+    "rail_assembly_review/verification.log": {
+      "bytes": 7083,
+      "sha256": "aec5b82ee24fd059882210cfd81ab99aafbd1a626cc2acc363edcc846f80b612"
+    },
+    "rail_assembly_review/verify_godot.gd": {
+      "bytes": 8521,
+      "sha256": "ddcc7eb41e1173b1a8b6a17e14a5f251e5faf7dd4ce48ec477247632bcb9e174"
+    },
+    "rail_assembly_review/verify_godot.ps1": {
+      "bytes": 3016,
+      "sha256": "1d3c738bab697fa8a82f54345262ae299956620b153f9a94133b92776892dd24"
+    },
+    "timeline_rail_housing/capped_timeline_rail.tscn": {
+      "bytes": 1086,
+      "sha256": "c13a27d83311d7eef55ce4622c4100feb664cc5321650563aeab8a424f730312"
+    },
+    "timeline_rail_housing/timeline_rail_housing.glb": {
+      "bytes": 4416,
+      "sha256": "d2587ed49b96ec898a8a5b7a5cef3dc3aa1bdf0cda9224233ed96c090f8d92f9"
+    },
+    "timeline_rail_housing/timeline_rail_housing.tscn": {
+      "bytes": 484,
+      "sha256": "5599fc3ecdb3085523f852bdaedd379be73d39a19ea3885bc67fb19ea7eb6005"
+    },
+    "rail_recessed_light_insert/rail_recessed_light_insert.glb": {
+      "bytes": 3128,
+      "sha256": "6e492a026b034b91036b7fbc906c8a46a8432d27ed2c1def37ed07fa0df85a48"
+    },
+    "rail_recessed_light_insert/rail_recessed_light_insert.tscn": {
+      "bytes": 435,
+      "sha256": "2fff0cbd58abe851d218b2c34f3a69662041fefe36366821d60f61e886475df5"
+    },
+    "rail_module_joiner/rail_module_joiner.glb": {
+      "bytes": 3956,
+      "sha256": "0ae502b34ec9b56e2e42e9a7a794c6ea32b2e9ea8aee1b26b0449178865e68c2"
+    },
+    "rail_module_joiner/rail_module_joiner.tscn": {
+      "bytes": 470,
+      "sha256": "b44d8f4035da761edf790143ef37f11fb88bb66e88b9edd025b77006d519ca49"
+    },
+    "timeline_start_cap/timeline_start_cap.glb": {
+      "bytes": 3068,
+      "sha256": "311aeb29d6a40c339767e33bfd1ed4e8df7ae62418f8e5c3cda7b4c023b42fbd"
+    },
+    "timeline_start_cap/timeline_start_cap.tscn": {
+      "bytes": 382,
+      "sha256": "98846188ff431cd7ef39ab0162d05d34d805b0f1f451906cc7a6583e3374870d"
+    },
+    "timeline_end_cap/timeline_end_cap.glb": {
+      "bytes": 3064,
+      "sha256": "94dd5bd6724419eef94e2d0d6f04516bc33d697872617baf583232d5f3f8da9e"
+    },
+    "timeline_end_cap/timeline_end_cap.tscn": {
+      "bytes": 375,
+      "sha256": "4ea6147de8b546ea040658b5a7bd648a891c6d514a23a16276bd795cbb872c8e"
+    },
+    "rail_module_joiner/illuminated_rail_module.tscn": {
+      "bytes": 433,
+      "sha256": "26f3209f6bc7887286146e36c178077b30353d9d95a03938d676374b6e23d4e6"
+    }
+  }
+}

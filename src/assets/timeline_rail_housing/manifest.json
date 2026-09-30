@@ -70,8 +70,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6057,
-      "sha256": "27bd6a8f61e731683bc7f1efc92830080dfebb51f45190c5d2e3b91396ee0aa4"
+      "bytes": 6501,
+      "sha256": "de91e0f3fe63ece02e46995faa2b9c7f8750b4de55755760a1bf674c80aca644"
     },
     {
       "path": "reimport.log",
@@ -125,8 +125,8 @@
     },
     {
       "path": "validation.json",
-      "bytes": 456,
-      "sha256": "bdc03f3d813206319a4198f6de06e1a534d7112c7801557bfb37f9f26db3b342"
+      "bytes": 435,
+      "sha256": "3d1eb062be64c06d0666c9a1661217c2c648f28e7731e3fe489d345f78b8f481"
     },
     {
       "path": "verify_godot.gd",
@@ -137,6 +137,11 @@
       "path": "verify_godot.ps1",
       "bytes": 2222,
       "sha256": "28e937e7400ad73371784576c942baf79e6a17371b5c08ecfed2a346615025d7"
+    },
+    {
+      "path": "capped_timeline_rail.tscn",
+      "bytes": 1086,
+      "sha256": "c13a27d83311d7eef55ce4622c4100feb664cc5321650563aeab8a424f730312"
     }
   ]
 }

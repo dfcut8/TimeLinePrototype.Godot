@@ -1,0 +1,27 @@
+C:\home\src\TimeLinePrototype.Godot\src\assets\catalog_lectern\build_asset.py:27: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+BlenderMCP addon registered
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+17:17:12 | INFO: Starting glTF 2.0 export
+17:17:12 | INFO: Extracting primitive: blank_screen_insert
+17:17:12 | INFO: Primitives created: 1
+17:17:12 | INFO: Extracting primitive: graphite_sloped_top
+17:17:12 | INFO: Primitives created: 1
+17:17:12 | INFO: Extracting primitive: recessed_floor_foot
+17:17:12 | INFO: Primitives created: 1
+17:17:12 | INFO: Extracting primitive: solid_ceramic_base
+17:17:12 | INFO: Primitives created: 1
+17:17:12 | INFO: Finished glTF 2.0 export in 0.040838003158569336 s
+C:\home\src\TimeLinePrototype.Godot\src\assets\catalog_lectern\build_asset.py:119: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Review world'); world.use_nodes=True
+00:11.907  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\catalog_lectern\preview_front.png'
+00:12.188  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\catalog_lectern\preview_rear.png'
+00:12.375  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\catalog_lectern\preview_side.png'
+00:12.625  render           | Saved: 'C:\home\src\TimeLinePrototype.Godot\src\assets\catalog_lectern\preview_underside.png'
+
+{"blender_version": "5.2.2 LTS", "issue": 34, "parts": [{"name": "recessed_floor_foot", "triangles": 108, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.014380270292112234, "uv_layers": 1}, {"name": "solid_ceramic_base", "triangles": 108, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.23831088902324277, "uv_layers": 1}, {"name": "graphite_sloped_top", "triangles": 108, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.020683321414000897, "uv_layers": 1}, {"name": "blank_screen_insert", "triangles": 108, "non_manifold_edges": 0, "degenerate_faces": 0, "signed_volume": 0.0017809916569843016, "uv_layers": 1}], "triangles": 432, "materials": 3, "bounds_blender": {"min": [-0.36000001430511475, -0.23566997051239014, 0.0], "max": [0.36000001430511475, 0.23566997051239014, 1.0508415699005127]}, "glb_sha256": "177164a8fcce2e7a09527cc0586c763cd9e4508b251909ff62b4885217568988", "passed": true}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

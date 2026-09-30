@@ -1,0 +1,54 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 34,
+  "parts": [
+    {
+      "name": "recessed_floor_foot",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.014380270292112234,
+      "uv_layers": 1
+    },
+    {
+      "name": "solid_ceramic_base",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.23831088902324277,
+      "uv_layers": 1
+    },
+    {
+      "name": "graphite_sloped_top",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.020683321414000897,
+      "uv_layers": 1
+    },
+    {
+      "name": "blank_screen_insert",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0017809916569843016,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 432,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -0.36000001430511475,
+      -0.23566997051239014,
+      0.0
+    ],
+    "max": [
+      0.36000001430511475,
+      0.23566997051239014,
+      1.0508415699005127
+    ]
+  },
+  "glb_sha256": "177164a8fcce2e7a09527cc0586c763cd9e4508b251909ff62b4885217568988",
+  "passed": true
+}
