@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://assets/radial_roof_beam/radial_roof_beam.glb" id="1"]
+[node name="RadialRoofBeam" type="Node3D"]
+[node name="Model" parent="." instance=ExtResource("1")]
+[node name="InnerBearing" type="Marker3D" parent="."]
+position = Vector3(0.215, 0, 0)
+[node name="OuterBearing" type="Marker3D" parent="."]
+position = Vector3(14.65, 0, 0)
+[node name="OuterEnd" type="Marker3D" parent="."]
+position = Vector3(14.9, 0, 0)

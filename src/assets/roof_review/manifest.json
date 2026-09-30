@@ -1,0 +1,33 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "build_asset.py": "80ce3fc612f93cbf0836c9739094532c7b82d41359ba78914e9ad752a611b38c",
+    "dimensions.svg": "d1b3b1e1d4b37541890a783cfedd408de84f5410974e8645f1268f8f81e8e026",
+    "godot_assembly.png": "94774f347d9cbcb85dab4764fa8c209690443e0c1ed266ca16af462711d88cdc",
+    "godot_camera_height.png": "cfde8120bd7d715cd5a0418efbc36fbc998c5a8a20cafbfeb3ab7d1bc5f40014",
+    "godot_inner_bearing.png": "df0cae2f01888445c5004f581d4ca54b8d2fced67c9814405d3a11964fb1b1be",
+    "godot_oculus_curb_segment_end.png": "f385af17b9fe55a67c5e9e32af1c410e4fb6f15ddd63dcf2c40f076801a85e13",
+    "godot_oculus_curb_segment_front.png": "14852e634eb82ac1ce6a5dcda1236c48a89b310c1d69f9a81e59d274c8176a57",
+    "godot_oculus_curb_segment_rear.png": "031b40fa89aafeff71e2b54a623c8adde199fccb82d2bbd48b358adb20bddfd2",
+    "godot_oculus_curb_segment_underside.png": "15d45130f487475a156cbb1b7cbc009d76edf2f79e3e57fbbd7c5268c6a8577b",
+    "godot_outer_bearing.png": "57129419120e9f7560ffb762e28ac40ab728b85ecb349a0de6c3d44f8041523f",
+    "godot_radial_roof_beam_end.png": "075499cb8bf17884defb15676a9e11a3871bb9de6334a4dcba3430c7284a95e7",
+    "godot_radial_roof_beam_front.png": "a9753f028821b351b75832c97888e9d926147501b5da0e70824c2839ea71d960",
+    "godot_radial_roof_beam_rear.png": "3cbeddf820119e1348978c05c533d709551f381573899645a34a9b9ad266fca7",
+    "godot_radial_roof_beam_underside.png": "3c8c40946ad79f0d7b3c5e82a70d6c8ac49fc708d59a1f25db157735ca831ed0",
+    "godot_validation.json": "48f9535c57c285a77124aa5681f62314b2995ee502dc9ac49e7b768840d94d8f",
+    "import.log": "b7efe402b311c2552a0a03939e1e88fa65f98cde2fc10cca31dc264de3d95a4e",
+    "package_manifest.py": "4dadc19a8364dafbc667a0e9565a925658c798e6a15afb6e3837695db2ba4718",
+    "prepare_review.py": "1f4465c4bfb0ff3bf20cb776215fca076a10011ea956b4b70fe8299b496005bd",
+    "README.md": "3a510ab23eb76df7f5c9c1c8e384a71ca33175abc219c18c8526420ffb7cec27",
+    "reimport.log": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455",
+    "review_assembly.tscn": "b28c283263671fa1d32ae0fca7dc55e374fe3ded8ddf6afe6e95f1b8bb229f4e",
+    "review_contact_sheet.png": "397c422eb70f4c70403f2fae357a16b2a0a73a25d03071855955f85c8d2d4f5e",
+    "review_oculus_curb_segment.tscn": "8e9003d446d7415664f94baab6b7f916712633143a0358c0b175ff5d00367f6c",
+    "review_radial_roof_beam.tscn": "d8f80f0f055eb37ec132bc952603b8e1fb52e048436d19abb3254753db7f164e",
+    "review_rig.tscn": "5330bac571dbcd98495f4de9ed79c4f9cf445ccb403aa7701bd21beb594ba8a9",
+    "runtime.log": "b6f6de7757419f6eac30834cfc3eeb7e39263f5e8eb15c32dd740bd9c684600c",
+    "verify_godot.gd": "e102ef18919e11e160120d6ef3a4b4f1abf2336d950f7652ba42d5124af1502b",
+    "verify_godot.ps1": "94c124612a2d8bf660fa6c981fd60242573a5f4c5dd4270bfb78f6538b900a58"
+  }
+}

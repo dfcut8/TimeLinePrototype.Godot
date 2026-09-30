@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680">
+<rect width="1100" height="680" fill="#15212c"/>
+<g font-family="sans-serif" fill="#e5edf2">
+<text x="40" y="45" font-size="25">V5 / OCULUS + RADIAL BEAM — metres</text>
+<text x="40" y="76" font-size="15">Local interface decisions · 15° grid · 24 modules · Godot +Y up · identity scale</text>
+<g stroke="#9bc5d8" stroke-width="2" fill="none">
+<circle cx="230" cy="290" r="170"/>
+<circle cx="230" cy="290" r="73"/>
+<circle cx="230" cy="290" r="68"/>
+<path d="M303 287H400V293H303Z" fill="#718b9b"/>
+<path d="M230 290L405 267M230 290L405 313" stroke-dasharray="5 4"/>
+<path d="M230 290H298M230 295V460" stroke="#7595a4"/>
+</g>
+<text x="58" y="115" font-size="20">PLAN / room-centre placement</text>
+<text x="218" y="280" font-size="14">pivot</text>
+<text x="246" y="320" font-size="14">R10</text>
+<text x="260" y="355" font-size="14">R10.6 curb</text>
+<text x="260" y="437" font-size="14">R24.8 pier</text>
+<text x="403" y="292" font-size="14">15°</text>
+<text x="65" y="492" font-size="15">Curb: 0.60 radial × 0.60 high</text>
+<text x="65" y="519" font-size="15">15 mm chamfers; un-bevelled mating ends</text>
+<g stroke="#9bc5d8" stroke-width="2" fill="#526b7b">
+<rect x="550" y="220" width="485" height="18"/>
+<rect x="545" y="238" width="20" height="20"/>
+<rect x="1006" y="238" width="20" height="155"/>
+<path d="M550 200H1035M550 192V208M1035 192V208" fill="none"/>
+<path d="M535 258H1045" stroke-dasharray="4 5" fill="none"/>
+</g>
+<text x="545" y="115" font-size="20">RADIAL ELEVATION / +X →</text>
+<text x="740" y="190" font-size="16">beam 14.90</text>
+<text x="580" y="288" font-size="15">beam underside + curb top = Y14.75</text>
+<text x="580" y="314" font-size="15">curb underside Y14.15</text>
+<text x="840" y="418" font-size="15">pier base Y10</text>
+<text x="550" y="350" font-size="15">Beam origin: (10.15, 14.75, 0)</text>
+<text x="550" y="376" font-size="15">Outer bearing: X24.80; outer end X25.05</text>
+<text x="550" y="464" font-size="19">BEAM SECTION</text>
+<path d="M564 482H586L590 486V532L586 536H564L560 532V486Z" fill="#526b7b" stroke="#9bc5d8" stroke-width="2"/>
+<text x="615" y="499" font-size="15">0.32 wide × 0.55 high</text>
+<text x="615" y="526" font-size="15">15 mm corners · flat bearing width 0.29</text>
+<text x="40" y="602" font-size="16">Curb marker (10.365, 0.6, 0) ↔ beam InnerBearing (0.215, 0, 0)</text>
+<text x="40" y="632" font-size="16">Beam OuterBearing (14.65, 0, 0) ↔ Pier A GalleryBearing (0, 4.75, 0)</text>
+<text x="40" y="658" font-size="13">Schematic / not structural certification. Full chamber scale and camera readability remain provisional.</text>
+</g></svg>

@@ -1,0 +1,6 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://assets/radial_roof_beam/radial_roof_beam.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/roof_review/review_rig.tscn" id="2"]
+[node name="Review" type="Node3D"]
+[node name="Asset" parent="." instance=ExtResource("1")]
+[node name="ReviewRig" parent="." instance=ExtResource("2")]
