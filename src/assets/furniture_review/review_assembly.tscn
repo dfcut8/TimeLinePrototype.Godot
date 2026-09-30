@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/reading_bench/reading_bench.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/archive_display_plinth/archive_display_plinth.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://assets/furniture_review/review_rig.tscn" id="5"]
+
+[node name="FurnitureReview" type="Node3D"]
+
+[node name="Bench" parent="." instance=ExtResource("1")]
+position = Vector3(-1.1, 0, 0)
+
+[node name="Plinth" parent="." instance=ExtResource("2")]
+position = Vector3(1.0, 0, 0)
+
+[node name="Record" parent="." instance=ExtResource("3")]
+position = Vector3(1.0, 0.6, 0)
+
+[node name="Stack" parent="." instance=ExtResource("4")]
+position = Vector3(-1.1, 0, -1.5)
+
+[node name="ReviewRig" parent="." instance=ExtResource("5")]

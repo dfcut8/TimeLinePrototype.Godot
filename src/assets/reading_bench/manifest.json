@@ -1,0 +1,52 @@
+{
+  "files": {
+    "dimensions.svg": {
+      "bytes": 914,
+      "sha256": "1a82c63a8781dd2e132ad524fd263e84ff33c77e8ccad53710fe8dc361e273a1"
+    },
+    "preview_front.png": {
+      "bytes": 416684,
+      "sha256": "29c91e89b6eea450a7bb3c1d6e41a584e94198394eb81735159c3588dd566760"
+    },
+    "preview_rear.png": {
+      "bytes": 418002,
+      "sha256": "11c966e1893925001f6065bde2c1299407b01ef1ef5001c4e3225185f565e999"
+    },
+    "preview_side.png": {
+      "bytes": 399863,
+      "sha256": "d9a6a0c2be95617481555def58b56d63e459352e393e75b2c709812b4a89b781"
+    },
+    "preview_underside.png": {
+      "bytes": 423461,
+      "sha256": "00f9e4a9c8c78cf19ce2ffe27cf2e8174c43aace6c45e532cd3b075df6c4daad"
+    },
+    "reading_bench.glb": {
+      "bytes": 47212,
+      "sha256": "46c3167a32db7f0260b631a46d5cbd966bd3bc744640118ce8d72e8a538bcb63"
+    },
+    "reading_bench.glb.import": {
+      "bytes": 1175,
+      "sha256": "a898c92984e4801394a010b0e87ade9ea255d294fef1de1cc04839d6ccd9d3fc"
+    },
+    "reading_bench.tscn": {
+      "bytes": 321,
+      "sha256": "cbc51d03ab807156d447576ae5c6443827e8149b28f740d7e316fba6f35fcc93"
+    },
+    "README.md": {
+      "bytes": 3431,
+      "sha256": "f9d61041ba0ca20396e0e02ba18829097b0ecf63fc69a79d1e9c83e727825e3b"
+    },
+    "source/.gdignore": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source/reading_bench.blend": {
+      "bytes": 78325,
+      "sha256": "4c70b6d7b81b4dc67d44a456f2311a980c27af8e507974f7ae7a4f0d9b8d96e0"
+    },
+    "validation.json": {
+      "bytes": 1665,
+      "sha256": "67294bb5913a6aea8408f51513f308f9cea36ecfe554c87def819009e164d57d"
+    }
+  }
+}
