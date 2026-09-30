@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+<rect width="960" height="600" fill="#17212b"/><g fill="#eef3f8" font-family="sans-serif" font-size="18">
+<text x="30" y="35">Archive display plinth: resolved nominal envelope (meters)</text>
+<text x="30" y="70">Front: 0.700 wide × 0.600 high</text>
+<text x="540" y="70">Side: 0.550 deep × 0.600 high</text>
+<text x="30" y="335">Top: 0.700 × 0.550</text>
+<text x="30" y="540">Pivot: bottom center. +X width; +Y up; +Z front.</text>
+<text x="30" y="570">TopContact: (0, 0.600, 0). Identity scale; 1 unit = 1 meter.</text></g>
+<g fill="#485c6d" stroke="#a9cad9" stroke-width="2">
+<rect x="30" y="100" width="168.0" height="144.0"/>
+<rect x="540" y="100" width="132.0" height="144.0"/>
+<rect x="30" y="355" width="168.0" height="132.0"/></g>
+<circle cx="114.0" cy="244.0" r="5" fill="#e8b86e"/></svg>

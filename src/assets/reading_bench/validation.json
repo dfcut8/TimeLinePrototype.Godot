@@ -1,0 +1,70 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 35,
+  "parts": [
+    {
+      "name": "ceramic_seat",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.06107935566308301,
+      "uv_layers": 1
+    },
+    {
+      "name": "underseat_frame",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.022969938145501342,
+      "uv_layers": 1
+    },
+    {
+      "name": "solid_support_left",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.013656841260112379,
+      "uv_layers": 1
+    },
+    {
+      "name": "floor_pad_left",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0013973696391172772,
+      "uv_layers": 1
+    },
+    {
+      "name": "solid_support_right",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.013656841260112374,
+      "uv_layers": 1
+    },
+    {
+      "name": "floor_pad_right",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0013973696391172772,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 648,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -0.800000011920929,
+      -0.23999999463558197,
+      0.0
+    ],
+    "max": [
+      0.800000011920929,
+      0.23999999463558197,
+      0.44999998807907104
+    ]
+  },
+  "glb_sha256": "46c3167a32db7f0260b631a46d5cbd966bd3bc744640118ce8d72e8a538bcb63",
+  "passed": true
+}

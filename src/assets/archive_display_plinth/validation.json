@@ -1,0 +1,54 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "issue": 36,
+  "parts": [
+    {
+      "name": "recessed_foot",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.012617581841154918,
+      "uv_layers": 1
+    },
+    {
+      "name": "ceramic_pedestal",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.13978262695412977,
+      "uv_layers": 1
+    },
+    {
+      "name": "top_shadow_neck",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0031103247926487043,
+      "uv_layers": 1
+    },
+    {
+      "name": "display_top",
+      "triangles": 108,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.018383807865185616,
+      "uv_layers": 1
+    }
+  ],
+  "triangles": 432,
+  "materials": 3,
+  "bounds_blender": {
+    "min": [
+      -0.3499999940395355,
+      -0.2750000059604645,
+      0.0
+    ],
+    "max": [
+      0.3499999940395355,
+      0.2750000059604645,
+      0.6000000238418579
+    ]
+  },
+  "glb_sha256": "8126cba6e18773c359b24247b885ee981f9d23168caf057e9ff1bb2ddb26e5fc",
+  "passed": true
+}
