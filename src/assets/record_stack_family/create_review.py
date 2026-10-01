@@ -14,6 +14,7 @@ for name,root in [('record_stack_shelf_bay','RecordStackShelfBay'),('record_stac
             text+=f'\n[node name="Shelf{i}" type="Marker3D" parent="."]\nposition = Vector3(0, {y}, 0)\n'
         for i,y in enumerate([.686,1.246,1.806,2.366]):
             text+=f'\n[node name="LightRecess{i}" type="Marker3D" parent="."]\nposition = Vector3(0, {y}, 0.175)\n'
+            text+=f'\n[node name="LightMount{i}" type="Marker3D" parent="."]\nposition = Vector3(0, {y+.006:.3f}, 0.175)\n'
         for side,x in [('Left',-.8),('Right',.8)]:
             text+=f'\n[node name="{side}Join" type="Marker3D" parent="."]\nposition = Vector3({x}, 0, 0)\n'
     (out/(name+'.tscn')).write_text(text)
@@ -39,4 +40,38 @@ text+='[node name="ReviewRig" parent="." instance=ExtResource("6")]\n'
 (P/'review_assembly.tscn').write_text(text)
 # Review medium is intentionally staged; match the existing cassette review isolation.
 (P/'.gdignore').touch()
+
+# Ready-to-place assemblies contain object instances only; studio stays separate.
+def scene(root, resources, instances):
+    text = f'[gd_scene load_steps={len(resources)+1} format=3]\n'
+    for key, path in resources.items():
+        text += f'[ext_resource type="PackedScene" path="res://assets/{path}" id="{key}"]\n'
+    text += f'[node name="{root}" type="Node3D"]\n'
+    for name, key, pos, yaw in instances:
+        pos = ','.join(str(float(value)) for value in pos.split(','))
+        text += f'[node name="{name}" parent="." instance=ExtResource("{key}")]\nposition = Vector3({pos})\nrotation_degrees = Vector3(0,{yaw},0)\n'
+    return text
+
+bay_path = 'record_stack_shelf_bay/illuminated_shelf_bay.tscn'
+cap_path = 'record_stack_end_cap/record_stack_end_cap.tscn'
+lights = [('Bay', 'bay', '0,0,0', 0)]
+lights += [(f'Light{i}', 'light', f'0,{top-.028:.3f},.175', 0) for i,top in enumerate([.72,1.28,1.84,2.4])]
+(P.parent/bay_path).write_text(scene('IlluminatedShelfBay', {
+    'bay':'record_stack_shelf_bay/record_stack_shelf_bay.tscn',
+    'light':'shelf_light_channel/shelf_light_channel.tscn'}, lights))
+row = [(f'Bay{i}', 'bay', f'{x},0,0', 0) for i,x in enumerate([-1.6,0,1.6])]
+row += [('CapLeft','cap','-2.4,0,0',180),('CapRight','cap','2.4,0,0',0)]
+(P.parent/'record_stack_end_cap/capped_shelf_row.tscn').write_text(scene('CappedShelfRow', {'bay':bay_path,'cap':cap_path},row))
+alcove = [('Corner','corner','0,0,0',0),('EntryBay','bay','1.02,0,-.8',-90),
+          ('ExitBay','bay','-.8,0,1.02',180),('EntryCap','cap','1.02,0,-1.6',90),('ExitCap','cap','-1.6,0,1.02',180)]
+(P.parent/'record_stack_end_cap/capped_shelf_alcove.tscn').write_text(scene('CappedShelfAlcove', {
+    'bay':bay_path,'cap':cap_path,'corner':'record_stack_corner/record_stack_corner.tscn'},alcove))
+# Keep cassettes independent of the furnishing; review the production row itself.
+review = scene('RecordStackReview', {'row':'record_stack_end_cap/capped_shelf_row.tscn',
+    '3':paths[2],'4':paths[3],'5':paths[4],'rig':paths[5]}, [('Row','row','0,0,0',0)])
+record_start = text.index('[node name="Record_')
+record_end = text.index('[node name="ReviewRig"')
+review += text[record_start:record_end]
+review += '[node name="ReviewRig" parent="." instance=ExtResource("rig")]\n'
+(P/'review_assembly.tscn').write_text(review)
 

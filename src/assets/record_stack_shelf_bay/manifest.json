@@ -6,6 +6,11 @@
       "sha256": "8feaf3626d946094f5c442991028e099222c8184cac2bd5d82d132d129173718"
     },
     {
+      "path": "illuminated_shelf_bay.tscn",
+      "bytes": 975,
+      "sha256": "5f87812ef25461fc67face937f0705304eda8d5a4d0e1dd549034f17e3e9d3a2"
+    },
+    {
       "path": "issue.json",
       "bytes": 3741,
       "sha256": "b62747a5f535ad52e836a0adcf8f6940ca323aaf8744ba5d9cab5aa028c0516f"
@@ -32,8 +37,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4145,
-      "sha256": "b7736bb2cbfde83c36263efe6ae1655948f4778a92a6c83c52776773c8ed99a6"
+      "bytes": 5493,
+      "sha256": "0ad7b4a3d7cd6909e2115b0705ea4356de4c867f1ebf1c9c40bed2a0f6890669"
     },
     {
       "path": "record_stack_shelf_bay.glb",
@@ -47,8 +52,8 @@
     },
     {
       "path": "record_stack_shelf_bay.tscn",
-      "bytes": 1132,
-      "sha256": "42e8925cf6b85f7207add0ca28e175369040844d6b148a713c56d9b0edc29b58"
+      "bytes": 1504,
+      "sha256": "a84cd3d3bde77a45d6583883a34800683563b04c7cd4097e12da356561e2d478"
     },
     {
       "path": "source/.gdignore",
@@ -62,8 +67,8 @@
     },
     {
       "path": "validation.json",
-      "bytes": 5085,
-      "sha256": "6239292f30999cb6b449bc9b9a6272e0750c9ff7c11dcf9328db14bf4a2f6489"
+      "bytes": 4880,
+      "sha256": "b51c8dae05177acaab710fe0b8549df9ede79e41244669ec722c9a549ed6f32b"
     }
   ]
 }

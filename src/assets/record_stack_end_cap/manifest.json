@@ -1,6 +1,16 @@
 {
   "files": [
     {
+      "path": "capped_shelf_alcove.tscn",
+      "bytes": 1087,
+      "sha256": "94e09b030d585da83ab96e0bce58fbf75fb3272297384be639c6dfa0610d65ab"
+    },
+    {
+      "path": "capped_shelf_row.tscn",
+      "bytes": 949,
+      "sha256": "4561924965af87d0c3a333157ac81006f2fc00f7071c7092eae5d0f8cd3be7a4"
+    },
+    {
       "path": "dimensions.svg",
       "bytes": 943,
       "sha256": "6f8c0e54fa56e2852bda02c66c62ad941449521749b7ebdee660929faeb3b951"
@@ -32,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2437,
-      "sha256": "ff789b7298140e86e9b687adbcdf35e7be49b9456405183793a75247536e4588"
+      "bytes": 3707,
+      "sha256": "510705406842a2cb9483424410cb71b2d916349639cf6618178e8daff44abeea"
     },
     {
       "path": "record_stack_end_cap.glb",
@@ -62,8 +72,8 @@
     },
     {
       "path": "validation.json",
-      "bytes": 1635,
-      "sha256": "aacae12f34f8aebbb2e550562c25175d0e9da715baeff06aa2fcf56176196999"
+      "bytes": 1566,
+      "sha256": "2fe7630b07da72dfd3b73b85f8ea1c745f36798438e465e352202f0f3dda8ed0"
     }
   ]
 }

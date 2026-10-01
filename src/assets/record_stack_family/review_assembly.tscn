@@ -1,22 +1,12 @@
-[gd_scene load_steps=7 format=3]
-[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="1"]
-[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/record_stack_end_cap.tscn" id="2"]
+[gd_scene load_steps=6 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/capped_shelf_row.tscn" id="row"]
 [ext_resource type="PackedScene" path="res://assets/archive_record_small/archive_record_small.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://assets/archive_record_medium/archive_record_medium.glb" id="4"]
 [ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="5"]
-[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/review_rig.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/review_rig.tscn" id="rig"]
 [node name="RecordStackReview" type="Node3D"]
-[node name="Bay0" parent="." instance=ExtResource("1")]
-position = Vector3(-1.6,0,0)
-[node name="Bay1" parent="." instance=ExtResource("1")]
-position = Vector3(0,0,0)
-[node name="Bay2" parent="." instance=ExtResource("1")]
-position = Vector3(1.6,0,0)
-[node name="CapLeft" parent="." instance=ExtResource("2")]
-position = Vector3(-2.4,0,0)
-rotation_degrees = Vector3(0,180,0)
-[node name="CapRight" parent="." instance=ExtResource("2")]
-position = Vector3(2.4,0,0)
+[node name="Row" parent="." instance=ExtResource("row")]
+position = Vector3(0.0,0.0,0.0)
 rotation_degrees = Vector3(0,0,0)
 [node name="Record_0_0_0" parent="." instance=ExtResource("3")]
 position = Vector3(-2.2000,0.16,0.0800)
@@ -234,4 +224,4 @@ position = Vector3(1.9000,1.84,0.0800)
 position = Vector3(2.0500,1.84,0.0550)
 [node name="Record_2_3_8" parent="." instance=ExtResource("5")]
 position = Vector3(2.2000,1.84,0.0300)
-[node name="ReviewRig" parent="." instance=ExtResource("6")]
+[node name="ReviewRig" parent="." instance=ExtResource("rig")]

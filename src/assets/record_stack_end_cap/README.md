@@ -13,3 +13,11 @@ Blender 5.2.2 LTS mesh/header checks passed. Godot 4.7.2 Forward+/D3D12 validate
 Blender MCP was not exposed and Godot MCP connection failed. Standalone Blender and Godot were the explicit fallback; live MCP checks remain incomplete. See the shelf README for reconnection requirements. Room-scale/performance review remains outside this focused fit test. Shelf-light dependency #27 remains separate.
 
 Original project-authored, dimension-driven geometry with no third-party asset inputs or textures. Concept direction comes from the repository V5 furniture sheet. No separate third-party license is introduced; distribution follows the project's chosen license. `manifest.json` records hashes. The GitHub issue remains open for review.
+
+## Reusable capped assemblies — follow-up for #29
+
+`capped_shelf_row.tscn` contains three illuminated bays at X=-1.6/0/1.6 and caps at X=-2.4/+2.4 (yaw 180/0). `capped_shelf_alcove.tscn` contains the existing corner, illuminated bays at (1.02,0,-0.8), yaw -90, and (-0.8,0,1.02), yaw 180. Its free-end caps are at (1.02,0,-1.6), yaw 90, and (-1.6,0,1.02), yaw 180. All scales are one. These scenes contain only reusable object instances, without studio nodes, cassettes or new meshes. The curved recess stays empty; a straight fixture is not bent around it.
+
+Fresh Godot 4.7.2 Forward+/D3D12 review checks both straight and rotated cap seams, depth coverage, floor contact and corner-bay joins. Seven runtime captures in `../record_stack_family/` show the assembled surfaces. Rebuild scenes with `create_review.py`, verify with `verify_godot.ps1`, then refresh hashes with `package_delivery.py` there.
+
+Both Blender MCP checks failed and Godot MCP could not connect to port 6550. Existing Blender sources and GLBs were reused unchanged; standalone Godot performed import/runtime validation. No asset or script errors remain in separate logs; the host certificate-store error persists. Live MCP, full-room and performance review remain pending.
