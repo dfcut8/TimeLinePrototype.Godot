@@ -5,7 +5,7 @@ $previousAppData = $env:APPDATA
 $assetRoot = Split-Path $PSScriptRoot
 try {
     $env:APPDATA = $reviewDir
-    foreach ($name in @('structural_pier_a','wall_infill_bay','passage_portal_bay_frame','wall_portal_review')) {
+    foreach ($name in @('structural_pier_a','window_bay_frame','wall_infill_bay','passage_portal_bay_frame','wall_portal_review')) {
         $target = Join-Path $reviewDir "assets/$name"
         New-Item -ItemType Directory $target -Force | Out-Null
         Get-ChildItem (Join-Path $assetRoot $name) -File |

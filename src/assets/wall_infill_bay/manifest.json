@@ -2,16 +2,17 @@
   "algorithm": "sha256",
   "files": {
     "dimensions.svg": "c996ebdb27b2cab86395ef26273dc2afd223aa84c8f86c3ecf39ed87fbcfd903",
+    "mixed_bay_arc.tscn": "727fb59031ea926b505bf4b20004668dbbe996dc7f75f03beff88f363792a26d",
     "preview_front.png": "224651896f8f13c4893d9d879f6774f0667fff7fa15ea8340c6314d31638657f",
     "preview_rear.png": "9f8da2039892f94f216aae0ddfeb53d1a7c7f7ac75a8d9156493f2604a6de76d",
     "preview_side.png": "a2fd323ef1d3bd30a4a59ab98a6fb2282acfb2146dd3c2ae21a247ebc912099c",
     "preview_underside.png": "ae29c4c4d513f6b530a321edcf876a4234e11de7c07382127d8786b61c202612",
-    "README.md": "23dec401181cd9514590e37ca5a97d5913fbef7fed63dba71dc6f4b464987511",
+    "README.md": "54dff1770f23acfa223ca218f8aaf28c58cd5fb372100956f07dc28c7801797a",
     "source/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "source/wall_infill_bay.blend": "ac72845aa5b6dcc3f7dc593b4868405150e2f2fcc7c04462215a46d4fd2429ad",
-    "validation.json": "e1791b7165a8b35364a2fd1f45cec79979c531851e64d12a15d757662c173a6f",
+    "validation.json": "5ec59bde46d5ef48bc49965b12f8f86a89020b4ba1cc40d94dd6f691596e3efd",
     "wall_infill_bay.glb": "8baed2d822a85dba551827029d634ce5efa20b84e0c31714ba210f32b0467668",
     "wall_infill_bay.glb.import": "8a06223a8028b4d46721abdff204a2cd2e22aeb01074a408d5ea936660f9715a",
-    "wall_infill_bay.tscn": "fc8c1457246cd272043867db182a983a778b90b0bb607897af89ae6c13360a8b"
+    "wall_infill_bay.tscn": "fa8d169c2ce22bdfa60b9d92a206eaa87a2cc4a7d30b5d7a63baedf2d972afa1"
   }
 }
