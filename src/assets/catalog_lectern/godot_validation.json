@@ -1,0 +1,37 @@
+{
+	"bounds": "[P: (-0.36, 0.0, -0.23567), S: (0.72, 1.050842, 0.47134)]",
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"mcp": "Both disconnected; standalone fallback",
+	"meshes": [
+		{
+			"material": "archive_dark_panel",
+			"name": "blank_screen_insert",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "graphite_sloped_top",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "recessed_floor_foot",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "solid_ceramic_base",
+			"triangles": 108
+		}
+	],
+	"passed": true,
+	"renderer": "forward_plus",
+	"scope": "Optional static asset; room placement deferred",
+	"screen_plane_m": [
+		0.0299973711371422,
+		0.0379994101822376
+	],
+	"stack_aisle_m": 1.34432995319366,
+	"triangles": 432
+}

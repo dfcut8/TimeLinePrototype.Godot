@@ -31,6 +31,8 @@ Provenance: original procedural geometry and scripts authored for this repositor
 
 ## Verification
 
+Follow-up for issue #5: `capped_timeline_rail.tscn` now provides a reusable capped three-module assembly without studio nodes. The [Forward+ assembly review](../rail_assembly_review/README.md) verifies the existing housing, light inserts, saddles and both caps together in Godot 4.7.2 D3D12. This supersedes the renderer and component-fit gaps in the historical isolated-housing report below; live MCP and full-room checks remain outstanding.
+
 Blender checks passed: zero non-manifold edges, zero degenerate faces, positive signed volume, UV layer present, GLB header/version/length valid, and one exported mesh/material. Source and viewport inspected through Blender MCP; front/rear/underside renders inspected separately.
 
 Godot **4.7.2 stable**, Compatibility/OpenGL on NVIDIA RTX 4080 SUPER, imported and ran the three-instance review scene in an isolated temporary project. `godot_validation.json` records a pass for bounds (2 × .12 × .12 m), 52 triangles per instance, opaque matte PBR material, normals/UVs, triangle winding, attachment alignment, and both seam gaps at exactly zero. Front, rear, underside, end, seam close-up, and assembly PNGs are engine captures. Rear and underside surfaces and the open channel are visible; the assembly and seam close-up show continuous surfaces without a seam groove. No bloom is used.

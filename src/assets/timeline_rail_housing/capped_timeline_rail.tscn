@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/rail_module_joiner/illuminated_rail_module.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/rail_module_joiner/rail_module_joiner.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/timeline_start_cap/timeline_start_cap.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/timeline_end_cap/timeline_end_cap.tscn" id="4"]
+
+[node name="CappedTimelineRail" type="Node3D"]
+
+[node name="ModuleA" parent="." instance=ExtResource("1")]
+
+[node name="ModuleB" parent="." instance=ExtResource("1")]
+position = Vector3(2, 0, 0)
+
+[node name="ModuleC" parent="." instance=ExtResource("1")]
+position = Vector3(4, 0, 0)
+
+[node name="JoinerA" parent="." instance=ExtResource("2")]
+position = Vector3(2, 0, 0)
+
+[node name="JoinerB" parent="." instance=ExtResource("2")]
+position = Vector3(4, 0, 0)
+
+[node name="StartCap" parent="." instance=ExtResource("3")]
+
+[node name="EndCap" parent="." instance=ExtResource("4")]
+position = Vector3(6, 0, 0)

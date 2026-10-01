@@ -1,0 +1,121 @@
+{
+	"channel_closure_probes_per_cap": 20,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"housing_seam_gaps_m": [
+		0.0,
+		0.0
+	],
+	"light_seam_gaps_m": [
+		0.0,
+		0.0
+	],
+	"mcp": "Both MCPs disconnected; isolated Forward+ D3D12 fallback",
+	"meshes": [
+		{
+			"bounds": "[P: (0.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite",
+			"node": "/root/RailAssemblyReview/Rail/ModuleA/Housing",
+			"triangles": 52
+		},
+		{
+			"bounds": "[P: (0.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+			"emission": true,
+			"material": "rail_pale_core",
+			"node": "/root/RailAssemblyReview/Rail/ModuleA/Light",
+			"triangles": 28
+		},
+		{
+			"bounds": "[P: (2.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite",
+			"node": "/root/RailAssemblyReview/Rail/ModuleB/Housing",
+			"triangles": 52
+		},
+		{
+			"bounds": "[P: (2.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+			"emission": true,
+			"material": "rail_pale_core",
+			"node": "/root/RailAssemblyReview/Rail/ModuleB/Light",
+			"triangles": 28
+		},
+		{
+			"bounds": "[P: (4.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite",
+			"node": "/root/RailAssemblyReview/Rail/ModuleC/Housing",
+			"triangles": 52
+		},
+		{
+			"bounds": "[P: (4.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+			"emission": true,
+			"material": "rail_pale_core",
+			"node": "/root/RailAssemblyReview/Rail/ModuleC/Light",
+			"triangles": 28
+		},
+		{
+			"bounds": "[P: (1.96, -0.063, -0.063), S: (0.08, 0.126, 0.043)]",
+			"emission": false,
+			"material": "archive_graphite.001",
+			"node": "/root/RailAssemblyReview/Rail/JoinerA",
+			"triangles": 44
+		},
+		{
+			"bounds": "[P: (3.96, -0.063, -0.063), S: (0.08, 0.126, 0.043)]",
+			"emission": false,
+			"material": "archive_graphite.001",
+			"node": "/root/RailAssemblyReview/Rail/JoinerB",
+			"triangles": 44
+		},
+		{
+			"bounds": "[P: (-0.004, -0.06, -0.06), S: (0.004, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite",
+			"node": "/root/RailAssemblyReview/Rail/StartCap",
+			"triangles": 28
+		},
+		{
+			"bounds": "[P: (6.0, -0.06, -0.06), S: (0.004, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite.001",
+			"node": "/root/RailAssemblyReview/Rail/EndCap",
+			"triangles": 28
+		},
+		{
+			"bounds": "[P: (0.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite",
+			"node": "/root/RailAssemblyReview/Rail/ModuleA/Housing",
+			"triangles": 52
+		},
+		{
+			"bounds": "[P: (4.0, -0.06, -0.06), S: (2.0, 0.12, 0.12)]",
+			"emission": false,
+			"material": "archive_graphite",
+			"node": "/root/RailAssemblyReview/Rail/ModuleC/Housing",
+			"triangles": 52
+		},
+		{
+			"bounds": "[P: (0.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+			"emission": true,
+			"material": "rail_pale_core",
+			"node": "/root/RailAssemblyReview/Rail/ModuleA/Light",
+			"triangles": 28
+		},
+		{
+			"bounds": "[P: (4.0, -0.012, 0.031), S: (2.0, 0.024, 0.013)]",
+			"emission": true,
+			"material": "rail_pale_core",
+			"node": "/root/RailAssemblyReview/Rail/ModuleC/Light",
+			"triangles": 28
+		}
+	],
+	"module_seam_gaps_m": [
+		0.0,
+		0.0
+	],
+	"passed": true,
+	"physics_animation": "Not applicable: static decorative assembly",
+	"renderer": "forward_plus"
+}
