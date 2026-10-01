@@ -1,9 +1,33 @@
 {
   "root": "src/assets",
   "files": {
+    "rail_assembly_review/configurable_import.log": {
+      "bytes": 3556,
+      "sha256": "db3d1f96f517ad91528a6d4b0d2c6907ee7a445dfddfe55a58b58b3914847467"
+    },
+    "rail_assembly_review/configurable_reimport.log": {
+      "bytes": 864,
+      "sha256": "d708c8a40f4dac2ee5ac2dd06c74f43daee209ce34780624c85a6270e3ed0455"
+    },
+    "rail_assembly_review/configurable_runtime.log": {
+      "bytes": 1027,
+      "sha256": "08d3597b6ff26be649e9321d387852f20bd645ded1fefc29e0d0b6e9c3576130"
+    },
     "rail_assembly_review/godot_assembly.png": {
       "bytes": 4132,
       "sha256": "ae3f52eea376bed9c9513e66a198782831a1485161d66d5ee9dc0f2f9f620290"
+    },
+    "rail_assembly_review/godot_configurable_last_seam.png": {
+      "bytes": 10014,
+      "sha256": "f43a714d93ab272d11e36754098324f74a55f2dff19f8a71530a4951e392662f"
+    },
+    "rail_assembly_review/godot_configurable_long.png": {
+      "bytes": 3884,
+      "sha256": "28becbdcac77645cf741f2ad3d16f16760815adf7295e081794561381aafca3a"
+    },
+    "rail_assembly_review/godot_configurable_validation.json": {
+      "bytes": 988,
+      "sha256": "dc4bfd446cc6466c34841a7c4a45acc9bb198ee3bbe8e5469507d58ef2909310"
     },
     "rail_assembly_review/godot_end_end.png": {
       "bytes": 5075,
@@ -58,20 +82,24 @@
       "sha256": "72536b826bdd2f68601c60d591acdd2078d0c699fa51e8bf66f28ca5df9ab515"
     },
     "rail_assembly_review/package_manifest.py": {
-      "bytes": 1873,
-      "sha256": "bd4b6d92938ca04138039035e380cebbbdebb341a1fadc275d1b790c17a0ab84"
+      "bytes": 2349,
+      "sha256": "f9c087ef46ae56b80f107e41158e66f6a605ee099b61d245aaaa18c135b8752e"
     },
     "rail_assembly_review/README.md": {
-      "bytes": 2630,
-      "sha256": "78b3f5fed1aa979a7bc381d3d5550d9631a75db32de239fc2c64d25f5b6a99ef"
+      "bytes": 3433,
+      "sha256": "6fa50c58a3e5a20f698ecb3e9f69439ac721c7436ffeb6365cb1a784abe90687"
     },
     "rail_assembly_review/reimport.log": {
       "bytes": 1249,
       "sha256": "5e3954171eb7f3e4f77ad20b4688431cb5e788abebca30a8109184f7b0347ebb"
     },
     "rail_assembly_review/review_assembly.tscn": {
-      "bytes": 414,
-      "sha256": "19762da309ed5f291d36f0ca4fe92ee0981b1109ba634a5ed4be0e62c8374ec5"
+      "bytes": 404,
+      "sha256": "8eb0a478068fce2b177fde31a41dd12060ade566029736988efd806f6588be76"
+    },
+    "rail_assembly_review/review_configurable.tscn": {
+      "bytes": 431,
+      "sha256": "04e46bcd2077c1712509424db3b92e638e471b541a56ab3c431692ee76c9af56"
     },
     "rail_assembly_review/review_contact_sheet.png": {
       "bytes": 36545,
@@ -82,20 +110,32 @@
       "sha256": "aea14ec0abbf75505903068d5e05b57ed5173ac71b9601d089c223a2848fd599"
     },
     "rail_assembly_review/verification.log": {
-      "bytes": 7083,
-      "sha256": "aec5b82ee24fd059882210cfd81ab99aafbd1a626cc2acc363edcc846f80b612"
+      "bytes": 6967,
+      "sha256": "2276abc7f5abeeb172f3b76057975cf4bb8fabf7391fa533ee1b9f6ddf558fcf"
+    },
+    "rail_assembly_review/verify_configurable.gd": {
+      "bytes": 5242,
+      "sha256": "c7c88e14487db66a1f94eb1b80b2bf174a32e5f5f374cafdf9a40f56ecaa0986"
     },
     "rail_assembly_review/verify_godot.gd": {
-      "bytes": 8521,
-      "sha256": "ddcc7eb41e1173b1a8b6a17e14a5f251e5faf7dd4ce48ec477247632bcb9e174"
+      "bytes": 8370,
+      "sha256": "e38ab41a1888b2874a1e7178c926c3feea108b825df503335911398be549c1d5"
     },
     "rail_assembly_review/verify_godot.ps1": {
-      "bytes": 3016,
-      "sha256": "1d3c738bab697fa8a82f54345262ae299956620b153f9a94133b92776892dd24"
+      "bytes": 3287,
+      "sha256": "019729c2d72af85b95af7c15891e4a511f4d3a010bd3c6d53d5f4cad146aabc1"
     },
     "timeline_rail_housing/capped_timeline_rail.tscn": {
-      "bytes": 1086,
-      "sha256": "c13a27d83311d7eef55ce4622c4100feb664cc5321650563aeab8a424f730312"
+      "bytes": 1059,
+      "sha256": "88059112012f7c9e6b7353f86b2359f79983663ca448f97c245ae06d51ccd322"
+    },
+    "timeline_rail_housing/configurable_timeline_rail.gd": {
+      "bytes": 1439,
+      "sha256": "49005d3a52124f3119fa712e3cd90d12a6957a95acd9997ed121a8cce8017385"
+    },
+    "timeline_rail_housing/configurable_timeline_rail.tscn": {
+      "bytes": 802,
+      "sha256": "48e63873cda69ec1cab7ff3b3305d14c4db69d71bfc528bcc265a59a5882a0dd"
     },
     "timeline_rail_housing/timeline_rail_housing.glb": {
       "bytes": 4416,

@@ -1,5 +1,36 @@
 # Timeline rail housing — issue #5
 
+## Configurable assembly — issue #5 follow-up
+
+Instance `configurable_timeline_rail.tscn` and set `module_count` (default 3,
+clamped to 1–64). Each module adds 2 m along local +X; the two caps add 4 mm
+at each end. One, three and seven modules provide 2, 6 and 14 m housing lengths.
+The upper bound is a configuration guard, not a measured performance budget.
+`EarlierEnd` stays at the housing origin; `LaterEnd` tracks its length.
+The script instances the existing illuminated module and joiner PackedScenes;
+the caps are saved scene instances. All original models/materials are reused.
+
+Changing the count rebuilds only generated parts, preserves user-added children,
+and updates the end cap and marker. Generated children are not serialized;
+configuration is rebuilt on load. The `@tool` script also supplies editor previews,
+but interactive Inspector editing remains unverified without the live editor.
+Keep assembly scale at one to preserve the metre-based interfaces. Existing
+`capped_timeline_rail.tscn` keeps its fixed three-module hierarchy for current users.
+
+Run `../rail_assembly_review/verify_godot.ps1 -Configurable` for the isolated
+Godot 4.7.2 Forward+/D3D12 checks. The report and two GPU captures are named
+`godot_configurable_*` in that folder. Checks cover counts, resizing, clamp limits,
+translated/rotated parents, imported housing/light seams, joiner alignment,
+cap contact, attachment positions, independent instances and pack/reload without
+duplicates. The 2/6/14 m cases have zero measured seam error; the transformed
+128 m limit has less than 0.008 mm numerical error (0.1 mm tolerance).
+
+Both Blender MCP connection checks failed and Godot MCP could not reach port
+6550. No modeling was needed; standalone Godot is the explicit fallback. Separate
+import and runtime logs contain only the existing Windows certificate-store error.
+Live MCP, full-room camera/readability and performance review remain pending;
+this follow-up does not close the issue or approve the exploratory 14 m room layout.
+
 Original reusable housing for the [V5 horizontal timeline](../../../docs/concepts/spatial-library-v5/README.md), implementing [issue #5](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/5). Produced with live Blender MCP, Blender 5.2.2 LTS. No external mesh, texture, paid generation, or downloaded material is used.
 
 ![Housing front](preview_front.png)
