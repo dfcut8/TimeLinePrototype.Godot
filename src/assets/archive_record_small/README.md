@@ -1,6 +1,6 @@
 # Small archive record cassette
 
-Model for [issue #31](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/31), completing the V5 cassette family with the existing medium model. Model production and isolated engine review are complete; actual shelf assembly acceptance awaits the unbuilt shelf bay (#28). The issue remains open for that dependency.
+Model for [issue #31](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/31), completing the V5 cassette family with the existing medium model. Existing model production is complete. Actual shelf assembly fit is now verified against the built shelf bay (#28); the large cassette also passes the built display plinth (#36) fit check. Live MCP and full-room review remain pending.
 
 ## Delivery
 
@@ -15,7 +15,7 @@ Model for [issue #31](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/3
 
 1 unit = 1 meter. Nominal width/depth/height: **65 / 220 / 320 mm**. Complete detail envelope: **66.6 / 223.7 / 320 mm**. Blender X is width, -Y is indexed spine front, +Z is up. Export/Godot +Y is up and +Z is spine front. Broad covers face +/-X. All transforms are identity; pivot is nominal-body bottom center. Floor/shelf contact is Godot Y=0. No mechanical attachment or opening mechanism.
 
-Proposed shelf allocation: 85 mm pitch, 250 mm clear depth, 360 mm clear height. Detail envelope leaves 9.2 mm on each side, 26.3 mm total depth clearance and 40 mm headroom. Place nominal center at least 125 mm behind the shelf front edge. These are measured envelope checks against a proposed allocation, not a fitted shelf. Large is dimensionally suitable for a future flat display plinth, but #36 has no asset to test against.
+Verified `shelf_assembly.tscn` instances the existing shelf and 68 small records (17 per shelf), at 85 mm pitch. All records retain identity rotation/scale, at Z=0.030 m and Y=0.160/0.720/1.280/1.840 m. Measured imported-mesh clearances: 200 mm headroom, 99.1 mm rear, 77.2 mm front and 36.7 mm minimum side margin. Neighbor gaps are 18.4 mm; shelf contact error is zero. These are actual fitted assemblies, superseding the original proposed allocations.
 
 ## Materials and provenance
 
@@ -29,4 +29,13 @@ Run Blender in background with `--python src/assets/archive_record_small/build_a
 
 Both MCPs were checked through their locally installed servers. Blender `get_addon_status` and `get_scene_info` could not connect; Godot `godot_editor_read(get_state)` reported no connection on 127.0.0.1:6550. Live validation requires Blender's addon server and the intended Godot editor with its MCP addon running. Standalone Blender and isolated Godot were used as explicit fallbacks. `godot_validate_meshes` was unavailable; the recorded Blender/Godot geometry checks cover the imported meshes instead. The `game-dev` CLI was not installed; no CLI-certified package is claimed.
 
-Import and runtime logs were inspected separately: no model import, script or geometry errors remain. Each process reports a host-level Windows root-certificate-store error, unrelated to the offline assets. Logs are retained under `../archive_record_family/`. Runtime captures were visually reviewed for finished sides and underside without bloom. Remaining gaps: actual shelf/plinth contact and spacing, room placement/camera clearance, live MCP review, and measured performance/LOD need.
+Import and runtime logs were inspected separately: no model import, script or geometry errors remain. Each process reports a host-level Windows root-certificate-store error, unrelated to the offline assets. Logs are retained under `../archive_record_family/`. Runtime captures were visually reviewed for finished sides and underside without bloom. Remaining gaps: room placement/camera clearance, live MCP review, and measured performance/LOD need.
+
+
+## Assembly fit follow-up (issues #31 and #33)
+
+Run `../archive_record_family/verify_fit.ps1` for an isolated import and GPU check of both populated shelf assemblies and the large display assembly. `create_fit_scenes.py` in that folder rebuilds the saved scenes. All objects are PackedScene instances; no meshes are reconstructed by the verifier. Original editable Blender sources and GLBs are reused without geometry changes.
+
+`godot_fit_validation.json` records the current assembly results. `godot_shelf_*.png` (and large `godot_display_*.png`) show front, rear, end and underside. The earlier `godot_validation.json` is retained as historical isolated-model evidence; its provisional shelf status is superseded by the fit report. Separate `fit_import.log`, `fit_reimport.log`, and `fit_runtime.log` live in the family folder. All checks passed in Godot 4.7.2 Forward+/D3D12; logs contain only the host certificate-store error, with no asset or script errors.
+
+Both live MCP checks failed again for this follow-up. Blender modeling was unnecessary because existing meshes passed fit; standalone Godot supplied fresh engine validation. No live `godot_validate_meshes` result is claimed; imported triangle winding, area, normals and UV checks ran in the fallback verifier. No physics is required for these decorative objects. These are reusable furnishing arrangements, not approved full-room dressing.
