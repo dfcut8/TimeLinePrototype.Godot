@@ -14,6 +14,11 @@ Interchangeable envelope with the existing window bay. Uses the established 24.8
 
 ## Delivery
 
+The portal is now also instanced in `../wall_infill_bay/mixed_bay_arc.tscn`,
+between the wall and window bays with shared piers. Eighty additional transformed
+surface probes check the wall and portal, including both sides of each jamb and
+the header boundary. See the [mixed fit review](../wall_portal_review/README.md).
+
 Editable `source/passage_portal_bay_frame.blend`, glTF 2.0 `passage_portal_bay_frame.glb`, reusable `passage_portal_bay_frame.tscn`, four Blender preview PNGs, import settings, geometry report and SHA-256 manifest. **720 triangles, 3 materials, 12 closed components.** Each component has UV0, positive volume, outward normals, no nonmanifold edges or degenerate faces. Contact faces meet on boundaries; decorative skins have thickness. No maps or external texture dependencies. No speculative LOD, collision bodies or animation; these are static architectural art objects.
 
 Embedded materials match the existing kit: archive_graphite (linear RGB .048/.060/.073, roughness .68, metallic .22), archive_basalt_ceramic (.085/.103/.117, roughness .81), archive_dark_panel (.018/.026/.033, roughness .76). No emission, slogans or baked text. Original project-authored geometry based on the repository V5 architecture concept; no third-party asset or new license dependency. Redistribution follows the repository's existing terms.

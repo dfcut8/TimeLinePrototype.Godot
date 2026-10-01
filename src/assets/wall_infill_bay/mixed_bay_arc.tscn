@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/wall_infill_bay.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/passage_portal_bay_frame.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://assets/window_bay_frame/window_bay_frame.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://assets/structural_pier_a/structural_pier_a.tscn" id="4"]
+[node name="MixedBayArc" type="Node3D"]
+[node name="Wall" parent="." instance=ExtResource("1")]
+position = Vector3(-6.363799345, 0, 0.837810078)
+rotation_degrees = Vector3(0, 15, 0)
+[node name="Portal" parent="." instance=ExtResource("2")]
+position = Vector3(0.000000000, 0, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
+[node name="Window" parent="." instance=ExtResource("3")]
+position = Vector3(6.363799345, 0, 0.837810078)
+rotation_degrees = Vector3(0, -15, 0)
+[node name="Pier0" parent="." instance=ExtResource("4")]
+position = Vector3(-9.490549123, 0, 1.675620156)
+rotation_degrees = Vector3(0, 22.5, 0)
+[node name="Pier1" parent="." instance=ExtResource("4")]
+position = Vector3(-3.237049567, 0, 0.000000000)
+rotation_degrees = Vector3(0, 7.5, 0)
+[node name="Pier2" parent="." instance=ExtResource("4")]
+position = Vector3(3.237049567, 0, 0.000000000)
+rotation_degrees = Vector3(0, -7.5, 0)
+[node name="Pier3" parent="." instance=ExtResource("4")]
+position = Vector3(9.490549123, 0, 1.675620156)
+rotation_degrees = Vector3(0, -22.5, 0)

@@ -3,6 +3,7 @@ extends SceneTree
 const OUT := "res://assets/wall_portal_review/"
 var failures: Array[String] = []
 var meshes: Array[Dictionary] = []
+var mixed_fit: Dictionary = {}
 
 func check(ok: bool, message: String) -> void:
 	if not ok:
@@ -81,17 +82,76 @@ func verify() -> void:
 		assembly.queue_free()
 		await process_frame
 	var report := {"engine":Engine.get_version_info().string,"renderer":RenderingServer.get_current_rendering_method(),"passed":failures.is_empty(),"failures":failures,"meshes":meshes,"pier_aabb_gaps_m":gaps,"opening_m":[3.0,3.4],"mcp":"Both unavailable; standalone Blender and Godot fallback","collision":"Static model dressing; no physics bodies or animation","room_scale":"Full room camera/readability review remains pending"}
+	await verify_mixed()
+	report["mixed_bay_fit"] = mixed_fit
+	report["passed"] = failures.is_empty()
 	var file := FileAccess.open(OUT+"godot_validation.json",FileAccess.WRITE)
 	file.store_string(JSON.stringify(report,"\t"))
 	print(JSON.stringify(report))
 	quit(0 if failures.is_empty() else 1)
 
+func verify_mixed() -> void:
+	var assembly := (load(OUT + "review_mixed.tscn") as PackedScene).instantiate() as Node3D
+	root.add_child(assembly)
+	current_scene = assembly
+	var arc := assembly.get_node("MixedBayArc") as Node3D
+	check(arc.get_child_count() == 7, "Three bays must share exactly four piers")
+	var interface_gaps: Array[float] = []
+	for index in range(3):
+		var bay := arc.get_node(["Wall", "Portal", "Window"][index]) as Node3D
+		var bay_bounds := bounds(bay)
+		check(absf(bay_bounds.position.y) < .00001, "Mixed bay floor: " + str(bay.name))
+		check(absf(bay_bounds.end.y - 4.75) < .00001, "Mixed bay header: " + str(bay.name))
+		check(bay.scale.is_equal_approx(Vector3.ONE), "Unscaled bay: " + str(bay.name))
+		# Compute bounds in each bay's coordinate frame, not world AABBs which
+		# overlap legitimately on a curved grid.
+		for side in range(2):
+			var pier := arc.get_node("Pier%d" % (index + side)) as Node3D
+			var local_box := bounds_in(pier, bay.global_transform.affine_inverse())
+			var gap := -2.73 - local_box.end.x if side == 0 else local_box.position.x - 2.73
+			interface_gaps.append(gap)
+			check(gap > .008 and gap < .010, "Mixed bay/pier clearance: " + str(bay.name))
+		var local_bounds := bounds_in(bay, bay.global_transform.affine_inverse())
+		check(absf(local_bounds.size.x - 5.46) < .00001, "Common bay width")
+	# Test transformed assets too: a displaced/rotated repeat must preserve the
+	# solid wall and clear portal, including probes just inside both jambs.
+	var probes := 0
+	for placement in [Transform3D.IDENTITY, Transform3D(Basis(Vector3.UP, .71), Vector3(8, 2, -6))]:
+		arc.transform = placement
+		for kind in ["Wall", "Portal"]:
+			var bay := arc.get_node(kind) as Node3D
+			for x in [-1.501, -1.499, 0.0, 1.499, 1.501]:
+				for y in [.001, 1.7, 3.399, 3.401]:
+					var start := bay.to_global(Vector3(x,y,1))
+					var end := bay.to_global(Vector3(x,y,-1))
+					var expected: bool = kind == "Wall" or absf(x) > 1.5 or y > 3.4
+					check(segment_hits(arc,start,end) == expected, "Mixed transformed wall/portal probe")
+					probes += 1
+	arc.transform = Transform3D.IDENTITY
+	mixed_fit = {"bays":3,"shared_piers":4,"pier_radius_m":24.8,"pitch_degrees":15,"interface_gaps_m":interface_gaps,"transformed_surface_probes":probes}
+	await capture(assembly,"mixed",Vector3(0,2.375,.4),22.0)
+	assembly.queue_free()
+	await process_frame
+
+func bounds_in(node: Node3D, frame: Transform3D) -> AABB:
+	var result := AABB()
+	var first := true
+	for child in node.find_children("*", "MeshInstance3D", true, false):
+		var instance := child as MeshInstance3D
+		var box: AABB = (frame * instance.global_transform) * instance.mesh.get_aabb()
+		result = box if first else result.merge(box)
+		first = false
+	return result
+
 func ray_hits(node: Node3D, point: Vector3) -> bool:
+	return segment_hits(node, point+Vector3(0,0,1), point-Vector3(0,0,1))
+
+func segment_hits(node: Node3D, start: Vector3, end: Vector3) -> bool:
 	for child in node.find_children("*","MeshInstance3D",true,false):
 		var instance := child as MeshInstance3D
 		var faces := instance.mesh.get_faces()
 		for i in range(0,faces.size(),3):
-			var hit: Variant = Geometry3D.segment_intersects_triangle(point+Vector3(0,0,1),point-Vector3(0,0,1),instance.global_transform*faces[i],instance.global_transform*faces[i+1],instance.global_transform*faces[i+2])
+			var hit: Variant = Geometry3D.segment_intersects_triangle(start,end,instance.global_transform*faces[i],instance.global_transform*faces[i+1],instance.global_transform*faces[i+2])
 			if hit != null:
 				return true
 	return false

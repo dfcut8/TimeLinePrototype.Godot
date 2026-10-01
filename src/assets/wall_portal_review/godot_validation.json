@@ -120,6 +120,21 @@
 			"triangles": 12
 		}
 	],
+	"mixed_bay_fit": {
+		"bays": 3,
+		"interface_gaps_m": [
+			0.00868918418884279,
+			0.00868894577026369,
+			0.00868870735168459,
+			0.00868870735168459,
+			0.00868894577026369,
+			0.00868918418884279
+		],
+		"pier_radius_m": 24.8,
+		"pitch_degrees": 15,
+		"shared_piers": 4,
+		"transformed_surface_probes": 80
+	},
 	"opening_m": [
 		3.0,
 		3.4
