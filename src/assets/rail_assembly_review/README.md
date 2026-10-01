@@ -13,3 +13,16 @@ Checks passed for all three housing/light modules and both saddles: imported dim
 Both MCP connections failed at task start. This is an isolated engine fallback, not live-editor MCP validation. `godot_validate_meshes` was unavailable; the verifier inspects actual imported triangles instead. Physics and animation are inapplicable. Live project validation, full-room orbit/readability, final art approval and measured performance remain open; issue #5 is not closed. Blender was not needed for this assembly because component geometry is unchanged.
 
 Run `python src/assets/rail_assembly_review/package_manifest.py` after deliberate delivery changes. Manifests bind the new delivery and the reusable rail's component dependencies. This is repository provenance, not game-dev CLI package certification.
+## Configurable rail follow-up — issue #5
+
+Open `review_configurable.tscn` for a seven-module example using the reusable
+`../timeline_rail_housing/configurable_timeline_rail.tscn`. Set `module_count`
+on that object to resize without scaling its meshes. Existing fixed review scenes
+remain available. See the housing README for interfaces and validation boundaries.
+
+Run `./src/assets/rail_assembly_review/verify_godot.ps1 -Configurable` from the
+repository root. `godot_configurable_validation.json` and
+`configurable_import.log`, `configurable_reimport.log`, `configurable_runtime.log`
+record the standalone Forward+/D3D12 run. The two `godot_configurable_*.png`
+captures show the 14 m rail and its last internal seam. No live MCP connection
+was available; no new geometry was authored.

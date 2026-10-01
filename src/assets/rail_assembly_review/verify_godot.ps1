@@ -1,4 +1,7 @@
-param([string]$Godot = 'C:/home/bin/Godot_v4.7.2-stable_win64/Godot_v4.7.2-stable_win64_console.exe')
+param(
+    [string]$Godot = 'C:/home/bin/Godot_v4.7.2-stable_win64/Godot_v4.7.2-stable_win64_console.exe',
+    [switch]$Configurable
+)
 $ErrorActionPreference = 'Stop'
 $reviewDir = Join-Path ([IO.Path]::GetTempPath()) ('rail-assembly-review-' + [guid]::NewGuid())
 $previousAppData = $env:APPDATA
@@ -27,7 +30,8 @@ anti_aliasing/quality/msaa_3d=2
     & $Godot --headless --path $reviewDir --editor --import --log-file (Join-Path $reviewDir 'reimport.log')
     if ($LASTEXITCODE -ne 0) { throw 'Reimport failed' }
     $runtimeGodot = $Godot -replace '_console.exe$', '.exe'
-    $run = Start-Process -FilePath $runtimeGodot -ArgumentList '--path',$reviewDir,'--script','res://assets/rail_assembly_review/verify_godot.gd','--log-file',(Join-Path $reviewDir 'runtime.log') -WindowStyle Hidden -PassThru
+    $scriptName = if ($Configurable) { 'verify_configurable.gd' } else { 'verify_godot.gd' }
+    $run = Start-Process -FilePath $runtimeGodot -ArgumentList '--path',$reviewDir,'--script',("res://assets/rail_assembly_review/$scriptName"),'--log-file',(Join-Path $reviewDir 'runtime.log') -WindowStyle Hidden -PassThru
     if (-not $run.WaitForExit(60000)) {
         Stop-Process -Id $run.Id
         throw "Validation timed out; logs at $reviewDir"
@@ -37,9 +41,13 @@ anti_aliasing/quality/msaa_3d=2
         Get-ChildItem (Join-Path $reviewDir "assets/$name") -File |
             Where-Object { $_.Name -like 'godot_*' -or $_.Name -like '*.glb.import' } | Copy-Item -Destination $destination
     }
-    Copy-Item (Join-Path $reviewDir 'import.log'),(Join-Path $reviewDir 'reimport.log'),(Join-Path $reviewDir 'runtime.log') -Destination $PSScriptRoot
+    foreach ($log in @('import.log','reimport.log','runtime.log')) {
+        $savedName = if ($Configurable) { "configurable_$log" } else { $log }
+        Copy-Item (Join-Path $reviewDir $log) -Destination (Join-Path $PSScriptRoot $savedName)
+    }
     if ($run.ExitCode -ne 0) { throw "Validation failed; logs at $reviewDir" }
-    $report = Get-Content (Join-Path $PSScriptRoot 'godot_validation.json') -Raw | ConvertFrom-Json
+    $reportName = if ($Configurable) { 'godot_configurable_validation.json' } else { 'godot_validation.json' }
+    $report = Get-Content (Join-Path $PSScriptRoot $reportName) -Raw | ConvertFrom-Json
     if (-not $report.passed) { throw 'Runtime checks did not pass' }
     Write-Output "Review logs retained at $reviewDir"
 } finally {
