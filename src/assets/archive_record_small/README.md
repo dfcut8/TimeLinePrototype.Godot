@@ -39,3 +39,10 @@ Run `../archive_record_family/verify_fit.ps1` for an isolated import and GPU che
 `godot_fit_validation.json` records the current assembly results. `godot_shelf_*.png` (and large `godot_display_*.png`) show front, rear, end and underside. The earlier `godot_validation.json` is retained as historical isolated-model evidence; its provisional shelf status is superseded by the fit report. Separate `fit_import.log`, `fit_reimport.log`, and `fit_runtime.log` live in the family folder. All checks passed in Godot 4.7.2 Forward+/D3D12; logs contain only the host certificate-store error, with no asset or script errors.
 
 Both live MCP checks failed again for this follow-up. Blender modeling was unnecessary because existing meshes passed fit; standalone Godot supplied fresh engine validation. No live `godot_validate_meshes` result is claimed; imported triangle winding, area, normals and UV checks ran in the fallback verifier. No physics is required for these decorative objects. These are reusable furnishing arrangements, not approved full-room dressing.
+
+
+## Illuminated shelf integration — 1 October 2026
+
+`shelf_assembly.tscn` now instances the existing `illuminated_shelf_bay.tscn`, including four independent shelf-light fixtures. The records retain their existing placement and remain separate reusable scenes. Minimum measured vertical separation from the fixture envelope is **202 mm**. The verifier checks each record against all four imported fixture bounds, plus fixture mounting alignment, unit scale and deck contact. Existing shelf contact, spacing, geometry/material and large-record plinth checks still pass.
+
+Fresh standalone Godot 4.7.2 Forward+/D3D12 import and runtime validation passed. Front, rear, end and underside captures were visually inspected; warm inserts remain recessed and unobstructed. Separate import/reimport/runtime logs contain only the pre-existing Windows certificate-store error. Blender status/scene and Godot editor MCP checks failed to connect; existing models were reused and no Blender edit was needed. Live MCP and full-room review remain pending.

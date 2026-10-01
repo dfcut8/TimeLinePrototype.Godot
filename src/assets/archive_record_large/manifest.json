@@ -52,8 +52,8 @@
     },
     {
       "path": "godot_fit_validation.json",
-      "bytes": 1074,
-      "sha256": "c8171d414ff0986ccb29ec9a3c99f516425da69fc8fba74f1951878c807eaee9"
+      "bytes": 1228,
+      "sha256": "41edb961d0afdeaecc6790b8575e07aa4f488bb73505e83939a0fcd8666abb35"
     },
     {
       "path": "godot_front.png",
@@ -82,8 +82,8 @@
     },
     {
       "path": "godot_shelf_underside.png",
-      "bytes": 88494,
-      "sha256": "d0c0d66519a3da46b1d2147f75f28d1736c184274250d390a6c2df3c4724c21e"
+      "bytes": 92582,
+      "sha256": "524c92b543feff553953f99833dc11cd667c82dd514e04821905e7062b639bba"
     },
     {
       "path": "godot_side.png",
@@ -127,13 +127,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6331,
-      "sha256": "da839579435bd8615e414097aa05b47f7d871015ada50c4063fe0fd056b36895"
+      "bytes": 7331,
+      "sha256": "bd06f626d75afac9b502fc0efb0d65b6731710c9f4bcb1a7ca7ab6caa9b7e339"
     },
     {
       "path": "shelf_assembly.tscn",
-      "bytes": 5366,
-      "sha256": "3ba23b6659883e70b0670796fcbf65a781fab9c76fa9ed721bfe48a625137894"
+      "bytes": 5365,
+      "sha256": "5687661f9455ec08446d18d36e07d5b1b110a8e6c0ca5026f474c4a5d11cc966"
     },
     {
       "path": "source/.gdignore",

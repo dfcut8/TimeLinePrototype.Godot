@@ -39,6 +39,23 @@ func verify() -> void:
 		var side := INF
 		var gap := INF
 		var contact_error := 0.0
+		var light_clearance := INF
+		var light_boxes: Array[AABB] = []
+		for tier in range(4):
+			var fixture := shelf.get_node("Light%d" % tier) as Node3D
+			var mount := shelf.get_node("Bay/LightMount%d" % tier) as Marker3D
+			check(fixture.global_position.distance_to(mount.global_position) < .00002, "Fixture at mounting interface")
+			check(fixture.transform.basis.is_equal_approx(Basis.IDENTITY), "Unscaled fixture")
+			var fixture_box := AABB()
+			var first := true
+			for child in fixture.find_children("*", "MeshInstance3D", true, false):
+				var mesh := child as MeshInstance3D
+				var part_box: AABB = mesh.global_transform * mesh.mesh.get_aabb()
+				fixture_box = part_box if first else fixture_box.merge(part_box)
+				first = false
+			check(not first, "Fixture has imported geometry")
+			check(absf(fixture_box.end.y-mount.global_position.y) < .00002, "Fixture deck contact")
+			light_boxes.append(fixture_box)
 		var boxes: Array[AABB] = []
 		var count := 0
 		for child in assembly.get_children():
@@ -49,6 +66,10 @@ func verify() -> void:
 			var deck := mesh_box(shelf, "shelf_%d_deck" % level)
 			var ceiling := mesh_box(shelf, "shelf_%d_rear_web" % (level+1))
 			var box := inspect_meshes(record, 1728)
+			for fixture_box in light_boxes:
+				check(not box.intersects(fixture_box), "Cassette clears every light fixture")
+			# Conservative vertical separation, including cassettes behind the fixture.
+			light_clearance = minf(light_clearance, light_boxes[level].position.y-box.end.y)
 			check(record.transform.basis.is_equal_approx(Basis.IDENTITY), "Identity record orientation/scale")
 			contact_error = maxf(contact_error, absf(box.position.y-deck.end.y))
 			headroom = minf(headroom, ceiling.position.y-box.end.y)
@@ -65,7 +86,8 @@ func verify() -> void:
 		check(contact_error < .00002, "Measured shelf contact")
 		check(minf(minf(headroom,rear),minf(front,side)) > .001, "Clear of shelf structure")
 		check(gap > .018, "Neighbor spacing")
-		results.append({"size":size,"instances":count,"contact_error_m":contact_error,"headroom_m":headroom,"rear_clearance_m":rear,"front_clearance_m":front,"side_clearance_m":side,"neighbor_gap_m":gap})
+		check(light_clearance > .04, "At least 40 mm below fixture envelope")
+		results.append({"size":size,"instances":count,"contact_error_m":contact_error,"headroom_m":headroom,"rear_clearance_m":rear,"front_clearance_m":front,"side_clearance_m":side,"neighbor_gap_m":gap,"light_instances":light_boxes.size(),"light_vertical_clearance_m":light_clearance})
 		await capture_fit(assembly, Vector3(0,1.2,0), 2.9, base+"godot_shelf_")
 		assembly.free()
 	var display := (load("res://assets/archive_record_large/display_assembly.tscn") as PackedScene).instantiate() as Node3D
