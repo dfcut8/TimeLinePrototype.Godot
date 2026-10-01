@@ -18,14 +18,26 @@ position = Vector3(0, 1.84, 0)
 [node name="LightRecess0" type="Marker3D" parent="."]
 position = Vector3(0, 0.686, 0.175)
 
+[node name="LightMount0" type="Marker3D" parent="."]
+position = Vector3(0, 0.692, 0.175)
+
 [node name="LightRecess1" type="Marker3D" parent="."]
 position = Vector3(0, 1.246, 0.175)
+
+[node name="LightMount1" type="Marker3D" parent="."]
+position = Vector3(0, 1.252, 0.175)
 
 [node name="LightRecess2" type="Marker3D" parent="."]
 position = Vector3(0, 1.806, 0.175)
 
+[node name="LightMount2" type="Marker3D" parent="."]
+position = Vector3(0, 1.812, 0.175)
+
 [node name="LightRecess3" type="Marker3D" parent="."]
 position = Vector3(0, 2.366, 0.175)
+
+[node name="LightMount3" type="Marker3D" parent="."]
+position = Vector3(0, 2.372, 0.175)
 
 [node name="LeftJoin" type="Marker3D" parent="."]
 position = Vector3(-0.8, 0, 0)

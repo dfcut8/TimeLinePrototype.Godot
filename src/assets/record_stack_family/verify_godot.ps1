@@ -5,7 +5,7 @@ $previousAppData = $env:APPDATA
 $assetRoot = Split-Path $PSScriptRoot
 try {
     $env:APPDATA = $reviewDir
-    foreach ($name in @('timeline_rail_housing','archive_record_small','archive_record_medium','archive_record_large','record_stack_shelf_bay','record_stack_end_cap','record_stack_family')) {
+    foreach ($name in @('timeline_rail_housing','archive_record_small','archive_record_medium','archive_record_large','record_stack_shelf_bay','record_stack_end_cap','record_stack_family','shelf_light_channel','record_stack_corner')) {
         $target = Join-Path $reviewDir "assets/$name"
         New-Item -ItemType Directory $target -Force | Out-Null
         Get-ChildItem (Join-Path $assetRoot $name) -File |
@@ -31,7 +31,7 @@ anti_aliasing/quality/msaa_3d=2
         Stop-Process -Id $run.Id
         throw "Validation timed out; logs at $reviewDir"
     }
-    foreach ($name in @('record_stack_shelf_bay','record_stack_end_cap','record_stack_family')) {
+    foreach ($name in @('record_stack_shelf_bay','record_stack_end_cap','record_stack_family','shelf_light_channel','record_stack_corner')) {
         $destination = Join-Path $assetRoot $name
         Get-ChildItem (Join-Path $reviewDir "assets/$name") -File |
             Where-Object { $_.Name -like 'godot_*' -or $_.Name -like '*.glb.import' } | Copy-Item -Destination $destination

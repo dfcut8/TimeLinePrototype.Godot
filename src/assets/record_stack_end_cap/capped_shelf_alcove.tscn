@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/illuminated_shelf_bay.tscn" id="bay"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/record_stack_end_cap.tscn" id="cap"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_corner/record_stack_corner.tscn" id="corner"]
+[node name="CappedShelfAlcove" type="Node3D"]
+[node name="Corner" parent="." instance=ExtResource("corner")]
+position = Vector3(0.0,0.0,0.0)
+rotation_degrees = Vector3(0,0,0)
+[node name="EntryBay" parent="." instance=ExtResource("bay")]
+position = Vector3(1.02,0.0,-0.8)
+rotation_degrees = Vector3(0,-90,0)
+[node name="ExitBay" parent="." instance=ExtResource("bay")]
+position = Vector3(-0.8,0.0,1.02)
+rotation_degrees = Vector3(0,180,0)
+[node name="EntryCap" parent="." instance=ExtResource("cap")]
+position = Vector3(1.02,0.0,-1.6)
+rotation_degrees = Vector3(0,90,0)
+[node name="ExitCap" parent="." instance=ExtResource("cap")]
+position = Vector3(-1.6,0.0,1.02)
+rotation_degrees = Vector3(0,180,0)

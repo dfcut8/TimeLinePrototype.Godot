@@ -10,4 +10,10 @@ Three 1.6 m bays, both end caps, and three cassette sizes on every shelf are che
 
 Godot 4.7.2 Forward+/D3D12 checks passed. Separate import and runtime logs contain only the host certificate-store error, not asset errors. No live MCP connection worked: Blender tools were unavailable, and Godot get_state could not reach port 6550. The local game-dev CLI was not on PATH; the repository's existing Blender/standalone-Godot workflow was used. No paid service or external assets were used. No canonical game-dev package verification is claimed.
 
-Remaining checks: live MCP/editor validation, future shelf-light #27 integration, full room placement/orbit clearance and measured performance. These focused object models do not establish final chamber scale. No issue closure or PR publication was performed.
+Remaining checks: live MCP/editor validation, full room placement/orbit clearance and measured performance. These focused object models do not establish final chamber scale. No issue closure or PR publication was performed.
+
+## Integrated delivery
+
+Issues #28 and #29 now provide `illuminated_shelf_bay.tscn`, `capped_shelf_row.tscn` and `capped_shelf_alcove.tscn` in their object directories. They are directly usable in the main project; only the cassette review remains isolated. The review instances the actual production row and adds 108 independent records. The verifier also loads the production alcove and checks rotated cap contacts and corner joins. No modeling-source or GLB changes were needed.
+
+The fresh report includes 12 successfully fitted light fixtures and rotated-cap checks, with seven runtime captures. Blender's status and scene MCP calls failed; Godot MCP get_state failed on port 6550. Standalone Godot 4.7.2 Forward+/D3D12 supplied the passing import/runtime checks. Separate logs contain only the known certificate-store error. Live MCP review and full-room placement/performance remain incomplete.

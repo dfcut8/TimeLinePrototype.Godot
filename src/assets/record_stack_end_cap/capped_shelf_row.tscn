@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/illuminated_shelf_bay.tscn" id="bay"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/record_stack_end_cap.tscn" id="cap"]
+[node name="CappedShelfRow" type="Node3D"]
+[node name="Bay0" parent="." instance=ExtResource("bay")]
+position = Vector3(-1.6,0.0,0.0)
+rotation_degrees = Vector3(0,0,0)
+[node name="Bay1" parent="." instance=ExtResource("bay")]
+position = Vector3(0.0,0.0,0.0)
+rotation_degrees = Vector3(0,0,0)
+[node name="Bay2" parent="." instance=ExtResource("bay")]
+position = Vector3(1.6,0.0,0.0)
+rotation_degrees = Vector3(0,0,0)
+[node name="CapLeft" parent="." instance=ExtResource("cap")]
+position = Vector3(-2.4,0.0,0.0)
+rotation_degrees = Vector3(0,180,0)
+[node name="CapRight" parent="." instance=ExtResource("cap")]
+position = Vector3(2.4,0.0,0.0)
+rotation_degrees = Vector3(0,0,0)

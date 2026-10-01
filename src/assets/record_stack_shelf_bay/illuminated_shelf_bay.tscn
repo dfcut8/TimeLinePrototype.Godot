@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="bay"]
+[ext_resource type="PackedScene" path="res://assets/shelf_light_channel/shelf_light_channel.tscn" id="light"]
+[node name="IlluminatedShelfBay" type="Node3D"]
+[node name="Bay" parent="." instance=ExtResource("bay")]
+position = Vector3(0.0,0.0,0.0)
+rotation_degrees = Vector3(0,0,0)
+[node name="Light0" parent="." instance=ExtResource("light")]
+position = Vector3(0.0,0.692,0.175)
+rotation_degrees = Vector3(0,0,0)
+[node name="Light1" parent="." instance=ExtResource("light")]
+position = Vector3(0.0,1.252,0.175)
+rotation_degrees = Vector3(0,0,0)
+[node name="Light2" parent="." instance=ExtResource("light")]
+position = Vector3(0.0,1.812,0.175)
+rotation_degrees = Vector3(0,0,0)
+[node name="Light3" parent="." instance=ExtResource("light")]
+position = Vector3(0.0,2.372,0.175)
+rotation_degrees = Vector3(0,0,0)
