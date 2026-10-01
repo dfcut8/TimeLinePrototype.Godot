@@ -5,7 +5,7 @@ $previousAppData = $env:APPDATA
 $assetRoot = Split-Path $PSScriptRoot
 try {
     $env:APPDATA = $reviewDir
-    foreach ($name in @('timeline_rail_housing','archive_record_small','archive_record_medium','archive_record_large','archive_record_family','record_stack_shelf_bay','archive_display_plinth')) {
+    foreach ($name in @('timeline_rail_housing','archive_record_small','archive_record_medium','archive_record_large','archive_record_family','record_stack_shelf_bay','archive_display_plinth','shelf_light_channel')) {
         $target = Join-Path $reviewDir "assets/$name"
         New-Item -ItemType Directory $target -Force | Out-Null
         Get-ChildItem (Join-Path $assetRoot $name) -File |

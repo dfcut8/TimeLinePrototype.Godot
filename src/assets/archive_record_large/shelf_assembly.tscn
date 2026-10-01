@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3]
 
-[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/illuminated_shelf_bay.tscn" id="1"]
 
 [ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="2"]
 

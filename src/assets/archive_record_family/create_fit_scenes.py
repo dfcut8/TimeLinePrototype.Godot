@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parent.parent
 for size, count, pitch in [('small', 17, .085), ('large', 11, .125)]:
     name = f'archive_record_{size}'
     lines = ['[gd_scene load_steps=3 format=3]',
-             '[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="1"]',
+             '[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/illuminated_shelf_bay.tscn" id="1"]',
              f'[ext_resource type="PackedScene" path="res://assets/{name}/{name}.tscn" id="2"]',
              f'[node name="{size.title()}CassetteShelf" type="Node3D"]',
              '[node name="Shelf" parent="." instance=ExtResource("1")]']
