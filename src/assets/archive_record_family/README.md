@@ -6,6 +6,13 @@ Use each size's `build_asset.py` in Blender to build, validate, export and rende
 
 The review assembly uses the staged medium GLB. This folder has `.gdignore` so the main project does not try to resolve that staged dependency; the verifier copies the required files without `.gdignore` into its temporary project. Small and large object scenes are independently usable in the main project. Studio rigs and review scenes are excluded from the delivered GLBs.
 
-MCP connection checks failed for both applications. Standalone Blender 5.2.2 LTS and Godot 4.7.2 Forward+/D3D12 provided the recorded validation. All geometry/material/dimension checks passed. Import and runtime logs each contain the host Windows certificate-store error; no asset/script error remains. Live MCP validation, actual shelf bay (#28) assembly fit and room/performance testing remain incomplete. No collision is added to decorative cassette meshes.
+MCP connection checks failed for both applications. Standalone Blender 5.2.2 LTS and Godot 4.7.2 Forward+/D3D12 provided the recorded validation. All geometry/material/dimension checks passed. Import and runtime logs each contain the host Windows certificate-store error; no asset/script error remains. Live MCP validation and room/performance testing remain incomplete. Actual shelf and plinth fit is now verified by the follow-up below. No collision is added to decorative cassette meshes.
 
-Both sizes retain identical fixed bevel widths, index shapes and material factors. Bottom-center pivots, +Y up and +Z spine fronts match the medium model. Proposed per-record clearances are documented per size; they are not a claim that a shelf was built.
+Both sizes retain identical fixed bevel widths, index shapes and material factors. Bottom-center pivots, +Y up and +Z spine fronts match the medium model. Original proposed allocations have been superseded by measured shelf/plinth assembly fit.
+
+
+## Actual shelf and plinth fit
+
+`verify_fit.ps1` imports the existing cassette, shelf and plinth GLBs into an isolated project and runs `verify_fit.gd`. It checks 68 small and 44 large instances, measures support faces from imported mesh bounds, checks contact and all opening clearances, detects record overlap, verifies matte materials and triangle normals/UVs, and captures four views per assembly. The large record additionally sits on the real plinth. `godot_fit_validation.json` and separate `fit_*.log` files record the result. Run `create_fit_scenes.py` to rebuild the reusable shelf scenes beside both cassette assets and the large display scene. All component objects remain separate scene instances. Their GLBs and editable Blender sources are unchanged.
+
+The historical `godot_validation.json` describes the earlier isolated-model review, including its then-provisional shelf status. The fit report supersedes that status. Live Blender/Godot MCP connection checks failed; fresh standalone Godot 4.7.2 Forward+/D3D12 validation passed, with only the host certificate-store error in import and runtime logs. Full-room placement, camera clearance and measured performance remain pending.

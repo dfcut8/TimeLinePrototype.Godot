@@ -12,18 +12,23 @@
     },
     {
       "path": "archive_record_small.tscn",
-      "bytes": 254,
-      "sha256": "1553c72dfc1775d7b36687609e2339c9e916a09d4e8768427d06cd1f64214b53"
+      "bytes": 247,
+      "sha256": "3722541f94967d0ba9018a12dc84f36042418e970a402a05f767c6ebbb1f8100"
     },
     {
       "path": "build_asset.py",
-      "bytes": 459,
-      "sha256": "548f4d2fc4e4fd3ec4dbf47d584e342f19a942a8d403794fbfe310da46743d6e"
+      "bytes": 451,
+      "sha256": "8173268248e82a7b61a896727b3d3e8439efd207c6c4416f9aae004d835f5146"
     },
     {
       "path": "dimensions.svg",
       "bytes": 884,
       "sha256": "2047d5db22402e826a96870c69f88818c85bb89f062d389052f0de2ffe2f35d8"
+    },
+    {
+      "path": "godot_fit_validation.json",
+      "bytes": 1074,
+      "sha256": "c8171d414ff0986ccb29ec9a3c99f516425da69fc8fba74f1951878c807eaee9"
     },
     {
       "path": "godot_front.png",
@@ -34,6 +39,26 @@
       "path": "godot_rear.png",
       "bytes": 18417,
       "sha256": "15102e0a814f85b22ab52a871dbe28b9f9f8a5211684b94c7cf44ae9abe3107b"
+    },
+    {
+      "path": "godot_shelf_end.png",
+      "bytes": 35170,
+      "sha256": "7557de88347d29bc261eadd95667226e363b214ffdff721f9a37d85a8d069949"
+    },
+    {
+      "path": "godot_shelf_front.png",
+      "bytes": 106580,
+      "sha256": "e13be58a50418045186c943fb112a73e83a5a986047e5e50c50978f316326694"
+    },
+    {
+      "path": "godot_shelf_rear.png",
+      "bytes": 26446,
+      "sha256": "69935ee594b563d91fdf9a53b90bb35bda2bba5998caca2d3a748692672ee481"
+    },
+    {
+      "path": "godot_shelf_underside.png",
+      "bytes": 89445,
+      "sha256": "57875db9b41fc8d3f7491053fc19968f06eba3fa4d8a8dc681fde1a9241da343"
     },
     {
       "path": "godot_side.png",
@@ -77,8 +102,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4679,
-      "sha256": "85f64f204621bc9e39fe01078bd9aa5a283fc7a1f16e91f60ab29625e114b2c3"
+      "bytes": 6141,
+      "sha256": "0a4a7f0226c1f4198b513eb96e5da2381907df40f14738c826151473a65b1c73"
+    },
+    {
+      "path": "shelf_assembly.tscn",
+      "bytes": 8114,
+      "sha256": "ae5cc19e0d413ae3a9675ca4267fb009cf36136bf21635c66e7ae92e4ffc9600"
     },
     {
       "path": "source/.gdignore",
@@ -92,8 +122,8 @@
     },
     {
       "path": "validation.json",
-      "bytes": 6254,
-      "sha256": "441d14874634ca03458db31ded833ab42fca1cce335f68645b114aa8e8e57e4a"
+      "bytes": 6011,
+      "sha256": "f6fa9329f724fd6779747db2b4b717919592b4ef1a8dd849f2f9d60a09cdfcd8"
     }
   ]
 }

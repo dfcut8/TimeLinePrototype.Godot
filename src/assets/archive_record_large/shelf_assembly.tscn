@@ -1,0 +1,185 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/record_stack_shelf_bay.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="2"]
+
+[node name="LargeCassetteShelf" type="Node3D"]
+
+[node name="Shelf" parent="." instance=ExtResource("1")]
+
+[node name="Record_0_0" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.625000, 0.160000, 0.03)
+
+[node name="Record_0_1" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.500000, 0.160000, 0.03)
+
+[node name="Record_0_2" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.375000, 0.160000, 0.03)
+
+[node name="Record_0_3" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.250000, 0.160000, 0.03)
+
+[node name="Record_0_4" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.125000, 0.160000, 0.03)
+
+[node name="Record_0_5" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.000000, 0.160000, 0.03)
+
+[node name="Record_0_6" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.125000, 0.160000, 0.03)
+
+[node name="Record_0_7" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.250000, 0.160000, 0.03)
+
+[node name="Record_0_8" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.375000, 0.160000, 0.03)
+
+[node name="Record_0_9" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.500000, 0.160000, 0.03)
+
+[node name="Record_0_10" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.625000, 0.160000, 0.03)
+
+[node name="Record_1_0" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.625000, 0.720000, 0.03)
+
+[node name="Record_1_1" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.500000, 0.720000, 0.03)
+
+[node name="Record_1_2" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.375000, 0.720000, 0.03)
+
+[node name="Record_1_3" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.250000, 0.720000, 0.03)
+
+[node name="Record_1_4" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.125000, 0.720000, 0.03)
+
+[node name="Record_1_5" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.000000, 0.720000, 0.03)
+
+[node name="Record_1_6" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.125000, 0.720000, 0.03)
+
+[node name="Record_1_7" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.250000, 0.720000, 0.03)
+
+[node name="Record_1_8" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.375000, 0.720000, 0.03)
+
+[node name="Record_1_9" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.500000, 0.720000, 0.03)
+
+[node name="Record_1_10" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.625000, 0.720000, 0.03)
+
+[node name="Record_2_0" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.625000, 1.280000, 0.03)
+
+[node name="Record_2_1" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.500000, 1.280000, 0.03)
+
+[node name="Record_2_2" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.375000, 1.280000, 0.03)
+
+[node name="Record_2_3" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.250000, 1.280000, 0.03)
+
+[node name="Record_2_4" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.125000, 1.280000, 0.03)
+
+[node name="Record_2_5" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.000000, 1.280000, 0.03)
+
+[node name="Record_2_6" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.125000, 1.280000, 0.03)
+
+[node name="Record_2_7" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.250000, 1.280000, 0.03)
+
+[node name="Record_2_8" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.375000, 1.280000, 0.03)
+
+[node name="Record_2_9" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.500000, 1.280000, 0.03)
+
+[node name="Record_2_10" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.625000, 1.280000, 0.03)
+
+[node name="Record_3_0" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.625000, 1.840000, 0.03)
+
+[node name="Record_3_1" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.500000, 1.840000, 0.03)
+
+[node name="Record_3_2" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.375000, 1.840000, 0.03)
+
+[node name="Record_3_3" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.250000, 1.840000, 0.03)
+
+[node name="Record_3_4" parent="." instance=ExtResource("2")]
+
+position = Vector3(-0.125000, 1.840000, 0.03)
+
+[node name="Record_3_5" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.000000, 1.840000, 0.03)
+
+[node name="Record_3_6" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.125000, 1.840000, 0.03)
+
+[node name="Record_3_7" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.250000, 1.840000, 0.03)
+
+[node name="Record_3_8" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.375000, 1.840000, 0.03)
+
+[node name="Record_3_9" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.500000, 1.840000, 0.03)
+
+[node name="Record_3_10" parent="." instance=ExtResource("2")]
+
+position = Vector3(0.625000, 1.840000, 0.03)

@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://assets/archive_display_plinth/archive_display_plinth.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/archive_record_large.tscn" id="2"]
+[node name="LargeCassetteDisplay" type="Node3D"]
+[node name="Plinth" parent="." instance=ExtResource("1")]
+[node name="Record" parent="." instance=ExtResource("2")]
+position = Vector3(0, 0.6, 0)
