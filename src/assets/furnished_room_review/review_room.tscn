@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/furnished_room_review/furnished_room.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/library_room_review/room_review_rig.tscn" id="2"]
+
+[node name="FurnishedRoomReview" type="Node3D"]
+
+[node name="Room" parent="." instance=ExtResource("1")]
+position = Vector3(0.000000000, 0.000000000, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
+
+[node name="ReviewRig" parent="." instance=ExtResource("2")]
+position = Vector3(0.000000000, 0.000000000, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
