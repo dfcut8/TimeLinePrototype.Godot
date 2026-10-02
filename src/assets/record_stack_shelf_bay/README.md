@@ -1,5 +1,14 @@
 # Record stack shelf bay — issue #28
 
+## Mixed-size reusable bay — 2 October 2026
+
+`mixed_cassette_shelf_bay.tscn` combines this illuminated bay with 36 independent
+small/medium/large cassette scenes. The [room review](../rail_shelf_room_review/README.md)
+checks all three sizes together under translated/rotated parents, actual floor
+support, architectural/portal clearance and four visible sides. Godot 4.7.2
+Forward+/D3D12 passed with at least 27.198 mm structure, 41.999 mm light and
+53.398 mm neighbor clearance. Live MCP and final art approval remain outstanding.
+
 ## Configurable repetition — issues #28 and #29
 
 `../record_stack_end_cap/configurable_shelf_row.tscn` now repeats this bay's

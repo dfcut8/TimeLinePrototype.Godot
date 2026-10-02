@@ -21,7 +21,7 @@ finally:
     bpy.context.window.scene=original
     for obj in list(check.objects): bpy.data.objects.remove(obj,do_unlink=True)
     bpy.data.scenes.remove(check)
-with bpy.data.libraries.load(str(out/"archive_record_medium.blend")) as (source,target):
+with bpy.data.libraries.load(str(out/"source/archive_record_medium.blend")) as (source,target):
     report["blend_file_contents"]={"scenes":list(source.scenes),"objects":len(source.objects),"meshes":len(source.meshes)}
 assert len(report["blend_file_contents"]["scenes"])==1
 report["visual_review"]={"views":["preview_front.png","preview_rear.png","preview_underside.png"],"result":"Reviewed: front/spine, both broad covers, rear, top and underside are closed; no visible z-fighting; silhouette and index marks read without bloom."}

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/roofed_room_review/roofed_room.tscn" id="room"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/mixed_cassette_shelf_bay.tscn" id="mixed"]
+
+[node name="RailShelfRoom" type="Node3D"]
+
+[node name="Library" parent="." instance=ExtResource("room")]
+
+[node name="MixedShelf" parent="." instance=ExtResource("mixed")]
+position = Vector3(22, 0, 0)
+rotation_degrees = Vector3(0, -90, 0)

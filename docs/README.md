@@ -10,6 +10,7 @@ The experience specification and original asset brief below preserve the older v
 
 | Document | Purpose |
 | --- | --- |
+| [Rail visibility and mixed shelf fit](../src/assets/rail_shelf_room_review/README.md) | Reusable three-size shelf bay, room clearances and 216 perspective rail samples for issues #5 and #28. |
 | [Furnished room placement review](../src/assets/furnished_room_review/README.md) | End caps, lecterns, benches and cassette displays at room scale, with Godot clearance evidence for issues #29, #34, #35 and #36. |
 | [Room-scale asset fit review](../src/assets/library_room_review/README.md) | Godot perimeter, portal, small/large cassette and sampled camera clearance evidence for issues #24, #25, #31 and #33. |
 | [Experience and visual design](timeline-design.md) | Spatial composition, wireframes, camera, controls, accessibility, Godot responsibilities, and acceptance criteria. |
