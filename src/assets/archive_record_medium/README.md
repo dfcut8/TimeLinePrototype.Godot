@@ -1,12 +1,26 @@
 # Medium archive record cassette
 
+## Shelf integration — 2 October 2026
+
+`archive_record_medium.tscn` is now a reusable object scene used by the
+[mixed shelf bay review](../rail_shelf_room_review/README.md) for issue #28.
+The asset folder is importable; `.gdignore` now protects only `source/`, where
+the unchanged editable `archive_record_medium.blend` resides. Authoring scripts
+use that path. Explicit GLB settings disable lossy compression and generated LODs.
+Godot 4.7.2 Forward+/D3D12 verified imported geometry/materials and mixed-size
+shelf fit, at identity and transformed placement. See the linked report for
+measurements, captures and live MCP limitations. The historical deferral and
+missing-dependency notes below are superseded by this integration evidence.
+
+## Historical production handoff
+
 Model work for [GitHub issue #32](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/32), randomly selected from 29 open required model issues. Optional furnishings were excluded because their briefs defer production. Selection and the original request are recorded in `issue.json`.
 
 **Staged for art review, not imported into Godot.** The local `.gdignore` prevents automatic resource import. Keep it until integration is explicitly requested. The GitHub issue remains open: actual shelf fit and Godot acceptance are still outstanding.
 
 ## Files
 
-- `archive_record_medium.blend`: editable 16-part model, four material graphs, separate studio collection and review camera. Original user scene was preserved in the live Blender session and excluded from this file.
+- `source/archive_record_medium.blend`: editable 16-part model, four material graphs, separate studio collection and review camera. Original user scene was preserved in the live Blender session and excluded from this file.
 - `archive_record_medium.glb`: glTF 2.0, one mesh with four material surfaces; 1,728 triangles. No camera, studio geometry, animation, image or external dependency.
 - `preview_front.png`, `preview_rear.png`, `preview_underside.png`: studio renders from Blender, without bloom.
 - `dimensions.svg`: resolved front/side/top drawing with nominal body dimensions and the full detail envelope.

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/rail_shelf_room_review/room_assembly.tscn" id="room"]
+[ext_resource type="PackedScene" path="res://assets/library_room_review/room_review_rig.tscn" id="rig"]
+
+[node name="RailShelfRoomReview" type="Node3D"]
+
+[node name="Room" parent="." instance=ExtResource("room")]
+
+[node name="ReviewRig" parent="." instance=ExtResource("rig")]

@@ -19,5 +19,7 @@ ground.hide_render=False
 camera.location=(.82,-1.10,.70)
 camera.rotation_euler=(Vector((0,0,.20))-camera.location).to_track_quat("-Z","Y").to_euler()
 scene.render.filepath=str(OUT/"preview_front.png")
-bpy.data.libraries.write(str(OUT/"archive_record_medium.blend"),{scene},fake_user=True,compress=True)
+(OUT / "source").mkdir(exist_ok=True)
+(OUT / "source/.gdignore").touch()
+bpy.data.libraries.write(str(OUT/"source/archive_record_medium.blend"),{scene},fake_user=True,compress=True)
 print("Three review renders saved.")

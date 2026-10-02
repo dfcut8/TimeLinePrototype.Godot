@@ -65,5 +65,7 @@ report["glb"]={"magic":magic.decode(),"version":version,"bytes":len(data),"meshe
 report["materials"]=[{"name":m["name"],"pbr":m["pbrMetallicRoughness"]} for m in gltf["materials"]]
 (OUT/"validation.json").write_text(json.dumps(report,indent=2),encoding="utf-8")
 # Library write includes this scene and its dependencies only, preserving the user's scene.
-bpy.data.libraries.write(str(OUT/(NAME+".blend")),{scene},fake_user=True,compress=True)
+(OUT / "source").mkdir(exist_ok=True)
+(OUT / "source/.gdignore").touch()
+bpy.data.libraries.write(str(OUT/"source"/(NAME+".blend")),{scene},fake_user=True,compress=True)
 print(json.dumps(report,indent=2))

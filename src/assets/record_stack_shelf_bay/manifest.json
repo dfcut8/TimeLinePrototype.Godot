@@ -16,6 +16,11 @@
       "sha256": "b62747a5f535ad52e836a0adcf8f6940ca323aaf8744ba5d9cab5aa028c0516f"
     },
     {
+      "path": "mixed_cassette_shelf_bay.tscn",
+      "bytes": 5001,
+      "sha256": "a584eb341a907991c73758823f4d5de0dd60f627e1811add81a3a449a78c20c1"
+    },
+    {
       "path": "preview_front.png",
       "bytes": 734356,
       "sha256": "f4af5240e00ea15eed6557e90fe8416099c730fa8ae9aea21a20e403085131df"
@@ -37,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6497,
-      "sha256": "9ac71c8b311fd70af2ff483098e087bf1a494a43ef77359b178aeb97a41483ec"
+      "bytes": 7379,
+      "sha256": "5aa48de76a3b9ad828f4a212e9af75b4ee5ae2fbe668a8a9b92cd3f5b17f9669"
     },
     {
       "path": "record_stack_shelf_bay.glb",
