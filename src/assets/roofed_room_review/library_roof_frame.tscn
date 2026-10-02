@@ -1,0 +1,295 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/oculus_curb_segment/oculus_curb_segment.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/radial_roof_beam/radial_roof_beam.tscn" id="2"]
+
+[node name="LibraryRoofFrame" type="Node3D"]
+
+[node name="Curb0" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 1.701696020694, 0)
+
+[node name="Beam0" parent="." instance=ExtResource("2")]
+
+position = Vector3(-1.324840851, 4.75, -10.063165343)
+
+rotation = Vector3(0, 1.701696020694, 0)
+
+[node name="Curb1" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 1.439896632895, 0)
+
+[node name="Beam1" parent="." instance=ExtResource("2")]
+
+position = Vector3(1.324840851, 4.75, -10.063165343)
+
+rotation = Vector3(0, 1.439896632895, 0)
+
+[node name="Curb2" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 1.178097245096, 0)
+
+[node name="Beam2" parent="." instance=ExtResource("2")]
+
+position = Vector3(3.884236839, 4.75, -9.377377255)
+
+rotation = Vector3(0, 1.178097245096, 0)
+
+[node name="Curb3" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 0.916297857297, 0)
+
+[node name="Beam3" parent="." instance=ExtResource("2")]
+
+position = Vector3(6.178928504, 4.75, -8.052536404)
+
+rotation = Vector3(0, 0.916297857297, 0)
+
+[node name="Curb4" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 0.654498469498, 0)
+
+[node name="Beam4" parent="." instance=ExtResource("2")]
+
+position = Vector3(8.052536404, 4.75, -6.178928504)
+
+rotation = Vector3(0, 0.654498469498, 0)
+
+[node name="Curb5" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 0.392699081699, 0)
+
+[node name="Beam5" parent="." instance=ExtResource("2")]
+
+position = Vector3(9.377377255, 4.75, -3.884236839)
+
+rotation = Vector3(0, 0.392699081699, 0)
+
+[node name="Curb6" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, 0.130899693900, 0)
+
+[node name="Beam6" parent="." instance=ExtResource("2")]
+
+position = Vector3(10.063165343, 4.75, -1.324840851)
+
+rotation = Vector3(0, 0.130899693900, 0)
+
+[node name="Curb7" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -0.130899693900, 0)
+
+[node name="Beam7" parent="." instance=ExtResource("2")]
+
+position = Vector3(10.063165343, 4.75, 1.324840851)
+
+rotation = Vector3(0, -0.130899693900, 0)
+
+[node name="Curb8" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -0.392699081699, 0)
+
+[node name="Beam8" parent="." instance=ExtResource("2")]
+
+position = Vector3(9.377377255, 4.75, 3.884236839)
+
+rotation = Vector3(0, -0.392699081699, 0)
+
+[node name="Curb9" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -0.654498469498, 0)
+
+[node name="Beam9" parent="." instance=ExtResource("2")]
+
+position = Vector3(8.052536404, 4.75, 6.178928504)
+
+rotation = Vector3(0, -0.654498469498, 0)
+
+[node name="Curb10" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -0.916297857297, 0)
+
+[node name="Beam10" parent="." instance=ExtResource("2")]
+
+position = Vector3(6.178928504, 4.75, 8.052536404)
+
+rotation = Vector3(0, -0.916297857297, 0)
+
+[node name="Curb11" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -1.178097245096, 0)
+
+[node name="Beam11" parent="." instance=ExtResource("2")]
+
+position = Vector3(3.884236839, 4.75, 9.377377255)
+
+rotation = Vector3(0, -1.178097245096, 0)
+
+[node name="Curb12" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -1.439896632895, 0)
+
+[node name="Beam12" parent="." instance=ExtResource("2")]
+
+position = Vector3(1.324840851, 4.75, 10.063165343)
+
+rotation = Vector3(0, -1.439896632895, 0)
+
+[node name="Curb13" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -1.701696020694, 0)
+
+[node name="Beam13" parent="." instance=ExtResource("2")]
+
+position = Vector3(-1.324840851, 4.75, 10.063165343)
+
+rotation = Vector3(0, -1.701696020694, 0)
+
+[node name="Curb14" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -1.963495408494, 0)
+
+[node name="Beam14" parent="." instance=ExtResource("2")]
+
+position = Vector3(-3.884236839, 4.75, 9.377377255)
+
+rotation = Vector3(0, -1.963495408494, 0)
+
+[node name="Curb15" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -2.225294796293, 0)
+
+[node name="Beam15" parent="." instance=ExtResource("2")]
+
+position = Vector3(-6.178928504, 4.75, 8.052536404)
+
+rotation = Vector3(0, -2.225294796293, 0)
+
+[node name="Curb16" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -2.487094184092, 0)
+
+[node name="Beam16" parent="." instance=ExtResource("2")]
+
+position = Vector3(-8.052536404, 4.75, 6.178928504)
+
+rotation = Vector3(0, -2.487094184092, 0)
+
+[node name="Curb17" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -2.748893571891, 0)
+
+[node name="Beam17" parent="." instance=ExtResource("2")]
+
+position = Vector3(-9.377377255, 4.75, 3.884236839)
+
+rotation = Vector3(0, -2.748893571891, 0)
+
+[node name="Curb18" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -3.010692959690, 0)
+
+[node name="Beam18" parent="." instance=ExtResource("2")]
+
+position = Vector3(-10.063165343, 4.75, 1.324840851)
+
+rotation = Vector3(0, -3.010692959690, 0)
+
+[node name="Curb19" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -3.272492347489, 0)
+
+[node name="Beam19" parent="." instance=ExtResource("2")]
+
+position = Vector3(-10.063165343, 4.75, -1.324840851)
+
+rotation = Vector3(0, -3.272492347489, 0)
+
+[node name="Curb20" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -3.534291735289, 0)
+
+[node name="Beam20" parent="." instance=ExtResource("2")]
+
+position = Vector3(-9.377377255, 4.75, -3.884236839)
+
+rotation = Vector3(0, -3.534291735289, 0)
+
+[node name="Curb21" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -3.796091123088, 0)
+
+[node name="Beam21" parent="." instance=ExtResource("2")]
+
+position = Vector3(-8.052536404, 4.75, -6.178928504)
+
+rotation = Vector3(0, -3.796091123088, 0)
+
+[node name="Curb22" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -4.057890510887, 0)
+
+[node name="Beam22" parent="." instance=ExtResource("2")]
+
+position = Vector3(-6.178928504, 4.75, -8.052536404)
+
+rotation = Vector3(0, -4.057890510887, 0)
+
+[node name="Curb23" parent="." instance=ExtResource("1")]
+
+position = Vector3(0, 4.15, 0)
+
+rotation = Vector3(0, -4.319689898686, 0)
+
+[node name="Beam23" parent="." instance=ExtResource("2")]
+
+position = Vector3(-3.884236839, 4.75, -9.377377255)
+
+rotation = Vector3(0, -4.319689898686, 0)
