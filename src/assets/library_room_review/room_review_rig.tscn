@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_portal_review/review_rig.tscn" id="1"]
+
+[node name="RoomReviewRig" instance=ExtResource("1")]
+
+[node name="Camera3D" parent="." index="3"]
+position = Vector3(38, 42, 45)
+rotation_degrees = Vector3(-35.49, 40.18, 0)
+size = 60.0

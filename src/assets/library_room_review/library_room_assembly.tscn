@@ -1,0 +1,363 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/wall_infill_bay.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/passage_portal_bay_frame.tscn" id="2"]
+
+[ext_resource type="PackedScene" path="res://assets/window_bay_frame/window_bay_frame.tscn" id="3"]
+
+[ext_resource type="PackedScene" path="res://assets/structural_pier_a/structural_pier_a.tscn" id="4"]
+
+[ext_resource type="PackedScene" path="res://assets/archive_record_small/shelf_assembly.tscn" id="5"]
+
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/shelf_assembly.tscn" id="6"]
+
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/configurable_timeline_rail.tscn" id="7"]
+
+[node name="LibraryRoomAssembly" type="Node3D"]
+
+[node name="Perimeter" type="Node3D" parent="."]
+
+[node name="Shelves" type="Node3D" parent="."]
+
+[node name="Bay0" parent="Perimeter" instance=ExtResource("2")]
+
+position = Vector3(0.000000000, 0, -24.587832562)
+
+rotation_degrees = Vector3(0, 0, 0)
+
+[node name="Pier0" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-3.237049567, 0, -24.587832562)
+
+rotation_degrees = Vector3(0, 7.5, 0)
+
+[node name="Bay1" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(6.363799345, 0, -23.750022484)
+
+rotation_degrees = Vector3(0, -15, 0)
+
+[node name="Pier1" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(3.237049567, 0, -24.587832562)
+
+rotation_degrees = Vector3(0, -7.5, 0)
+
+[node name="Bay2" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(12.293916281, 0, -21.293687623)
+
+rotation_degrees = Vector3(0, -30, 0)
+
+[node name="Pier2" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(9.490549123, 0, -22.912212406)
+
+rotation_degrees = Vector3(0, -22.5, 0)
+
+[node name="Bay3" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(17.386223139, 0, -17.386223139)
+
+rotation_degrees = Vector3(0, -45, 0)
+
+[node name="Pier3" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(15.097283439, 0, -19.675162839)
+
+rotation_degrees = Vector3(0, -37.5, 0)
+
+[node name="Bay4" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(21.293687623, 0, -12.293916281)
+
+rotation_degrees = Vector3(0, -60, 0)
+
+[node name="Pier4" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(19.675162839, 0, -15.097283439)
+
+rotation_degrees = Vector3(0, -52.5, 0)
+
+[node name="Bay5" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(23.750022484, 0, -6.363799345)
+
+rotation_degrees = Vector3(0, -75, 0)
+
+[node name="Pier5" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(22.912212406, 0, -9.490549123)
+
+rotation_degrees = Vector3(0, -67.5, 0)
+
+[node name="Bay6" parent="Perimeter" instance=ExtResource("3")]
+
+position = Vector3(24.587832562, 0, -0.000000000)
+
+rotation_degrees = Vector3(0, -90, 0)
+
+[node name="Pier6" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(24.587832562, 0, -3.237049567)
+
+rotation_degrees = Vector3(0, -82.5, 0)
+
+[node name="Bay7" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(23.750022484, 0, 6.363799345)
+
+rotation_degrees = Vector3(0, -105, 0)
+
+[node name="Pier7" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(24.587832562, 0, 3.237049567)
+
+rotation_degrees = Vector3(0, -97.5, 0)
+
+[node name="Bay8" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(21.293687623, 0, 12.293916281)
+
+rotation_degrees = Vector3(0, -120, 0)
+
+[node name="Pier8" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(22.912212406, 0, 9.490549123)
+
+rotation_degrees = Vector3(0, -112.5, 0)
+
+[node name="Bay9" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(17.386223139, 0, 17.386223139)
+
+rotation_degrees = Vector3(0, -135, 0)
+
+[node name="Pier9" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(19.675162839, 0, 15.097283439)
+
+rotation_degrees = Vector3(0, -127.5, 0)
+
+[node name="Bay10" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(12.293916281, 0, 21.293687623)
+
+rotation_degrees = Vector3(0, -150, 0)
+
+[node name="Pier10" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(15.097283439, 0, 19.675162839)
+
+rotation_degrees = Vector3(0, -142.5, 0)
+
+[node name="Bay11" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(6.363799345, 0, 23.750022484)
+
+rotation_degrees = Vector3(0, -165, 0)
+
+[node name="Pier11" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(9.490549123, 0, 22.912212406)
+
+rotation_degrees = Vector3(0, -157.5, 0)
+
+[node name="Bay12" parent="Perimeter" instance=ExtResource("2")]
+
+position = Vector3(0.000000000, 0, 24.587832562)
+
+rotation_degrees = Vector3(0, -180, 0)
+
+[node name="Pier12" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(3.237049567, 0, 24.587832562)
+
+rotation_degrees = Vector3(0, -172.5, 0)
+
+[node name="Bay13" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-6.363799345, 0, 23.750022484)
+
+rotation_degrees = Vector3(0, -195, 0)
+
+[node name="Pier13" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-3.237049567, 0, 24.587832562)
+
+rotation_degrees = Vector3(0, -187.5, 0)
+
+[node name="Bay14" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-12.293916281, 0, 21.293687623)
+
+rotation_degrees = Vector3(0, -210, 0)
+
+[node name="Pier14" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-9.490549123, 0, 22.912212406)
+
+rotation_degrees = Vector3(0, -202.5, 0)
+
+[node name="Bay15" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-17.386223139, 0, 17.386223139)
+
+rotation_degrees = Vector3(0, -225, 0)
+
+[node name="Pier15" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-15.097283439, 0, 19.675162839)
+
+rotation_degrees = Vector3(0, -217.5, 0)
+
+[node name="Bay16" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-21.293687623, 0, 12.293916281)
+
+rotation_degrees = Vector3(0, -240, 0)
+
+[node name="Pier16" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-19.675162839, 0, 15.097283439)
+
+rotation_degrees = Vector3(0, -232.5, 0)
+
+[node name="Bay17" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-23.750022484, 0, 6.363799345)
+
+rotation_degrees = Vector3(0, -255, 0)
+
+[node name="Pier17" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-22.912212406, 0, 9.490549123)
+
+rotation_degrees = Vector3(0, -247.5, 0)
+
+[node name="Bay18" parent="Perimeter" instance=ExtResource("3")]
+
+position = Vector3(-24.587832562, 0, 0.000000000)
+
+rotation_degrees = Vector3(0, -270, 0)
+
+[node name="Pier18" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-24.587832562, 0, 3.237049567)
+
+rotation_degrees = Vector3(0, -262.5, 0)
+
+[node name="Bay19" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-23.750022484, 0, -6.363799345)
+
+rotation_degrees = Vector3(0, -285, 0)
+
+[node name="Pier19" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-24.587832562, 0, -3.237049567)
+
+rotation_degrees = Vector3(0, -277.5, 0)
+
+[node name="Bay20" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-21.293687623, 0, -12.293916281)
+
+rotation_degrees = Vector3(0, -300, 0)
+
+[node name="Pier20" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-22.912212406, 0, -9.490549123)
+
+rotation_degrees = Vector3(0, -292.5, 0)
+
+[node name="Bay21" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-17.386223139, 0, -17.386223139)
+
+rotation_degrees = Vector3(0, -315, 0)
+
+[node name="Pier21" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-19.675162839, 0, -15.097283439)
+
+rotation_degrees = Vector3(0, -307.5, 0)
+
+[node name="Bay22" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-12.293916281, 0, -21.293687623)
+
+rotation_degrees = Vector3(0, -330, 0)
+
+[node name="Pier22" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-15.097283439, 0, -19.675162839)
+
+rotation_degrees = Vector3(0, -322.5, 0)
+
+[node name="Bay23" parent="Perimeter" instance=ExtResource("1")]
+
+position = Vector3(-6.363799345, 0, -23.750022484)
+
+rotation_degrees = Vector3(0, -345, 0)
+
+[node name="Pier23" parent="Perimeter" instance=ExtResource("4")]
+
+position = Vector3(-9.490549123, 0, -22.912212406)
+
+rotation_degrees = Vector3(0, -337.5, 0)
+
+[node name="Shelf0" parent="Shelves" instance=ExtResource("5")]
+
+position = Vector3(11.500000000, 0, -19.918584287)
+
+rotation_degrees = Vector3(0, -30, 0)
+
+[node name="Shelf1" parent="Shelves" instance=ExtResource("6")]
+
+position = Vector3(19.918584287, 0, -11.500000000)
+
+rotation_degrees = Vector3(0, -60, 0)
+
+[node name="Shelf2" parent="Shelves" instance=ExtResource("5")]
+
+position = Vector3(19.918584287, 0, 11.500000000)
+
+rotation_degrees = Vector3(0, -120, 0)
+
+[node name="Shelf3" parent="Shelves" instance=ExtResource("6")]
+
+position = Vector3(11.500000000, 0, 19.918584287)
+
+rotation_degrees = Vector3(0, -150, 0)
+
+[node name="Shelf4" parent="Shelves" instance=ExtResource("5")]
+
+position = Vector3(-11.500000000, 0, 19.918584287)
+
+rotation_degrees = Vector3(0, -210, 0)
+
+[node name="Shelf5" parent="Shelves" instance=ExtResource("6")]
+
+position = Vector3(-19.918584287, 0, 11.500000000)
+
+rotation_degrees = Vector3(0, -240, 0)
+
+[node name="Shelf6" parent="Shelves" instance=ExtResource("5")]
+
+position = Vector3(-19.918584287, 0, -11.500000000)
+
+rotation_degrees = Vector3(0, -300, 0)
+
+[node name="Shelf7" parent="Shelves" instance=ExtResource("6")]
+
+position = Vector3(-11.500000000, 0, -19.918584287)
+
+rotation_degrees = Vector3(0, -330, 0)
+
+[node name="Timeline" parent="." instance=ExtResource("7")]
+
+position = Vector3(-7, 1.5, 0)
+
+module_count = 7
