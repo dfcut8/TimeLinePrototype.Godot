@@ -1,5 +1,23 @@
 # Record stack shelf bay — issue #28
 
+## Configurable repetition — issues #28 and #29
+
+`../record_stack_end_cap/configurable_shelf_row.tscn` now repeats this bay's
+illuminated scene at the established 1.6 m pitch, with four fixtures per bay
+and caps tracking both ends. Set `bay_count` from 1 to 32; the default is three.
+The row keeps a floor-center pivot and supports odd/even counts without scaling
+the source objects. See the [row instructions](../record_stack_end_cap/README.md)
+for attachment, persistence and dimension details.
+
+Standalone Godot 4.7.2 Forward+/D3D12 passed 14 configuration and imported-fit
+cases, including a 32-bay/128-fixture row under rotated parents. All bays retained
+floor contact and fixture clearances; maximum seam error was below 0.004 mm.
+Four runtime views were inspected. Reproduce with
+`../record_stack_family/verify_configurable.ps1`. Original GLBs and Blender
+sources are unchanged. Both live MCPs failed connection checks; live editor,
+full-room and performance review remain incomplete. The count cap is not a
+performance claim.
+
 Reusable `record_stack_shelf_bay.tscn` contains the imported visual and shelf/join/light mounting markers. Records are separate scene instances in the review assembly, not part of this GLB. Editable source is `source/record_stack_shelf_bay.blend`; deterministic source is `../record_stack_family/build_asset.py -- bay` (run through Blender).
 
 ## Dimensions and interfaces

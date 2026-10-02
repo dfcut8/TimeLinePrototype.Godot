@@ -2,13 +2,23 @@
   "files": [
     {
       "path": "capped_shelf_alcove.tscn",
-      "bytes": 1087,
-      "sha256": "94e09b030d585da83ab96e0bce58fbf75fb3272297384be639c6dfa0610d65ab"
+      "bytes": 1067,
+      "sha256": "3f560f024ac552baa744512d39ab1ff13acb409ff31d49c0ef1aa8745d22430f"
     },
     {
       "path": "capped_shelf_row.tscn",
-      "bytes": 949,
-      "sha256": "4561924965af87d0c3a333157ac81006f2fc00f7071c7092eae5d0f8cd3be7a4"
+      "bytes": 930,
+      "sha256": "7213775dde94fe0624b2f8b36525fc41739b4dfe603c06f082e67c7827ae926a"
+    },
+    {
+      "path": "configurable_shelf_row.gd",
+      "bytes": 1084,
+      "sha256": "e1fa4e697f455b000a2a13c08afb6712373a05fb71c1509c393a41cee9ca53df"
+    },
+    {
+      "path": "configurable_shelf_row.tscn",
+      "bytes": 766,
+      "sha256": "b75474b85a720848fa413b89d7a354c7424809d72f826ae6c1e22838292675ca"
     },
     {
       "path": "dimensions.svg",
@@ -42,8 +52,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3707,
-      "sha256": "510705406842a2cb9483424410cb71b2d916349639cf6618178e8daff44abeea"
+      "bytes": 5804,
+      "sha256": "19c6376cae7bc774dcc1fe73edbf08c9e9fdbdbc05197927ac09970a6f14951f"
     },
     {
       "path": "record_stack_end_cap.glb",

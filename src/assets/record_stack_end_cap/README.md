@@ -1,5 +1,39 @@
 # Record stack end cap — issue #29
 
+## Configurable row — issues #28 and #29
+
+Instance `configurable_shelf_row.tscn` and set `bay_count` (default 3, clamped
+to 1–32). It repeats the existing illuminated shelf bay and positions the two
+cap scenes at X = ±(count × 0.8 m), with left/right yaw 180/0 degrees.
+The floor-center pivot stays at the middle of the row. Complete width is
+`1.6 × bay_count + 0.164` metres; height/depth stay 2.4/0.44 m. Keep scale at one.
+`LeftJoin` and `RightJoin` mark the bay-to-cap contact planes, not the outside
+of the cap details. Existing fixed row and alcove scenes remain available.
+
+Changing the count rebuilds the generated bays and their four fixtures each.
+Generated children have no saved owner and are recreated on load; user-added
+children survive rebuilding. Place persistent attachments under the row or its
+`Bays` container, not inside generated bays. The `@tool` script supplies editor
+previews, but live Inspector behavior remains unverified. The count limit is a
+configuration guard, not a measured performance budget. This assembly has no
+records, collisions, navigation or seating interactions.
+
+Run `../record_stack_family/verify_configurable.ps1` for the isolated Godot
+4.7.2 Forward+/D3D12 review. All 14 cases passed: odd/even lengths, clamp limits,
+resizing, translated/rotated parents, imported mesh joins, outward cap fit,
+fixture mounting/clearance, pre-ready configuration, tree reentry, independent
+instances, and disk save/reload preserving user attachments without duplicates.
+Maximum bay seam error was 0.003815 mm against a 0.1 mm tolerance. Four GPU views
+were inspected; see `godot_configurable_*` and separate `configurable_*.log`
+files in that folder. Logs contain only the existing Windows certificate-store
+error, with no asset/script errors.
+
+Blender status/scene MCP calls failed, and Godot MCP could not reach port 6550.
+Existing models and editable sources were reused; no Blender authoring was
+needed. Standalone Godot was the explicit validation fallback. Live MCP/editor,
+full-room clearance and performance review remain pending; this follow-up does
+not close the issues.
+
 Reusable `record_stack_end_cap.tscn`, editable `source/record_stack_end_cap.blend`, GLB 2 export, four Blender preview angles, and mesh validation are included. Rebuild using `../record_stack_family/build_asset.py -- cap` through Blender.
 
 One unit is one meter. Godot/glTF +Y up, +Z front; Blender +Z up, -Y front. Origin is the **floor-level attachment plane**, local X=0, with +X pointing outward. Height **2.400 m**, depth **0.440 m**, structural thickness **0.080 m**, complete detail envelope **0.082 m**. Base matches the bay at 0.120 m high. All source transforms are identity.

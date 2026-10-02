@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_shelf_row.tscn" id="row"]
+[ext_resource type="PackedScene" path="res://assets/furniture_review/review_rig.tscn" id="rig"]
+
+[node name="ShelfRowReview" type="Node3D"]
+
+[node name="Row" parent="." instance=ExtResource("row")]
+bay_count = 5
+
+[node name="ReviewRig" parent="." instance=ExtResource("rig")]

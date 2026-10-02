@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://assets/record_stack_end_cap/configurable_shelf_row.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/record_stack_end_cap.tscn" id="cap"]
+
+[node name="ConfigurableShelfRow" type="Node3D"]
+script = ExtResource("script")
+
+[node name="Bays" type="Node3D" parent="."]
+
+[node name="CapLeft" parent="." instance=ExtResource("cap")]
+position = Vector3(-2.4, 0, 0)
+rotation_degrees = Vector3(0, 180, 0)
+
+[node name="CapRight" parent="." instance=ExtResource("cap")]
+position = Vector3(2.4, 0, 0)
+
+[node name="LeftJoin" type="Marker3D" parent="."]
+position = Vector3(-2.4, 0, 0)
+
+[node name="RightJoin" type="Marker3D" parent="."]
+position = Vector3(2.4, 0, 0)

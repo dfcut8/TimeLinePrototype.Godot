@@ -7,8 +7,8 @@
     },
     {
       "path": "illuminated_shelf_bay.tscn",
-      "bytes": 975,
-      "sha256": "5f87812ef25461fc67face937f0705304eda8d5a4d0e1dd549034f17e3e9d3a2"
+      "bytes": 956,
+      "sha256": "c125e85b95cb2ba97c5fc3ec9f02ae86a50f67b6ac4896805577a65100d6353b"
     },
     {
       "path": "issue.json",
@@ -37,8 +37,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5493,
-      "sha256": "0ad7b4a3d7cd6909e2115b0705ea4356de4c867f1ebf1c9c40bed2a0f6890669"
+      "bytes": 6497,
+      "sha256": "9ac71c8b311fd70af2ff483098e087bf1a494a43ef77359b178aeb97a41483ec"
     },
     {
       "path": "record_stack_shelf_bay.glb",
@@ -52,8 +52,8 @@
     },
     {
       "path": "record_stack_shelf_bay.tscn",
-      "bytes": 1504,
-      "sha256": "a84cd3d3bde77a45d6583883a34800683563b04c7cd4097e12da356561e2d478"
+      "bytes": 1458,
+      "sha256": "04935c0f85c4e6e77c572ec6a9d1a411db9d1b6c2d20294895de87736950a184"
     },
     {
       "path": "source/.gdignore",
