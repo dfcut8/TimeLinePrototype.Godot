@@ -10,6 +10,7 @@ The experience specification and original asset brief below preserve the older v
 
 | Document | Purpose |
 | --- | --- |
+| [Room-scale asset fit review](../src/assets/library_room_review/README.md) | Godot perimeter, portal, small/large cassette and sampled camera clearance evidence for issues #24, #25, #31 and #33. |
 | [Experience and visual design](timeline-design.md) | Spatial composition, wireframes, camera, controls, accessibility, Godot responsibilities, and acceptance criteria. |
 | [External JSON content contract](timeline-data-contract.md) | Content ownership, chronology, fields, media references, validation rules, and an illustrative JSON example. |
 | [3D asset production brief](timeline-asset-brief.md) | Models, textures, materials, effects, production conventions, and delivery gates. |

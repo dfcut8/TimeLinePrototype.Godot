@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/library_room_review/library_room_assembly.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://assets/library_room_review/room_review_rig.tscn" id="2"]
+
+[node name="RoomFitReview" type="Node3D"]
+
+[node name="Room" parent="." instance=ExtResource("1")]
+
+[node name="ReviewRig" parent="." instance=ExtResource("2")]
