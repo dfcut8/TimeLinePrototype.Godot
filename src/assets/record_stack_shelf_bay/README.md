@@ -49,3 +49,10 @@ The reusable illuminated bay is used by `../record_stack_end_cap/capped_shelf_ro
 Fresh standalone Godot 4.7.2 Forward+/D3D12 validation passed all 12 row fixtures' mounting contact, recess and upright clearances, unit scale, cassette fit, straight joins and rotated corner-run cap fit. Seven front/rear/end/underside runtime views were inspected. Import and runtime logs were checked separately; only the existing host root-certificate-store error remains. This supersedes the historical shelf-light integration gap above.
 
 Both live Blender MCP calls failed to connect, and Godot MCP could not reach port 6550. Existing models needed no Blender edits; standalone Godot was the explicit engine fallback. Live MCP validation, full-room placement and performance remain pending.
+
+## Integrated floor fit
+
+The [grounded room review](../grounded_room_review/README.md) instances this asset
+with the furnished library and delivered floor kit. It adds imported-triangle
+support/clearance checks and GPU views in Godot 4.7.2, including a translated and
+rotated placement. See that review for measured results and remaining limits.

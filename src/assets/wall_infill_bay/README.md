@@ -28,3 +28,10 @@ Embedded materials match the existing kit: archive_graphite (linear RGB .048/.06
 Built with Blender 5.2.2 LTS. Standalone Godot 4.7.2 stable official, Forward+/D3D12, passed imported bounds, matte material, UV/normal/winding/triangle area, floor contact, common header and pier separation checks. 150 triangle probes per model check closed surfaces and the portal opening. Front/rear/end/underside GPU views were visually inspected. See [shared evidence and rebuild instructions](../wall_portal_review/README.md).
 
 Blender MCP status and scene checks failed; Godot MCP get_state could not reach ws://127.0.0.1:6550. Standalone Blender plus an isolated Godot project were the explicit fallback. Live MCP validation remains incomplete. The unavailable MCP mesh validator was replaced by imported-triangle checks. Separate editor import and runtime logs show only the host root-certificate-store error, no asset/script validation errors. Full-room orbit clearance and timeline readability, physics/navigation, runtime lighting and user art approval remain pending. The issue is left open for review.
+
+## Integrated floor fit
+
+The [grounded room review](../grounded_room_review/README.md) instances this asset
+with the furnished library and delivered floor kit. It adds imported-triangle
+support/clearance checks and GPU views in Godot 4.7.2, including a translated and
+rotated placement. See that review for measured results and remaining limits.
