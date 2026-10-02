@@ -79,3 +79,10 @@ Rerun from the repository root in PowerShell:
 ```
 
 The script uses a fresh temporary project with an isolated editor profile and does not control the user's editor or MCP connection. It updates the engine report, screenshots, import settings, and logs in this asset directory. Regenerate the manifest after changing delivery files.
+
+## Integrated floor fit
+
+The [grounded room review](../grounded_room_review/README.md) instances this asset
+with the furnished library and delivered floor kit. It adds imported-triangle
+support/clearance checks and GPU views in Godot 4.7.2, including a translated and
+rotated placement. See that review for measured results and remaining limits.

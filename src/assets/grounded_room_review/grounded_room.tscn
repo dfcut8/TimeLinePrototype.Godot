@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/grounded_room_review/library_floor.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/furnished_room_review/furnished_room.tscn" id="2"]
+
+[node name="GroundedRoom" type="Node3D"]
+
+[node name="Floor" parent="." instance=ExtResource("1")]
+
+[node name="Furnishings" parent="." instance=ExtResource("2")]
