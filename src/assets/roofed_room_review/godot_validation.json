@@ -1,0 +1,112 @@
+{
+	"camera_envelope_radius_m": 0.3,
+	"camera_heights_m": [
+		1.8,
+		3.5
+	],
+	"camera_samples": 720,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"furnishings": {
+		"benches": 4,
+		"conservative_furniture_clear_radius_m": 21.3995227813721,
+		"displays": 4,
+		"end_caps": 16,
+		"lecterns": 4,
+		"max_cap_join_error_m": 0.00000119209289550781,
+		"max_display_contact_error_m": 0.000000119209289550781,
+		"min_display_edge_margin_m": 0.112200021743774,
+		"min_furniture_architecture_separation_m": 1.61203229427338,
+		"stations": 4
+	},
+	"grounding": {
+		"floor_modules": 104,
+		"floor_seam_probes": 440,
+		"floor_triangles": 4352,
+		"max_base_datum_error_m": 0.0,
+		"portal_floor_probes": 250,
+		"rail_floor_clearance_m": 1.43700003623962,
+		"rail_projection_probes": 29,
+		"support_objects": 56,
+		"support_probes": 224
+	},
+	"issues": [
+		24,
+		25,
+		31,
+		33
+	],
+	"limits": "Single-storey open roof frame fit study; no roof panels, structural engineering, physics, interactive camera, text readability, art approval or performance acceptance.",
+	"mcp": "Blender status/scene and Godot state unavailable; standalone Godot fallback",
+	"min_camera_clearance_m": 0.350000095367432,
+	"passed": true,
+	"renderer": "forward_plus",
+	"roof_placements": [
+		{
+			"beam_count": 24,
+			"bearing_ray_pairs": 288,
+			"conservative_populated_shelf_roof_clearance_m": 1.75,
+			"curb_count": 24,
+			"max_bearing_error_m": 0.0,
+			"max_marker_error_m": 0.00000213248063118954,
+			"max_seam_error_m": 0.00000202655792236328,
+			"minimum_beam_header_vertical_clearance_m": 0.0,
+			"oculus_open": true,
+			"roof_top_m": 5.30001020431519,
+			"roof_underside_m": 4.15000009536743
+		},
+		{
+			"beam_count": 24,
+			"bearing_ray_pairs": 288,
+			"conservative_populated_shelf_roof_clearance_m": 1.75,
+			"curb_count": 24,
+			"max_bearing_error_m": 0.0,
+			"max_marker_error_m": 0.00000384438408218557,
+			"max_seam_error_m": 0.00000213248063118954,
+			"minimum_beam_header_vertical_clearance_m": 0.0,
+			"oculus_open": true,
+			"roof_top_m": 5.30001020431519,
+			"roof_underside_m": 4.15000009536743
+		}
+	],
+	"room": {
+		"bay_count": 24,
+		"cassettes": {
+			"large": 176,
+			"small": 272
+		},
+		"conservative_clear_radius_m": 21.7348308563232,
+		"join_max_m": 0.00869274139404297,
+		"join_min_m": 0.00868511199951172,
+		"max_support_error_m": 0.000000119209289550781,
+		"min_light_clearance_m": 0.0419995784759521,
+		"min_shelf_clearance_m": 0.0271993279457092,
+		"portals": 2,
+		"shared_piers": 24,
+		"triangle_probes_per_placement": 440,
+		"wall_bays": 20,
+		"windows": 2
+	},
+	"validated_meshes": [
+		{
+			"material": "archive_graphite",
+			"name": "oculus_curb_segment",
+			"triangles": 348
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "oculus_curb_segment",
+			"triangles": 48
+		},
+		{
+			"material": "archive_graphite",
+			"name": "radial_roof_beam",
+			"triangles": 26
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "radial_roof_beam",
+			"triangles": 2
+		}
+	]
+}
