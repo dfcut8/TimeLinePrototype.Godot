@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/library_room_review/library_room_assembly.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/furnished_room_review/shelf_end_pair.tscn" id="2"]
+
+[ext_resource type="PackedScene" path="res://assets/furnished_room_review/reading_station.tscn" id="3"]
+
+[node name="FurnishedRoom" type="Node3D"]
+
+[node name="BaseRoom" parent="." instance=ExtResource("1")]
+position = Vector3(0.000000000, 0.000000000, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
+
+[node name="Caps0" parent="." instance=ExtResource("2")]
+position = Vector3(11.500000000, 0.000000000, -19.918584287)
+rotation_degrees = Vector3(0, -30, 0)
+
+[node name="Caps1" parent="." instance=ExtResource("2")]
+position = Vector3(19.918584287, 0.000000000, -11.500000000)
+rotation_degrees = Vector3(0, -60, 0)
+
+[node name="Caps2" parent="." instance=ExtResource("2")]
+position = Vector3(19.918584287, 0.000000000, 11.500000000)
+rotation_degrees = Vector3(0, -120, 0)
+
+[node name="Caps3" parent="." instance=ExtResource("2")]
+position = Vector3(11.500000000, 0.000000000, 19.918584287)
+rotation_degrees = Vector3(0, -150, 0)
+
+[node name="Caps4" parent="." instance=ExtResource("2")]
+position = Vector3(-11.500000000, 0.000000000, 19.918584287)
+rotation_degrees = Vector3(0, -210, 0)
+
+[node name="Caps5" parent="." instance=ExtResource("2")]
+position = Vector3(-19.918584287, 0.000000000, 11.500000000)
+rotation_degrees = Vector3(0, -240, 0)
+
+[node name="Caps6" parent="." instance=ExtResource("2")]
+position = Vector3(-19.918584287, 0.000000000, -11.500000000)
+rotation_degrees = Vector3(0, -300, 0)
+
+[node name="Caps7" parent="." instance=ExtResource("2")]
+position = Vector3(-11.500000000, 0.000000000, -19.918584287)
+rotation_degrees = Vector3(0, -330, 0)
+
+[node name="Station0" parent="." instance=ExtResource("3")]
+position = Vector3(15.839191899, 0.000000000, -15.839191899)
+rotation_degrees = Vector3(0, -45, 0)
+
+[node name="Station1" parent="." instance=ExtResource("3")]
+position = Vector3(15.839191899, 0.000000000, 15.839191899)
+rotation_degrees = Vector3(0, -135, 0)
+
+[node name="Station2" parent="." instance=ExtResource("3")]
+position = Vector3(-15.839191899, 0.000000000, 15.839191899)
+rotation_degrees = Vector3(0, -225, 0)
+
+[node name="Station3" parent="." instance=ExtResource("3")]
+position = Vector3(-15.839191899, 0.000000000, -15.839191899)
+rotation_degrees = Vector3(0, -315, 0)

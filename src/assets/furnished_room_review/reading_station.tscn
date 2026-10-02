@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/reading_bench/reading_bench.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/catalog_lectern.tscn" id="2"]
+
+[ext_resource type="PackedScene" path="res://assets/furnished_room_review/cassette_display.tscn" id="3"]
+
+[node name="ReadingStation" type="Node3D"]
+
+[node name="Bench" parent="." instance=ExtResource("1")]
+position = Vector3(-1.300000000, 0.000000000, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
+
+[node name="Lectern" parent="." instance=ExtResource("2")]
+position = Vector3(0.400000000, 0.000000000, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
+
+[node name="Display" parent="." instance=ExtResource("3")]
+position = Vector3(1.700000000, 0.000000000, 0.000000000)
+rotation_degrees = Vector3(0, 0, 0)
