@@ -1,5 +1,31 @@
 # Record stack pair: issues #28 and #29
 
+## Configurable row review
+
+Run `./src/assets/record_stack_family/verify_configurable.ps1` from the repository
+root to validate `../record_stack_end_cap/configurable_shelf_row.tscn` in a fresh
+temporary project. `-Godot` overrides the pinned Godot 4.7.2 executable. The
+runner copies only required scenes, scripts, GLBs and import settings, retains
+separate import/runtime logs, and publishes fresh evidence only after a pass.
+It reuses the existing furniture review rig; no project main scene is changed.
+
+`review_configurable.tscn` demonstrates a saved five-bay override. The verifier
+checks 14 cases against actual imported meshes: odd/even counts, both clamp
+boundaries, repeated resizing, transformed parents, cap contact/orientation,
+floor/depth alignment, all light mounts and recess clearances, attachment markers,
+disk save/reload, independent instances and detached configuration/reentry.
+User-owned attachments survive both resizing and serialization. Generated bays
+are recreated from their PackedScene without serialized duplicates.
+
+`godot_configurable_validation.json` passed in Godot 4.7.2 Forward+/D3D12.
+The largest measured bay seam error was 0.003815 mm (0.1 mm tolerance).
+`godot_configurable_front/rear/end/underside.png` are visually inspected GPU
+captures of the three-bay configuration. `configurable_import.log` and
+`configurable_runtime.log` contain only the existing host certificate-store error.
+Blender MCP status/scene and Godot MCP state checks failed to connect. Existing
+geometry was reused unchanged; standalone Godot was the explicit fallback.
+Live Inspector/MCP, full-room clearance and performance are still unverified.
+
 Shared authoring and repeatable fit review for the shelf bay and reversible end cap. The delivered reusable objects live in the sibling `record_stack_shelf_bay` and `record_stack_end_cap` folders. No unrelated assets are changed.
 
 From repository root, run Blender with `--background --python src/assets/record_stack_family/build_asset.py -- bay`, then repeat with `-- cap`. Outputs replace only those two generated asset packages. Run `python src/assets/record_stack_family/create_review.py` to regenerate wrappers and the explicit scene-instance review assembly. Run `src/assets/record_stack_family/verify_godot.ps1` in PowerShell for isolated import and GPU runtime validation; `-Godot` overrides its default Godot 4.7.2 executable.
