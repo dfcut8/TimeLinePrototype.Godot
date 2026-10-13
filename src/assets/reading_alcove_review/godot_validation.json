@@ -1,0 +1,1216 @@
+{
+	"alcove_placements": [
+		{
+			"aisle_m": 1.53999996185303,
+			"conservative_clear_radius_m": 20.9599990844727,
+			"floor_probes": 61,
+			"max_bench_contact_error_m": 0.0,
+			"name": "AlcoveEast"
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"conservative_clear_radius_m": 20.9599990844727,
+			"floor_probes": 61,
+			"max_bench_contact_error_m": 0.0,
+			"name": "AlcoveWest"
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"conservative_clear_radius_m": 20.9600009918213,
+			"floor_probes": 61,
+			"max_bench_contact_error_m": 0.0,
+			"name": "AlcoveEast"
+		},
+		{
+			"aisle_m": 1.53999903798103,
+			"conservative_clear_radius_m": 20.9599990844727,
+			"floor_probes": 61,
+			"max_bench_contact_error_m": 0.0,
+			"name": "AlcoveWest"
+		}
+	],
+	"camera_envelope_radius_m": 0.3,
+	"camera_samples": 648,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"issues": [
+		29,
+		35
+	],
+	"limits": "Static imported-mesh fit and sampled camera clearance. No physics, seating interaction, roof fit, performance acceptance or final art approval.",
+	"mcp": "Blender status/scene and Godot editor state unavailable; standalone Godot fallback",
+	"minimum_camera_clearance_m": 1.49999995231628,
+	"passed": true,
+	"renderer": "forward_plus",
+	"row_cases": [
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "populated resize 1",
+			"cassette_contact_error_m": 0.0,
+			"records": 36,
+			"width_m": 1.76400005817413
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "populated resize 2",
+			"cassette_contact_error_m": 0.0,
+			"records": 72,
+			"width_m": 3.36400008201599
+		},
+		{
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "populated resize 3",
+			"cassette_contact_error_m": 0.0,
+			"records": 108,
+			"width_m": 4.96400022506714
+		},
+		{
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "populated resize 4",
+			"cassette_contact_error_m": 0.0,
+			"records": 144,
+			"width_m": 6.56400012969971
+		},
+		{
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "null fallback to original bay",
+			"cassette_contact_error_m": 0.0,
+			"records": 0,
+			"width_m": 6.56400012969971
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "restore populated bay",
+			"cassette_contact_error_m": 0.0,
+			"records": 72,
+			"width_m": 3.36400008201599
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "save/reload without duplicates",
+			"cassette_contact_error_m": 0.0,
+			"records": 72,
+			"width_m": 3.36400008201599
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "independent row instances",
+			"cassette_contact_error_m": 0.0,
+			"records": 72,
+			"width_m": 3.36400008201599
+		},
+		{
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "unchanged default row",
+			"cassette_contact_error_m": 0.0,
+			"records": 0,
+			"width_m": 4.96400022506714
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "AlcoveEast",
+			"cassette_contact_error_m": 0.0,
+			"records": 72,
+			"width_m": 3.36400008201599
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "AlcoveWest",
+			"cassette_contact_error_m": 0.0,
+			"records": 72,
+			"width_m": 3.36400008201599
+		},
+		{
+			"bay_seam_error_m": 0.000000662207597201814,
+			"bays": 2,
+			"cap_join_error_m": 0.00000119209289550781,
+			"case": "AlcoveEast",
+			"cassette_contact_error_m": 0.000000119209289550781,
+			"records": 72,
+			"width_m": 3.36400175094604
+		},
+		{
+			"bay_seam_error_m": 0.000000470280653530608,
+			"bays": 2,
+			"cap_join_error_m": 0.000000715255737304688,
+			"case": "AlcoveWest",
+			"cassette_contact_error_m": 0.000000119209289550781,
+			"records": 72,
+			"width_m": 3.36399984359741
+		}
+	],
+	"support_negative_controls": [
+		"floating 10 mm",
+		"buried 10 mm",
+		"outside floor"
+	],
+	"validated_meshes": [
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "ceramic_seat",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "floor_pad_left",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "floor_pad_right",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "solid_support_left",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "solid_support_right",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "underseat_frame",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_back",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "lower_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_3",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_0_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_1_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_2_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_3_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_4_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_left",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_right",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		}
+	]
+}

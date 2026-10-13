@@ -5,6 +5,13 @@ extends Node3D
 const BAY: PackedScene = preload("res://assets/record_stack_shelf_bay/illuminated_shelf_bay.tscn")
 const PITCH: float = 1.6
 
+## Bay variants must retain the 1.6 x 2.4 x 0.44 m shelf interface.
+@export var bay_scene: PackedScene = BAY:
+	set(value):
+		bay_scene = value if value != null else BAY
+		if is_node_ready():
+			_rebuild()
+
 @export_range(1, 32, 1) var bay_count: int = 3:
 	set(value):
 		bay_count = clampi(value, 1, 32)
@@ -24,7 +31,7 @@ func _rebuild() -> void:
 			bay.queue_free()
 	_generated.clear()
 	for index in range(bay_count):
-		var bay := BAY.instantiate() as Node3D
+		var bay := bay_scene.instantiate() as Node3D
 		bay.name = "Bay%d" % index
 		bay.position.x = (index - (bay_count - 1) * 0.5) * PITCH
 		$Bays.add_child(bay)

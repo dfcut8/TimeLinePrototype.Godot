@@ -1,0 +1,106 @@
+{
+  "issues": [
+    29,
+    35
+  ],
+  "files": {
+    ".gdignore": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "alcove_import.log": {
+      "bytes": 8345,
+      "sha256": "6cae11dff76819f77ceda51701eb2f45fa2221242c6c8fa354c001835980581c"
+    },
+    "alcove_runtime.log": {
+      "bytes": 20894,
+      "sha256": "f134a3c00e15e25851228aed570f6aa7429d777c91096ef7d2ffd9177b3d4610"
+    },
+    "godot_alcove_front.png": {
+      "bytes": 119664,
+      "sha256": "d23d27b6a8b9202d1f640638261e4b5c31769331abb5231764a64e05fb5b5c78"
+    },
+    "godot_existing_row_validation.json": {
+      "bytes": 2416,
+      "sha256": "b8ab8f82d005ef286a66d637be3465b47cb5e23670847065799cd742ddcc4897"
+    },
+    "godot_floor_contact.png": {
+      "bytes": 146481,
+      "sha256": "211a10918eec57289bfcdeb86d0c30ea943b6ba927de52528b33f6c53a9bea2a"
+    },
+    "godot_isolated_end.png": {
+      "bytes": 66714,
+      "sha256": "96e5137a793ed31d23d9d751f511f34bbe49065351c7f9d8ca6076e2c0bf4f02"
+    },
+    "godot_isolated_rear.png": {
+      "bytes": 26764,
+      "sha256": "e961bac86df133406283901363e025c05a26bc2435707dbd2e3fc6a1185068fc"
+    },
+    "godot_isolated_underside.png": {
+      "bytes": 73211,
+      "sha256": "182ed27a4d6985533f48912620b7a69646abdb3e0b71482184814b9da164ce90"
+    },
+    "godot_overview.png": {
+      "bytes": 52536,
+      "sha256": "dcc2da7bbd54efd9ff5740dc89ece991c5c385f188845cb55b27fddd3c6001a2"
+    },
+    "godot_validation.json": {
+      "bytes": 25854,
+      "sha256": "c3ecfcbb680b25ff740412091fb4c1ac23925fdd7372a993c883b33990b95821"
+    },
+    "prepare_review.py": {
+      "bytes": 1631,
+      "sha256": "0f11c65d9a1dabe7c8ac11caee4d831455a5d90da750efcd70683facb22d17c1"
+    },
+    "README.md": {
+      "bytes": 6047,
+      "sha256": "00241a8c1adfa433c291bee9be50c99c33a975ec145d54cb1c871f9dc86a5cd5"
+    },
+    "review_room.tscn": {
+      "bytes": 416,
+      "sha256": "af3ae7e6b5e5a1d27f27cb1c44a6ce08c8200a9a69923fb764bcf62229686dd9"
+    },
+    "room_assembly.tscn": {
+      "bytes": 622,
+      "sha256": "f41c8cc04fb3ae47969d515ca94d06ff1c23c6166aeb6bf0f649fbd6b173e112"
+    },
+    "row_regression_runtime.log": {
+      "bytes": 2112,
+      "sha256": "88703dab85512cd2945e25b1b886fdfef3fd91d5fe83cea9f05433796e4c5be6"
+    },
+    "update_manifests.py": {
+      "bytes": 1673,
+      "sha256": "1fd9fb85ad6a7f547b2a4829d32ddb77fbced2470aa46220c0bbaa94e1bdb5b5"
+    },
+    "verify_alcove.gd": {
+      "bytes": 13376,
+      "sha256": "8e38d62bb125c2669eb79b09bbcce67eed1813ebb304464f68ccb0d076e74e1f"
+    },
+    "verify_alcove.ps1": {
+      "bytes": 3694,
+      "sha256": "75f664694330953073930b10e1a020039035ad0663ed43345a59f8c027f21f03"
+    }
+  },
+  "reused_objects": {
+    "record_stack_end_cap": {
+      "source": {
+        "bytes": 76589,
+        "sha256": "efa63abe2eedd4176f8dba4a4a7f25a1c75556da4dba1e6f368e024a09d740ac"
+      },
+      "glb": {
+        "bytes": 37428,
+        "sha256": "f6d6d736340f457513d98bc6d96a81cb360495ee91f130372bc91912c37389c5"
+      }
+    },
+    "reading_bench": {
+      "source": {
+        "bytes": 78325,
+        "sha256": "4c70b6d7b81b4dc67d44a456f2311a980c27af8e507974f7ae7a4f0d9b8d96e0"
+      },
+      "glb": {
+        "bytes": 47212,
+        "sha256": "46c3167a32db7f0260b631a46d5cbd966bd3bc744640118ce8d72e8a538bcb63"
+      }
+    }
+  }
+}

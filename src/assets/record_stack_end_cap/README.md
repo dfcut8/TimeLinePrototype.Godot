@@ -1,5 +1,17 @@
 # Record stack end cap — issue #29
 
+## Populated capped row — follow-up for #29
+
+`capped_mixed_shelf_row.tscn` inherits the configurable row and selects the existing
+mixed cassette bay. Each bay contains 36 independently instanced records, with
+four lights. Set `bay_count` to choose the row length; the original illuminated
+row remains the default. The new `bay_scene` property accepts variants with the
+same shelf interface; null restores the original bay. Both caps remain aligned
+to the row ends without mirroring. See
+[`../reading_alcove_review/README.md`](../reading_alcove_review/README.md) for
+Godot configuration, serialization, transformed seam and actual-floor checks,
+plus the 14-case original-row regression. Existing model/source bytes are unchanged.
+
 ## Configurable row — issues #28 and #29
 
 Instance `configurable_shelf_row.tscn` and set `bay_count` (default 3, clamped
