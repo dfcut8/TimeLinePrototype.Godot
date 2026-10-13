@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/grounded_room_review/grounded_room.tscn" id="room"]
+[ext_resource type="PackedScene" path="res://assets/reading_bench/reading_alcove.tscn" id="alcove"]
+
+[node name="ReadingAlcoveRoom" type="Node3D"]
+
+[node name="Library" parent="." instance=ExtResource("room")]
+
+[node name="AlcoveEast" parent="." instance=ExtResource("alcove")]
+position = Vector3(21.8, 0, 0)
+rotation_degrees = Vector3(0, -90, 0)
+
+[node name="AlcoveWest" parent="." instance=ExtResource("alcove")]
+position = Vector3(-21.8, 0, 0)
+rotation_degrees = Vector3(0, 90, 0)

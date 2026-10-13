@@ -1,0 +1,108 @@
+{
+	"cases": [
+		{
+			"bays": 5,
+			"case": "saved override",
+			"complete_width_m": 8.16399955749512,
+			"fixtures": 20,
+			"max_seam_error_m": 0.0000000596046447753906
+		},
+		{
+			"bays": 1,
+			"case": "requested 1",
+			"complete_width_m": 1.76400005817413,
+			"fixtures": 4,
+			"max_seam_error_m": 0.0
+		},
+		{
+			"bays": 2,
+			"case": "requested 2",
+			"complete_width_m": 3.36399984359741,
+			"fixtures": 8,
+			"max_seam_error_m": 0.0000000596046447753906
+		},
+		{
+			"bays": 3,
+			"case": "requested 3",
+			"complete_width_m": 4.9640007019043,
+			"fixtures": 12,
+			"max_seam_error_m": 0.000000119209289550781
+		},
+		{
+			"bays": 7,
+			"case": "requested 7",
+			"complete_width_m": 11.3639988899231,
+			"fixtures": 28,
+			"max_seam_error_m": 0.00000095367431640625
+		},
+		{
+			"bays": 3,
+			"case": "requested 3",
+			"complete_width_m": 4.9640007019043,
+			"fixtures": 12,
+			"max_seam_error_m": 0.000000119209289550781
+		},
+		{
+			"bays": 1,
+			"case": "requested 0",
+			"complete_width_m": 1.76399993896484,
+			"fixtures": 4,
+			"max_seam_error_m": 0.0
+		},
+		{
+			"bays": 1,
+			"case": "requested -5",
+			"complete_width_m": 1.76399993896484,
+			"fixtures": 4,
+			"max_seam_error_m": 0.0
+		},
+		{
+			"bays": 32,
+			"case": "requested 33",
+			"complete_width_m": 51.3640060424805,
+			"fixtures": 128,
+			"max_seam_error_m": 0.000003814697265625
+		},
+		{
+			"bays": 5,
+			"case": "requested 5",
+			"complete_width_m": 8.16399955749512,
+			"fixtures": 20,
+			"max_seam_error_m": 0.00000095367431640625
+		},
+		{
+			"bays": 5,
+			"case": "disk reload",
+			"complete_width_m": 8.16400051116943,
+			"fixtures": 20,
+			"max_seam_error_m": 0.000000238418579101563
+		},
+		{
+			"bays": 2,
+			"case": "independent instance",
+			"complete_width_m": 3.36400055885315,
+			"fixtures": 8,
+			"max_seam_error_m": 0.0000000596046447753906
+		},
+		{
+			"bays": 2,
+			"case": "configured before ready",
+			"complete_width_m": 3.36400008201599,
+			"fixtures": 8,
+			"max_seam_error_m": 0.0
+		},
+		{
+			"bays": 4,
+			"case": "detached resize and reentry",
+			"complete_width_m": 6.56400012969971,
+			"fixtures": 16,
+			"max_seam_error_m": 0.000000119209289550781
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"mcp": "Both disconnected; standalone Godot fallback",
+	"passed": true,
+	"renderer": "forward_plus",
+	"scope": "Imported assembly fit and configuration; live editor, full room and performance unverified"
+}

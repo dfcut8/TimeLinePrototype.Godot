@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/capped_mixed_shelf_row.tscn" id="row"]
+[ext_resource type="PackedScene" path="res://assets/reading_bench/reading_bench.tscn" id="bench"]
+
+[node name="ReadingAlcove" type="Node3D"]
+
+[node name="ShelfRow" parent="." instance=ExtResource("row")]
+position = Vector3(0, 0, -1.4)
+bay_count = 2
+
+[node name="Bench" parent="." instance=ExtResource("bench")]
+position = Vector3(0, 0, 0.6)

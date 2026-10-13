@@ -1,10 +1,24 @@
-# Reading bench — issue #35
+# Reading bench â€” issue #35
 
 Model work for [#35](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/35).
 
+## Reusable reading alcove â€” follow-up for #35
+
+`reading_alcove.tscn` combines this bench with a two-bay mixed cassette row and
+both end caps. It leaves a measured 1.54 m aisle. The importable assembly uses
+only existing object scenes and metre-scale transforms. See
+[`../reading_alcove_review/README.md`](../reading_alcove_review/README.md) for
+two window-side room placements, probes against the actual floor under both
+feet, transformed-parent checks, GPU captures and sampled camera clearance.
+The original bench geometry, editable source and materials are unchanged.
+
+The validation boundary below describes the original standalone model delivery.
+The alcove follow-up now supplies floor and room-placement evidence, while final
+art approval, live MCP review and performance acceptance remain pending.
+
 ## Dimensions and interfaces
 
-Backless two-support bench, **1.600 m wide × 0.450 m high × 0.480 m deep**. Floor-center pivot; Godot/glTF +Y up, +Z front, +X width (Blender +Z up, -Y front). All transforms are identity; authoring unit is one meter. `TopContact` is (0,.45,0). Seat is 80 mm thick with 12 mm edge radii; underside frame contacts two 120 mm wide solid supports and separate dark floor pads. Six components, **648 triangles / 3 materials**.
+Backless two-support bench, **1.600 m wide Ã— 0.450 m high Ã— 0.480 m deep**. Floor-center pivot; Godot/glTF +Y up, +Z front, +X width (Blender +Z up, -Y front). All transforms are identity; authoring unit is one meter. `TopContact` is (0,.45,0). Seat is 80 mm thick with 12 mm edge radii; underside frame contacts two 120 mm wide solid supports and separate dark floor pads. Six components, **648 triangles / 3 materials**.
 
 The review scene places the bench beside the existing 2.4 m tall stack with a measured **1.04 m aisle gap**. Both pads contact Y=0 and both supports meet the underside frame. This establishes geometric floor contact and scale comparison, not structural load capacity. No sitting interaction is implied.
 
