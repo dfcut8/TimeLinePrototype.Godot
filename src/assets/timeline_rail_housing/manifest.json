@@ -9,9 +9,29 @@
       "sha256": "f7431de2bc90e1c42d20b7535aa0b73d00ecf1b5192d3e72fa1888aa21adc15f"
     },
     {
+      "path": "capped_timeline_rail.tscn",
+      "bytes": 1059,
+      "sha256": "88059112012f7c9e6b7353f86b2359f79983663ca448f97c245ae06d51ccd322"
+    },
+    {
+      "path": "configurable_timeline_rail.gd",
+      "bytes": 1439,
+      "sha256": "49005d3a52124f3119fa712e3cd90d12a6957a95acd9997ed121a8cce8017385"
+    },
+    {
+      "path": "configurable_timeline_rail.tscn",
+      "bytes": 802,
+      "sha256": "48e63873cda69ec1cab7ff3b3305d14c4db69d71bfc528bcc265a59a5882a0dd"
+    },
+    {
       "path": "dimensions.svg",
       "bytes": 1472,
       "sha256": "8e5cc055f6660a7e7fc79d7c8e55ffa7f2e780ce572a7f5bf19ca9e3a5152d0d"
+    },
+    {
+      "path": "dimensions.svg.import",
+      "bytes": 1060,
+      "sha256": "acef0cb76cbc36a9d642c44db14d99d99f64338828e29b52dba94c1ffeeedf99"
     },
     {
       "path": "godot_assembly.png",
@@ -19,9 +39,19 @@
       "sha256": "379f47d25074b45715f63445f8d68a24c947c0a59d5399ad49a742a31055ea71"
     },
     {
+      "path": "godot_assembly.png.import",
+      "bytes": 975,
+      "sha256": "2b08962dfefcd12d816fbe4a92e6a591562705e68c423b795b454dfa6a834f6e"
+    },
+    {
       "path": "godot_end.png",
       "bytes": 12891,
       "sha256": "ea170d3fd3c835ac581bfba4862b154aab63743910ff2298005e0739b5294202"
+    },
+    {
+      "path": "godot_end.png.import",
+      "bytes": 960,
+      "sha256": "cf38e22d19f09c421b60b06d23b26b4ae82b3afea6661cbb5913827cfde97e11"
     },
     {
       "path": "godot_front.png",
@@ -29,9 +59,19 @@
       "sha256": "f231189098ab68dcec70ed164b65b9743272548fb92cf595f4bff727947d2595"
     },
     {
+      "path": "godot_front.png.import",
+      "bytes": 965,
+      "sha256": "83dc866fe86b553f66f0fc67aa904cb557f283ef760fd86553d04cd05772f6f3"
+    },
+    {
       "path": "godot_rear.png",
       "bytes": 7041,
       "sha256": "97b9215173c3e1886a9afae816ec4166c0b463c7461818d5866090335badcd6e"
+    },
+    {
+      "path": "godot_rear.png.import",
+      "bytes": 963,
+      "sha256": "cec22ddaf96d693b56d854680173631b441543dff7c5c15a665f661e315897d3"
     },
     {
       "path": "godot_seam.png",
@@ -39,9 +79,19 @@
       "sha256": "ceaa07b91ab5be68e5a7893896340bb09f74e5cc076de1c6739bc78bcf7231db"
     },
     {
+      "path": "godot_seam.png.import",
+      "bytes": 963,
+      "sha256": "63d258e89621affeee5d3b1b9c96ad12d424f932f9784fa0f33a0258fec6a105"
+    },
+    {
       "path": "godot_underside.png",
       "bytes": 8516,
       "sha256": "1dc10afd16efd503dbbd06db18e07f308ec0b6326805a5713d267a98a81a7f95"
+    },
+    {
+      "path": "godot_underside.png.import",
+      "bytes": 978,
+      "sha256": "d2c3a7c6b74495a93b095156dd704e4e41b4ad07a40874be262260361f02ce05"
     },
     {
       "path": "godot_validation.json",
@@ -59,9 +109,19 @@
       "sha256": "94bb9b6421c950ff53a05406b2ced1c17f8c2c243a80ec6d131af354b0caf2c7"
     },
     {
+      "path": "preview_front.png.import",
+      "bytes": 971,
+      "sha256": "74430b8a4c07945c4185f6e9c7a939f4198e24f16101b54cd4c6bf947259ce2b"
+    },
+    {
       "path": "preview_rear.png",
       "bytes": 910818,
       "sha256": "c62e6a2bea77c9e9759eed6c0c5ea8c37aceaaf0a47fb4f3d5a6a22c96c3bf47"
+    },
+    {
+      "path": "preview_rear.png.import",
+      "bytes": 968,
+      "sha256": "ec4e74ef63f4596abab019dc5d5f1d3bd8e556ede3d2946bc7a2197c7de7924f"
     },
     {
       "path": "preview_underside.png",
@@ -69,9 +129,14 @@
       "sha256": "4b75b655ccfc8f7fa827b55d98c2cdfb93b69d2b697b45154f17f49ea054d1e5"
     },
     {
+      "path": "preview_underside.png.import",
+      "bytes": 984,
+      "sha256": "5d3a503d82c031baf1a8ed4c0d90dd5ae27af6ae56ee4d760ce5296c8bffad5b"
+    },
+    {
       "path": "README.md",
-      "bytes": 8527,
-      "sha256": "89e09d5e293b6381575e6c595a9736b3548de7e2a554c3a6c01a6bce9b54babc"
+      "bytes": 9554,
+      "sha256": "efc301d60c52505b57c7b0d19e658ce001a0fc75164ac753a97d16d7823c7cf2"
     },
     {
       "path": "reimport.log",
@@ -137,21 +202,6 @@
       "path": "verify_godot.ps1",
       "bytes": 2222,
       "sha256": "28e937e7400ad73371784576c942baf79e6a17371b5c08ecfed2a346615025d7"
-    },
-    {
-      "path": "capped_timeline_rail.tscn",
-      "bytes": 1059,
-      "sha256": "88059112012f7c9e6b7353f86b2359f79983663ca448f97c245ae06d51ccd322"
-    },
-    {
-      "path": "configurable_timeline_rail.tscn",
-      "bytes": 802,
-      "sha256": "48e63873cda69ec1cab7ff3b3305d14c4db69d71bfc528bcc265a59a5882a0dd"
-    },
-    {
-      "path": "configurable_timeline_rail.gd",
-      "bytes": 1439,
-      "sha256": "49005d3a52124f3119fa712e3cd90d12a6957a95acd9997ed121a8cce8017385"
     }
   ]
 }

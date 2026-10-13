@@ -1,5 +1,16 @@
 # Timeline rail housing — issue #5
 
+## Perspective room visibility — 2 October 2026
+
+The [rail and mixed shelf review](../rail_shelf_room_review/README.md) now measures
+2/6/14 m assemblies in the roofed room at 720p and 65-degree vertical FOV.
+All 216 sampled viewpoints fit the rail in frame and clear room geometry.
+The front insert measures only 1.04 px high; the 14 m endpoint span falls from
+659 px front-on to 25 px end-on. Rear views hide the front insert behind finished
+housing. These are useful camera-design limits, not event-readability approval.
+Godot 4.7.2 Forward+/D3D12 supplied the measurements and five rail captures;
+live MCP, interactive camera behavior and final art approval remain pending.
+
 ## Configurable assembly — issue #5 follow-up
 
 Instance `configurable_timeline_rail.tscn` and set `module_count` (default 3,

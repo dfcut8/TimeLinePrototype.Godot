@@ -4,19 +4,19 @@
   "format": "local asset handoff manifest v1",
   "files": [
     {
-      "path": ".gdignore",
-      "bytes": 1,
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-    },
-    {
-      "path": "archive_record_medium.blend",
-      "bytes": 96689,
-      "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
-    },
-    {
       "path": "archive_record_medium.glb",
       "bytes": 125240,
       "sha256": "48323b10d5209852f5e629b403f312f192152afbe0f7f6c351aef49d1cf4e8b6"
+    },
+    {
+      "path": "archive_record_medium.glb.import",
+      "bytes": 1209,
+      "sha256": "e33d6cf3c9a140aac659ede7e4ea07b0693d4794d913aa8b87e02b748db44f10"
+    },
+    {
+      "path": "archive_record_medium.tscn",
+      "bytes": 261,
+      "sha256": "de71b49d87f3234ae75b398e2dc3471830503ef95942496efe5f8003fdca7ab0"
     },
     {
       "path": "build_asset.py",
@@ -25,8 +25,8 @@
     },
     {
       "path": "check_roundtrip.py",
-      "bytes": 2008,
-      "sha256": "ac5367acf945d79f56b78cc5e8693ebcfe162845966dbaab670972f1f1d51235"
+      "bytes": 2015,
+      "sha256": "59b4a51a9ea8c3d1b065bf4ff310d1b6a47b110b63e48f9e98e00bfb30651417"
     },
     {
       "path": "dimensions.svg",
@@ -35,8 +35,8 @@
     },
     {
       "path": "export_validate.py",
-      "bytes": 4529,
-      "sha256": "849033d236aaea4ebab2343a7ea0b71631a71cfd771f6c887d884598588a1d18"
+      "bytes": 4611,
+      "sha256": "9a7453bd875776e6f9f4db23dcf7f326b4494a7dd47964ff1ebc589c5f291e90"
     },
     {
       "path": "issue.json",
@@ -60,18 +60,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 5551,
-      "sha256": "687dab6461d5eb5aa019eb6ddbd69664396fdf98c73b7ae96b8ca835d5af3932"
+      "bytes": 6333,
+      "sha256": "40e33c100a471ff374136294474315e03a9f9a2a13952044604b747fb23cd7b2"
     },
     {
       "path": "render_previews.py",
-      "bytes": 1069,
-      "sha256": "c3e6fd594fed4368d9a70343bf261f6f9940519e15c7c4c3d5a5da187e2a965e"
+      "bytes": 1149,
+      "sha256": "7945c2e93b23e7b91b1eb39bbef72d4cc9b35c4766781a6a33cc910a34854c3b"
+    },
+    {
+      "path": "source/.gdignore",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "source/archive_record_medium.blend",
+      "bytes": 96689,
+      "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
     },
     {
       "path": "validation.json",
-      "bytes": 6899,
-      "sha256": "951b06ca545ae1a159892024963aa17f5602600051e4beb87be791d8cee53b51"
+      "bytes": 6631,
+      "sha256": "ed8bfb9dc80b3fd3f48e437a2c388d791e0d08a966d306be9dd1f1541f7633d7"
     }
   ]
 }
