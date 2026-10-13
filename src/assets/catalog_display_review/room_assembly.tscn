@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/reading_alcove_review/room_assembly.tscn" id="room"]
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/catalog_comparison_station.tscn" id="station"]
+
+[node name="CatalogDisplayRoom" type="Node3D"]
+
+[node name="Library" parent="." instance=ExtResource("room")]
+
+[node name="StationNorth" parent="." instance=ExtResource("station")]
+position = Vector3(5.7975466, 0, -21.6367385)
+rotation_degrees = Vector3(0, -15, 0)
+
+[node name="StationSouth" parent="." instance=ExtResource("station")]
+position = Vector3(-5.7975466, 0, 21.6367385)
+rotation_degrees = Vector3(0, 165, 0)

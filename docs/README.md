@@ -10,6 +10,7 @@ The experience specification and original asset brief below preserve the older v
 
 | Document | Purpose |
 | --- | --- |
+| [Catalog comparison stations](../src/assets/catalog_display_review/README.md) | Reusable configurable cassette displays and paired catalog stations, with actual floor support and room-clearance evidence for issues #31, #33, #34 and #36. |
 | [Populated capped rows and reading alcoves](../src/assets/reading_alcove_review/README.md) | Reusable mixed cassette rows, bench/shelf aisle and actual floor support, with room-clearance evidence for issues #29 and #35. |
 | [Rail visibility and mixed shelf fit](../src/assets/rail_shelf_room_review/README.md) | Reusable three-size shelf bay, room clearances and 216 perspective rail samples for issues #5 and #28. |
 | [Furnished room placement review](../src/assets/furnished_room_review/README.md) | End caps, lecterns, benches and cassette displays at room scale, with Godot clearance evidence for issues #29, #34, #35 and #36. |

@@ -1,0 +1,519 @@
+{
+	"camera_envelope_radius_m": 0.3,
+	"camera_samples": 648,
+	"display_cases": [
+		{
+			"bottom_face_probes": 2,
+			"case": "configured before ready",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.160662330687046,
+			"size": 0,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw -180",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.162200003862381,
+			"size": 0,
+			"yaw_degrees": -180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw -90",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.237199991941452,
+			"size": 0,
+			"yaw_degrees": -90.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw -30",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.160662330687046,
+			"size": 0,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw 0",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.162200003862381,
+			"size": 0,
+			"yaw_degrees": 0.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw 30",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.160662330687046,
+			"size": 0,
+			"yaw_degrees": 30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw 90",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.237199991941452,
+			"size": 0,
+			"yaw_degrees": 90.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw 135",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.171691708266735,
+			"size": 0,
+			"yaw_degrees": 135.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 0 yaw 180",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.162200003862381,
+			"size": 0,
+			"yaw_degrees": 180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw -180",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.137200012803078,
+			"size": 1,
+			"yaw_degrees": -180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw -90",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.212200000882149,
+			"size": 1,
+			"yaw_degrees": -90.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw -30",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.13401173055172,
+			"size": 1,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw 0",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.137200012803078,
+			"size": 1,
+			"yaw_degrees": 0.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw 30",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.13401173055172,
+			"size": 1,
+			"yaw_degrees": 30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw 90",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.212200000882149,
+			"size": 1,
+			"yaw_degrees": 90.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw 135",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.146942973136902,
+			"size": 1,
+			"yaw_degrees": 135.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 1 yaw 180",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.137200012803078,
+			"size": 1,
+			"yaw_degrees": 180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw -180",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.112200021743774,
+			"size": 2,
+			"yaw_degrees": -180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw -90",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.187200009822845,
+			"size": 2,
+			"yaw_degrees": -90.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw -30",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.107361078262329,
+			"size": 2,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw 0",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.112200021743774,
+			"size": 2,
+			"yaw_degrees": 0.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw 30",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.107361078262329,
+			"size": 2,
+			"yaw_degrees": 30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw 90",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.187200009822845,
+			"size": 2,
+			"yaw_degrees": 90.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw 135",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.122194245457649,
+			"size": 2,
+			"yaw_degrees": 135.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "size 2 yaw 180",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.112200021743774,
+			"size": 2,
+			"yaw_degrees": 180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "lower clamps",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.162200003862381,
+			"size": 0,
+			"yaw_degrees": -180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "upper clamps",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.112200021743774,
+			"size": 2,
+			"yaw_degrees": 180.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "edited support and slot transforms",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.112905398011208,
+			"size": 2,
+			"yaw_degrees": 37.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "transformed parent",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.181299418210983,
+			"size": 1,
+			"yaw_degrees": 67.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "disk roundtrip",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.181299418210983,
+			"size": 1,
+			"yaw_degrees": 67.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "independent restored instance",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.200272738933563,
+			"size": 0,
+			"yaw_degrees": 67.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "detached update and reentry",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.122194245457649,
+			"size": 2,
+			"yaw_degrees": -45.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "saved variant",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.162200003862381,
+			"size": 0,
+			"yaw_degrees": 0.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "saved variant",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.112200021743774,
+			"size": 2,
+			"yaw_degrees": 0.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationNorth small",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.160662367939949,
+			"size": 0,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationNorth large",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.107361108064651,
+			"size": 2,
+			"yaw_degrees": 30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationSouth small",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.160662330687046,
+			"size": 0,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationSouth large",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.10736109316349,
+			"size": 2,
+			"yaw_degrees": 30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationNorth small",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.160662360489368,
+			"size": 0,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationNorth large",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.107361108064651,
+			"size": 2,
+			"yaw_degrees": 30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationSouth small",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.160662330687046,
+			"size": 0,
+			"yaw_degrees": -30.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "StationSouth large",
+			"contact_error_m": 0.000000119209289550781,
+			"flat_top_edge_margin_m": 0.107361078262329,
+			"size": 2,
+			"yaw_degrees": 30.0
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"issues": [
+		31,
+		33,
+		34,
+		36
+	],
+	"lifecycle_cases": [
+		"all three sizes and all-angle footprint bound",
+		"invalid size/yaw clamps",
+		"contact and slot transform composition",
+		"disk roundtrip and independent instances",
+		"detached update and reentry",
+		"floating and unsupported negative controls"
+	],
+	"limits": "Static imported fit; live MCP, art approval, interaction, physics and performance acceptance remain pending.",
+	"mcp": "Blender status/scene and Godot get_state failed; standalone Godot fallback",
+	"min_camera_clearance_m": 1.49999995231628,
+	"passed": true,
+	"renderer": "forward_plus",
+	"station_placements": [
+		{
+			"conservative_clear_radius_m": 21.0455188751221,
+			"envelope_m": [
+				2.49999976158142,
+				1.08000004291534,
+				1.51066994667053
+			],
+			"floor_probes": 54,
+			"front_user_approach_depth_m": 1.0,
+			"max_floor_contact_error_m": 0.0,
+			"min_existing_object_gap_m": 1.58983302116394,
+			"station": "StationNorth"
+		},
+		{
+			"conservative_clear_radius_m": 21.0455188751221,
+			"envelope_m": [
+				2.49999976158142,
+				1.08000004291534,
+				1.51067185401917
+			],
+			"floor_probes": 54,
+			"front_user_approach_depth_m": 1.0,
+			"max_floor_contact_error_m": 0.0,
+			"min_existing_object_gap_m": 1.58983290195465,
+			"station": "StationSouth"
+		},
+		{
+			"conservative_clear_radius_m": 21.0455226898193,
+			"envelope_m": [
+				2.49999928474426,
+				1.07999992370605,
+				1.51066994667053
+			],
+			"floor_probes": 54,
+			"front_user_approach_depth_m": 1.0,
+			"max_floor_contact_error_m": 0.0,
+			"min_existing_object_gap_m": 1.58983302116394,
+			"station": "StationNorth"
+		},
+		{
+			"conservative_clear_radius_m": 21.0455226898193,
+			"envelope_m": [
+				2.49999833106995,
+				1.07999992370605,
+				1.51066994667053
+			],
+			"floor_probes": 54,
+			"front_user_approach_depth_m": 1.0,
+			"max_floor_contact_error_m": 0.0,
+			"min_existing_object_gap_m": 1.58983290195465,
+			"station": "StationSouth"
+		}
+	],
+	"validated_imported_surfaces": [
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "ceramic_pedestal",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "display_top",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "recessed_foot",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "top_shadow_neck",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "blank_screen_insert",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "graphite_sloped_top",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "recessed_floor_foot",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "solid_ceramic_base",
+			"triangles": 108
+		}
+	]
+}

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://assets/archive_display_plinth/configurable_archive_display.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/archive_display_plinth/archive_display_plinth.tscn" id="plinth"]
+
+[node name="ConfigurableArchiveDisplay" type="Node3D"]
+script = ExtResource("script")
+
+[node name="Plinth" parent="." instance=ExtResource("plinth")]
+
+[node name="RecordSlot" type="Node3D" parent="."]

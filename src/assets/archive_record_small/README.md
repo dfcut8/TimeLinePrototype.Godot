@@ -1,5 +1,15 @@
 # Small archive record cassette
 
+## Reusable plinth display — 13 October 2026
+
+`plinth_display.tscn` now supplies an importable small-cassette display using the
+existing plinth and a size/yaw-configurable parent. The cassette remains an
+independent scene. It is also used beside the large record in the new catalog
+comparison station. See [catalog display review](../catalog_display_review/README.md)
+for actual bottom-face support, save/reload, floor contact and room-clearance
+evidence. Standalone Godot 4.7.2 validation passed; live MCP and art approval
+remain pending. The older reviews below retain their original acceptance limits.
+
 Model for [issue #31](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/31), completing the V5 cassette family with the existing medium model. Existing model production is complete. Actual shelf assembly fit is now verified against the built shelf bay (#28); the large cassette also passes the built display plinth (#36) fit check. Live MCP and full-room review remain pending.
 
 ## Delivery

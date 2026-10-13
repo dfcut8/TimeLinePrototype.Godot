@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "path": "README.md",
+      "bytes": 7968,
+      "sha256": "908b3243664337e61b6a5f8d2e412bf15598818a66d34676fe1259cd0c7ece12"
+    },
+    {
       "path": "archive_record_large.glb",
       "bytes": 125252,
       "sha256": "ecc2e2f7c766b74e5448d1136e76cb065bee2ba0a115b405201adf302e141a10"
@@ -106,6 +111,11 @@
       "sha256": "97b987ddf410c48e9a9694a97424897634b15daa670edaa97dbce1e864932f7a"
     },
     {
+      "path": "plinth_display.tscn",
+      "bytes": 243,
+      "sha256": "8a6ce14b4a5a466f48fb08d88d2ac4928c33332ccb6cf3febff6ae1207f50c42"
+    },
+    {
       "path": "preview_front.png",
       "bytes": 1252336,
       "sha256": "0743cec95885595aa800296297bc309140a987b643b6e01c32a6c9cd42c573cb"
@@ -126,14 +136,9 @@
       "sha256": "a6447d86094ac0272f25e1baa23d876c41a6eccc50a322320906bc2f62e1597d"
     },
     {
-      "path": "README.md",
-      "bytes": 7331,
-      "sha256": "bd06f626d75afac9b502fc0efb0d65b6731710c9f4bcb1a7ca7ab6caa9b7e339"
-    },
-    {
       "path": "shelf_assembly.tscn",
-      "bytes": 5365,
-      "sha256": "5687661f9455ec08446d18d36e07d5b1b110a8e6c0ca5026f474c4a5d11cc966"
+      "bytes": 5180,
+      "sha256": "87748f49e9fa45a4509cacfbf5448f608553890bee29530fa82472f384f3fd92"
     },
     {
       "path": "source/.gdignore",

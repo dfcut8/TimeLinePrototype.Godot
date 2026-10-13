@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/catalog_lectern.tscn" id="lectern"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_small/plinth_display.tscn" id="small"]
+[ext_resource type="PackedScene" path="res://assets/archive_record_large/plinth_display.tscn" id="large"]
+
+[node name="CatalogComparisonStation" type="Node3D"]
+
+[node name="SmallDisplay" parent="." instance=ExtResource("small")]
+position = Vector3(-0.9, 0, -0.2)
+cassette_yaw_degrees = -30.0
+
+[node name="LargeDisplay" parent="." instance=ExtResource("large")]
+position = Vector3(0.9, 0, -0.2)
+cassette_yaw_degrees = 30.0
+
+[node name="Lectern" parent="." instance=ExtResource("lectern")]
+position = Vector3(0, 0, 0.8)
+
+[node name="UserApproach" type="Marker3D" parent="."]
+position = Vector3(0, 0, 1.8)
