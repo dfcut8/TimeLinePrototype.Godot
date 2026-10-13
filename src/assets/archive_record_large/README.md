@@ -1,5 +1,15 @@
 # Large archive record cassette
 
+## Configurable plinth display — 13 October 2026
+
+`plinth_display.tscn` adds an importable large-cassette display with adjustable
+yaw on the existing plinth. It remains independent of the older static display
+assembly and uses an independently instanced record. The new catalog comparison
+station pairs it with the small record. See [catalog display review](../catalog_display_review/README.md)
+for actual support, every-yaw footprint clearance, save/reload and grounded room
+placement evidence. Standalone Godot 4.7.2 validation passed; live MCP and art
+approval remain pending. The older reviews below retain their original limits.
+
 Model for [issue #33](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/33), completing the V5 cassette family with the existing medium model. Existing model production is complete. Actual shelf assembly fit is now verified against the built shelf bay (#28); the large cassette also passes the built display plinth (#36) fit check. Live MCP and full-room review remain pending.
 
 ## Delivery

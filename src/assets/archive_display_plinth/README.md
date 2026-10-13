@@ -1,10 +1,21 @@
-# Archive display plinth — issue #36
+# Archive display plinth â€” issue #36
 
 Model work for [#36](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/36).
 
+## Configurable cassette display â€” 13 October 2026
+
+`configurable_archive_display.tscn` is an importable display with an independently
+instanced small/medium/large cassette. Its `@tool` script exposes size and yaw,
+uses `TopContact` for placement, and preserves sibling user attachments during
+size changes and disk save/reload. See [catalog display review](../catalog_display_review/README.md)
+for interfaces, all-angle flat-top clearance, actual imported bottom-face support,
+floor contact and full-room placement. Standalone Godot 4.7.2 validation passed;
+live MCP and final art/proportion approval remain pending. Earlier model evidence
+below retains its original scope.
+
 ## Dimensions and interfaces
 
-Low rectangular display base, **0.700 m wide × 0.600 m high × 0.550 m deep**. Floor-center pivot; Godot/glTF +Y up, +Z front, +X width (Blender +Z up, -Y front). All transforms are identity; authoring unit is one meter. `TopContact` is (0,.6,0). Four closed components: recessed foot, ceramic pedestal, shadow neck and a 48 mm thick display top with 8 mm edge radii. **432 triangles / 3 materials**.
+Low rectangular display base, **0.700 m wide Ã— 0.600 m high Ã— 0.550 m deep**. Floor-center pivot; Godot/glTF +Y up, +Z front, +X width (Blender +Z up, -Y front). All transforms are identity; authoring unit is one meter. `TopContact` is (0,.6,0). Four closed components: recessed foot, ceramic pedestal, shadow neck and a 48 mm thick display top with 8 mm edge radii. **432 triangles / 3 materials**.
 
 Instance the existing large cassette independently at **(0,.6,0)** relative to the plinth origin, with identity rotation/scale. Its bottom contacts the flat top exactly in the engine; measured minimum margins are **296.7 mm in X and 112.2 mm in Z**, clear of the bevel. The cassette is not baked into the plinth GLB. There is no statue, central tower or timeline support.
 

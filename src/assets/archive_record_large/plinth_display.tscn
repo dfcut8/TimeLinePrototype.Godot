@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/archive_display_plinth/configurable_archive_display.tscn" id="display"]
+
+[node name="LargeArchiveDisplay" instance=ExtResource("display")]
+cassette_size = 2

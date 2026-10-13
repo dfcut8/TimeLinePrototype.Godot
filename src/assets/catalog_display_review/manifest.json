@@ -1,0 +1,130 @@
+{
+  "issues": [
+    31,
+    33,
+    34,
+    36
+  ],
+  "files": {
+    ".gdignore": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "display_import.log": {
+      "bytes": 8345,
+      "sha256": "6cae11dff76819f77ceda51701eb2f45fa2221242c6c8fa354c001835980581c"
+    },
+    "display_runtime.log": {
+      "bytes": 9840,
+      "sha256": "3b0a14352700c921376d8cf538bafed1f64d44947e87686d99ca5b41c7253bc8"
+    },
+    "godot_floor_contact.png": {
+      "bytes": 73451,
+      "sha256": "ba4e334e9647b1cc20e888d0a7d032dec5a6aee3e57df9388fba786b8add8095"
+    },
+    "godot_isolated_end.png": {
+      "bytes": 12872,
+      "sha256": "3e1e70729db32974fcc38de0e3b31af0f5a4675355b63b0c0510bc5579ac95ea"
+    },
+    "godot_isolated_rear.png": {
+      "bytes": 14468,
+      "sha256": "f10ff67486a41537f197ca6325ce740b805ecb4d55685b12303beab874ae8eb2"
+    },
+    "godot_isolated_underside.png": {
+      "bytes": 22239,
+      "sha256": "f386317888a31854c6d2f6a09b20361e15da6864fd8a0220aedaed3da11e6286"
+    },
+    "godot_overview.png": {
+      "bytes": 53210,
+      "sha256": "e9361c2c4ed45b28b3e7982806815646bc11e2b12085083e49a271cfc11ec501"
+    },
+    "godot_station_front.png": {
+      "bytes": 65270,
+      "sha256": "210c3ea83b7edba447d1e9c88927fa177b1e7974c1341edaa3f2a8bf188fed7c"
+    },
+    "godot_validation.json": {
+      "bytes": 11941,
+      "sha256": "320f6988701b7e7268e2ad04432a56e33b0c64c02a01dbd76e3f311c25bd629b"
+    },
+    "prepare_review.py": {
+      "bytes": 1583,
+      "sha256": "548146bf68eb0f50fbfa1f8967a74cb1d87a3ae2c8a20c9ca0a3ae6b4191ece7"
+    },
+    "README.md": {
+      "bytes": 7518,
+      "sha256": "bf16c4e01b17ca55a244eab4185926f460cde28f532f3a041cb33cf1558d97dc"
+    },
+    "review_room.tscn": {
+      "bytes": 418,
+      "sha256": "bd88ff0281a95566d91bd4de005de02320c2adb5f03d2b629846cd9622b85883"
+    },
+    "room_assembly.tscn": {
+      "bytes": 675,
+      "sha256": "6708753e8593312ea1a78281c05aced46cf21635c7b8b95ebbeb8397a7f90bf2"
+    },
+    "update_manifests.py": {
+      "bytes": 2056,
+      "sha256": "caa97c86e6123778507a30bf7e13df8252a0ae0ade051cbcbcf2375940af9f7c"
+    },
+    "verify_display.gd": {
+      "bytes": 17388,
+      "sha256": "2525543a7227a7e7afd9fe157bba37a8319c80e680fdb99aa164387b3b82aa1d"
+    },
+    "verify_display.ps1": {
+      "bytes": 2758,
+      "sha256": "20c2264880f2f3adb5d615234e08fa3799660b9020ed56e9e663ccc11e475132"
+    }
+  },
+  "reused_objects": {
+    "archive_record_small": {
+      "source": {
+        "bytes": 96704,
+        "sha256": "ce6d0e7d53dbdd4077d485e9a30b315fd2cd693d63a13e0eece6005b8f4d3411"
+      },
+      "glb": {
+        "bytes": 125256,
+        "sha256": "0ba81420a682a926a358b20ad3c3a64e099e07685b1056433b7d25f452fc2419"
+      }
+    },
+    "archive_record_medium": {
+      "source": {
+        "bytes": 96689,
+        "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
+      },
+      "glb": {
+        "bytes": 125240,
+        "sha256": "48323b10d5209852f5e629b403f312f192152afbe0f7f6c351aef49d1cf4e8b6"
+      }
+    },
+    "archive_record_large": {
+      "source": {
+        "bytes": 96478,
+        "sha256": "6fb45765da7698abaa01fd543c327dd4a267189db0be20d9acd574e1b99beedd"
+      },
+      "glb": {
+        "bytes": 125252,
+        "sha256": "ecc2e2f7c766b74e5448d1136e76cb065bee2ba0a115b405201adf302e141a10"
+      }
+    },
+    "archive_display_plinth": {
+      "source": {
+        "bytes": 75957,
+        "sha256": "023bb82525f64a86d6b7308e34dc47a751dfd02a44cc2a20472a92e165e6c298"
+      },
+      "glb": {
+        "bytes": 33612,
+        "sha256": "8126cba6e18773c359b24247b885ee981f9d23168caf057e9ff1bb2ddb26e5fc"
+      }
+    },
+    "catalog_lectern": {
+      "source": {
+        "bytes": 76363,
+        "sha256": "e01b8ac22014f7199f2bfda7af3373755e6a64c0a93413c8a47c43ed79ab5d30"
+      },
+      "glb": {
+        "bytes": 34428,
+        "sha256": "177164a8fcce2e7a09527cc0586c763cd9e4508b251909ff62b4885217568988"
+      }
+    }
+  }
+}

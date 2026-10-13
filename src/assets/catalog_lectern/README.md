@@ -1,5 +1,15 @@
 # Catalog lectern — issue #34
 
+## Reusable comparison station — 13 October 2026
+
+`catalog_comparison_station.tscn` is an importable composition of this lectern,
+small and large cassette displays, and a user-approach marker. All objects stay
+independent scene instances. See [catalog display review](../catalog_display_review/README.md)
+for screen-surface orientation, actual floor support, one-metre front approach,
+portal clearance and room placement. Standalone Godot 4.7.2 validation passed;
+live MCP and final art/proportion approval remain pending. Earlier isolated-model
+evidence below retains its original scope.
+
 ![Godot review](review_contact_sheet.png)
 
 Optional static console for [issue #34](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/34). The reusable `catalog_lectern.tscn` instances the GLB and supplies a screen-surface marker. Peripheral placement remains deferred until room scale is approved. No interaction, text, animation, or collision is implied.
