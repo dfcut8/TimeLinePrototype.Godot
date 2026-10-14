@@ -1,5 +1,16 @@
 # Timeline rail housing — issue #5
 
+## Centered length edits — 14 October 2026
+
+`anchor_mode` now selects Earlier end (0, original default) or Centre (1).
+Center mode keeps the attachment span symmetric around the root when count
+changes. `centered_timeline_rail.tscn` saves seven modules spanning X=-7 to +7 m.
+Anchor edits retain module instances; caps, joiners and attachment markers follow
+the new origin. See the [adaptive library review](../adaptive_library_review/README.md)
+for 32 rail inspections, disk/attachment checks, the original seven-case
+regression suite, and fit over the real floor. Standalone Godot 4.7.2 passed;
+live MCP and final art review remain pending.
+
 ## Perspective room visibility — 2 October 2026
 
 The [rail and mixed shelf review](../rail_shelf_room_review/README.md) now measures
@@ -17,7 +28,8 @@ Instance `configurable_timeline_rail.tscn` and set `module_count` (default 3,
 clamped to 1–64). Each module adds 2 m along local +X; the two caps add 4 mm
 at each end. One, three and seven modules provide 2, 6 and 14 m housing lengths.
 The upper bound is a configuration guard, not a measured performance budget.
-`EarlierEnd` stays at the housing origin; `LaterEnd` tracks its length.
+With the default Earlier end anchor, `EarlierEnd` stays at the housing origin
+and `LaterEnd` tracks its length.
 The script instances the existing illuminated module and joiner PackedScenes;
 the caps are saved scene instances. All original models/materials are reused.
 

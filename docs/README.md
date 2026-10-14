@@ -10,6 +10,7 @@ The experience specification and original asset brief below preserve the older v
 
 | Document | Purpose |
 | --- | --- |
+| [Adaptive rail and reading alcoves](../src/assets/adaptive_library_review/README.md) | Centered adjustable rail, size-aware cassette capacities, and configurable bench aisles, with imported-geometry and room-fit evidence for issues #5, #31, #33 and #35. |
 | [Configurable library kit](../src/assets/modular_library_review/README.md) | Reusable wall/portal/window arcs, full perimeter and configurable cassette rows, with entrance-floor and serialization evidence for issues #24, #25, #28 and #29. |
 | [Catalog comparison stations](../src/assets/catalog_display_review/README.md) | Reusable configurable cassette displays and paired catalog stations, with actual floor support and room-clearance evidence for issues #31, #33, #34 and #36. |
 | [Populated capped rows and reading alcoves](../src/assets/reading_alcove_review/README.md) | Reusable mixed cassette rows, bench/shelf aisle and actual floor support, with room-clearance evidence for issues #29 and #35. |

@@ -1,5 +1,15 @@
 # Record stack shelf bay — issue #28
 
+## Size-aware packed population — 14 October 2026
+
+`packed_cassette_shelf_bay.tscn` provides an additional populated variant for
+cassette fit issues #31/#33. It derives capacity from full cassette widths and
+an adjustable 20–150 mm gap, keeping the longest repeating prefix inside a
+1.44 m safe span. All four decks, lights, closed back and cassette scenes retain
+the existing dimensions. See the
+[adaptive library review](../adaptive_library_review/README.md) for exported
+properties, 115 shelf inspections and standalone Godot evidence.
+
 ## Configurable cassette population — 14 October 2026
 
 configurable_cassette_shelf_bay.tscn adds an adjustable repeating cassette

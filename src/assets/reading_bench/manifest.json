@@ -33,8 +33,8 @@
       "sha256": "fcd5d8ec92ad7bb69ea132cbd28fca4a24df2e4de15016056b136f7399b26bd4"
     },
     "README.md": {
-      "bytes": 4220,
-      "sha256": "3c3e2ac61ca344c929b59a8aefc28e195afd56fc11e91d782a4118786ad2a19b"
+      "bytes": 4862,
+      "sha256": "0626aeb178004c3e81ac97496d49be98808ed7bd1734c6d60af0c6d5fe475b67"
     },
     "source/.gdignore": {
       "bytes": 0,
@@ -51,6 +51,14 @@
     "reading_alcove.tscn": {
       "bytes": 487,
       "sha256": "8d54af4162dc64def13cf743bbfb362ba827efb75f97f3f04a6af6ccc5a92a3d"
+    },
+    "configurable_reading_alcove.gd": {
+      "bytes": 2194,
+      "sha256": "1f72a36a6ff1a6919672fc7a0c98d464b5c66d384010beae194f05388902b35a"
+    },
+    "configurable_reading_alcove.tscn": {
+      "bytes": 922,
+      "sha256": "f73c999e7f3a5ba4f54674d4141f1cf356217f837858e1853341de0b0548d253"
     }
   }
 }

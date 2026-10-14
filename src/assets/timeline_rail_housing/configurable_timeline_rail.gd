@@ -12,6 +12,13 @@ const PITCH: float = 2.0
 		if is_node_ready():
 			_rebuild()
 
+## Earlier end preserves the original pivot; Centre keeps length edits symmetric.
+@export_enum("Earlier end", "Centre") var anchor_mode: int = 0:
+	set(value):
+		anchor_mode = clampi(value, 0, 1)
+		if is_node_ready():
+			_sync_anchor()
+
 var _generated: Array[Node3D] = []
 
 func _ready() -> void:
@@ -21,15 +28,24 @@ func _rebuild() -> void:
 	# Only remove our own generated instances; preserve user-added children.
 	for instance in _generated:
 		if is_instance_valid(instance):
-			instance.get_parent().remove_child(instance)
+			if instance.get_parent() != null:
+				instance.get_parent().remove_child(instance)
 			instance.queue_free()
 	_generated.clear()
 	for index in range(module_count):
 		_add_part(MODULE, $Modules, "Module%d" % index, index * PITCH)
 		if index > 0:
 			_add_part(JOINER, $Joiners, "Joiner%d" % index, index * PITCH)
-	$EndCap.position.x = module_count * PITCH
-	$LaterEnd.position.x = module_count * PITCH
+	_sync_anchor()
+
+func _sync_anchor() -> void:
+	var offset: float = -module_count * PITCH * 0.5 if anchor_mode == 1 else 0.0
+	$Modules.position.x = offset
+	$Joiners.position.x = offset
+	$StartCap.position.x = offset
+	$EarlierEnd.position.x = offset
+	$EndCap.position.x = offset + module_count * PITCH
+	$LaterEnd.position.x = offset + module_count * PITCH
 
 func _add_part(scene: PackedScene, parent: Node3D, label: String, x: float) -> void:
 	var instance := scene.instantiate() as Node3D

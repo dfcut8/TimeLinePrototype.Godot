@@ -2,6 +2,17 @@
 
 Model work for [#35](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/35).
 
+## Configurable reading alcove — 14 October 2026
+
+`configurable_reading_alcove.tscn` adds a one-to-four-bay capped row with
+size-aware cassette capacity and a 1.2–2.0 m adjustable clear bench aisle.
+It preserves bench/bay instances during aisle/population edits and provides
+an Attachments container for persistent additions. See the
+[adaptive library review](../adaptive_library_review/README.md) for configuration,
+24 alcove checks, both foot pads on actual floor geometry and maximum-width
+perimeter placement. Standalone Godot 4.7.2 passed; live MCP and final art review
+remain pending. The original static alcove remains available.
+
 ## Reusable reading alcove — follow-up for #35
 
 `reading_alcove.tscn` combines this bench with a two-bay mixed cassette row and

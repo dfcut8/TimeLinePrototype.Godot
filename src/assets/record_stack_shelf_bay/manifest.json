@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 7950,
-      "sha256": "4c3fb105cbed578773a816572f1a99561fd14b90492b94f9cd083a19aacb31a2"
+      "bytes": 8494,
+      "sha256": "f74401290e7e6a63472c716dc4391fc6dd7967822e84bf1c63bd18c738b2d745"
     },
     {
       "path": "configurable_cassette_shelf_bay.gd",
@@ -34,6 +34,16 @@
       "path": "mixed_cassette_shelf_bay.tscn",
       "bytes": 4844,
       "sha256": "e1f83f24f8f280859156b6d5c90dff6e6c7bc90b6c11520c7bed48fa23cc497e"
+    },
+    {
+      "path": "packed_cassette_shelf_bay.gd",
+      "bytes": 2365,
+      "sha256": "66775254077936a7e81461c2fb1baf5055063dd4b1453fffe5b6fd5aeeae2d03"
+    },
+    {
+      "path": "packed_cassette_shelf_bay.tscn",
+      "bytes": 455,
+      "sha256": "811b293bc60492cbccc22740d427ee301cf1fb78dfd0f82d23d337c7d75caef0"
     },
     {
       "path": "preview_front.png",

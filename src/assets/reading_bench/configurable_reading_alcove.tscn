@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://assets/reading_bench/configurable_reading_alcove.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_shelf_row.tscn" id="row"]
+[ext_resource type="PackedScene" path="res://assets/reading_bench/reading_bench.tscn" id="bench"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/packed_cassette_shelf_bay.tscn" id="bay"]
+
+[node name="ConfigurableReadingAlcove" type="Node3D"]
+script = ExtResource("script")
+
+[node name="ShelfRow" parent="." instance=ExtResource("row")]
+position = Vector3(0, 0, -1.4)
+bay_scene = ExtResource("bay")
+bay_count = 2
+
+[node name="Bench" parent="." instance=ExtResource("bench")]
+position = Vector3(0, 0, 0.6)
+
+[node name="AisleCentre" type="Marker3D" parent="."]
+position = Vector3(0, 0, -0.41)
+
+[node name="Attachments" type="Node3D" parent="."]
