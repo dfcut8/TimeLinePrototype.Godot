@@ -1,5 +1,14 @@
 # Archive display plinth — issue #36
 
+## Empty configurable displays — 14 October 2026
+
+show_cassette=false removes the generated record while retaining the plinth and
+RecordSlot additions. Size/yaw choices remain configured for re-enabling.
+empty_archive_display.tscn saves this variant. See the
+[kit editing review](../kit_editing_review/README.md) for independent station
+occupancy, actual imported top support, save/reload and regression evidence.
+Standalone Godot 4.7.2 passed; live MCP and final art approval remain pending.
+
 ## Paired configurable displays — 14 October 2026
 
 The new `../catalog_lectern/configurable_catalog_station.tscn` composes two

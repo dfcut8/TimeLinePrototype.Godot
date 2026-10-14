@@ -8,6 +8,13 @@ const RECORDS: Array[PackedScene] = [
 	preload("res://assets/archive_record_large/archive_record_large.tscn"),
 ]
 
+## Empty displays retain the plinth and user additions; size/yaw stay configured.
+@export var show_cassette: bool = true:
+	set(value):
+		show_cassette = value
+		if is_node_ready():
+			_sync_record()
+
 @export_enum("Small", "Medium", "Large") var cassette_size: int = 2:
 	set(value):
 		cassette_size = clampi(value, 0, RECORDS.size() - 1)
@@ -26,6 +33,12 @@ func _ready() -> void:
 	_sync_record()
 
 func _sync_record() -> void:
+	if not show_cassette:
+		if is_instance_valid(_record):
+			_record.get_parent().remove_child(_record)
+			_record.queue_free()
+		_record = null
+		return
 	var scene := RECORDS[cassette_size]
 	if is_instance_valid(_record) and _record.scene_file_path != scene.resource_path:
 		_record.get_parent().remove_child(_record)

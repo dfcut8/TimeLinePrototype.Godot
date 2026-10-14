@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/single_record_catalog_entrance.tscn" id="entrance"]
+[ext_resource type="PackedScene" path="res://assets/grounded_room_review/library_floor.tscn" id="floor"]
+[ext_resource type="PackedScene" path="res://assets/library_room_review/room_review_rig.tscn" id="rig"]
+
+[node name="KitEditingReview" type="Node3D"]
+
+[node name="Entrance" parent="." instance=ExtResource("entrance")]
+
+[node name="Floor" parent="." instance=ExtResource("floor")]
+
+[node name="ReviewRig" parent="." instance=ExtResource("rig")]

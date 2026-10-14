@@ -33,8 +33,8 @@
       "sha256": "0e2f9740b827409bad5ab02060f20cdcf517ef187cebe859b575f9df0a57efc2"
     },
     "README.md": {
-      "bytes": 4525,
-      "sha256": "64baa515ad0e318808d28670090eecaa176d1907a40f4f4a936c73da3ca52521"
+      "bytes": 5021,
+      "sha256": "4fed2dd871634c9b1424ea13ada716c28fa04d8ad5919a8ac1c2e7133774231d"
     },
     "source/.gdignore": {
       "bytes": 0,
@@ -49,12 +49,16 @@
       "sha256": "729ea98dd48324048c37efb03e70413a53521c25a9d1f169151e88159429b7a3"
     },
     "configurable_archive_display.gd": {
-      "bytes": 1549,
-      "sha256": "5523a41af9aefc1de22bb45e61967a915ff574cfe590d6362940a09cc471b447"
+      "bytes": 1901,
+      "sha256": "6dfbe0ed588dcda0cde3ecb3704a1cb483fe419baaaa67c4a132db5711fb0ac1"
     },
     "configurable_archive_display.tscn": {
       "bytes": 469,
       "sha256": "d86fd32a736ec8e668ca0bd1e8286aa47eb7c3e7b82f230469d504e51f938eef"
+    },
+    "empty_archive_display.tscn": {
+      "bytes": 247,
+      "sha256": "ce133ee77edfac5092336574c94e9b29263c57fa09774acdd304d2ec90f0a0ef"
     }
   }
 }

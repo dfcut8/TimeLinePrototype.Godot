@@ -13,6 +13,7 @@ pending = ["assets/catalog_perimeter_review/review_room.tscn",
            "assets/catalog_display_review/verify_display.gd",
            "assets/modular_library_review/verify_modular.gd",
            "assets/modular_library_review/review_sector.tscn"]
+pending.extend(sys.argv[2:])
 copied = set()
 while pending:
     relative = pending.pop()

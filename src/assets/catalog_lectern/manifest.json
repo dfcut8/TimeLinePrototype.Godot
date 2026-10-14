@@ -82,8 +82,8 @@
       "sha256": "4e2cf072c85e40b36aa9f0c1db6299ecd1c6abcb3698f0fd043796af1cf4a2dd"
     },
     "catalog_lectern/README.md": {
-      "bytes": 4891,
-      "sha256": "301e63c36c1760593b68dfbbf1a3c894064ec26721753cf0f9379748332430fd"
+      "bytes": 5464,
+      "sha256": "fc90cc6b55f8599b7447abe712303adc876366618abc628def52a2868aacdb03"
     },
     "catalog_lectern/reimport.log": {
       "bytes": 864,
@@ -130,12 +130,16 @@
       "sha256": "3998d59585a2303ad3ffd5d0a1203a2f00d5e800f15b2463e246eafb3397d24e"
     },
     "catalog_lectern/configurable_catalog_station.gd": {
-      "bytes": 2236,
-      "sha256": "9fbddcd553d0f1ce98a791142310302667961e26ccb62d7f6920f2d306d897cd"
+      "bytes": 2570,
+      "sha256": "33cfe08a5fdb02520e3db0f896000cb348192915e71728bd777c21da4055959b"
     },
     "catalog_lectern/configurable_catalog_station.tscn": {
       "bytes": 1150,
       "sha256": "13b23e6c94ff770083db4214fcc3e9ee9456d25bceebad9298daaaa97201655b"
+    },
+    "catalog_lectern/single_record_catalog_station.tscn": {
+      "bytes": 345,
+      "sha256": "35aa03ffc07e3f66c18b058351b042a64d93b34bc2257f1dd2f971cdc210d9b6"
     }
   }
 }

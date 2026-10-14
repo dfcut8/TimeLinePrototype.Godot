@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
 [ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/passage_portal_bay_frame.glb" id="1"]
+[ext_resource type="Script" path="res://assets/passage_portal_bay_frame/passage_portal_bay_frame.gd" id="script"]
 [node name="PassagePortalBayFrame" type="Node3D"]
+script = ExtResource("script")
 [node name="Model" parent="." instance=ExtResource("1")]
 [node name="LeftInterface" type="Marker3D" parent="."]
 position = Vector3(-2.73, 0, 0)
