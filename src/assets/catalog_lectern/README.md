@@ -1,5 +1,15 @@
 # Catalog lectern — issue #34
 
+## Saved perimeter station templates — 14 October 2026
+
+Catalog perimeters now accept station_scene, a saved variant retaining authored
+station settings when bays change or the perimeter is reloaded. The supplied
+single_record_catalog_station.tscn pairs a medium cassette with an empty plinth.
+Station exports left_show_cassette/right_show_cassette independently. See the
+[kit editing review](../kit_editing_review/README.md) for template behavior,
+imported support and regression evidence. Standalone Godot 4.7.2 passed; live MCP
+and final art approval remain pending.
+
 ## Configurable catalog station — 14 October 2026
 
 `configurable_catalog_station.tscn` adds adjustable display spacing, lectern

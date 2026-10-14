@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/configurable_catalog_station.tscn" id="station"]
+
+[node name="SingleRecordCatalogStation" instance=ExtResource("station")]
+display_spacing = 1.1
+lectern_offset = 0.7
+left_cassette_size = 1
+left_cassette_yaw = -45.0
+right_show_cassette = false

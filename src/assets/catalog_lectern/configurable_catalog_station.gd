@@ -2,6 +2,16 @@
 extends Node3D
 ## Floor-centred catalog furniture; all visual objects remain scene instances.
 
+@export var left_show_cassette: bool = true:
+	set(value):
+		left_show_cassette = value
+		_refresh_if_ready()
+
+@export var right_show_cassette: bool = true:
+	set(value):
+		right_show_cassette = value
+		_refresh_if_ready()
+
 @export_range(0.75, 1.25, 0.01, "suffix:m") var display_spacing: float = 0.9:
 	set(value):
 		display_spacing = clampf(value, 0.75, 1.25)
@@ -53,6 +63,8 @@ func _sync() -> void:
 	$DisplayLeft.position = Vector3(-display_spacing, 0.0, -0.2)
 	$DisplayRight.position = Vector3(display_spacing, 0.0, -0.2)
 	$Lectern.position = Vector3(0.0, 0.0, lectern_offset)
+	$DisplayLeft.set("show_cassette", left_show_cassette)
+	$DisplayRight.set("show_cassette", right_show_cassette)
 	$DisplayLeft.set("cassette_size", left_cassette_size)
 	$DisplayRight.set("cassette_size", right_cassette_size)
 	$DisplayLeft.set("cassette_yaw_degrees", left_cassette_yaw)

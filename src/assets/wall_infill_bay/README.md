@@ -1,5 +1,14 @@
 # Wall infill bay — issue #24
 
+## Retained arc objects — 14 October 2026
+
+Arc angle edits now retain all generated bay/pier instances; layout edits replace
+only changed types and trailing objects. The resolved grid also survives edited
+Bays/Piers transforms. Root Attachments supports persistent additions. See the
+[kit editing review](../kit_editing_review/README.md) for lifecycle, serialization,
+imported surface and regression evidence. Standalone Godot 4.7.2 passed; live MCP
+and final art approval remain pending.
+
 ## Catalog perimeter follow-up — 14 October 2026
 
 `catalog_perimeter.tscn` places reusable catalog stations against selected solid

@@ -8,3 +8,5 @@ script = ExtResource("script")
 [node name="Bays" type="Node3D" parent="."]
 
 [node name="Piers" type="Node3D" parent="."]
+
+[node name="Attachments" type="Node3D" parent="."]

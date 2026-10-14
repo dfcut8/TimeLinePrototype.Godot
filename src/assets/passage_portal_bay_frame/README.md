@@ -1,5 +1,15 @@
 # Passage / portal bay frame — issue #25
 
+## Portal fit interfaces — 14 October 2026
+
+The portal now owns get_opening_bounds() and get_approach_bounds(), local AABBs
+matching its 3 × 3.4 m opening and existing floor-level approach markers.
+single_record_catalog_entrance.tscn saves the configurable catalog sector with
+an authored occupied/empty display template. See the
+[kit editing review](../kit_editing_review/README.md) for transformed imported
+opening/floor probes, instance retention and save/reload evidence. Standalone
+Godot 4.7.2 passed; live MCP and final art approval remain pending.
+
 ## Catalog entrance sector — 14 October 2026
 
 `catalog_entrance_sector.tscn` instances the wall/portal/wall catalog sector.

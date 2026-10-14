@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/catalog_entrance_sector.tscn" id="entrance"]
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/single_record_catalog_station.tscn" id="station"]
+
+[node name="SingleRecordCatalogEntrance" instance=ExtResource("entrance")]
+station_scene = ExtResource("station")
