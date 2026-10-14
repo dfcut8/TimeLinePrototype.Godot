@@ -2,12 +2,9 @@
 extends Node3D
 ## Independent cassette scenes on all four decks of the existing lit shelf.
 
-const RECORDS: Array[PackedScene] = [
-	preload("res://assets/archive_record_small/archive_record_small.tscn"),
-	preload("res://assets/archive_record_medium/archive_record_medium.tscn"),
-	preload("res://assets/archive_record_large/archive_record_large.tscn"),
-]
-const FRONT_OFFSETS: Array[float] = [0.080, 0.055, 0.030]
+const SLOTS = preload("res://assets/record_stack_shelf_bay/cassette_slot_instances.gd")
+const RECORDS: Array[PackedScene] = SLOTS.RECORDS
+const FRONT_OFFSETS: Array[float] = SLOTS.FRONT_OFFSETS
 const RECORD_PITCH: float = 0.15
 
 var _pattern := PackedInt32Array([0, 1, 2])
@@ -29,7 +26,7 @@ var _pattern := PackedInt32Array([0, 1, 2])
 		if is_node_ready():
 			_rebuild_records()
 
-var _generated: Array[Node3D] = []
+var _generated: Dictionary = {}
 
 static func normalise_pattern(value: PackedInt32Array) -> PackedInt32Array:
 	var pattern := value.slice(0, 9)
@@ -43,18 +40,7 @@ func _ready() -> void:
 	_rebuild_records()
 
 func _rebuild_records() -> void:
-	for record in _generated:
-		if is_instance_valid(record):
-			if record.get_parent() != null:
-				record.get_parent().remove_child(record)
-			record.queue_free()
-	_generated.clear()
-	for tier in range(4):
-		for slot in range(records_per_shelf):
-			var size: int = _pattern[slot % _pattern.size()]
-			var record := RECORDS[size].instantiate() as Node3D
-			record.name = "Record_%d_%d" % [tier, slot]
-			record.position = Vector3((slot - (records_per_shelf - 1) * 0.5) * RECORD_PITCH,
-				0.16 + tier * 0.56, FRONT_OFFSETS[size])
-			$Records.add_child(record)
-			_generated.append(record)
+	var centres := PackedFloat32Array()
+	for slot in range(records_per_shelf):
+		centres.append((slot - (records_per_shelf - 1) * 0.5) * RECORD_PITCH)
+	SLOTS.sync(_generated, $Records, _pattern, centres)

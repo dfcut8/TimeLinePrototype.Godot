@@ -1,0 +1,156 @@
+{
+  "issues": [
+    28,
+    29,
+    31,
+    33
+  ],
+  "files": {
+    ".gdignore": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "editing_import.log": {
+      "bytes": 8731,
+      "sha256": "926e4910f3e8ad0a6d17e39ce89eb3a2e8beb12d5bc3df251f138aa2cc5647c4"
+    },
+    "editing_runtime.log": {
+      "bytes": 216,
+      "sha256": "7a28efc286838f1bc93d5c624a1fdaed49cb1271c03b7fb16a68dce7ca2a9d28"
+    },
+    "godot_end.png": {
+      "bytes": 16242,
+      "sha256": "12b7fcdcab893cc42da87baecc68be2937ff89fccb863299ec028c90e38c7da8"
+    },
+    "godot_front.png": {
+      "bytes": 78534,
+      "sha256": "02021fdcf64e9a24cb94b0a1c1f8daa4d08169181b11fc6eb23e157bcb9b04ad"
+    },
+    "godot_island_regression.json": {
+      "bytes": 83130,
+      "sha256": "e9f0593cf04ca004096128f4c6ad167a648093b17584121ae0c8e99e29eaf67d"
+    },
+    "godot_modular_regression.json": {
+      "bytes": 64198,
+      "sha256": "8208dfc4f3cadcad9e623ecf20aedfc6b5e13e33c63b522ae9fe59165f5a2af0"
+    },
+    "godot_rear.png": {
+      "bytes": 76713,
+      "sha256": "c9c43da912bc4a3f4a55978dfa7364c930d1b06db966505e413843b7cd0de393"
+    },
+    "godot_row_regression.json": {
+      "bytes": 2416,
+      "sha256": "b8ab8f82d005ef286a66d637be3465b47cb5e23670847065799cd742ddcc4897"
+    },
+    "godot_validation.json": {
+      "bytes": 29153,
+      "sha256": "9fc1197d55b6ac4461c86130e8d07f4dad4bfda990205444adbe9e4a7906d226"
+    },
+    "island_regression_runtime.log": {
+      "bytes": 217,
+      "sha256": "cbbe2e57367acc1407d6c9c89ca21c8c1d56ca048db9924b8a140029c41029b3"
+    },
+    "modular_regression_runtime.log": {
+      "bytes": 228,
+      "sha256": "b1df7354c97d091a384bde59036b0e7d8e24e3af17efec9712db7dbcc297240c"
+    },
+    "prepare_review.py": {
+      "bytes": 1906,
+      "sha256": "d698fb08cb0da92a49e6a5578ab2437324c4fdae039829b6a05d82cacae58fa2"
+    },
+    "README.md": {
+      "bytes": 6084,
+      "sha256": "7639ce5341a18a4e3e9a33080a693d886e65bf0ab42f42a26c414adaa581d098"
+    },
+    "review_island.tscn": {
+      "bytes": 428,
+      "sha256": "a5319791a42e8be83cf08b2fd2772394848bb7a34e4cd804dfafe9cd6d0e970e"
+    },
+    "row_regression_runtime.log": {
+      "bytes": 2112,
+      "sha256": "88703dab85512cd2945e25b1b886fdfef3fd91d5fe83cea9f05433796e4c5be6"
+    },
+    "update_manifests.py": {
+      "bytes": 2587,
+      "sha256": "3da2cc4b7881a65feee0410b767592849ee83bcf5b153fcfb9a36a1cef2ba86c"
+    },
+    "verify_editing.gd": {
+      "bytes": 14562,
+      "sha256": "1eb5e74b3ead3ba77de749ba34157b8be057751d11afc06cf56cf7e43bb1d203"
+    },
+    "verify_editing.ps1": {
+      "bytes": 3337,
+      "sha256": "857674e2c8611e09cf3ed107894e5e716c665853064fadb7c22d3fa292dc1503"
+    }
+  },
+  "production_scripts": {
+    "record_stack_end_cap/configurable_shelf_row.gd": {
+      "bytes": 1934,
+      "sha256": "924943271e17d6fe01da5888fa188eb9a7d4c8ffad1255921f397be28b6f6c49"
+    },
+    "record_stack_shelf_bay/configurable_cassette_shelf_bay.gd": {
+      "bytes": 1532,
+      "sha256": "7abe812eb6069cc28d682a37724ecb40885f9d6785919c7a0cd932264512668c"
+    },
+    "record_stack_shelf_bay/packed_cassette_shelf_bay.gd": {
+      "bytes": 1838,
+      "sha256": "3c3f8a0d2d09f314fca20295e0159b9f2cdc62f9bc3ee577a4edb783a5ff7b21"
+    },
+    "record_stack_shelf_bay/cassette_slot_instances.gd": {
+      "bytes": 1842,
+      "sha256": "6c7b3ce505a1b28e7950ed53f29f9f657d258b010ffc27ef6c06c01a763fab23"
+    }
+  },
+  "reused_models": {
+    "record_stack_shelf_bay": {
+      "source": {
+        "bytes": 86459,
+        "sha256": "e3dffc12b6a6d3850840d1b23037d7de89734de409b19f9febf4b2331249124f"
+      },
+      "glb": {
+        "bytes": 60844,
+        "sha256": "de70601523437172c2133d19cef732553832c329ad0ef3bb138b3f7f261a173c"
+      }
+    },
+    "record_stack_end_cap": {
+      "source": {
+        "bytes": 76589,
+        "sha256": "efa63abe2eedd4176f8dba4a4a7f25a1c75556da4dba1e6f368e024a09d740ac"
+      },
+      "glb": {
+        "bytes": 37428,
+        "sha256": "f6d6d736340f457513d98bc6d96a81cb360495ee91f130372bc91912c37389c5"
+      }
+    },
+    "archive_record_small": {
+      "source": {
+        "bytes": 96704,
+        "sha256": "ce6d0e7d53dbdd4077d485e9a30b315fd2cd693d63a13e0eece6005b8f4d3411"
+      },
+      "glb": {
+        "bytes": 125256,
+        "sha256": "0ba81420a682a926a358b20ad3c3a64e099e07685b1056433b7d25f452fc2419"
+      }
+    },
+    "archive_record_medium": {
+      "source": {
+        "bytes": 96689,
+        "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
+      },
+      "glb": {
+        "bytes": 125240,
+        "sha256": "48323b10d5209852f5e629b403f312f192152afbe0f7f6c351aef49d1cf4e8b6"
+      }
+    },
+    "archive_record_large": {
+      "source": {
+        "bytes": 96478,
+        "sha256": "6fb45765da7698abaa01fd543c327dd4a267189db0be20d9acd574e1b99beedd"
+      },
+      "glb": {
+        "bytes": 125252,
+        "sha256": "ecc2e2f7c766b74e5448d1136e76cb065bee2ba0a115b405201adf302e141a10"
+      }
+    }
+  }
+}

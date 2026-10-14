@@ -38,8 +38,9 @@ The default split island has small records on the front and large on the back:
 
 Pattern getters return copies; reassign arrays to apply changes. Population
 changes retain both rows, their bay objects and all caps. Editing one face retains
-the opposite face's records. Count changes replace generated bays in both rows,
-while back-gap and approach edits retain all model instances. Use **Attachments**
+the opposite face's records. Count changes now retain surviving bays and records
+in both rows; see [archive slot editing](../archive_editing_review/README.md).
+Back-gap and approach edits retain all model instances. Use **Attachments**
 for persistent additions. Generated objects have no owner; only configuration
 is serialized. Nested instance additions require Godot's usual editable-children
 and ownership setup.

@@ -1,5 +1,14 @@
 # Small archive record cassette
 
+## Retained small-record slots — 14 October 2026
+
+Small records now retain their instances, child state and material overrides
+through count and spacing edits in both configurable shelf populations.
+Removed slots are released; unchanged slots survive mixed-size edits and island
+row resizing. See [archive slot editing](../archive_editing_review/README.md)
+for identity, actual deck-support and save/reload checks. Existing model bytes
+are reused. Standalone Godot 4.7.2 passed; live MCP/art review remain pending.
+
 ## Two-sided storage variant — 14 October 2026
 
 [small_archive_island.tscn](small_archive_island.tscn) saves both faces of the

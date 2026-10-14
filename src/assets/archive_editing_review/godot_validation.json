@@ -1,0 +1,1226 @@
+{
+	"closed_back_probes": 216,
+	"editing_cases": [
+		"fixed size 0: growth, shrink, size, spacing, overrides, transforms, disk, detached, repair, empty",
+		"fixed size 1: growth, shrink, size, spacing, overrides, transforms, disk, detached, repair, empty",
+		"fixed size 2: growth, shrink, size, spacing, overrides, transforms, disk, detached, repair, empty",
+		"packed size 0: growth, shrink, size, spacing, overrides, transforms, disk, detached, repair, empty",
+		"packed size 1: growth, shrink, size, spacing, overrides, transforms, disk, detached, repair, empty",
+		"packed size 2: growth, shrink, size, spacing, overrides, transforms, disk, detached, repair, empty",
+		"row false: retained bays/fixtures, cap joins, templates, transforms, disk, detached",
+		"row true: retained bays/fixtures, cap joins, templates, transforms, disk, detached",
+		"island count changes retain both populations; front size/gap edits retain opposite face"
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"identity_checks": 446,
+	"island_cases": [
+		{
+			"back_gap_m": 0.039999708533287,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "island retained resize 4",
+			"depth_m": 0.92000025510788,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.0399999171495438,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "island retained resize 1",
+			"depth_m": 0.920000076293945,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.039999857544899,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "island retained resize 2",
+			"depth_m": 0.92000013589859,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.039999857544899,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "island edited front only",
+			"depth_m": 0.92000013589859,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.0399997979402542,
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays_per_face": 3,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "visible edited island",
+			"depth_m": 0.920000195503235,
+			"width_m": 4.96400022506714
+		}
+	],
+	"issues": [
+		28,
+		29,
+		31,
+		33
+	],
+	"mcp": "Blender status/scene and Godot get_state disconnected; standalone Godot fallback; existing model sources reused.",
+	"passed": true,
+	"renderer": "forward_plus",
+	"scope": "Instance retention and imported fit after edits; live Inspector, final art, physics and performance unverified.",
+	"shelf_cases": [
+		{
+			"case": "packed size 0 gap 0.15",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.150000005960464,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.283199995756149,
+			"pattern": [
+				0,
+				0
+			],
+			"per_shelf": 2,
+			"requested": 2
+		},
+		{
+			"case": "packed size 0 gap 0.02",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.153200000524521,
+			"pattern": [
+				0,
+				0
+			],
+			"per_shelf": 2,
+			"requested": 2
+		},
+		{
+			"case": "packed size 0 transformed container",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.121999502182007,
+			"minimum_neighbor_gap_m": 0.0199995823204517,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 0.259800106287003,
+			"pattern": [
+				0,
+				1,
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 0 disk reload",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.121999502182007,
+			"minimum_neighbor_gap_m": 0.0199995823204517,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 0.259800106287003,
+			"pattern": [
+				0,
+				1,
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 0 repopulated",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.121999502182007,
+			"minimum_neighbor_gap_m": 0.0199995823204517,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 0.259800106287003,
+			"pattern": [
+				0,
+				1,
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 1 gap 0.15",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.150000020861626,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.32320000231266,
+			"pattern": [
+				1,
+				1
+			],
+			"per_shelf": 2,
+			"requested": 2
+		},
+		{
+			"case": "packed size 1 gap 0.02",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.193199999630451,
+			"pattern": [
+				1,
+				1
+			],
+			"per_shelf": 2,
+			"requested": 2
+		},
+		{
+			"case": "packed size 1 transformed container",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199993178248405,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 0.319799363613129,
+			"pattern": [
+				1,
+				2,
+				1
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 1 disk reload",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199993178248405,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 0.319799363613129,
+			"pattern": [
+				1,
+				2,
+				1
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 1 repopulated",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199993178248405,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 0.319799363613129,
+			"pattern": [
+				1,
+				2,
+				1
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 2 gap 0.15",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999976158142,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.363199979066849,
+			"pattern": [
+				2,
+				2
+			],
+			"per_shelf": 2,
+			"requested": 2
+		},
+		{
+			"case": "packed size 2 gap 0.02",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000032782555,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.233200006186962,
+			"pattern": [
+				2,
+				2
+			],
+			"per_shelf": 2,
+			"requested": 2
+		},
+		{
+			"case": "packed size 2 transformed container",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.020000047981739,
+			"minimum_structure_clearance_m": 0.0272002816200256,
+			"occupied_width_m": 0.319800317287445,
+			"pattern": [
+				2,
+				0,
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 2 disk reload",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.020000047981739,
+			"minimum_structure_clearance_m": 0.0272002816200256,
+			"occupied_width_m": 0.319800317287445,
+			"pattern": [
+				2,
+				0,
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed size 2 repopulated",
+			"contact_error_m": 0.000000149011611938477,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.020000047981739,
+			"minimum_structure_clearance_m": 0.0272002816200256,
+			"occupied_width_m": 0.319800317287445,
+			"pattern": [
+				2,
+				0,
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "packed template0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "packed template1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "repaired packed template0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "repaired packed template1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row disk reload0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row disk reload1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row detached grow0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row detached grow1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199986211955547,
+			"minimum_structure_clearance_m": 0.0271993577480316,
+			"occupied_width_m": 1.34579956531525,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row detached grow2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.019999086856842,
+			"minimum_structure_clearance_m": 0.0271993577480316,
+			"occupied_width_m": 1.34579956531525,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "packed template0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "packed template1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "repaired packed template0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "repaired packed template1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row disk reload0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row disk reload1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row detached grow0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995748698711,
+			"minimum_structure_clearance_m": 0.0271996259689331,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row detached grow1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199986211955547,
+			"minimum_structure_clearance_m": 0.0271993577480316,
+			"occupied_width_m": 1.34579956531525,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "row detached grow2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.019999086856842,
+			"minimum_structure_clearance_m": 0.0271993577480316,
+			"occupied_width_m": 1.34579956531525,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "island retained resize 4 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000703334808,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239800125360489,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239800006151199,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239800006151199,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000703334808,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239800125360489,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 4 Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 1 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999921023846,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239799983799458,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 1 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999623000622,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 2 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239800006151199,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 2 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.239800006151199,
+			"pattern": [
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 2 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island retained resize 2 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island edited front only Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999983608723,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.539799928665161,
+			"pattern": [
+				0,
+				2,
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island edited front only Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999983608723,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.539799928665161,
+			"pattern": [
+				0,
+				2,
+				0
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island edited front only Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "island edited front only Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "visible edited island Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.39239984750748,
+			"pattern": [
+				0,
+				2,
+				0
+			],
+			"per_shelf": 14,
+			"requested": 32
+		},
+		{
+			"case": "visible edited island Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999809265137,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.39239996671677,
+			"pattern": [
+				0,
+				2,
+				0
+			],
+			"per_shelf": 14,
+			"requested": 32
+		},
+		{
+			"case": "visible edited island Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.39239984750748,
+			"pattern": [
+				0,
+				2,
+				0
+			],
+			"per_shelf": 14,
+			"requested": 32
+		},
+		{
+			"case": "visible edited island Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.33920001983643,
+			"pattern": [
+				2,
+				0,
+				2
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "visible edited island Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0271999686956406,
+			"occupied_width_m": 1.33920001983643,
+			"pattern": [
+				2,
+				0,
+				2
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "visible edited island Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.33920001983643,
+			"pattern": [
+				2,
+				0,
+				2
+			],
+			"per_shelf": 12,
+			"requested": 32
+		}
+	],
+	"support_probes": 2232,
+	"validated_meshes": [
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_back",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "lower_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_3",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_0_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_1_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_2_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_3_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_4_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_left",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_right",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		}
+	]
+}

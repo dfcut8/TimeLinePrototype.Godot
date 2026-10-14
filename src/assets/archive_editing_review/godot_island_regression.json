@@ -1,0 +1,3488 @@
+{
+	"actual_cassette_widths_m": [
+		0.0665999948978424,
+		0.0865999981760979,
+		0.106600001454353
+	],
+	"camera": {
+		"envelope_radius_m": 0.3,
+		"minimum_clearance_m": 1.49999995231628,
+		"samples": 648
+	},
+	"cassette_support_probes": 7368,
+	"closed_back_probes": 1620,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"floor_probes": 1554,
+	"island_cases": [
+		{
+			"back_gap_m": 0.0399999171495438,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "pre-ready configuration",
+			"depth_m": 0.920000076293945,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.0399999171495438,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 1 gap 0.04",
+			"depth_m": 0.920000076293945,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 1 gap 0.30",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.039999857544899,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 2 gap 0.04",
+			"depth_m": 0.92000013589859,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.299999862909317,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 2 gap 0.30",
+			"depth_m": 1.18000018596649,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.039999708533287,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 4 gap 0.04",
+			"depth_m": 0.92000025510788,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.299999743700027,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 4 gap 0.30",
+			"depth_m": 1.18000030517578,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.0399999171495438,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 0 gap 0.04",
+			"depth_m": 0.920000076293945,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 0 gap 0.30",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.039999708533287,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 99 gap 0.04",
+			"depth_m": 0.92000025510788,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.299999743700027,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "count 99 gap 0.30",
+			"depth_m": 1.18000030517578,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front pattern [0]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back pattern [0]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front pattern [1]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back pattern [1]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front pattern [2]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back pattern [2]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front pattern [2, 0, 1]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back pattern [2, 0, 1]",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front request 0",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front request 1",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front request -9",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "front request 99",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back request 0",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back request 1",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back request -9",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999952316284,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "back request 99",
+			"depth_m": 1.1800000667572,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.299999475479126,
+			"bay_seam_error_m": 0.000000417232513427734,
+			"bays_per_face": 3,
+			"cap_join_error_m": 0.000000715255737304688,
+			"caps": 4,
+			"case": "translated rotated island",
+			"depth_m": 1.18000030517578,
+			"width_m": 4.96399974822998
+		},
+		{
+			"back_gap_m": 0.299999475479126,
+			"bay_seam_error_m": 0.000000417232513427734,
+			"bays_per_face": 3,
+			"cap_join_error_m": 0.000000715255737304688,
+			"caps": 4,
+			"case": "island disk roundtrip",
+			"depth_m": 1.18000030517578,
+			"width_m": 4.96399974822998
+		},
+		{
+			"back_gap_m": 0.0399988293647766,
+			"bay_seam_error_m": 0.000000536441802978516,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.00000119209289550781,
+			"caps": 4,
+			"case": "island detached edit",
+			"depth_m": 0.920000553131104,
+			"width_m": 3.36400079727173
+		},
+		{
+			"back_gap_m": 0.039999857544899,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "saved ConfigurableArchiveIsland",
+			"depth_m": 0.92000013589859,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.039999857544899,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "saved SmallArchiveIsland",
+			"depth_m": 0.92000013589859,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.039999857544899,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "saved LargeArchiveIsland",
+			"depth_m": 0.92000013589859,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.000000119209289550781,
+			"caps": 4,
+			"case": "saved room IslandEast",
+			"depth_m": 0.919999599456787,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays_per_face": 3,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "saved room IslandWest",
+			"depth_m": 0.919999599456787,
+			"width_m": 4.96400022506714
+		},
+		{
+			"back_gap_m": 0.0399994254112244,
+			"bay_seam_error_m": 0.00000066876413029604,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.00000119209289550781,
+			"caps": 4,
+			"case": "translated rotated room IslandEast",
+			"depth_m": 0.920003473758698,
+			"width_m": 3.36400270462036
+		},
+		{
+			"back_gap_m": 0.0399985462427139,
+			"bay_seam_error_m": 0.000000476837158203125,
+			"bays_per_face": 3,
+			"cap_join_error_m": 0.000000715255737304688,
+			"caps": 4,
+			"case": "translated rotated room IslandWest",
+			"depth_m": 0.92000150680542,
+			"width_m": 4.96400022506714
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays_per_face": 2,
+			"cap_join_error_m": 0.000000119209289550781,
+			"caps": 4,
+			"case": "room disk roundtrip IslandEast",
+			"depth_m": 0.919999599456787,
+			"width_m": 3.36400008201599
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays_per_face": 3,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room disk roundtrip IslandWest",
+			"depth_m": 0.919999599456787,
+			"width_m": 4.96400022506714
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0000000596046447753906,
+			"caps": 4,
+			"case": "room count 1 gap 0.04 IslandEast",
+			"depth_m": 0.919999599456787,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room count 1 gap 0.04 IslandWest",
+			"depth_m": 0.919999599456787,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.300001621246338,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room count 1 gap 0.30 IslandEast",
+			"depth_m": 1.18000173568726,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.300001621246338,
+			"bay_seam_error_m": 0.0,
+			"bays_per_face": 1,
+			"cap_join_error_m": 0.0000000596046447753906,
+			"caps": 4,
+			"case": "room count 1 gap 0.30 IslandWest",
+			"depth_m": 1.18000173568726,
+			"width_m": 1.76400017738342
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.000000238418579101563,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room count 4 gap 0.04 IslandEast",
+			"depth_m": 0.919999599456787,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.0399994552135468,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room count 4 gap 0.04 IslandWest",
+			"depth_m": 0.919999599456787,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.300001621246338,
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room count 4 gap 0.30 IslandEast",
+			"depth_m": 1.18000173568726,
+			"width_m": 6.56400060653687
+		},
+		{
+			"back_gap_m": 0.300001621246338,
+			"bay_seam_error_m": 0.000000238418579101563,
+			"bays_per_face": 4,
+			"cap_join_error_m": 0.0,
+			"caps": 4,
+			"case": "room count 4 gap 0.30 IslandWest",
+			"depth_m": 1.18000173568726,
+			"width_m": 6.56400060653687
+		}
+	],
+	"issues": [
+		28,
+		29,
+		31,
+		33
+	],
+	"mcp": "Blender status/scene and Godot get_state disconnected; standalone Godot fallback. Existing sources reused.",
+	"passed": true,
+	"renderer": "forward_plus",
+	"room_cases": [
+		{
+			"case": "saved room",
+			"central_clear_radius_m": 20.5400009155273,
+			"floor_probes": 222,
+			"minimum_architecture_separation_m": 0.374372869729996
+		},
+		{
+			"case": "translated rotated room",
+			"central_clear_radius_m": 20.5400009155273,
+			"floor_probes": 222,
+			"minimum_architecture_separation_m": 0.374371737241745
+		},
+		{
+			"case": "room disk roundtrip",
+			"central_clear_radius_m": 20.5400009155273,
+			"floor_probes": 222,
+			"minimum_architecture_separation_m": 0.374372869729996
+		},
+		{
+			"case": "room count 1 gap 0.04",
+			"central_clear_radius_m": 20.5400009155273,
+			"floor_probes": 168,
+			"minimum_architecture_separation_m": 0.604832530021667
+		},
+		{
+			"case": "room count 1 gap 0.30",
+			"central_clear_radius_m": 20.4099998474121,
+			"floor_probes": 168,
+			"minimum_architecture_separation_m": 0.474832534790039
+		},
+		{
+			"case": "room count 4 gap 0.04",
+			"central_clear_radius_m": 20.5400009155273,
+			"floor_probes": 276,
+			"minimum_architecture_separation_m": 0.272517919540405
+		},
+		{
+			"case": "room count 4 gap 0.30",
+			"central_clear_radius_m": 20.4099998474121,
+			"floor_probes": 276,
+			"minimum_architecture_separation_m": 0.142517924308777
+		}
+	],
+	"scope": "Static geometry, support, two-sided fit, serialization and captures. No physics, navigation, continuous camera or performance acceptance.",
+	"shelf_cases": [
+		{
+			"case": "pre-ready configuration Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999958276749,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000002503395,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "pre-ready configuration Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 1 gap 0.04 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999958276749,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000002503395,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 1 gap 0.04 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 1 gap 0.30 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999958276749,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000002503395,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 1 gap 0.30 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 2 gap 0.04 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 2 gap 0.04 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 2 gap 0.04 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 2 gap 0.04 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37920010089874,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 2 gap 0.30 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 2 gap 0.30 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 2 gap 0.30 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 2 gap 0.30 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999686956406,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.04 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.04 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.04 Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.04 Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.04 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.04 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.04 Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37920010089874,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.04 Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.30 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.30 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.30 Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.30 Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 4 gap 0.30 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.30 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.30 Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999686956406,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 4 gap 0.30 Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 0 gap 0.04 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999958276749,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000002503395,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 0 gap 0.04 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 0 gap 0.30 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999958276749,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000002503395,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 0 gap 0.30 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.04 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.04 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.04 Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.04 Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.04 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.04 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.04 Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37920010089874,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.04 Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.30 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.30 Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.30 Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0200000107288361,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.30 Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.413000017404556,
+			"pattern": [
+				0
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "count 99 gap 0.30 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.30 Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.30 Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999686956406,
+			"occupied_width_m": 1.3792000412941,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "count 99 gap 0.30 Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997946619987,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919992208481,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [0] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [0] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37919998168945,
+			"pattern": [
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [0] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [0] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.149999991059303,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.36620002985001,
+			"pattern": [
+				0
+			],
+			"per_shelf": 7,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [1] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36579990386963,
+			"pattern": [
+				1
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [1] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.149999991059303,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.36620002985001,
+			"pattern": [
+				0
+			],
+			"per_shelf": 7,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [1] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36579990386963,
+			"pattern": [
+				1
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [1] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.26959991455078,
+			"pattern": [
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [2] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [2] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.26959991455078,
+			"pattern": [
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [2] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [2] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.38960003852844,
+			"pattern": [
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [2, 0, 1] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "front pattern [2, 0, 1] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.38960003852844,
+			"pattern": [
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [2, 0, 1] Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "back pattern [2, 0, 1] Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "front request 0 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "front request 0 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "front request 1 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.106600001454353,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "front request 1 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "front request -9 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "front request -9 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "front request 99 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "front request 99 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back request 0 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999931454659,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3095999956131,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back request 0 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "back request 1 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999931454659,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3095999956131,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back request 1 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.106600001454353,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "back request -9 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999931454659,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3095999956131,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back request -9 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "back request 99 Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999931454659,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.3095999956131,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "back request 99 Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0271999835968018,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated island Front0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.14999920129776,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 1.30960011482239,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated island Front1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999171495438,
+			"minimum_structure_clearance_m": 0.0271998047828674,
+			"occupied_width_m": 1.30959916114807,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated island Front2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999409914017,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 1.30960011482239,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated island Back0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999409914017,
+			"minimum_structure_clearance_m": 0.0271992236375809,
+			"occupied_width_m": 1.30960011482239,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated island Back1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999171495438,
+			"minimum_structure_clearance_m": 0.0271995961666107,
+			"occupied_width_m": 1.30959916114807,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated island Back2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999171495438,
+			"minimum_structure_clearance_m": 0.02719946205616,
+			"occupied_width_m": 1.30959916114807,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island disk roundtrip Front0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.14999920129776,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 1.30960011482239,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island disk roundtrip Front1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999171495438,
+			"minimum_structure_clearance_m": 0.0271998047828674,
+			"occupied_width_m": 1.30959916114807,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island disk roundtrip Front2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999409914017,
+			"minimum_structure_clearance_m": 0.0271997004747391,
+			"occupied_width_m": 1.30960011482239,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island disk roundtrip Back0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999409914017,
+			"minimum_structure_clearance_m": 0.0271992236375809,
+			"occupied_width_m": 1.30960011482239,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island disk roundtrip Back1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999171495438,
+			"minimum_structure_clearance_m": 0.0271995961666107,
+			"occupied_width_m": 1.30959916114807,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island disk roundtrip Back2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999171495438,
+			"minimum_structure_clearance_m": 0.02719946205616,
+			"occupied_width_m": 1.30959916114807,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island detached edit Front0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999693036079,
+			"minimum_structure_clearance_m": 0.0271992236375809,
+			"occupied_width_m": 1.3096010684967,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island detached edit Front1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.149999409914017,
+			"minimum_structure_clearance_m": 0.0271992236375809,
+			"occupied_width_m": 1.3096010684967,
+			"pattern": [
+				2,
+				2,
+				1,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "island detached edit Back0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": 0.149999469518662,
+			"minimum_structure_clearance_m": 0.0271995961666107,
+			"occupied_width_m": 1.36619961261749,
+			"pattern": [
+				0
+			],
+			"per_shelf": 7,
+			"requested": 32
+		},
+		{
+			"case": "island detached edit Back1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": 0.149999469518662,
+			"minimum_structure_clearance_m": 0.0271995961666107,
+			"occupied_width_m": 1.36620056629181,
+			"pattern": [
+				0
+			],
+			"per_shelf": 7,
+			"requested": 32
+		},
+		{
+			"case": "saved ConfigurableArchiveIsland Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559998989105,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved ConfigurableArchiveIsland Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved ConfigurableArchiveIsland Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved ConfigurableArchiveIsland Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved SmallArchiveIsland Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559998989105,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved SmallArchiveIsland Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved SmallArchiveIsland Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271999686956406,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved SmallArchiveIsland Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved LargeArchiveIsland Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000283002853,
+			"occupied_width_m": 1.37260019779205,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved LargeArchiveIsland Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000283002853,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved LargeArchiveIsland Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved LargeArchiveIsland Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandEast Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559998989105,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandEast Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandEast Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandEast Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandWest Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38579994440079,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandWest Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandWest Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38579994440079,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandWest Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579974412918,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandWest Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room IslandWest Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579998254776,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandEast Front0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": 0.0199984014034271,
+			"minimum_structure_clearance_m": 0.0271981954574585,
+			"occupied_width_m": 1.36560070514679,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandEast Front1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": 0.0199983976781368,
+			"minimum_structure_clearance_m": 0.0271981954574585,
+			"occupied_width_m": 1.36559879779816,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandEast Back0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199974179267883,
+			"minimum_structure_clearance_m": 0.02719746530056,
+			"occupied_width_m": 1.37259888648987,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandEast Back1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199992656707764,
+			"minimum_structure_clearance_m": 0.02719746530056,
+			"occupied_width_m": 1.3726007938385,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandWest Front0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199991166591644,
+			"minimum_structure_clearance_m": 0.0271997153759003,
+			"occupied_width_m": 1.38580060005188,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandWest Front1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.019999086856842,
+			"minimum_structure_clearance_m": 0.0271997153759003,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandWest Front2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.019999086856842,
+			"minimum_structure_clearance_m": 0.0271991193294525,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandWest Back0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199991166591644,
+			"minimum_structure_clearance_m": 0.0271991193294525,
+			"occupied_width_m": 1.34579956531525,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandWest Back1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199991166591644,
+			"minimum_structure_clearance_m": 0.0271991193294525,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "translated rotated room IslandWest Back2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.019999086856842,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandEast Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559998989105,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandEast Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandEast Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandEast Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandWest Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38579994440079,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandWest Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandWest Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38579994440079,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandWest Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579974412918,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandWest Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room disk roundtrip IslandWest Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579998254776,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.04 IslandEast Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.04 IslandEast Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.04 IslandWest Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.04 IslandWest Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.30 IslandEast Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.30 IslandEast Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.30 IslandWest Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 1 gap 0.30 IslandWest Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559975147247,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559998989105,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997425079346,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260007858276,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandEast Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260019779205,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.04 IslandWest Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34580016136169,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559975147247,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559998989105,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199997425079346,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260007858276,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260019779205,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260019779205,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandEast Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.37260019779205,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Front0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Front1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Front2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Front3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Back0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Back1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Back2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "room count 4 gap 0.30 IslandWest Back3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34580016136169,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		}
+	],
+	"validated_meshes": [
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_back",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "lower_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_3",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_0_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_1_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_2_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_3_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_4_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_left",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_right",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		}
+	]
+}

@@ -3,12 +3,13 @@ extends Node3D
 ## Centres a size-aware sequence inside the existing shelf's clear width.
 
 const POPULATION = preload("res://assets/record_stack_shelf_bay/configurable_cassette_shelf_bay.gd")
+const SLOTS = preload("res://assets/record_stack_shelf_bay/cassette_slot_instances.gd")
 # Include the cover index strokes extending beyond the nominal chassis width.
 const WIDTHS: Array[float] = [0.0666, 0.0866, 0.1066]
 const USABLE_WIDTH: float = 1.44
 
 var _pattern := PackedInt32Array([0, 1, 2])
-var _generated: Array[Node3D] = []
+var _generated: Dictionary = {}
 
 @export var cassette_pattern: PackedInt32Array = PackedInt32Array([0, 1, 2]):
 	get:
@@ -53,20 +54,4 @@ func _layout() -> PackedFloat32Array:
 	return centres
 
 func _rebuild_records() -> void:
-	for record in _generated:
-		if is_instance_valid(record):
-			if record.get_parent() != null:
-				record.get_parent().remove_child(record)
-			record.queue_free()
-	_generated.clear()
-	var centres := _layout()
-	for tier in range(4):
-		for slot in range(centres.size()):
-			var size: int = _pattern[slot % _pattern.size()]
-			var record := POPULATION.RECORDS[size].instantiate() as Node3D
-			record.name = "Record_%d_%d" % [tier, slot]
-			record.position = Vector3(centres[slot], 0.16 + tier * 0.56,
-				POPULATION.FRONT_OFFSETS[size])
-			$Records.add_child(record)
-			_generated.append(record)
-			# Generated scene instances have no owner; only configuration is saved.
+	SLOTS.sync(_generated, $Records, _pattern, _layout())

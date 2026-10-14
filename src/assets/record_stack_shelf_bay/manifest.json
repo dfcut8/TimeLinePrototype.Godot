@@ -2,13 +2,18 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 9203,
-      "sha256": "1b506eef1ea27e837108df7c384675a3bef0f1b4c8a28aa2edbf12192b79442c"
+      "bytes": 9785,
+      "sha256": "f78f1b58b4523c66c104100a2e61efb5b1616d3d7f1f30f3964581269e9e8bb7"
+    },
+    {
+      "path": "cassette_slot_instances.gd",
+      "bytes": 1842,
+      "sha256": "6c7b3ce505a1b28e7950ed53f29f9f657d258b010ffc27ef6c06c01a763fab23"
     },
     {
       "path": "configurable_cassette_shelf_bay.gd",
-      "bytes": 2046,
-      "sha256": "aa9d96e9fb4ee418a1e8521cc8656aaa42bc8fd60dd3c71eaef0f4ace8e59403"
+      "bytes": 1532,
+      "sha256": "7abe812eb6069cc28d682a37724ecb40885f9d6785919c7a0cd932264512668c"
     },
     {
       "path": "configurable_cassette_shelf_bay.tscn",
@@ -37,8 +42,8 @@
     },
     {
       "path": "packed_cassette_shelf_bay.gd",
-      "bytes": 2365,
-      "sha256": "66775254077936a7e81461c2fb1baf5055063dd4b1453fffe5b6fd5aeeae2d03"
+      "bytes": 1838,
+      "sha256": "3c3f8a0d2d09f314fca20295e0159b9f2cdc62f9bc3ee577a4edb783a5ff7b21"
     },
     {
       "path": "packed_cassette_shelf_bay.tscn",

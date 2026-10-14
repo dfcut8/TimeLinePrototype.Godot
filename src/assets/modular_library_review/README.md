@@ -55,8 +55,10 @@ their saved values and use the root for placement.
 inherits the existing capped-row behavior, selects the new populated bay and
 defaults to two bays. **bay_count** clamps to 1–32; width is 1.6 × count + 0.164 m.
 Population settings propagate to all generated bays. Population edits retain
-bay instances and their user attachments; count or bay-scene changes replace
-generated bays. The inherited **bay_scene** override remains available;
+bay instances and their user attachments; count changes now retain surviving
+bays, while bay-scene changes replace generated bays. See
+[archive slot editing](../archive_editing_review/README.md) for the follow-up
+identity and imported-fit checks. The inherited **bay_scene** override remains available;
 population settings apply to the built-in configurable cassette bay.
 
 All three scripts run in the Inspector and at runtime without frame polling.

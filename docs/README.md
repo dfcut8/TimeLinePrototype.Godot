@@ -10,6 +10,7 @@ The experience specification and original asset brief below preserve the older v
 
 | Document | Purpose |
 | --- | --- |
+| [Archive slot editing](../src/assets/archive_editing_review/README.md) | Retained shelf bays and small/large cassette slots, cap joins after resizing, container transforms and engine regressions for issues #28, #29, #31 and #33. |
 | [Library kit editing](../src/assets/kit_editing_review/README.md) | Retained wall/pier instances, portal fit bounds, saved catalog station templates and empty plinth displays, with engine evidence for issues #24, #25, #34 and #36. |
 | [Archive storage islands](../src/assets/archive_island_review/README.md) | Reusable outward-facing shelf rows, four end caps, independent cassette populations and both-side approach/floor evidence for issues #28, #29, #31 and #33. |
 | [Catalog perimeter assemblies](../src/assets/catalog_perimeter_review/README.md) | Configurable comparison stations aligned to wall bays, automatic portal/window exclusion, and full-room floor/contact evidence for issues #24, #25, #34 and #36. |

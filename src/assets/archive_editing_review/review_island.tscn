@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_archive_island.tscn" id="island"]
+[ext_resource type="PackedScene" path="res://assets/furniture_review/review_rig.tscn" id="rig"]
+
+[node name="ArchiveEditingReview" type="Node3D"]
+
+[node name="Island" parent="." instance=ExtResource("island")]
+
+[node name="ReviewRig" parent="." instance=ExtResource("rig")]
