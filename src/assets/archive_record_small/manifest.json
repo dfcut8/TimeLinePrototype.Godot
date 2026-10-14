@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 7750,
-      "sha256": "0a110b6eb20dfb17c7fad0538b6ad53bb41fe2b696b90d8e6e273031089d3982"
+      "bytes": 8399,
+      "sha256": "13c1ceed62c8c717b13e0109ccce33d2a861109fa3bf09373cd4aac2a1570f7e"
     },
     {
       "path": "archive_record_small.glb",
@@ -24,6 +24,11 @@
       "path": "build_asset.py",
       "bytes": 451,
       "sha256": "8173268248e82a7b61a896727b3d3e8439efd207c6c4416f9aae004d835f5146"
+    },
+    {
+      "path": "dense_shelf_bay.tscn",
+      "bytes": 255,
+      "sha256": "553b25fa148349f7c3656d131db51da1f432f335e6c0a58fa17d6e9cf79d7501"
     },
     {
       "path": "dimensions.svg",

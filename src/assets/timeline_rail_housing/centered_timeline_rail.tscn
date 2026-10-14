@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/configurable_timeline_rail.tscn" id="rail"]
+
+[node name="CenteredTimelineRail" instance=ExtResource("rail")]
+module_count = 7
+anchor_mode = 1

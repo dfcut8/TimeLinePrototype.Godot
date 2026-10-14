@@ -1,0 +1,161 @@
+{
+  "issues": [
+    5,
+    31,
+    33,
+    35
+  ],
+  "files": {
+    ".gdignore": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "adaptive_import.log": {
+      "bytes": 7787,
+      "sha256": "329036c6cbfb181547fb2d8a42022395fbb3ac445957e95e0a14e7dcdfe4cd06"
+    },
+    "adaptive_runtime.log": {
+      "bytes": 228,
+      "sha256": "b9ae919f0b77393bd0596b41553550614c30c6267e6e73bd1a00cb93ab73dcc9"
+    },
+    "godot_alcove.png": {
+      "bytes": 83781,
+      "sha256": "ebd5c4316dea5806072e825ff59de93f17d7ad02eb0f79ab33bbf255c4db80fc"
+    },
+    "godot_end.png": {
+      "bytes": 36905,
+      "sha256": "177f9b9614dc50c3f6fc79903132ed7ad04a4f4ce55d89649def01b0eae94e9e"
+    },
+    "godot_mixed.png": {
+      "bytes": 112863,
+      "sha256": "f2741700cc001f1c5be897233651a31b770f0f862a0d8103be20d8c5b0b95a59"
+    },
+    "godot_rail.png": {
+      "bytes": 42653,
+      "sha256": "44af329a4c72aeb20899615a47d8bb849e3cd0459794092e8208de4128abe7ea"
+    },
+    "godot_rail_regression.json": {
+      "bytes": 988,
+      "sha256": "dc4bfd446cc6466c34841a7c4a45acc9bb198ee3bbe8e5469507d58ef2909310"
+    },
+    "godot_rear.png": {
+      "bytes": 25607,
+      "sha256": "66f566f337cae1635f949ad47e4acf09dcf52c027dd1c7dacec30e0dec633255"
+    },
+    "godot_room.png": {
+      "bytes": 53900,
+      "sha256": "e8e7bcaba6cd5dbf6f587c74819bf56142d4c10e9b4729b5492ead1de220971f"
+    },
+    "godot_row_regression.json": {
+      "bytes": 2416,
+      "sha256": "b8ab8f82d005ef286a66d637be3465b47cb5e23670847065799cd742ddcc4897"
+    },
+    "godot_underside.png": {
+      "bytes": 78281,
+      "sha256": "50aeebc753756736ed83d7eb1240ec559ef20231449a79f724aa10abbb8167b1"
+    },
+    "godot_validation.json": {
+      "bytes": 56853,
+      "sha256": "d740b225e946ddf2018fb983ff9cd884fdd52cce7792b01ff60642da648cfeee"
+    },
+    "prepare_review.py": {
+      "bytes": 1854,
+      "sha256": "4c38b148c906911f0fb982c9c925c8352110eb19fb2c0d694f21c3505773e3a7"
+    },
+    "rail_regression_runtime.log": {
+      "bytes": 904,
+      "sha256": "2cc73b81ae52839fd39aa5e1c8af416e300f0af487a29728e84dd84d1f31817b"
+    },
+    "README.md": {
+      "bytes": 9698,
+      "sha256": "8d7b83c27ab7a283cca504c13ead251e2e3e3233b2a42fdcda78367e842ae677"
+    },
+    "review_room.tscn": {
+      "bytes": 408,
+      "sha256": "7ecfc072dff290f285a569a51a78f6831ed29fda185904727b65335b88888629"
+    },
+    "row_regression_runtime.log": {
+      "bytes": 2112,
+      "sha256": "88703dab85512cd2945e25b1b886fdfef3fd91d5fe83cea9f05433796e4c5be6"
+    },
+    "update_manifests.py": {
+      "bytes": 2338,
+      "sha256": "606a85249803936373390fb8d128406723c9df544c876526959de8201b4ea134"
+    },
+    "verify_adaptive.gd": {
+      "bytes": 25312,
+      "sha256": "51521b7e5ebd793dccd4eb67ca190251d473a78209dbef4b73569e962734c710"
+    },
+    "verify_adaptive.ps1": {
+      "bytes": 3438,
+      "sha256": "714633903166a70f84294399e8191d6a8159d73338bcb58dfff4197137381468"
+    }
+  },
+  "assembly": {
+    "path": "assemblies/adaptive_library_room.tscn",
+    "bytes": 1121,
+    "sha256": "c4005b520782963fac573445c7d75e3b2c4b896c96efc9d3d2c9e0f90c884a8d"
+  },
+  "reused_objects": {
+    "timeline_rail_housing": {
+      "source": {
+        "bytes": 68815,
+        "sha256": "736b4dc206094815e8aa3de8cb27b9ce2a57eb0596b76a93bb894145ffc349e2"
+      },
+      "glb": {
+        "bytes": 4416,
+        "sha256": "d2587ed49b96ec898a8a5b7a5cef3dc3aa1bdf0cda9224233ed96c090f8d92f9"
+      }
+    },
+    "archive_record_small": {
+      "source": {
+        "bytes": 96704,
+        "sha256": "ce6d0e7d53dbdd4077d485e9a30b315fd2cd693d63a13e0eece6005b8f4d3411"
+      },
+      "glb": {
+        "bytes": 125256,
+        "sha256": "0ba81420a682a926a358b20ad3c3a64e099e07685b1056433b7d25f452fc2419"
+      }
+    },
+    "archive_record_medium": {
+      "source": {
+        "bytes": 96689,
+        "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
+      },
+      "glb": {
+        "bytes": 125240,
+        "sha256": "48323b10d5209852f5e629b403f312f192152afbe0f7f6c351aef49d1cf4e8b6"
+      }
+    },
+    "archive_record_large": {
+      "source": {
+        "bytes": 96478,
+        "sha256": "6fb45765da7698abaa01fd543c327dd4a267189db0be20d9acd574e1b99beedd"
+      },
+      "glb": {
+        "bytes": 125252,
+        "sha256": "ecc2e2f7c766b74e5448d1136e76cb065bee2ba0a115b405201adf302e141a10"
+      }
+    },
+    "record_stack_shelf_bay": {
+      "source": {
+        "bytes": 86459,
+        "sha256": "e3dffc12b6a6d3850840d1b23037d7de89734de409b19f9febf4b2331249124f"
+      },
+      "glb": {
+        "bytes": 60844,
+        "sha256": "de70601523437172c2133d19cef732553832c329ad0ef3bb138b3f7f261a173c"
+      }
+    },
+    "reading_bench": {
+      "source": {
+        "bytes": 78325,
+        "sha256": "4c70b6d7b81b4dc67d44a456f2311a980c27af8e507974f7ae7a4f0d9b8d96e0"
+      },
+      "glb": {
+        "bytes": 47212,
+        "sha256": "46c3167a32db7f0260b631a46d5cbd966bd3bc744640118ce8d72e8a538bcb63"
+      }
+    }
+  }
+}

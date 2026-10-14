@@ -4,6 +4,11 @@
   "format": "local asset handoff manifest v1",
   "files": [
     {
+      "path": "README.md",
+      "bytes": 10240,
+      "sha256": "081ff2887c7b1d01e6358fbfd63e7c43e33b188d8a2eaabf3a775eff1655c31d"
+    },
+    {
       "path": "build_asset.py",
       "bytes": 4984,
       "sha256": "f7431de2bc90e1c42d20b7535aa0b73d00ecf1b5192d3e72fa1888aa21adc15f"
@@ -14,9 +19,14 @@
       "sha256": "88059112012f7c9e6b7353f86b2359f79983663ca448f97c245ae06d51ccd322"
     },
     {
+      "path": "centered_timeline_rail.tscn",
+      "bytes": 250,
+      "sha256": "5fc7a61c91b0c32a5528bb2b5cca885ca1261f51a32f8d116accedd05e412d0b"
+    },
+    {
       "path": "configurable_timeline_rail.gd",
-      "bytes": 1439,
-      "sha256": "49005d3a52124f3119fa712e3cd90d12a6957a95acd9997ed121a8cce8017385"
+      "bytes": 1979,
+      "sha256": "847d05f84b415e4de73c133ed4f057c34f2dad7a06eabb965fffaf13b52ae391"
     },
     {
       "path": "configurable_timeline_rail.tscn",
@@ -132,11 +142,6 @@
       "path": "preview_underside.png.import",
       "bytes": 984,
       "sha256": "5d3a503d82c031baf1a8ed4c0d90dd5ae27af6ae56ee4d760ce5296c8bffad5b"
-    },
-    {
-      "path": "README.md",
-      "bytes": 9554,
-      "sha256": "efc301d60c52505b57c7b0d19e658ce001a0fc75164ac753a97d16d7823c7cf2"
     },
     {
       "path": "reimport.log",

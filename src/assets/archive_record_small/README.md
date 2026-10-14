@@ -1,5 +1,16 @@
 # Small archive record cassette
 
+## Size-aware shelf capacity — 14 October 2026
+
+`dense_shelf_bay.tscn` instances the new packed shelf variant with this cassette
+as its repeating pattern. Requested count and actual neighbor gap are adjustable;
+the default 20 mm gap fits 16 independent small records per deck. Overflow is
+truncated to the fitting prefix using the full 66.6 mm imported width. Existing
+fixed-pitch assemblies remain available. See the
+[adaptive library review](../adaptive_library_review/README.md) for mixed-size
+capacity, imported shelf support, serialization and bench-alcove placement.
+Standalone Godot 4.7.2 passed; live MCP and art approval remain pending.
+
 ## Reusable plinth display — 13 October 2026
 
 `plinth_display.tscn` now supplies an importable small-cassette display using the

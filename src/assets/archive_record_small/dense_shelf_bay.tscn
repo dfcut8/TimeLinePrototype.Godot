@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/packed_cassette_shelf_bay.tscn" id="bay"]
+
+[node name="SmallCassetteShelfBay" instance=ExtResource("bay")]
+cassette_pattern = PackedInt32Array(0)

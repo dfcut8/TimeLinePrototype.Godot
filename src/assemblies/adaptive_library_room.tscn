@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/library_perimeter.tscn" id="perimeter"]
+[ext_resource type="PackedScene" path="res://assets/grounded_room_review/library_floor.tscn" id="floor"]
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/centered_timeline_rail.tscn" id="rail"]
+[ext_resource type="PackedScene" path="res://assets/reading_bench/configurable_reading_alcove.tscn" id="alcove"]
+
+[node name="AdaptiveLibraryRoom" type="Node3D"]
+
+[node name="Perimeter" parent="." instance=ExtResource("perimeter")]
+
+[node name="Floor" parent="." instance=ExtResource("floor")]
+
+[node name="Timeline" parent="." instance=ExtResource("rail")]
+position = Vector3(0, 1.5, 0)
+
+[node name="AlcoveEast" parent="." instance=ExtResource("alcove")]
+position = Vector3(21.8, 0, 0)
+rotation_degrees = Vector3(0, -90, 0)
+cassette_pattern = PackedInt32Array(0)
+
+[node name="AlcoveWest" parent="." instance=ExtResource("alcove")]
+position = Vector3(-21.8, 0, 0)
+rotation_degrees = Vector3(0, 90, 0)
+bay_count = 3
+cassette_pattern = PackedInt32Array(2, 1, 0)
