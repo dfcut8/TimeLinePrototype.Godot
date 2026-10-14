@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/configurable_bay_arc.tscn" id="arc"]
+
+[node name="LibraryPerimeter" instance=ExtResource("arc")]
+bay_layout = PackedInt32Array(1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0)
+start_angle_degrees = 0.0

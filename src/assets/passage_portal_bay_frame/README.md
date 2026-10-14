@@ -1,5 +1,15 @@
 # Passage / portal bay frame — issue #25
 
+## Configurable entrance sector — 14 October 2026
+
+portal_bay_arc.tscn saves a configurable wall/portal/wall arc.
+library_entrance_sector.tscn adds two independently configurable populated
+shelf rows. The portal object now supplies floor-level InsideApproach at
+(0,0,5) and OutsideApproach at (0,0,-1). Standalone Godot 4.7.2 checks the
+3 × 3.4 m opening, furnished approach and actual floor support under translated
+and rotated parents. See the [modular library review](../modular_library_review/README.md)
+for interfaces and evidence. Live MCP and final art approval remain pending.
+
 [Issue](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/25)
 
 ![Godot assembly](../wall_portal_review/godot_portal_front.png)

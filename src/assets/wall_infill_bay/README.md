@@ -1,5 +1,14 @@
 # Wall infill bay — issue #24
 
+## Configurable arcs and full perimeter — 14 October 2026
+
+configurable_bay_arc.tscn selects wall/portal/window layouts on the resolved
+15-degree pier grid. library_perimeter.tscn saves a complete 24-bay ring,
+sharing the closing pier. One to 24 bays, angle/layout clamps, actual mesh joins,
+surface probes and save/reload pass standalone Godot 4.7.2 validation.
+See the [modular library review](../modular_library_review/README.md) for use,
+evidence and live MCP/art approval limits. Existing model/source bytes are reused.
+
 [Issue](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/24)
 
 ![Godot assembly](../wall_portal_review/godot_wall_front.png)

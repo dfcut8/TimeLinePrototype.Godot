@@ -10,3 +10,9 @@ position = Vector3(2.73, 0, 0)
 position = Vector3(0, 4.75, 0)
 [node name="OpeningCentre" type="Marker3D" parent="."]
 position = Vector3(0, 1.7, 0)
+
+[node name="InsideApproach" type="Marker3D" parent="."]
+position = Vector3(0, 0, 5)
+
+[node name="OutsideApproach" type="Marker3D" parent="."]
+position = Vector3(0, 0, -1)
