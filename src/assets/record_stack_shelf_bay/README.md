@@ -1,5 +1,17 @@
 # Record stack shelf bay — issue #28
 
+## Storage island fit — 14 October 2026
+
+The existing packed bay is reused on both faces of the new
+[configurable archive island](../record_stack_end_cap/configurable_archive_island.tscn).
+Each row keeps its named closed back and four independent shelf lights.
+Short imported-triangle probes verify both rear slabs; a configurable
+40–300 mm gap separates the complete row envelopes. Both storage faces have
+independent populations and full-width approach interfaces.
+See [archive island review](../archive_island_review/README.md) for actual
+mesh continuity, cassette support, serialization, floor and room-clearance
+evidence. Standalone Godot 4.7.2 passed; live MCP and final art review remain pending.
+
 ## Size-aware packed population — 14 October 2026
 
 `packed_cassette_shelf_bay.tscn` provides an additional populated variant for

@@ -1,5 +1,15 @@
 # Small archive record cassette
 
+## Two-sided storage variant — 14 October 2026
+
+[small_archive_island.tscn](small_archive_island.tscn) saves both faces of the
+new configurable archive island with this cassette. At the default 20 mm gap,
+each two-bay face contains 128 independent small records, 256 in the island.
+Either face accepts its own pattern, count request and actual-envelope gap.
+See [archive island review](../archive_island_review/README.md) for imported
+shelf contact, capacity, opposite-face independence, save/reload and room fit.
+Standalone Godot 4.7.2 passed; live MCP and final art review remain pending.
+
 ## Size-aware shelf capacity — 14 October 2026
 
 `dense_shelf_bay.tscn` instances the new packed shelf variant with this cassette

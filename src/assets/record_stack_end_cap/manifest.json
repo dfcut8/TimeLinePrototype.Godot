@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 7196,
-      "sha256": "8019ab2a38eb0eed5ddb3c855807025caf5269c2eac7bc3a9aaf771b90322bf3"
+      "bytes": 7831,
+      "sha256": "e867f71ae17efed244a7e703eed537fb27a297687cda4fc600dce2af24f1384b"
     },
     {
       "path": "capped_mixed_shelf_row.tscn",
@@ -19,6 +19,16 @@
       "path": "capped_shelf_row.tscn",
       "bytes": 930,
       "sha256": "7213775dde94fe0624b2f8b36525fc41739b4dfe603c06f082e67c7827ae926a"
+    },
+    {
+      "path": "configurable_archive_island.gd",
+      "bytes": 4387,
+      "sha256": "618e065ad7d3922ada8755070f338f2e684ff6346a871db2ef3a1485be050438"
+    },
+    {
+      "path": "configurable_archive_island.tscn",
+      "bytes": 1004,
+      "sha256": "7137b31f9fd56480dea97570dec1621ff2a24a208c0930e1888761513b9e42c9"
     },
     {
       "path": "configurable_populated_shelf_row.gd",

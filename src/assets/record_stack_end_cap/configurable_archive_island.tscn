@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://assets/record_stack_end_cap/configurable_archive_island.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_shelf_row.tscn" id="row"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/packed_cassette_shelf_bay.tscn" id="bay"]
+
+[node name="ConfigurableArchiveIsland" type="Node3D"]
+script = ExtResource("script")
+
+[node name="FrontRow" parent="." instance=ExtResource("row")]
+position = Vector3(0, 0, 0.24)
+bay_scene = ExtResource("bay")
+bay_count = 2
+
+[node name="BackRow" parent="." instance=ExtResource("row")]
+position = Vector3(0, 0, -0.24)
+rotation_degrees = Vector3(0, 180, 0)
+bay_scene = ExtResource("bay")
+bay_count = 2
+
+[node name="FrontApproach" type="Marker3D" parent="."]
+position = Vector3(0, 0, 1.06)
+
+[node name="BackApproach" type="Marker3D" parent="."]
+position = Vector3(0, 0, -1.06)
+
+[node name="Attachments" type="Node3D" parent="."]

@@ -1,5 +1,16 @@
 # Record stack end cap — issue #29
 
+## Four-cap archive island — 14 October 2026
+
+[configurable_archive_island.tscn](configurable_archive_island.tscn) combines
+two outward-facing rows using the existing cap scene on all four exposed ends.
+One-to-four bay rows retain all four cap objects when resized; rotation closes
+both ends of each face without negative scale. Imported dimensions and join
+contact are checked under rotated placement and disk serialization. See
+[archive island review](../archive_island_review/README.md) for the independent
+population controls and floor/room evidence. Standalone Godot 4.7.2 passed;
+live MCP and final art review remain pending.
+
 ## Configurable populated row — 14 October 2026
 
 configurable_populated_shelf_row.tscn inherits the capped row and defaults to
