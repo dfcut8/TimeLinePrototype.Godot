@@ -1,5 +1,14 @@
 # Catalog lectern — issue #34
 
+## Independent catalog controls — 14 October 2026
+
+The configurable station's layout controls now preserve display overrides and
+cassette child state. Each side's size, yaw and visibility control changes only
+its corresponding display property. Station exports still initialize and save
+presets. See the [assembly editing review](../assembly_editing_review/README.md)
+for focused and catalog/display regression evidence. Existing model assets are
+unchanged. Standalone Godot passed; live MCP and final art review remain.
+
 ## Saved perimeter station templates — 14 October 2026
 
 Catalog perimeters now accept station_scene, a saved variant retaining authored

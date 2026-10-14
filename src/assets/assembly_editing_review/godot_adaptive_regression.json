@@ -1,0 +1,2440 @@
+{
+	"actual_cassette_widths_m": [
+		0.0665999948978424,
+		0.0865999981760979,
+		0.106600001454353
+	],
+	"alcove_cases": [
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "pre-ready alcove",
+			"width_m": 1.76400005817413
+		},
+		{
+			"aisle_m": 1.19999994337559,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 1 aisle 1.20",
+			"width_m": 1.76400005817413
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 1 aisle 1.54",
+			"width_m": 1.76400005817413
+		},
+		{
+			"aisle_m": 2.0,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 1 aisle 2.00",
+			"width_m": 1.76400005817413
+		},
+		{
+			"aisle_m": 1.19999994337559,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 2 aisle 1.20",
+			"width_m": 3.36400008201599
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 2 aisle 1.54",
+			"width_m": 3.36400008201599
+		},
+		{
+			"aisle_m": 2.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 2 aisle 2.00",
+			"width_m": 3.36400008201599
+		},
+		{
+			"aisle_m": 1.19999994337559,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 3 aisle 1.20",
+			"width_m": 4.96400022506714
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 3 aisle 1.54",
+			"width_m": 4.96400022506714
+		},
+		{
+			"aisle_m": 2.0,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 3 aisle 2.00",
+			"width_m": 4.96400022506714
+		},
+		{
+			"aisle_m": 1.19999994337559,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 4 aisle 1.20",
+			"width_m": 6.56400012969971
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 4 aisle 1.54",
+			"width_m": 6.56400012969971
+		},
+		{
+			"aisle_m": 2.0,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "alcove count 4 aisle 2.00",
+			"width_m": 6.56400012969971
+		},
+		{
+			"aisle_m": 1.99999904632568,
+			"bays": 4,
+			"cap_join_error_m": 0.000000238418579101563,
+			"case": "transformed populated alcove",
+			"width_m": 6.56399965286255
+		},
+		{
+			"aisle_m": 1.99999904632568,
+			"bays": 4,
+			"cap_join_error_m": 0.000000238418579101563,
+			"case": "alcove disk roundtrip",
+			"width_m": 6.56399965286255
+		},
+		{
+			"aisle_m": 1.19999887049198,
+			"bays": 2,
+			"cap_join_error_m": 0.000000238418579101563,
+			"case": "alcove detached edit",
+			"width_m": 3.36400079727173
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "saved room AlcoveEast",
+			"width_m": 3.36400008201599
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "saved room AlcoveWest",
+			"width_m": 4.96400022506714
+		},
+		{
+			"aisle_m": 1.53999996185303,
+			"bays": 2,
+			"cap_join_error_m": 0.00000119209289550781,
+			"case": "transformed room AlcoveEast",
+			"width_m": 3.36400175094604
+		},
+		{
+			"aisle_m": 1.53999903798103,
+			"bays": 3,
+			"cap_join_error_m": 0.000000238418579101563,
+			"case": "transformed room AlcoveWest",
+			"width_m": 4.96400022506714
+		},
+		{
+			"aisle_m": 1.1999998241663,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "maximum rows aisle 1.20 AlcoveEast",
+			"width_m": 6.56400012969971
+		},
+		{
+			"aisle_m": 1.1999998241663,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "maximum rows aisle 1.20 AlcoveWest",
+			"width_m": 6.56400012969971
+		},
+		{
+			"aisle_m": 1.99999904632568,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "maximum rows aisle 2.00 AlcoveEast",
+			"width_m": 6.56400012969971
+		},
+		{
+			"aisle_m": 1.99999904632568,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "maximum rows aisle 2.00 AlcoveWest",
+			"width_m": 6.56400012969971
+		}
+	],
+	"cassette_support_probes": 3154,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"lifecycle_cases": [
+		"pre-ready configuration",
+		"clamps",
+		"array copies",
+		"attachment preservation",
+		"disk serialization",
+		"detached edits",
+		"independent instances",
+		"anchor and aisle retain models",
+		"population retains bays"
+	],
+	"mcp": "Blender and Godot disconnected; standalone Godot 4.7.2 fallback. Existing models reused.",
+	"passed": true,
+	"rail_cases": [
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "pre-ready centered",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 1 mode 0",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 1 mode 1",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 1 mode -9",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 1 mode 99",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 3 mode 0",
+			"max_seam_error_m": 0.0,
+			"modules": 3
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 3 mode 1",
+			"max_seam_error_m": 0.0,
+			"modules": 3
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 3 mode -9",
+			"max_seam_error_m": 0.0,
+			"modules": 3
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 3 mode 99",
+			"max_seam_error_m": 0.0,
+			"modules": 3
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 7 mode 0",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 7 mode 1",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 7 mode -9",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 7 mode 99",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 64 mode 0",
+			"max_seam_error_m": 0.0000152587890625,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 64 mode 1",
+			"max_seam_error_m": 0.0,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 64 mode -9",
+			"max_seam_error_m": 0.0000152587890625,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 64 mode 99",
+			"max_seam_error_m": 0.0,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 0 mode 0",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 0 mode 1",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 0 mode -9",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 0 mode 99",
+			"max_seam_error_m": 0.0,
+			"modules": 1
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 99 mode 0",
+			"max_seam_error_m": 0.0000152587890625,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 99 mode 1",
+			"max_seam_error_m": 0.0,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 0,
+			"cap_contact_error_m": 0.0,
+			"case": "count 99 mode -9",
+			"max_seam_error_m": 0.0000152587890625,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "count 99 mode 99",
+			"max_seam_error_m": 0.0,
+			"modules": 64
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "rail disk roundtrip",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "rail detached edit",
+			"max_seam_error_m": 0.0,
+			"modules": 3
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "saved centered variant",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "saved room rail",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "transformed room rail",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "maximum rows aisle 1.20 rail",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		},
+		{
+			"anchor_mode": 1,
+			"cap_contact_error_m": 0.0,
+			"case": "maximum rows aisle 2.00 rail",
+			"max_seam_error_m": 0.0,
+			"modules": 7
+		}
+	],
+	"renderer": "forward_plus",
+	"room_cases": [
+		{
+			"case": "saved room",
+			"floor_probes": 107,
+			"minimum_clear_radius_m": 20.9599990844727,
+			"perimeter_setback_m": 0.757346451282501,
+			"rail_floor_clearance_m": 1.43700003623962
+		},
+		{
+			"case": "transformed room",
+			"floor_probes": 107,
+			"minimum_clear_radius_m": 20.9599990844727,
+			"perimeter_setback_m": 0.757344007492065,
+			"rail_floor_clearance_m": 1.43700003623962
+		},
+		{
+			"case": "maximum rows aisle 1.20",
+			"floor_probes": 119,
+			"minimum_clear_radius_m": 21.2999992370605,
+			"perimeter_setback_m": 0.412987232208252,
+			"rail_floor_clearance_m": 1.43700003623962
+		},
+		{
+			"case": "maximum rows aisle 2.00",
+			"floor_probes": 119,
+			"minimum_clear_radius_m": 20.5,
+			"perimeter_setback_m": 0.412987232208252,
+			"rail_floor_clearance_m": 1.43700003623962
+		}
+	],
+	"scope": "Static imported geometry, fit, support, lifecycle, and GPU captures. No collision, animation, continuous camera, text readability or performance approval.",
+	"shelf_cases": [
+		{
+			"case": "pre-ready packed bay",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999809265137,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.513000011444092,
+			"pattern": [
+				2,
+				0,
+				1
+			],
+			"per_shelf": 5,
+			"requested": 5
+		},
+		{
+			"case": "pattern [0] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [0] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [0] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "pattern [0] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [0] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [0] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.149999976158142,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36620002985001,
+			"pattern": [
+				0
+			],
+			"per_shelf": 7,
+			"requested": 32
+		},
+		{
+			"case": "pattern [1] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [1] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.0865999981760979,
+			"pattern": [
+				1
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [1] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.36579990386963,
+			"pattern": [
+				1
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "pattern [1] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [1] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.0865999981760979,
+			"pattern": [
+				1
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [1] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.121999979019165,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.26959991455078,
+			"pattern": [
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "pattern [2] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [2] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.106600001454353,
+			"pattern": [
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [2] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "pattern [2] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [2] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.106600001454353,
+			"pattern": [
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [2] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999961256981,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.38960003852844,
+			"pattern": [
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "pattern [0, 1, 2] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [0, 1, 2] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [0, 1, 2] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998915195465,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "pattern [0, 1, 2] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [0, 1, 2] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [0, 1, 2] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999976158142,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "pattern [2, 0, 2, 1] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2,
+				0,
+				2,
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [2, 0, 2, 1] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.106600001454353,
+			"pattern": [
+				2,
+				0,
+				2,
+				1
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [2, 0, 2, 1] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.31919997930527,
+			"pattern": [
+				2,
+				0,
+				2,
+				1
+			],
+			"per_shelf": 12,
+			"requested": 32
+		},
+		{
+			"case": "pattern [2, 0, 2, 1] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				2,
+				0,
+				2,
+				1
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [2, 0, 2, 1] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 0.106600001454353,
+			"pattern": [
+				2,
+				0,
+				2,
+				1
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [2, 0, 2, 1] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.14999994635582,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.28959995508194,
+			"pattern": [
+				2,
+				0,
+				2,
+				1
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "pattern [] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "pattern [] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.149999976158142,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36620002985001,
+			"pattern": [
+				0
+			],
+			"per_shelf": 7,
+			"requested": 32
+		},
+		{
+			"case": "pattern [-9, 99] gap 0.02 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [-9, 99] gap 0.02 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [-9, 99] gap 0.02 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998915195465,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.34579992294312,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "pattern [-9, 99] gap 0.15 request 0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": null,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": null,
+			"occupied_width_m": 0.0,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 0,
+			"requested": 0
+		},
+		{
+			"case": "pattern [-9, 99] gap 0.15 request 1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "pattern [-9, 99] gap 0.15 request 32",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.149999916553497,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.26959997415543,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 6,
+			"requested": 32
+		},
+		{
+			"case": "transformed packed bay",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199981331825256,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "packed bay disk roundtrip",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199981331825256,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.34580051898956,
+			"pattern": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "packed bay detached edit",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": null,
+			"minimum_structure_clearance_m": 0.0271995961666107,
+			"occupied_width_m": 0.0665999948978424,
+			"pattern": [
+				0,
+				1,
+				2,
+				0,
+				1,
+				2,
+				0,
+				1,
+				2
+			],
+			"per_shelf": 1,
+			"requested": 1
+		},
+		{
+			"case": "saved SmallCassetteShelfBay",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.027199998497963,
+			"occupied_width_m": 1.36559993028641,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved LargeCassetteShelfBay",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000133991241,
+			"occupied_width_m": 1.37260013818741,
+			"pattern": [
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "pre-ready alcove Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 1 aisle 1.20 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 1 aisle 1.54 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 1 aisle 2.00 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 2 aisle 1.20 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 2 aisle 1.20 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 2 aisle 1.54 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 2 aisle 1.54 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 2 aisle 2.00 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 2 aisle 2.00 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 1.20 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 1.20 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 1.20 Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 1.54 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 1.54 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 1.54 Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 2.00 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 2.00 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999772012234,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799981117249,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 3 aisle 2.00 Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.20 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.20 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.20 Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.20 Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.54 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.54 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.54 Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 1.54 Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 2.00 Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 2.00 Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 2.00 Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999660253525,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359799921512604,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "alcove count 4 aisle 2.00 Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0200000256299973,
+			"minimum_structure_clearance_m": 0.0272000432014465,
+			"occupied_width_m": 0.359800040721893,
+			"pattern": [
+				2
+			],
+			"per_shelf": 3,
+			"requested": 3
+		},
+		{
+			"case": "transformed populated alcove Bay0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0399993062019348,
+			"minimum_structure_clearance_m": 0.0271998345851898,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "transformed populated alcove Bay1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0399993136525154,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.33260071277618,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "transformed populated alcove Bay2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.039998359978199,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "transformed populated alcove Bay3",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.039999321103096,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "alcove disk roundtrip Bay0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0399993062019348,
+			"minimum_structure_clearance_m": 0.0271998345851898,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "alcove disk roundtrip Bay1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0399993136525154,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.33260071277618,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "alcove disk roundtrip Bay2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.039998359978199,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "alcove disk roundtrip Bay3",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.039999321103096,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "alcove detached edit Bay0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0399993136525154,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.33260071277618,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "alcove detached edit Bay1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.039998359978199,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.33259975910187,
+			"pattern": [
+				0,
+				2
+			],
+			"per_shelf": 11,
+			"requested": 32
+		},
+		{
+			"case": "saved room AlcoveEast Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved room AlcoveEast Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.3656000494957,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "saved room AlcoveWest Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999362230301,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room AlcoveWest Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "saved room AlcoveWest Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "transformed room AlcoveEast Bay0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": 0.0199993550777435,
+			"minimum_structure_clearance_m": 0.0272020101547241,
+			"occupied_width_m": 1.36560165882111,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "transformed room AlcoveEast Bay1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.201999664306641,
+			"minimum_neighbor_gap_m": 0.0199984014034271,
+			"minimum_structure_clearance_m": 0.0271981954574585,
+			"occupied_width_m": 1.36559879779816,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "transformed room AlcoveWest Bay0",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995785951614,
+			"minimum_structure_clearance_m": 0.0271997153759003,
+			"occupied_width_m": 1.38580060005188,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "transformed room AlcoveWest Bay1",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995785951614,
+			"minimum_structure_clearance_m": 0.0271987617015839,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "transformed room AlcoveWest Bay2",
+			"contact_error_m": 0.000000119209289550781,
+			"minimum_light_gap_m": 0.0419995784759521,
+			"minimum_neighbor_gap_m": 0.0199995636940002,
+			"minimum_structure_clearance_m": 0.0271991193294525,
+			"occupied_width_m": 1.38579964637756,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveEast Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559975147247,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveEast Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveEast Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.3656000494957,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveEast Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveWest Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveWest Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveWest Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999362230301,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 1.20 AlcoveWest Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveEast Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559975147247,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveEast Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199999511241913,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveEast Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998617172241,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.3656000494957,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveEast Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.20199990272522,
+			"minimum_neighbor_gap_m": 0.0199998319149017,
+			"minimum_structure_clearance_m": 0.0272000730037689,
+			"occupied_width_m": 1.36559987068176,
+			"pattern": [
+				0
+			],
+			"per_shelf": 16,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveWest Bay0",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveWest Bay1",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999213218689,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveWest Bay2",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199999362230301,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580000400543,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		},
+		{
+			"case": "maximum rows aisle 2.00 AlcoveWest Bay3",
+			"contact_error_m": 0.0,
+			"minimum_light_gap_m": 0.0419999361038208,
+			"minimum_neighbor_gap_m": 0.0199998021125793,
+			"minimum_structure_clearance_m": 0.0271993279457092,
+			"occupied_width_m": 1.38580012321472,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"per_shelf": 13,
+			"requested": 32
+		}
+	],
+	"validated_meshes": [
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "timeline_rail_housing",
+			"triangles": 52
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "ceramic_seat",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "floor_pad_left",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "floor_pad_right",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "solid_support_left",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "solid_support_right",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "underseat_frame",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_back",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "lower_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_3",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_0_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_1_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_2_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_3_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_4_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_left",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_right",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		}
+	]
+}

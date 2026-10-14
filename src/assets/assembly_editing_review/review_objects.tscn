@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/centered_timeline_rail.tscn" id="rail"]
+[ext_resource type="PackedScene" path="res://assets/reading_bench/configurable_reading_alcove.tscn" id="alcove"]
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/configurable_catalog_station.tscn" id="station"]
+[ext_resource type="PackedScene" path="res://assets/furniture_review/review_rig.tscn" id="rig"]
+
+[node name="AssemblyEditingReview" type="Node3D"]
+
+[node name="Rail" parent="." instance=ExtResource("rail")]
+position = Vector3(0, 3.1, -2)
+
+[node name="Alcove" parent="." instance=ExtResource("alcove")]
+position = Vector3(-3, 0, 0)
+
+[node name="Station" parent="." instance=ExtResource("station")]
+position = Vector3(3, 0, 0)
+
+[node name="ReviewRig" parent="." instance=ExtResource("rig")]

@@ -17,41 +17,52 @@ const PITCH: float = 2.0
 	set(value):
 		anchor_mode = clampi(value, 0, 1)
 		if is_node_ready():
-			_sync_anchor()
+			_rebuild()
 
-var _generated: Array[Node3D] = []
+var _modules: Array[Node3D] = []
+var _joiners: Array[Node3D] = []
 
 func _ready() -> void:
 	_rebuild()
 
 func _rebuild() -> void:
-	# Only remove our own generated instances; preserve user-added children.
-	for instance in _generated:
-		if is_instance_valid(instance):
-			if instance.get_parent() != null:
-				instance.get_parent().remove_child(instance)
-			instance.queue_free()
-	_generated.clear()
-	for index in range(module_count):
-		_add_part(MODULE, $Modules, "Module%d" % index, index * PITCH)
-		if index > 0:
-			_add_part(JOINER, $Joiners, "Joiner%d" % index, index * PITCH)
-	_sync_anchor()
-
-func _sync_anchor() -> void:
 	var offset: float = -module_count * PITCH * 0.5 if anchor_mode == 1 else 0.0
-	$Modules.position.x = offset
-	$Joiners.position.x = offset
+	_sync_parts(_modules, MODULE, $Modules, "Module", module_count, 0, offset)
+	_sync_parts(_joiners, JOINER, $Joiners, "Joiner", module_count - 1, 1, offset)
 	$StartCap.position.x = offset
 	$EarlierEnd.position.x = offset
 	$EndCap.position.x = offset + module_count * PITCH
 	$LaterEnd.position.x = offset + module_count * PITCH
 
-func _add_part(scene: PackedScene, parent: Node3D, label: String, x: float) -> void:
-	var instance := scene.instantiate() as Node3D
-	instance.name = label
-	instance.position.x = x
-	parent.add_child(instance)
-	_generated.append(instance)
-	# Generated instances deliberately have no owner: the saved scene stores
-	# module_count, and reconstructs its preview without serialized duplicates.
+func _sync_parts(parts: Array[Node3D], scene: PackedScene, container: Node3D,
+		prefix: String, count: int, first_index: int, offset: float) -> void:
+	# Slot indices retain their objects; only trailing or deleted parts are replaced.
+	while parts.size() > count:
+		_release(parts.pop_back())
+	for slot in range(count):
+		if slot == parts.size():
+			parts.append(null)
+		var part: Node3D = parts[slot] if is_instance_valid(parts[slot]) else null
+		if is_instance_valid(part) and part.is_queued_for_deletion():
+			_release(part)
+			part = null
+		if not is_instance_valid(part):
+			part = scene.instantiate() as Node3D
+			part.name = prefix + str(slot + first_index)
+			container.add_child(part)
+			# Save configuration and reconstruct exactly one population on load.
+			part.owner = null
+			parts[slot] = part
+		elif part.get_parent() != container:
+			if part.get_parent() != null:
+				part.get_parent().remove_child(part)
+			container.add_child(part)
+		# Placement belongs to the rail, even when its containers are transformed.
+		part.transform = container.transform.affine_inverse() * Transform3D(
+			Basis.IDENTITY, Vector3(offset + (slot + first_index) * PITCH, 0, 0))
+
+func _release(part: Variant) -> void:
+	if is_instance_valid(part):
+		if part.get_parent() != null:
+			part.get_parent().remove_child(part)
+		part.queue_free()

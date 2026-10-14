@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 10240,
-      "sha256": "081ff2887c7b1d01e6358fbfd63e7c43e33b188d8a2eaabf3a775eff1655c31d"
+      "bytes": 10767,
+      "sha256": "577a586d29e5e433ac8763631e1780f7f067004960146bfad340c81825a67b90"
     },
     {
       "path": "build_asset.py",
@@ -25,8 +25,8 @@
     },
     {
       "path": "configurable_timeline_rail.gd",
-      "bytes": 1979,
-      "sha256": "847d05f84b415e4de73c133ed4f057c34f2dad7a06eabb965fffaf13b52ae391"
+      "bytes": 2548,
+      "sha256": "bb1c6f2780e9e449a9009c9283901c23489e010c928640b5d1bf0ff4f7f9e485"
     },
     {
       "path": "configurable_timeline_rail.tscn",

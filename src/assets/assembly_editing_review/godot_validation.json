@@ -1,0 +1,254 @@
+{
+	"aisle_measurements": [
+		{
+			"aisle_m": 1.53999987244606,
+			"bench_floor_error_m": 0.0,
+			"case": "row edited before ready"
+		},
+		{
+			"aisle_m": 1.19999983906746,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw -150 aisle 1.20"
+		},
+		{
+			"aisle_m": 1.53999999165535,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw -150 aisle 1.54"
+		},
+		{
+			"aisle_m": 2.0000002682209,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw -150 aisle 2.00"
+		},
+		{
+			"aisle_m": 1.19999983906746,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw -37 aisle 1.20"
+		},
+		{
+			"aisle_m": 1.53999999165535,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw -37 aisle 1.54"
+		},
+		{
+			"aisle_m": 2.00000002980232,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw -37 aisle 2.00"
+		},
+		{
+			"aisle_m": 1.19999983906746,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 0 aisle 1.20"
+		},
+		{
+			"aisle_m": 1.53999999165535,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 0 aisle 1.54"
+		},
+		{
+			"aisle_m": 2.00000002980232,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 0 aisle 2.00"
+		},
+		{
+			"aisle_m": 1.19999900460243,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 91 aisle 1.20"
+		},
+		{
+			"aisle_m": 1.53999915719032,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 91 aisle 1.54"
+		},
+		{
+			"aisle_m": 1.99999907612801,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 91 aisle 2.00"
+		},
+		{
+			"aisle_m": 1.19999960064888,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 180 aisle 1.20"
+		},
+		{
+			"aisle_m": 1.53999975323677,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 180 aisle 1.54"
+		},
+		{
+			"aisle_m": 1.99999979138374,
+			"bench_floor_error_m": 0.0,
+			"case": "yaw 180 aisle 2.00"
+		},
+		{
+			"aisle_m": 1.99999955296516,
+			"bench_floor_error_m": 0.0,
+			"case": "resized moved row"
+		},
+		{
+			"aisle_m": 1.99999955296516,
+			"bench_floor_error_m": 0.0,
+			"case": "alcove disk roundtrip"
+		}
+	],
+	"display_cases": [
+		{
+			"bottom_face_probes": 2,
+			"case": "station independently edited left display",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.158155709505081,
+			"size": 0,
+			"yaw_degrees": 23.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "explicit station visibility restores left display",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.158155709505081,
+			"size": 0,
+			"yaw_degrees": 23.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "freed display size 0",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.168891221284866,
+			"size": 0,
+			"yaw_degrees": 42.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "freed display size 1",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.143621295690537,
+			"size": 1,
+			"yaw_degrees": 42.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "freed display size 2",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.118351370096207,
+			"size": 2,
+			"yaw_degrees": 42.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "reattached display",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.103730171918869,
+			"size": 2,
+			"yaw_degrees": 17.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "transformed record slot",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.17400074005127,
+			"size": 2,
+			"yaw_degrees": 72.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "repopulated display",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.17400074005127,
+			"size": 2,
+			"yaw_degrees": 72.0
+		},
+		{
+			"bottom_face_probes": 2,
+			"case": "display restored after hiding detached record",
+			"contact_error_m": 0.0,
+			"flat_top_edge_margin_m": 0.17400074005127,
+			"size": 2,
+			"yaw_degrees": 72.0
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"issues": [
+		5,
+		34,
+		35,
+		36
+	],
+	"mcp": "Blender status/scene and Godot get_state unavailable; standalone Godot fallback",
+	"passed": true,
+	"rail_measurements": [
+		{
+			"cap_error_m": 0.0,
+			"case": "count 5",
+			"modules": 5,
+			"seam_error_m": 0.0
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "count 2",
+			"modules": 2,
+			"seam_error_m": 0.0
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "count 2",
+			"modules": 2,
+			"seam_error_m": 0.0
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "count 7",
+			"modules": 7,
+			"seam_error_m": 0.0
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "transformed containers anchor 1",
+			"modules": 7,
+			"seam_error_m": 0.00000095367431640625
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "transformed containers anchor 0",
+			"modules": 7,
+			"seam_error_m": 0.0
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "transformed containers anchor 1",
+			"modules": 7,
+			"seam_error_m": 0.00000095367431640625
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "slot recovery",
+			"modules": 7,
+			"seam_error_m": 0.00000095367431640625
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "reattached rail module",
+			"modules": 7,
+			"seam_error_m": 0.00000095367431640625
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "rail disk roundtrip",
+			"modules": 7,
+			"seam_error_m": 0.00000095367431640625
+		},
+		{
+			"cap_error_m": 0.0,
+			"case": "detached rail edit",
+			"modules": 1,
+			"seam_error_m": 0.0
+		}
+	],
+	"renderer": "forward_plus",
+	"workflows": [
+		"#5 retained modules, joiners, child state and material overrides",
+		"#5 transformed containers, queued/freed recovery and disk roundtrip",
+		"#34 independent layout/left/right controls, retained child overrides and saved station settings",
+		"#35 translated/rotated shelf frame, aisle limits, count refresh and disk roundtrip",
+		"#36 queued/freed/detached/reparented recovery for three sizes and transformed contact frame"
+	]
+}
