@@ -1,5 +1,12 @@
 # Archive display plinth — issue #36
 
+## Paired configurable displays — 14 October 2026
+
+The new `../catalog_lectern/configurable_catalog_station.tscn` composes two
+existing configurable plinth displays, each accepting all three cassette sizes
+and independent yaw. See [catalog perimeter review](../catalog_perimeter_review/README.md)
+for actual plinth/floor contact, configuration lifecycle and wall-grid placement.
+
 Model work for [#36](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/36).
 
 ## Configurable cassette display — 13 October 2026

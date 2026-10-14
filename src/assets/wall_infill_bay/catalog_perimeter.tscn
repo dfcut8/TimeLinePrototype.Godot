@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://assets/wall_infill_bay/catalog_perimeter.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/configurable_bay_arc.tscn" id="arc"]
+
+[node name="CatalogPerimeter" type="Node3D"]
+script = ExtResource("script")
+
+[node name="Architecture" parent="." instance=ExtResource("arc")]
+bay_layout = PackedInt32Array(0, 1, 0)
+
+[node name="Stations" type="Node3D" parent="."]
+
+[node name="Attachments" type="Node3D" parent="."]

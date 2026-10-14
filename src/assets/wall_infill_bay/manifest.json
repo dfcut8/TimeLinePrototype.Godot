@@ -7,7 +7,7 @@
     "preview_rear.png": "9f8da2039892f94f216aae0ddfeb53d1a7c7f7ac75a8d9156493f2604a6de76d",
     "preview_side.png": "a2fd323ef1d3bd30a4a59ab98a6fb2282acfb2146dd3c2ae21a247ebc912099c",
     "preview_underside.png": "ae29c4c4d513f6b530a321edcf876a4234e11de7c07382127d8786b61c202612",
-    "README.md": "769e2337ca2e654d3afe174685650eea1f418440999df0523679662222bfb272",
+    "README.md": "ed0e3d6a21d0462edd3fb4919f8d88a195c716b0e057077c643c4d1e7d931d68",
     "source/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "source/wall_infill_bay.blend": "ac72845aa5b6dcc3f7dc593b4868405150e2f2fcc7c04462215a46d4fd2429ad",
     "validation.json": "5ec59bde46d5ef48bc49965b12f8f86a89020b4ba1cc40d94dd6f691596e3efd",
@@ -16,6 +16,9 @@
     "wall_infill_bay.tscn": "fa8d169c2ce22bdfa60b9d92a206eaa87a2cc4a7d30b5d7a63baedf2d972afa1",
     "configurable_bay_arc.gd": "95c56605f611066eba9cde293307a50a078d024d944d5dbc0f3450123e4aed2f",
     "configurable_bay_arc.tscn": "c45b97656cee0bc6e740bf8957248714c8fbf558fa1fa06a659ecde756a61ee1",
-    "library_perimeter.tscn": "05ded9a0688b01f4c2c45810490929f82ee70e9b5e5a7f7c854f562dca561a2b"
+    "library_perimeter.tscn": "05ded9a0688b01f4c2c45810490929f82ee70e9b5e5a7f7c854f562dca561a2b",
+    "catalog_perimeter.gd": "c8ebf93d71bb2e5817c854343ef7e6e78aa93fec919ed5c99035fb3d82fa947d",
+    "catalog_perimeter.tscn": "46cde97d26ece02ecce8b179e374ce0b55a75cf8f3f09baf23c6a0f88fcc713f",
+    "library_catalog_perimeter.tscn": "f4f057ba1bc793edbb7b20ea00f5947a6aecb3bdff520add127d04f48b680304"
   }
 }

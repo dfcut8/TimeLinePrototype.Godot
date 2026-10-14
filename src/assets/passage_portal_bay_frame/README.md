@@ -1,5 +1,12 @@
 # Passage / portal bay frame — issue #25
 
+## Catalog entrance sector — 14 October 2026
+
+`catalog_entrance_sector.tscn` instances the wall/portal/wall catalog sector.
+Stations occupy only solid wall bays and are removed if those bays become
+portals or windows. See [catalog perimeter review](../catalog_perimeter_review/README.md)
+for complete approach clearance, actual floor support and full-room evidence.
+
 ## Configurable entrance sector — 14 October 2026
 
 portal_bay_arc.tscn saves a configurable wall/portal/wall arc.

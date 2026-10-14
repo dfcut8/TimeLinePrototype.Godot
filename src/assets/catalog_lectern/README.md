@@ -1,5 +1,13 @@
 # Catalog lectern — issue #34
 
+## Configurable catalog station — 14 October 2026
+
+`configurable_catalog_station.tscn` adds adjustable display spacing, lectern
+position, approach depth and independent cassette sizes/yaws. The original
+fixed comparison station remains available. See
+[catalog perimeter review](../catalog_perimeter_review/README.md) for reusable
+interfaces, imported screen/contact checks and complete-room fit evidence.
+
 ## Reusable comparison station — 13 October 2026
 
 `catalog_comparison_station.tscn` is an importable composition of this lectern,

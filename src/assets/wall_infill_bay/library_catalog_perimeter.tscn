@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/catalog_perimeter.tscn" id="ring"]
+
+[node name="LibraryCatalogPerimeter" instance=ExtResource("ring")]
+bay_layout = PackedInt32Array(1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0)
+station_bays = PackedInt32Array(1, 11, 13, 23)
+start_angle_degrees = 0.0
