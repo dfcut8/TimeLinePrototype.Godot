@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 8399,
-      "sha256": "13c1ceed62c8c717b13e0109ccce33d2a861109fa3bf09373cd4aac2a1570f7e"
+      "bytes": 8993,
+      "sha256": "628574d0c946ed4a751bb5304edf12e4eea29f9d9ba7e56337d63bb562f452a1"
     },
     {
       "path": "archive_record_small.glb",
@@ -119,6 +119,11 @@
       "path": "shelf_assembly.tscn",
       "bytes": 7832,
       "sha256": "a9886b7ba6e2426863e128f20f8abfd28438ff68745ad775b27b87c4ea5824b5"
+    },
+    {
+      "path": "small_archive_island.tscn",
+      "bytes": 254,
+      "sha256": "e3585e31c2825e455a8059024ed195551197782cc495c9d29493c448944c5f01"
     },
     {
       "path": "source/.gdignore",

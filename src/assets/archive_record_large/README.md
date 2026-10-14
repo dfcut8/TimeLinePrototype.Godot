@@ -1,5 +1,16 @@
 # Large archive record cassette
 
+## Two-sided storage variant — 14 October 2026
+
+[large_archive_island.tscn](large_archive_island.tscn) saves both faces of the
+new configurable archive island with this cassette. At the default 20 mm gap,
+each two-bay face contains 88 independent large records, 176 in the island.
+The default split island pairs the large face with small records; either face
+also accepts medium or mixed patterns. See
+[archive island review](../archive_island_review/README.md) for actual support,
+fixture clearance, capacity, serialization and room fit. Standalone Godot
+4.7.2 passed; live MCP and final art review remain pending.
+
 ## Size-aware shelf capacity — 14 October 2026
 
 `dense_shelf_bay.tscn` instances the new packed shelf variant with this cassette

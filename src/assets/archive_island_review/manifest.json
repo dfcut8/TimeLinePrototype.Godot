@@ -1,0 +1,155 @@
+{
+  "issues": [
+    28,
+    29,
+    31,
+    33
+  ],
+  "files": {
+    ".gdignore": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "adaptive_regression_runtime.log": {
+      "bytes": 228,
+      "sha256": "b9ae919f0b77393bd0596b41553550614c30c6267e6e73bd1a00cb93ab73dcc9"
+    },
+    "godot_adaptive_regression.json": {
+      "bytes": 56853,
+      "sha256": "d740b225e946ddf2018fb983ff9cd884fdd52cce7792b01ff60642da648cfeee"
+    },
+    "godot_back.png": {
+      "bytes": 98988,
+      "sha256": "9d276e65734b215d639ff9b1207c6b60eed06ece050bff706b3d3aeb06bbf7d3"
+    },
+    "godot_back_gap.png": {
+      "bytes": 6962,
+      "sha256": "a83efb880eca6256b3a631aafad73de261fbc00dad055dfd09030db74b65fbf6"
+    },
+    "godot_back_room.png": {
+      "bytes": 48851,
+      "sha256": "c34ae9f535f592168ef11b688749068121d667f60f153b2e6fd014540c457794"
+    },
+    "godot_end.png": {
+      "bytes": 32768,
+      "sha256": "619e0a6c68d71e0990b33c781de98a9df65321628f1c1286d26844b47bf01a9b"
+    },
+    "godot_front.png": {
+      "bytes": 110017,
+      "sha256": "ed645d136efaede3dae5077bbe2373b4470f83823f8b8793af3dc2cba67cb97a"
+    },
+    "godot_front_room.png": {
+      "bytes": 117202,
+      "sha256": "aea035da82b346a30f40fc0ba81a8b56e28277a50c1a62e45ccec5ba75b3d188"
+    },
+    "godot_room.png": {
+      "bytes": 53335,
+      "sha256": "6cb32bf5cb4325124081c8ae43ee7bf19684628640e8e3415874a150c9e94c60"
+    },
+    "godot_row_regression.json": {
+      "bytes": 2416,
+      "sha256": "b8ab8f82d005ef286a66d637be3465b47cb5e23670847065799cd742ddcc4897"
+    },
+    "godot_underside.png": {
+      "bytes": 92371,
+      "sha256": "2eae641821c1e0cf81c7bb1fa5688fff0cfa789b9eee94cd3140588282d3159f"
+    },
+    "godot_validation.json": {
+      "bytes": 83130,
+      "sha256": "e9f0593cf04ca004096128f4c6ad167a648093b17584121ae0c8e99e29eaf67d"
+    },
+    "island_import.log": {
+      "bytes": 7834,
+      "sha256": "537f58fecfb0bbb7626c187fc6342149708a4bbee2a63a8c2c6e8dddd5f0f3bc"
+    },
+    "island_runtime.log": {
+      "bytes": 217,
+      "sha256": "cbbe2e57367acc1407d6c9c89ca21c8c1d56ca048db9924b8a140029c41029b3"
+    },
+    "prepare_review.py": {
+      "bytes": 1775,
+      "sha256": "752faafdb63f439133efc5c8ed7f302f62bc2580be7fbbe81a42bad5fe370734"
+    },
+    "README.md": {
+      "bytes": 8650,
+      "sha256": "dd64ac3056c6487edf7411993419493312a46cb3bb4f44bbe2ce115e166d69ad"
+    },
+    "review_room.tscn": {
+      "bytes": 412,
+      "sha256": "1e4d0ce15b683fef5782c4efa7323b04154b23b543ef7536f5ca57f00783a02b"
+    },
+    "row_regression_runtime.log": {
+      "bytes": 2112,
+      "sha256": "88703dab85512cd2945e25b1b886fdfef3fd91d5fe83cea9f05433796e4c5be6"
+    },
+    "update_manifests.py": {
+      "bytes": 2312,
+      "sha256": "053597e085f1d584da50d79ab12dfed515eb3a360f6b8911636eebed216a9847"
+    },
+    "verify_island.gd": {
+      "bytes": 17601,
+      "sha256": "756e8db0e1e8ee8ace041c2d1a329fc55de76c361e70012d5b438bb3c49a4346"
+    },
+    "verify_island.ps1": {
+      "bytes": 3372,
+      "sha256": "50cd09dd24a249d5688e97b8241448033ecb3e16694b50e77b9d0e5bcedcebf9"
+    }
+  },
+  "assembly": {
+    "path": "assemblies/archive_island_library_room.tscn",
+    "bytes": 1132,
+    "sha256": "ce043c29270dc06a98e4255eab3f60b82c533640866f47c06e258bbffd704015"
+  },
+  "reused_objects": {
+    "record_stack_shelf_bay": {
+      "source": {
+        "bytes": 86459,
+        "sha256": "e3dffc12b6a6d3850840d1b23037d7de89734de409b19f9febf4b2331249124f"
+      },
+      "glb": {
+        "bytes": 60844,
+        "sha256": "de70601523437172c2133d19cef732553832c329ad0ef3bb138b3f7f261a173c"
+      }
+    },
+    "record_stack_end_cap": {
+      "source": {
+        "bytes": 76589,
+        "sha256": "efa63abe2eedd4176f8dba4a4a7f25a1c75556da4dba1e6f368e024a09d740ac"
+      },
+      "glb": {
+        "bytes": 37428,
+        "sha256": "f6d6d736340f457513d98bc6d96a81cb360495ee91f130372bc91912c37389c5"
+      }
+    },
+    "archive_record_small": {
+      "source": {
+        "bytes": 96704,
+        "sha256": "ce6d0e7d53dbdd4077d485e9a30b315fd2cd693d63a13e0eece6005b8f4d3411"
+      },
+      "glb": {
+        "bytes": 125256,
+        "sha256": "0ba81420a682a926a358b20ad3c3a64e099e07685b1056433b7d25f452fc2419"
+      }
+    },
+    "archive_record_medium": {
+      "source": {
+        "bytes": 96689,
+        "sha256": "76758c97a1978617f17bbed831dfef633ba651b3ada1287eabd767fe2fb15551"
+      },
+      "glb": {
+        "bytes": 125240,
+        "sha256": "48323b10d5209852f5e629b403f312f192152afbe0f7f6c351aef49d1cf4e8b6"
+      }
+    },
+    "archive_record_large": {
+      "source": {
+        "bytes": 96478,
+        "sha256": "6fb45765da7698abaa01fd543c327dd4a267189db0be20d9acd574e1b99beedd"
+      },
+      "glb": {
+        "bytes": 125252,
+        "sha256": "ecc2e2f7c766b74e5448d1136e76cb065bee2ba0a115b405201adf302e141a10"
+      }
+    }
+  }
+}

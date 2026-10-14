@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 8607,
-      "sha256": "17e6860f7b4dc712026bfbf210b14bd5ff98dfb47499d4d35ea86af0275bb246"
+      "bytes": 9226,
+      "sha256": "65ba602e6f3d6438ab5a9d55c9b011a121c3816ad6d5b990ce89927edbe02d06"
     },
     {
       "path": "archive_record_large.glb",
@@ -114,6 +114,11 @@
       "path": "issue.json",
       "bytes": 3834,
       "sha256": "97b987ddf410c48e9a9694a97424897634b15daa670edaa97dbce1e864932f7a"
+    },
+    {
+      "path": "large_archive_island.tscn",
+      "bytes": 255,
+      "sha256": "092df79fb892305126181e2c1d3e5cb2e673c572789b1079392e2b70e28a1f19"
     },
     {
       "path": "plinth_display.tscn",
