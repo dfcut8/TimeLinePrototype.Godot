@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_shelf_row.tscn" id="row"]
+[ext_resource type="Script" path="res://assets/record_stack_end_cap/configurable_populated_shelf_row.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_shelf_bay/configurable_cassette_shelf_bay.tscn" id="bay"]
+
+[node name="ConfigurablePopulatedShelfRow" instance=ExtResource("row")]
+script = ExtResource("script")
+bay_scene = ExtResource("bay")
+bay_count = 2

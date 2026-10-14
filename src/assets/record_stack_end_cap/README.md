@@ -1,5 +1,16 @@
 # Record stack end cap — issue #29
 
+## Configurable populated row — 14 October 2026
+
+configurable_populated_shelf_row.tscn inherits the capped row and defaults to
+two adjustable cassette bays. Set bay_count, cassette_pattern and
+records_per_shelf; both cap scenes follow the row ends. Population changes
+retain bay instances, while count changes replace generated bays. Existing
+empty and fixed mixed-row variants remain available. Standalone Godot 4.7.2
+passes 14 capped-row inspections plus furnished entrance placement and floor
+checks. See the [modular library review](../modular_library_review/README.md)
+for serialization, attachment lifetime and remaining live MCP/art approval limits.
+
 ## Populated capped row — follow-up for #29
 
 `capped_mixed_shelf_row.tscn` inherits the configurable row and selects the existing

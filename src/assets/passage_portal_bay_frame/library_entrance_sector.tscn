@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/passage_portal_bay_frame/portal_bay_arc.tscn" id="arc"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_populated_shelf_row.tscn" id="row"]
+
+[node name="LibraryEntranceSector" type="Node3D"]
+
+[node name="Architecture" parent="." instance=ExtResource("arc")]
+
+[node name="ShelfLeft" parent="." instance=ExtResource("row")]
+position = Vector3(-5.901074, 0, -22.023109)
+rotation_degrees = Vector3(0, 15, 0)
+
+[node name="ShelfRight" parent="." instance=ExtResource("row")]
+position = Vector3(5.901074, 0, -22.023109)
+rotation_degrees = Vector3(0, -15, 0)
+cassette_pattern = PackedInt32Array(2, 1, 0)
+records_per_shelf = 6

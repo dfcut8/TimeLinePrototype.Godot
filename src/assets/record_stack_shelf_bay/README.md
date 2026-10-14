@@ -1,5 +1,15 @@
 # Record stack shelf bay — issue #28
 
+## Configurable cassette population — 14 October 2026
+
+configurable_cassette_shelf_bay.tscn adds an adjustable repeating cassette
+pattern (small/medium/large = 0/1/2) and zero to nine records per tier, retaining
+the existing shelf envelope and four light scenes. Each record remains a
+PackedScene instance. Standalone Godot 4.7.2 verifies imported support surfaces,
+all sizes, density changes and disk serialization. See the
+[modular library review](../modular_library_review/README.md) for interfaces,
+88 shelf inspections and remaining live MCP/art approval limits.
+
 ## Mixed-size reusable bay — 2 October 2026
 
 `mixed_cassette_shelf_bay.tscn` combines this illuminated bay with 36 independent

@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 6536,
-      "sha256": "db7364ddb498cf8ec03f61d5e737da23dd50ee18202528bab6b5b2c60ce2e921"
+      "bytes": 7196,
+      "sha256": "8019ab2a38eb0eed5ddb3c855807025caf5269c2eac7bc3a9aaf771b90322bf3"
     },
     {
       "path": "capped_mixed_shelf_row.tscn",
@@ -19,6 +19,16 @@
       "path": "capped_shelf_row.tscn",
       "bytes": 930,
       "sha256": "7213775dde94fe0624b2f8b36525fc41739b4dfe603c06f082e67c7827ae926a"
+    },
+    {
+      "path": "configurable_populated_shelf_row.gd",
+      "bytes": 988,
+      "sha256": "e2acfcce8c3270729a0df403b90fe7d9242940041ac5c81c451aa42caf50e090"
+    },
+    {
+      "path": "configurable_populated_shelf_row.tscn",
+      "bytes": 536,
+      "sha256": "358490e4e20188e8bd1912f53ad9cd847fa7ccf9f97a75015c1d2377a5fd1b0e"
     },
     {
       "path": "configurable_shelf_row.gd",

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/configurable_bay_arc.tscn" id="arc"]
+
+[node name="PortalBayArc" instance=ExtResource("arc")]
+bay_layout = PackedInt32Array(0, 1, 0)
