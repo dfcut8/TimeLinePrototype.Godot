@@ -1,5 +1,13 @@
 # Wall infill bay — issue #24
 
+## Catalog perimeter follow-up — 14 October 2026
+
+`catalog_perimeter.tscn` places reusable catalog stations against selected solid
+wall bays, following the existing grid and retaining a clear portal approach.
+`library_catalog_perimeter.tscn` saves a complete ring with four stations beside
+both entrances. See [catalog perimeter review](../catalog_perimeter_review/README.md)
+for configuration, serialization, floor support and standalone engine evidence.
+
 ## Configurable arcs and full perimeter — 14 October 2026
 
 configurable_bay_arc.tscn selects wall/portal/window layouts on the resolved

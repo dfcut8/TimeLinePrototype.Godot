@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://assets/catalog_lectern/configurable_catalog_station.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/catalog_lectern/catalog_lectern.tscn" id="lectern"]
+[ext_resource type="PackedScene" path="res://assets/archive_display_plinth/configurable_archive_display.tscn" id="display"]
+
+[node name="ConfigurableCatalogStation" type="Node3D"]
+script = ExtResource("script")
+
+[node name="DisplayLeft" parent="." instance=ExtResource("display")]
+position = Vector3(-0.9, 0, -0.2)
+cassette_size = 0
+cassette_yaw_degrees = -30.0
+
+[node name="DisplayRight" parent="." instance=ExtResource("display")]
+position = Vector3(0.9, 0, -0.2)
+cassette_yaw_degrees = 30.0
+
+[node name="Lectern" parent="." instance=ExtResource("lectern")]
+position = Vector3(0, 0, 0.8)
+
+[node name="ApproachStart" type="Marker3D" parent="."]
+position = Vector3(0, 0, 1.055)
+
+[node name="ApproachEnd" type="Marker3D" parent="."]
+position = Vector3(0, 0, 2.055)
+
+[node name="UserApproach" type="Marker3D" parent="."]
+position = Vector3(0, 0, 1.555)
+
+[node name="Attachments" type="Node3D" parent="."]

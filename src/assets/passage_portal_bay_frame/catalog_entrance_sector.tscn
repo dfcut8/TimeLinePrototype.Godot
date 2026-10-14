@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/catalog_perimeter.tscn" id="sector"]
+
+[node name="CatalogEntranceSector" instance=ExtResource("sector")]
+bay_layout = PackedInt32Array(0, 1, 0)
+station_bays = PackedInt32Array(0, 2)
+start_angle_degrees = -15.0

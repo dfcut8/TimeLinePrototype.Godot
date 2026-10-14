@@ -1,0 +1,3234 @@
+{
+	"arc_cases": [
+		{
+			"bays": 3,
+			"case": "pre-ready arc",
+			"max_join_m": 0.00869035720825195,
+			"min_join_m": 0.00868844985961914,
+			"piers": 4,
+			"surface_probes": 60
+		},
+		{
+			"bays": 1,
+			"case": "arc edit [0]",
+			"max_join_m": 0.00868940353393555,
+			"min_join_m": 0.00868844985961914,
+			"piers": 2,
+			"surface_probes": 20
+		},
+		{
+			"bays": 1,
+			"case": "arc edit [1]",
+			"max_join_m": 0.00868940353393555,
+			"min_join_m": 0.00868844985961914,
+			"piers": 2,
+			"surface_probes": 20
+		},
+		{
+			"bays": 1,
+			"case": "arc edit [2]",
+			"max_join_m": 0.00868940353393555,
+			"min_join_m": 0.00868844985961914,
+			"piers": 2,
+			"surface_probes": 20
+		},
+		{
+			"bays": 3,
+			"case": "arc edit [0, 1, 2]",
+			"max_join_m": 0.00869035720825195,
+			"min_join_m": 0.00868844985961914,
+			"piers": 4,
+			"surface_probes": 60
+		},
+		{
+			"bays": 1,
+			"case": "arc edit []",
+			"max_join_m": 0.00868940353393555,
+			"min_join_m": 0.00868844985961914,
+			"piers": 2,
+			"surface_probes": 20
+		},
+		{
+			"bays": 2,
+			"case": "arc edit [-5, 77]",
+			"max_join_m": 0.00869035720825195,
+			"min_join_m": 0.00868844985961914,
+			"piers": 3,
+			"surface_probes": 40
+		},
+		{
+			"bays": 23,
+			"case": "ring boundary 23",
+			"max_join_m": 0.00869035720825195,
+			"min_join_m": 0.00868725776672363,
+			"piers": 24,
+			"surface_probes": 460
+		},
+		{
+			"bays": 24,
+			"case": "ring boundary 24",
+			"max_join_m": 0.00869035720825195,
+			"min_join_m": 0.00868725776672363,
+			"piers": 24,
+			"surface_probes": 480
+		},
+		{
+			"bays": 24,
+			"case": "ring boundary 25",
+			"max_join_m": 0.00869035720825195,
+			"min_join_m": 0.00868725776672363,
+			"piers": 24,
+			"surface_probes": 480
+		},
+		{
+			"bays": 2,
+			"case": "angle clamp",
+			"max_join_m": 0.00868964195251465,
+			"min_join_m": 0.00868868827819824,
+			"piers": 3,
+			"surface_probes": 40
+		},
+		{
+			"bays": 2,
+			"case": "angle clamp",
+			"max_join_m": 0.00868916511535645,
+			"min_join_m": 0.00868868827819824,
+			"piers": 3,
+			"surface_probes": 40
+		},
+		{
+			"bays": 2,
+			"case": "transformed arc",
+			"max_join_m": 0.00869274139404297,
+			"min_join_m": 0.00868511199951172,
+			"piers": 3,
+			"surface_probes": 40
+		},
+		{
+			"bays": 2,
+			"case": "arc disk roundtrip",
+			"max_join_m": 0.00869274139404297,
+			"min_join_m": 0.00868511199951172,
+			"piers": 3,
+			"surface_probes": 40
+		},
+		{
+			"bays": 3,
+			"case": "arc detached update",
+			"max_join_m": 0.00869274139404297,
+			"min_join_m": 0.00868511199951172,
+			"piers": 4,
+			"surface_probes": 60
+		},
+		{
+			"bays": 24,
+			"case": "saved LibraryPerimeter",
+			"max_join_m": 0.00868964195251465,
+			"min_join_m": 0.00868821144104004,
+			"piers": 24,
+			"surface_probes": 480
+		},
+		{
+			"bays": 3,
+			"case": "saved PortalBayArc",
+			"max_join_m": 0.00868892669677734,
+			"min_join_m": 0.00868868827819824,
+			"piers": 4,
+			"surface_probes": 60
+		},
+		{
+			"bays": 3,
+			"case": "sector (0.0, 0.0, 0.0)",
+			"max_join_m": 0.00868892669677734,
+			"min_join_m": 0.00868868827819824,
+			"piers": 4,
+			"surface_probes": 60
+		},
+		{
+			"bays": 3,
+			"case": "sector (8.0, 2.0, -6.0)",
+			"max_join_m": 0.00869011878967285,
+			"min_join_m": 0.00868797302246094,
+			"piers": 4,
+			"surface_probes": 60
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"issues": [
+		24,
+		25,
+		28,
+		29
+	],
+	"limits": "Static model assembly; live Inspector/MCP, physics, continuous camera, roof fit, performance and art approval incomplete.",
+	"mcp": "Blender status/scene and Godot get_state disconnected; standalone Godot fallback",
+	"meshes": [
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_left_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_right_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_upper_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "header_reveal",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "left_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "left_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_left_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_right_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_upper_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "right_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "right_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "upper_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "front_header_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "front_sill_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "header",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "left_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "rear_header_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "rear_sill_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "right_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "sill",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_left_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_right_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_upper_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "header_reveal",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "left_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "left_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_left_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_right_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_upper_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "right_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "right_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "upper_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "front_header_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "front_sill_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "header",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "left_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "rear_header_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "rear_sill_inlay",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "right_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "sill",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "structural_pier_a",
+			"triangles": 28
+		},
+		{
+			"material": "archive_graphite",
+			"name": "structural_pier_a",
+			"triangles": 48
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_left_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_right_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_upper_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "header_reveal",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "left_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "left_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_left_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_right_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_upper_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "right_jamb",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "right_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "upper_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_wall_core",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "front_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "front_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "rear_head",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_panel_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "structural_pier_a",
+			"triangles": 28
+		},
+		{
+			"material": "archive_graphite",
+			"name": "structural_pier_a",
+			"triangles": 48
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "closed_back",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "lower_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_0",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_1",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_2",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "rear_finish_3",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_0_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_0_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_1_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_1_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_2_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_2_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_3_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_3_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_deck",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "shelf_4_front_lip",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "shelf_4_rear_web",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_left",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "upright_right",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "back_mount",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_fitting_-0_726",
+			"triangles": 12
+		},
+		{
+			"material": "archive_warm_diffuser",
+			"name": "recessed_diffuser",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "side_rail_-0_0205",
+			"triangles": 12
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_small_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_small_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_small_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_medium_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_medium_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_medium_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_graphite",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "archive_record_large_mesh",
+			"triangles": 216
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "archive_record_large_mesh",
+			"triangles": 432
+		},
+		{
+			"material": "archive_neutral_index",
+			"name": "archive_record_large_mesh",
+			"triangles": 864
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_base",
+			"triangles": 12
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_ceramic_panel",
+			"triangles": 108
+		},
+		{
+			"material": "archive_graphite",
+			"name": "end_closure",
+			"triangles": 12
+		},
+		{
+			"material": "archive_dark_panel",
+			"name": "end_dark_inset",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_0_12",
+			"triangles": 108
+		},
+		{
+			"material": "archive_basalt_ceramic",
+			"name": "end_index_-0_12",
+			"triangles": 108
+		}
+	],
+	"passed": true,
+	"renderer": "forward_plus",
+	"row_cases": [
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "pre-ready row",
+			"records": 12
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 1,
+			"cap_join_error_m": 0.0,
+			"case": "populated row resize 1",
+			"records": 36
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 2,
+			"cap_join_error_m": 0.0,
+			"case": "populated row resize 2",
+			"records": 72
+		},
+		{
+			"bay_seam_error_m": 0.0000000596046447753906,
+			"bays": 3,
+			"cap_join_error_m": 0.0,
+			"case": "populated row resize 3",
+			"records": 108
+		},
+		{
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "populated row resize 4",
+			"records": 144
+		},
+		{
+			"bay_seam_error_m": 0.000000119209289550781,
+			"bays": 4,
+			"cap_join_error_m": 0.0,
+			"case": "empty populated row",
+			"records": 0
+		},
+		{
+			"bay_seam_error_m": 0.0000019073486328125,
+			"bays": 32,
+			"cap_join_error_m": 0.0000019073486328125,
+			"case": "maximum empty row",
+			"records": 0
+		},
+		{
+			"bay_seam_error_m": 0.000000417232513427734,
+			"bays": 2,
+			"cap_join_error_m": 0.000000238418579101563,
+			"case": "transformed populated row",
+			"records": 72
+		},
+		{
+			"bay_seam_error_m": 0.000000417232513427734,
+			"bays": 2,
+			"cap_join_error_m": 0.000000238418579101563,
+			"case": "row disk roundtrip",
+			"records": 72
+		},
+		{
+			"bay_seam_error_m": 0.0,
+			"bays": 1,
+			"cap_join_error_m": 0.000000178813934326172,
+			"case": "row detached update",
+			"records": 4
+		},
+		{
+			"bay_seam_error_m": 0.000000536441802978516,
+			"bays": 2,
+			"cap_join_error_m": 0.00000095367431640625,
+			"case": "sector (0.0, 0.0, 0.0) ShelfLeft",
+			"records": 72
+		},
+		{
+			"bay_seam_error_m": 0.000000536441802978516,
+			"bays": 2,
+			"cap_join_error_m": 0.00000095367431640625,
+			"case": "sector (0.0, 0.0, 0.0) ShelfRight",
+			"records": 48
+		},
+		{
+			"bay_seam_error_m": 0.000000291466719204436,
+			"bays": 2,
+			"cap_join_error_m": 0.000000715255737304688,
+			"case": "sector (8.0, 2.0, -6.0) ShelfLeft",
+			"records": 72
+		},
+		{
+			"bay_seam_error_m": 0.000000894069671630859,
+			"bays": 2,
+			"cap_join_error_m": 0.00000095367431640625,
+			"case": "sector (8.0, 2.0, -6.0) ShelfRight",
+			"records": 48
+		}
+	],
+	"sector_cases": [
+		{
+			"case": "sector (0.0, 0.0, 0.0)",
+			"floor_probes": 157,
+			"min_wall_setback_m": 1.44483221322298,
+			"records": 120
+		},
+		{
+			"case": "sector (8.0, 2.0, -6.0)",
+			"floor_probes": 157,
+			"min_wall_setback_m": 1.44483023881912,
+			"records": 120
+		}
+	],
+	"shelf_cases": [
+		{
+			"case": "pre-ready shelf",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0434000194072723,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				2,
+				0,
+				1,
+				2
+			],
+			"records": 20
+		},
+		{
+			"case": "shelf pattern [0] slots 0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0
+			],
+			"records": 0
+		},
+		{
+			"case": "shelf pattern [0] slots 1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0
+			],
+			"records": 4
+		},
+		{
+			"case": "shelf pattern [0] slots 6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": 0.0833999961614609,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0
+			],
+			"records": 24
+		},
+		{
+			"case": "shelf pattern [0] slots 9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": 0.0834000110626221,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf pattern [1] slots 0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				1
+			],
+			"records": 0
+		},
+		{
+			"case": "shelf pattern [1] slots 1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.121999979019165,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				1
+			],
+			"records": 4
+		},
+		{
+			"case": "shelf pattern [1] slots 6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.121999979019165,
+			"min_neighbor_gap_m": 0.0633999854326248,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				1
+			],
+			"records": 24
+		},
+		{
+			"case": "shelf pattern [1] slots 9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.121999979019165,
+			"min_neighbor_gap_m": 0.0633999705314636,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				1
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf pattern [2] slots 0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "shelf pattern [2] slots 1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				2
+			],
+			"records": 4
+		},
+		{
+			"case": "shelf pattern [2] slots 6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.04339998960495,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				2
+			],
+			"records": 24
+		},
+		{
+			"case": "shelf pattern [2] slots 9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.04339998960495,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf pattern [2, 1, 0] slots 0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 0
+		},
+		{
+			"case": "shelf pattern [2, 1, 0] slots 1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 4
+		},
+		{
+			"case": "shelf pattern [2, 1, 0] slots 6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 24
+		},
+		{
+			"case": "shelf pattern [2, 1, 0] slots 9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf pattern [] slots 0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0
+			],
+			"records": 0
+		},
+		{
+			"case": "shelf pattern [] slots 1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0
+			],
+			"records": 4
+		},
+		{
+			"case": "shelf pattern [] slots 6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": 0.0833999961614609,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0
+			],
+			"records": 24
+		},
+		{
+			"case": "shelf pattern [] slots 9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": 0.0834000110626221,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf pattern [-8, 99] slots 0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "shelf pattern [-8, 99] slots 1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.20199990272522,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 4
+		},
+		{
+			"case": "shelf pattern [-8, 99] slots 6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0633999854326248,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 24
+		},
+		{
+			"case": "shelf pattern [-8, 99] slots 9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.063400000333786,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "transformed shelf",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0533996187150478,
+			"min_structure_clearance_m": 0.0271997004747391,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf disk roundtrip",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0533996187150478,
+			"min_structure_clearance_m": 0.0271997004747391,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "shelf detached update",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.201999664306641,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.0271995961666107,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 4
+		},
+		{
+			"case": "pre-ready row bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0534000061452389,
+			"min_structure_clearance_m": 0.0272000133991241,
+			"pattern": [
+				2,
+				1
+			],
+			"records": 12
+		},
+		{
+			"case": "populated row resize 1 bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 2 bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 2 bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 3 bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533998608589172,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 3 bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 3 bay2",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533998608589172,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 4 bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999502658844,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 4 bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 4 bay2",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533999800682068,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "populated row resize 4 bay3",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0533998310565948,
+			"min_structure_clearance_m": 0.027199998497963,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "empty populated row bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "empty populated row bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "empty populated row bay2",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "empty populated row bay3",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay2",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay3",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay4",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay5",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay6",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay7",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay8",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay9",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay10",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay11",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay12",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay13",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay14",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay15",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay16",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay17",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay18",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay19",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay20",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay21",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay22",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay23",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay24",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay25",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay26",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay27",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay28",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay29",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay30",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "maximum empty row bay31",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": null,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": null,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 0
+		},
+		{
+			"case": "transformed populated row bay0",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0633996203541756,
+			"min_structure_clearance_m": 0.0272000432014465,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "transformed populated row bay1",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0633996203541756,
+			"min_structure_clearance_m": 0.0271995961666107,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "row disk roundtrip bay0",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0633996203541756,
+			"min_structure_clearance_m": 0.0272000432014465,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "row disk roundtrip bay1",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0633996203541756,
+			"min_structure_clearance_m": 0.0271995961666107,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "row detached update bay0",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.201999664306641,
+			"min_neighbor_gap_m": null,
+			"min_structure_clearance_m": 0.0271995961666107,
+			"pattern": [
+				0,
+				2
+			],
+			"records": 4
+		},
+		{
+			"case": "sector (0.0, 0.0, 0.0) ShelfLeft bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0534000843763351,
+			"min_structure_clearance_m": 0.0272000730037689,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "sector (0.0, 0.0, 0.0) ShelfLeft bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.0534005463123322,
+			"min_structure_clearance_m": 0.0271997004747391,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "sector (0.0, 0.0, 0.0) ShelfRight bay0",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.053400069475174,
+			"min_structure_clearance_m": 0.0271993279457092,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 24
+		},
+		{
+			"case": "sector (0.0, 0.0, 0.0) ShelfRight bay1",
+			"max_contact_error_m": 0.0,
+			"min_light_clearance_m": 0.0419999361038208,
+			"min_neighbor_gap_m": 0.053400069475174,
+			"min_structure_clearance_m": 0.0271997004747391,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 24
+		},
+		{
+			"case": "sector (8.0, 2.0, -6.0) ShelfLeft bay0",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0533995926380157,
+			"min_structure_clearance_m": 0.0271997302770615,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "sector (8.0, 2.0, -6.0) ShelfLeft bay1",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0534005463123322,
+			"min_structure_clearance_m": 0.0271993577480316,
+			"pattern": [
+				0,
+				1,
+				2
+			],
+			"records": 36
+		},
+		{
+			"case": "sector (8.0, 2.0, -6.0) ShelfRight bay0",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0533986389636993,
+			"min_structure_clearance_m": 0.0271977931261063,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 24
+		},
+		{
+			"case": "sector (8.0, 2.0, -6.0) ShelfRight bay1",
+			"max_contact_error_m": 0.000000119209289550781,
+			"min_light_clearance_m": 0.0419995784759521,
+			"min_neighbor_gap_m": 0.0533995926380157,
+			"min_structure_clearance_m": 0.0271981656551361,
+			"pattern": [
+				2,
+				1,
+				0
+			],
+			"records": 24
+		}
+	]
+}
