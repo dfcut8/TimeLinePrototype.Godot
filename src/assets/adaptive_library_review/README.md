@@ -58,8 +58,10 @@ Resolved widths are 0.0666/0.0866/0.1066 m, verified against the imported meshes
 The usable span is 1.44 m, centered on each shelf, leaving at least 30 mm to
 the 1.50 m inner upright span. Records sit at Y=0.16/0.72/1.28/1.84 m and
 Z=0.080/0.055/0.030 m for small/medium/large, aligning nominal front spines.
-Population edits replace generated records; persistent user nodes under
-Records retain their lifetime. This new variant leaves previous fixed-pitch
+Population edits now retain unchanged deck/size slots; only removed slots or
+changed sizes are replaced. See [archive slot editing](../archive_editing_review/README.md)
+for identity and imported-fit evidence. Persistent user nodes under
+Records retain their lifetime. This variant leaves previous fixed-pitch
 shelf scenes and their defaults unchanged.
 
 ### Reading alcove and room
@@ -76,7 +78,7 @@ the original Z=0.6 placement by default. Its 1.6 × 0.45 × 0.48 m model remains
 unscaled. AisleCentre tracks the midpoint of the clear aisle. Cassette pattern,
 requested count and gap have the same defaults/clamps as the packed bay and
 propagate to every bay. Population and aisle edits retain bay/bench instances;
-row count changes replace generated bays. Keep persistent additions under
+row count changes now retain surviving bays. Keep persistent additions under
 **Attachments** or the alcove root. Edits inside a nested scene instance need
 the usual Godot editable-children/ownership setup for serialization.
 

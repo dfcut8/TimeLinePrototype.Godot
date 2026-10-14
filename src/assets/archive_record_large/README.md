@@ -1,5 +1,14 @@
 # Large archive record cassette
 
+## Retained large and mixed slots — 14 October 2026
+
+Large records now retain their instances through count and spacing edits.
+Mixed patterns replace only slots whose size changes; unchanged slots and the
+island's opposite face retain state through edits and resizing. See
+[archive slot editing](../archive_editing_review/README.md) for imported support,
+clearance, identity and disk-roundtrip evidence. Existing model bytes are reused.
+Standalone Godot 4.7.2 passed; live MCP/art review remain pending.
+
 ## Two-sided storage variant — 14 October 2026
 
 [large_archive_island.tscn](large_archive_island.tscn) saves both faces of the

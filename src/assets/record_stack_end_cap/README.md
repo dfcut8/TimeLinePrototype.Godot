@@ -1,5 +1,14 @@
 # Record stack end cap — issue #29
 
+## Retained row editing — 14 October 2026
+
+Count edits now retain surviving bays and their fixtures. Both caps retain
+their identities and follow the recentered row ends; transformed Bays containers
+preserve the resolved pitch and cap contact. Template changes replace generated
+bays. See [archive slot editing](../archive_editing_review/README.md) for imported
+fit, attached-state, serialization and room-regression evidence. Standalone
+Godot 4.7.2 passed; live MCP and final art review remain pending.
+
 ## Four-cap archive island — 14 October 2026
 
 [configurable_archive_island.tscn](configurable_archive_island.tscn) combines
@@ -16,7 +25,7 @@ live MCP and final art review remain pending.
 configurable_populated_shelf_row.tscn inherits the capped row and defaults to
 two adjustable cassette bays. Set bay_count, cassette_pattern and
 records_per_shelf; both cap scenes follow the row ends. Population changes
-retain bay instances, while count changes replace generated bays. Existing
+retain bay instances, including surviving bays through count changes. Existing
 empty and fixed mixed-row variants remain available. Standalone Godot 4.7.2
 passes 14 capped-row inspections plus furnished entrance placement and floor
 checks. See the [modular library review](../modular_library_review/README.md)
@@ -44,9 +53,10 @@ The floor-center pivot stays at the middle of the row. Complete width is
 `LeftJoin` and `RightJoin` mark the bay-to-cap contact planes, not the outside
 of the cap details. Existing fixed row and alcove scenes remain available.
 
-Changing the count rebuilds the generated bays and their four fixtures each.
+Changing the count retains surviving bays and their four fixtures, adding or
+removing trailing slots. A bay-scene change replaces generated bays.
 Generated children have no saved owner and are recreated on load; user-added
-children survive rebuilding. Place persistent attachments under the row or its
+container children survive editing. Place persistent attachments under the row or its
 `Bays` container, not inside generated bays. The `@tool` script supplies editor
 previews, but live Inspector behavior remains unverified. The count limit is a
 configuration guard, not a measured performance budget. This assembly has no

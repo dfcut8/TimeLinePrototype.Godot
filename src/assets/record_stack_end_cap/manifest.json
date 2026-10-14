@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 7831,
-      "sha256": "e867f71ae17efed244a7e703eed537fb27a297687cda4fc600dce2af24f1384b"
+      "bytes": 8418,
+      "sha256": "2f7e5df1387518751d9b1f8aa1279a48ff285671bf26a72e60287b9713912978"
     },
     {
       "path": "capped_mixed_shelf_row.tscn",
@@ -42,8 +42,8 @@
     },
     {
       "path": "configurable_shelf_row.gd",
-      "bytes": 1296,
-      "sha256": "46c5bb1b7fc5cef08f1aea5288480afe1f1acbe7454cd825503004204a20ea8c"
+      "bytes": 1934,
+      "sha256": "924943271e17d6fe01da5888fa188eb9a7d4c8ffad1255921f397be28b6f6c49"
     },
     {
       "path": "configurable_shelf_row.tscn",

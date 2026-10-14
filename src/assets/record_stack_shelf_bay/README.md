@@ -1,5 +1,15 @@
 # Record stack shelf bay — issue #28
 
+## Retained bay and population editing — 14 October 2026
+
+Both configurable populations now retain records by deck/slot while their size
+is unchanged. Count/gap edits recenter surviving instances without losing child
+state or material overrides. Row count edits also retain the shelf and its four
+fixtures. Transformed Records/Bays containers preserve the resolved placement.
+See [archive slot editing](../archive_editing_review/README.md) for imported
+support, lifecycle and room-regression evidence. Standalone Godot 4.7.2 passed;
+live MCP and final art review remain pending.
+
 ## Storage island fit — 14 October 2026
 
 The existing packed bay is reused on both faces of the new

@@ -19,26 +19,45 @@ const PITCH: float = 1.6
 			_rebuild()
 
 var _generated: Array[Node3D] = []
+var _active_bay_scene: PackedScene
 
 func _ready() -> void:
 	_rebuild()
 
 func _rebuild() -> void:
-	for bay in _generated:
-		if is_instance_valid(bay):
-			if bay.get_parent() != null:
-				bay.get_parent().remove_child(bay)
-			bay.queue_free()
-	_generated.clear()
+	# A template change replaces bays; a count edit retains the shared prefix.
+	if _active_bay_scene != bay_scene:
+		_trim(0)
+		_active_bay_scene = bay_scene
+	_trim(bay_count)
+	var container := $Bays as Node3D
 	for index in range(bay_count):
-		var bay := bay_scene.instantiate() as Node3D
-		bay.name = "Bay%d" % index
-		bay.position.x = (index - (bay_count - 1) * 0.5) * PITCH
-		$Bays.add_child(bay)
-		_generated.append(bay)
-		# Owner stays null: save the count, then rebuild without duplicates on load.
+		if index == _generated.size():
+			_generated.append(null)
+		var bay: Node3D = _generated[index] if is_instance_valid(_generated[index]) else null
+		if is_instance_valid(bay) and bay.is_queued_for_deletion():
+			_release(bay)
+			bay = null
+		if not is_instance_valid(bay):
+			bay = bay_scene.instantiate() as Node3D
+			bay.name = "Bay%d" % index
+			container.add_child(bay)
+			bay.owner = null
+			_generated[index] = bay
+		bay.transform = container.transform.affine_inverse() * Transform3D(
+			Basis.IDENTITY, Vector3((index - (bay_count - 1) * 0.5) * PITCH, 0, 0))
 	var half_width := bay_count * PITCH * 0.5
 	$CapLeft.position.x = -half_width
 	$CapRight.position.x = half_width
 	$LeftJoin.position.x = -half_width
 	$RightJoin.position.x = half_width
+
+func _release(bay: Variant) -> void:
+	if is_instance_valid(bay):
+		if bay.get_parent() != null:
+			bay.get_parent().remove_child(bay)
+		bay.queue_free()
+
+func _trim(count: int) -> void:
+	while _generated.size() > count:
+		_release(_generated.pop_back())
