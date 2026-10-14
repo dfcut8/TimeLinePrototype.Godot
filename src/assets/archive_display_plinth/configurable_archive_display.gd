@@ -34,16 +34,12 @@ func _ready() -> void:
 
 func _sync_record() -> void:
 	if not show_cassette:
-		if is_instance_valid(_record):
-			_record.get_parent().remove_child(_record)
-			_record.queue_free()
-		_record = null
+		_release_record()
 		return
 	var scene := RECORDS[cassette_size]
-	if is_instance_valid(_record) and _record.scene_file_path != scene.resource_path:
-		_record.get_parent().remove_child(_record)
-		_record.queue_free()
-		_record = null
+	if is_instance_valid(_record) and (_record.is_queued_for_deletion()
+			or _record.scene_file_path != scene.resource_path):
+		_release_record()
 	if not is_instance_valid(_record):
 		_record = scene.instantiate() as Node3D
 		_record.name = "Cassette"
@@ -53,5 +49,16 @@ func _sync_record() -> void:
 	var plinth := $Plinth as Node3D
 	var contact := $Plinth/TopContact as Marker3D
 	var slot := $RecordSlot as Node3D
+	if _record.get_parent() != slot:
+		if _record.get_parent() != null:
+			_record.get_parent().remove_child(_record)
+		slot.add_child(_record)
 	_record.transform = slot.transform.affine_inverse() * plinth.transform * contact.transform \
 		* Transform3D(Basis(Vector3.UP, deg_to_rad(cassette_yaw_degrees)), Vector3.ZERO)
+
+func _release_record() -> void:
+	if is_instance_valid(_record):
+		if _record.get_parent() != null:
+			_record.get_parent().remove_child(_record)
+		_record.queue_free()
+	_record = null

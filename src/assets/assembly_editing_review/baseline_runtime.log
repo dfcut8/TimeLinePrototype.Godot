@@ -1,0 +1,1449 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Rail resize retains surviving module
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:76)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving joiner
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:77)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving module
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:76)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving joiner
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:77)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving module
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:76)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving joiner
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:77)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving module
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:76)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail resize retains surviving joiner
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:77)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: anchor contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:40)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: continuous housing and light
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:48)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: both cap contacts
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:52)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: later marker
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:54)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail retains supporting container transforms
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:91)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: anchor contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:40)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: continuous housing and light
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:48)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: both cap contacts
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:52)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 0: later marker
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:54)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail retains supporting container transforms
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:91)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: anchor contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:40)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: continuous housing and light
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:48)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: both cap contacts
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:52)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: transformed containers anchor 1: later marker
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:54)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:90)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Rail retains supporting container transforms
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:91)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:269)
+ERROR: Freed rail joiner recreated on anchor refresh
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:101)
+ERROR: Rail reattaches live slot without replacing state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:107)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: anchor contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:40)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: continuous housing and light
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:48)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: both cap contacts
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:52)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: reattached rail module: later marker
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:54)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:108)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: anchor contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:40)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: joiner contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:45)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: continuous housing and light
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:48)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: both cap contacts
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:52)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: rail disk roundtrip: later marker
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:54)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:110)
+ERROR: detached rail edit: imported housing scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:38)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:115)
+ERROR: detached rail edit: anchor contact
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:40)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:115)
+ERROR: detached rail edit: both cap contacts
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:52)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:115)
+ERROR: detached rail edit: later marker
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_rail_fit (res://assets/assembly_editing_review/verify_editing.gd:54)
+       [2] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:115)
+ERROR: Station layout retains local display overrides
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:139)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains empty-side configuration
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:140)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains cassette child state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:141)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains local display overrides
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:139)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains empty-side configuration
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:140)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains cassette child state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:141)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains local display overrides
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:139)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains empty-side configuration
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:140)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Station layout retains cassette child state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:141)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Opposite-side size edit retains left state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:143)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Size edit retains same-side yaw override
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:144)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Explicit station yaw updates only yaw
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:146)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: Unrelated station controls retain locally hidden display
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:153)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:270)
+       [3] verify_rail_edits (res://assets/assembly_editing_review/verify_editing.gd:119)
+ERROR: row edited before ready: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:191)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: row edited before ready: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:191)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: row edited before ready: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:191)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: row edited before ready: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:191)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: row edited before ready: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:191)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.20: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.20: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.20: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.20: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.20: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.54: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.54: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.54: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.54: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 1.54: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 2.00: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 2.00: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 2.00: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 2.00: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -150 aisle 2.00: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.20: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.20: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.20: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.20: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.20: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.54: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.54: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.54: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.54: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 1.54: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 2.00: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 2.00: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 2.00: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 2.00: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw -37 aisle 2.00: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 0 aisle 1.20: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 0 aisle 1.20: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 0 aisle 1.54: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 0 aisle 1.54: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 0 aisle 2.00: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 0 aisle 2.00: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.20: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.20: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.20: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.20: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.20: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.54: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.54: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.54: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.54: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 1.54: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 2.00: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 2.00: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 2.00: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 2.00: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 91 aisle 2.00: imported bench unit scale
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:179)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.20: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.20: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.20: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.20: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.54: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.54: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.54: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 1.54: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 2.00: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 2.00: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 2.00: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: yaw 180 aisle 2.00: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:197)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: resized moved row: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:200)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: resized moved row: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:200)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: resized moved row: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:200)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: resized moved row: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:200)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: alcove disk roundtrip: imported clear aisle
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:174)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:204)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: alcove disk roundtrip: bench centred on row floor
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:175)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:204)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: alcove disk roundtrip: bench follows row orientation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:176)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:204)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: alcove disk roundtrip: aisle marker in row frame
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_aisle (res://assets/assembly_editing_review/verify_editing.gd:178)
+       [2] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:204)
+       [3] verify (res://assets/assembly_editing_review/verify_editing.gd:271)
+       [4] verify_station_edits (res://assets/assembly_editing_review/verify_editing.gd:166)
+ERROR: Display replaces queued record before frame flush
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:222)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:272)
+       [3] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:208)
+ERROR: Display queued record gets fresh identity
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:224)
+       [2] verify (res://assets/assembly_editing_review/verify_editing.gd:272)
+       [3] verify_alcove_edits (res://assets/assembly_editing_review/verify_editing.gd:208)
+ERROR: Display remains populated after deletion flush
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:226)
+ERROR: Display replaces queued record before frame flush
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:222)
+ERROR: Display queued record gets fresh identity
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:224)
+ERROR: Display remains populated after deletion flush
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:226)
+ERROR: Display replaces queued record before frame flush
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:222)
+ERROR: Display queued record gets fresh identity
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:224)
+ERROR: Display remains populated after deletion flush
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:226)
+ERROR: Display reattaches detached live record with child state
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:238)
+ERROR: Display restores reparented generated record
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:243)
+SCRIPT ERROR: Cannot call method 'remove_child' on a null value.
+   at: _sync_record (res://assets/archive_display_plinth/configurable_archive_display.gd:38)
+   GDScript backtrace (most recent call first):
+       [0] _sync_record (res://assets/archive_display_plinth/configurable_archive_display.gd:38)
+       [1] @show_cassette_setter (res://assets/archive_display_plinth/configurable_archive_display.gd:16)
+       [2] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:258)
+ERROR: Hiding detached record releases it without a parent
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:259)
+ERROR: display restored after hiding detached record: exactly one independent cassette
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://assets/wall_portal_review/verify_godot.gd:11)
+       [1] inspect_display (res://assets/catalog_display_review/verify_display.gd:54)
+       [2] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:261)
+ERROR: Node not found: "Cassette" (relative to "/root/ConfigurableArchiveDisplay/RecordSlot").
+   at: get_node (scene/main/node.cpp:1975)
+   GDScript backtrace (most recent call first):
+       [0] inspect_display (res://assets/catalog_display_review/verify_display.gd:55)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:261)
+SCRIPT ERROR: Invalid access to property or key 'scene_file_path' on a base object of type 'null instance'.
+   at: inspect_display (res://assets/catalog_display_review/verify_display.gd:56)
+   GDScript backtrace (most recent call first):
+       [0] inspect_display (res://assets/catalog_display_review/verify_display.gd:56)
+       [1] verify_display_recovery (res://assets/assembly_editing_review/verify_editing.gd:261)
+Assembly editing: 5 workflows, 204 failures

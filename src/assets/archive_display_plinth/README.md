@@ -1,5 +1,14 @@
 # Archive display plinth — issue #36
 
+## Cassette recovery — 14 October 2026
+
+Configurable displays now replace queued/freed cassettes on refresh and reattach
+live detached/reparented records to their contact frame. Hiding a detached
+cassette safely releases it. Plinth identity and sibling slot additions persist.
+See the [assembly editing review](../assembly_editing_review/README.md) for all
+three sizes, imported bottom-face support and regression evidence. Existing model
+assets are unchanged. Standalone Godot passed; live MCP and art review remain.
+
 ## Empty configurable displays — 14 October 2026
 
 show_cassette=false removes the generated record while retaining the plinth and

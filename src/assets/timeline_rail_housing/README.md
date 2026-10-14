@@ -1,5 +1,14 @@
 # Timeline rail housing — issue #5
 
+## Retained module editing — 14 October 2026
+
+Length edits now retain surviving module/joiner slots and their child state and
+material overrides. Count/anchor assignments recover missing parts and preserve
+the resolved seam/cap grid under transformed supporting containers. See the
+[assembly editing review](../assembly_editing_review/README.md) for engine
+regressions, disk roundtrips and GPU evidence. Existing GLBs, Blender sources and
+materials are unchanged. Standalone Godot passed; live MCP and art review remain.
+
 ## Centered length edits — 14 October 2026
 
 `anchor_mode` now selects Earlier end (0, original default) or Centre (1).
@@ -33,8 +42,8 @@ and `LaterEnd` tracks its length.
 The script instances the existing illuminated module and joiner PackedScenes;
 the caps are saved scene instances. All original models/materials are reused.
 
-Changing the count rebuilds only generated parts, preserves user-added children,
-and updates the end cap and marker. Generated children are not serialized;
+Changing the count retains surviving generated parts, preserves user-added
+children, and updates both caps and markers. Generated children are not serialized;
 configuration is rebuilt on load. The `@tool` script also supplies editor previews,
 but interactive Inspector editing remains unverified without the live editor.
 Keep assembly scale at one to preserve the metre-based interfaces. Existing

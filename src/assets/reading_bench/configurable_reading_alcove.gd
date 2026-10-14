@@ -42,13 +42,13 @@ var _pattern := PackedInt32Array([0, 1, 2])
 
 func _ready() -> void:
 	_sync_row()
-	_sync_bench()
 
 func _sync_row() -> void:
 	var row := $ShelfRow as Node3D
 	if row.get("bay_count") != bay_count:
 		row.set("bay_count", bay_count)
 	_sync_population()
+	_sync_bench()
 
 func _sync_population() -> void:
 	for bay in $ShelfRow/Bays.get_children():
@@ -61,6 +61,9 @@ func _sync_population() -> void:
 				bay.set("record_gap", record_gap)
 
 func _sync_bench() -> void:
-	# Resolved shelf front +0.22 and bench rear -0.24, in metre units.
-	$Bench.position.z = $ShelfRow.position.z + 0.22 + aisle_width + 0.24
-	$AisleCentre.position.z = $ShelfRow.position.z + 0.22 + aisle_width * 0.5
+	# The floor, facing direction and clear aisle are defined in the row's frame.
+	var row := $ShelfRow as Node3D
+	$Bench.transform = row.transform * Transform3D(Basis.IDENTITY,
+		Vector3(0, 0, 0.22 + aisle_width + 0.24))
+	$AisleCentre.transform = row.transform * Transform3D(Basis.IDENTITY,
+		Vector3(0, 0, 0.22 + aisle_width * 0.5))

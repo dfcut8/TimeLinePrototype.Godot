@@ -1,5 +1,14 @@
 # Reading bench — issue #35
 
+## Shelf-relative bench placement — 14 October 2026
+
+Configurable alcoves now place the bench and aisle marker in ShelfRow's full
+local frame. After moving/yawing ShelfRow, assign aisle_width or bay_count to
+refresh its centred bench, shared floor plane and requested clear aisle. See the
+[assembly editing review](../assembly_editing_review/README.md) for imported-bounds
+checks, transformed-parent cases and disk reloads. Existing model assets are
+unchanged. Standalone Godot passed; live MCP and final art review remain.
+
 Model work for [#35](https://github.com/dfcut8/TimeLinePrototype.Godot/issues/35).
 
 ## Configurable reading alcove — 14 October 2026
