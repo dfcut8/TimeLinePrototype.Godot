@@ -15,3 +15,8 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+
+# Local prototype engine captures and isolated test preferences.
+/prototype-*.log
+/.prototype-user/
+/build/

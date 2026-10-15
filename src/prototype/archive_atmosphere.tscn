@@ -1,0 +1,93 @@
+[gd_scene format=3]
+[sub_resource type="Shader" id="sky_shader"]
+code = "shader_type sky; void sky() { vec3 d = normalize(EYEDIR); float h = max(d.y, 0.0); vec3 col = mix(vec3(0.015,0.025,0.052), vec3(0.004,0.009,0.025), h); vec2 cell = floor(vec2(atan(d.z,d.x)*160.0, asin(d.y)*160.0)); float star = fract(sin(dot(cell,vec2(12.9898,78.233)))*43758.5453); if(star>0.993) col += vec3(0.28,0.43,0.55)*pow((star-0.993)/0.007,3.0); float planet = dot(d,normalize(vec3(0.93,0.24,-0.27))); if(planet>0.986) col = mix(vec3(0.04,0.10,0.17),vec3(0.28,0.44,0.53),smoothstep(0.986,0.988,planet))*(0.4+0.6*max(dot(d,normalize(vec3(-0.4,0.8,0.2))),0.0)); COLOR = col; }"
+[sub_resource type="ShaderMaterial" id="sky_material"]
+shader = SubResource("sky_shader")
+[sub_resource type="Sky" id="sky"]
+sky_material = SubResource("sky_material")
+[sub_resource type="Environment" id="environment"]
+background_mode = 2
+sky = SubResource("sky")
+ambient_light_source = 3
+ambient_light_color = Color(0.38, 0.56, 0.7, 1)
+ambient_light_energy = 0.3
+reflected_light_source = 2
+tonemap_mode = 2
+glow_enabled = true
+glow_intensity = 0.35
+fog_enabled = true
+fog_light_color = Color(0.075, 0.12, 0.18, 1)
+fog_density = 0.002
+
+[node name="ArchiveAtmosphere" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("environment")
+
+[node name="Key" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-35, -30, 0)
+light_color = Color(0.7, 0.85, 1, 1)
+light_energy = 0.65
+
+[node name="Fill" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(25, 145, 0)
+light_color = Color(0.6, 0.72, 0.86, 1)
+light_energy = 0.3
+light_specular = 0.0
+
+[node name="ShelfGlow0" type="OmniLight3D" parent="."]
+position = Vector3(7.653668647301796, 2.5, -18.477590650225736)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow1" type="OmniLight3D" parent="."]
+position = Vector3(18.477590650225736, 2.5, -7.653668647301797)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow2" type="OmniLight3D" parent="."]
+position = Vector3(18.477590650225736, 2.5, 7.653668647301794)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow3" type="OmniLight3D" parent="."]
+position = Vector3(7.653668647301798, 2.5, 18.477590650225736)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow4" type="OmniLight3D" parent="."]
+position = Vector3(-7.653668647301793, 2.5, 18.477590650225736)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow5" type="OmniLight3D" parent="."]
+position = Vector3(-18.477590650225736, 2.5, 7.6536686473017905)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow6" type="OmniLight3D" parent="."]
+position = Vector3(-18.477590650225732, 2.5, -7.6536686473018)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+
+[node name="ShelfGlow7" type="OmniLight3D" parent="."]
+position = Vector3(-7.653668647301791, 2.5, -18.477590650225736)
+light_color = Color(1, 0.62, 0.28, 1)
+light_energy = 4.0
+omni_range = 10.0
+light_specular = 0.2
+

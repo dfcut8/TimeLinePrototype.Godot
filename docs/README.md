@@ -1,6 +1,6 @@
 # 3D Timeline — Design Documentation
 
-Status: concept-art review. Updated 16 September 2026. Horizontal layout is the selected direction; detailed forms remain proposals.
+Status: working prototype. Updated 15 October 2026. See the [run guide, controls and validation](prototype.md). The Godot main scene now assembles the library and supports horizontal browsing, orbit, readers, video and external JSON content.
 
 A horizontal, navigable 3D archive inside a spacious galactic library. The camera orbits the central timeline; the default browse view reads earlier left and later right. Start with the [V5 spatial-library concept pack](concepts/spatial-library-v5/README.md): eight selected art boards, a review of every prior concept, and complete scene-element coverage for future modeling. Foundation provides thematic inspiration; the presentation assets are original concepts.
 
@@ -32,7 +32,7 @@ Read the V5 concept pack first for current art direction. The older experience d
 
 ## Scope and working assumptions
 
-- This delivery contains documentation and visual concept mockups. No game code, scenes, shaders, 3D models, texture maps, production timeline media, or executable JSON schema is created. The follow-up mockups are static illustrations, not Godot captures.
+- The original planning delivery contained documentation and static concept mockups. The [working prototype](prototype.md) now implements the viewer with the finished scene assets and an illustrative content package.
 - The future implementation uses real 3D geometry and a constrained camera, with a 2D overlay for reading and controls.
 - The initial target is a desktop application with mouse and keyboard, one timeline loaded at a time, and media prepared separately on disk. This is a proposed baseline, not a confirmed deployment constraint.
 - The current project declares Godot `4.7` and `Forward Plus` in [project.godot](../src/project.godot). This is configuration evidence, not verification of an installed engine or working renderer. Pin the actual engine build before implementation.
