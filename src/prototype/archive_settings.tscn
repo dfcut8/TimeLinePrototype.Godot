@@ -1,0 +1,122 @@
+[gd_scene format=3]
+
+[node name="ArchiveSettings" type="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+visible = false
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.01, 0.025, 0.045, 0.82)
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 32.0
+offset_top = 90.0
+offset_right = -32.0
+offset_bottom = -30.0
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+theme_override_constants/margin_left = 22
+theme_override_constants/margin_right = 22
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="Column" type="VBoxContainer" parent="Panel/Margin"]
+theme_override_constants/separation = 12
+
+[node name="Heading" type="Label" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+text = "ARCHIVE SETTINGS"
+theme_override_font_sizes/font_size = 24
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/Margin/Column"]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Options" type="VBoxContainer" parent="Panel/Margin/Column/Scroll"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="ScaleLabel" type="Label" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = "Text size"
+
+[node name="TextScale" type="OptionButton" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+item_count = 4
+selected = 0
+popup/item_0/text = "100%"
+popup/item_0/id = 0
+popup/item_1/text = "125%"
+popup/item_1/id = 1
+popup/item_2/text = "150%"
+popup/item_2/id = 2
+popup/item_3/text = "200%"
+popup/item_3/id = 3
+
+[node name="ReducedMotion" type="CheckButton" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = "Reduced motion"
+
+[node name="LowEffects" type="CheckButton" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = "Low effects (disable glow and fog)"
+
+[node name="VolumeLabel" type="Label" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = "Media volume"
+
+[node name="Volume" type="HSlider" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+max_value = 1.0
+step = 0.05
+value = 0.5
+custom_minimum_size = Vector2(150, 32)
+
+[node name="Mute" type="CheckButton" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = "Mute media"
+
+[node name="Files" type="HFlowContainer" parent="Panel/Margin/Column/Scroll/Options"]
+
+[node name="Choose" type="Button" parent="Panel/Margin/Column/Scroll/Options/Files"]
+unique_name_in_owner = true
+text = "Choose timeline JSON…"
+focus_mode = 2
+
+[node name="Reload" type="Button" parent="Panel/Margin/Column/Scroll/Options/Files"]
+unique_name_in_owner = true
+text = "Reload content"
+focus_mode = 2
+
+[node name="Source" type="Label" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = ""
+autowrap_mode = 3
+
+[node name="Diagnostics" type="Label" parent="Panel/Margin/Column/Scroll/Options"]
+unique_name_in_owner = true
+text = ""
+autowrap_mode = 3
+
+[node name="Close" type="Button" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+text = "Close  [Esc]"
+focus_mode = 2
+

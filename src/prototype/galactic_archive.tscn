@@ -1,0 +1,52 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://prototype/archive.gd" id="script"]
+[ext_resource type="PackedScene" path="res://prototype/galactic_library.tscn" id="library"]
+[ext_resource type="PackedScene" path="res://prototype/archive_atmosphere.tscn" id="atmosphere"]
+[ext_resource type="PackedScene" path="res://prototype/orbit_camera.tscn" id="camera"]
+[ext_resource type="PackedScene" path="res://prototype/archive_hud.tscn" id="hud"]
+[ext_resource type="PackedScene" path="res://prototype/record_reader.tscn" id="reader"]
+[ext_resource type="PackedScene" path="res://prototype/event_index.tscn" id="index"]
+[ext_resource type="PackedScene" path="res://prototype/archive_settings.tscn" id="settings"]
+[ext_resource type="PackedScene" path="res://prototype/archive_help.tscn" id="help"]
+[ext_resource type="PackedScene" path="res://assets/timeline_rail_housing/centered_timeline_rail.tscn" id="rail"]
+
+[node name="GalacticArchive" type="Node3D"]
+script = ExtResource("script")
+
+[node name="Library" parent="." instance=ExtResource("library")]
+
+[node name="Atmosphere" parent="." instance=ExtResource("atmosphere")]
+
+[node name="OrbitCamera" parent="." instance=ExtResource("camera")]
+
+[node name="Timeline" parent="." instance=ExtResource("rail")]
+position = Vector3(0, 1.8, 0)
+module_count = 7
+
+[node name="Records" type="Node3D" parent="."]
+
+[node name="EraMarkers" type="Node3D" parent="."]
+
+[node name="Interface" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="Interface" instance=ExtResource("hud")]
+
+[node name="Reader" parent="Interface" instance=ExtResource("reader")]
+
+[node name="Index" parent="Interface" instance=ExtResource("index")]
+
+[node name="Settings" parent="Interface" instance=ExtResource("settings")]
+
+[node name="Help" parent="Interface" instance=ExtResource("help")]
+
+[node name="ChooseTimeline" type="FileDialog" parent="Interface"]
+title = "Choose a timeline JSON"
+size = Vector2i(900, 550)
+access = 2
+file_mode = 0
+filters = PackedStringArray("*.json ; Timeline JSON")
+
+[node name="LoadError" type="AcceptDialog" parent="Interface"]
+title = "Timeline could not be loaded"
+size = Vector2i(600, 200)
+

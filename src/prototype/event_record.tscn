@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=3]
+[ext_resource type="Script" path="res://prototype/event_record.gd" id="script"]
+[ext_resource type="PackedScene" path="res://assets/event_socket/event_socket.tscn" id="socket"]
+[ext_resource type="PackedScene" path="res://assets/event_connector_arm/event_connector_arm.tscn" id="arm"]
+[ext_resource type="PackedScene" path="res://assets/event_strip_rear_pivot/event_strip_rear_pivot.tscn" id="pivot"]
+[ext_resource type="PackedScene" path="res://assets/event_strip_insert/populated_casing.tscn" id="strip"]
+[sub_resource type="BoxShape3D" id="pick"]
+size = Vector3(1.54, 0.5, 0.12)
+[sub_resource type="StandardMaterial3D" id="focus"]
+shading_mode = 0
+albedo_color = Color(0.3, 0.9, 1, 1)
+[node name="EventRecord" type="Node3D" groups=["archive_records"]]
+script = ExtResource("script")
+[node name="Socket" parent="." instance=ExtResource("socket")]
+[node name="Arm" parent="." instance=ExtResource("arm")]
+position = Vector3(0, 0.068, 0.074)
+length_m = 0.6
+[node name="Pivot" parent="." instance=ExtResource("pivot")]
+position = Vector3(0, 0.668, 0.074)
+[node name="Panel" type="Node3D" parent="."]
+position = Vector3(0, 0.808, 0.159)
+[node name="Casing" parent="Panel" instance=ExtResource("strip")]
+scale = Vector3(1.7, 2.2, 1)
+[node name="Text" type="Label3D" parent="Panel"]
+position = Vector3(0, 0.015, 0.041)
+pixel_size = 0.0022
+font_size = 40
+outline_size = 4
+width = 640.0
+autowrap_mode = 3
+no_depth_test = false
+modulate = Color(0.86, 0.94, 0.98, 1)
+[node name="Picking" type="Area3D" parent="Panel"]
+collision_layer = 64
+collision_mask = 0
+monitoring = false
+monitorable = false
+[node name="Shape" type="CollisionShape3D" parent="Panel/Picking"]
+shape = SubResource("pick")
+[node name="Focus" type="Label3D" parent="Panel"]
+position = Vector3(0, 0, 0.048)
+pixel_size = 0.002
+font_size = 60
+modulate = Color(0.25, 0.9, 1, 1)
+text = "[                                  ]"
+outline_size = 0
+visible = false

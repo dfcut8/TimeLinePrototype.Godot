@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-15",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "renderer": "Forward+ / D3D12",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "source_checks": 109,
+  "source_failures": 0,
+  "exported_pack_checks": 109,
+  "exported_pack_failures": 0,
+  "live_godot_mcp": true,
+  "blender_mcp_connected": false,
+  "blender_fallback": "Reused completed exported GLBs; no model authoring.",
+  "mesh_validation": {
+    "unique_meshes": 112,
+    "surfaces": 128,
+    "findings": 0
+  },
+  "stress_event_counts": [
+    100,
+    1000
+  ],
+  "resident_event_records": 6,
+  "responsive_checks": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "text_scales": [
+      1.5,
+      2.0
+    ],
+    "long_headings": true
+  },
+  "runtime_errors_final": 0,
+  "editor_import_errors_final": 0,
+  "exported_pack_render": "Captured with Forward+/D3D12 at 1280x800 and visually inspected.",
+  "preview": "docs/prototype-preview.png",
+  "pack": {
+    "path": "build/GalacticArchive.pck",
+    "bytes": 6065236,
+    "sha256": "6165129155d7bc9bfdd40d053a033682ff64f046daf945bebb21819ae8d8faa8"
+  },
+  "remaining_validation": [
+    "Standalone Windows executable (matching export templates not installed)",
+    "Cross-machine performance and full memory/frame-time budget"
+  ]
+}

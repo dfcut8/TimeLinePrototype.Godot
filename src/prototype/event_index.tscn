@@ -1,0 +1,67 @@
+[gd_scene format=3]
+
+[node name="EventIndex" type="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+visible = false
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.01, 0.025, 0.045, 0.82)
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 32.0
+offset_top = 90.0
+offset_right = -32.0
+offset_bottom = -30.0
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+theme_override_constants/margin_left = 22
+theme_override_constants/margin_right = 22
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="Column" type="VBoxContainer" parent="Panel/Margin"]
+theme_override_constants/separation = 12
+
+[node name="Heading" type="Label" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+text = "CHRONOLOGICAL INDEX"
+theme_override_font_sizes/font_size = 24
+
+[node name="EraRow" type="HFlowContainer" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+
+[node name="List" type="ItemList" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+size_flags_horizontal = 3
+size_flags_vertical = 3
+allow_reselect = true
+
+[node name="Actions" type="HFlowContainer" parent="Panel/Margin/Column"]
+
+[node name="Open" type="Button" parent="Panel/Margin/Column/Actions"]
+unique_name_in_owner = true
+text = "Open selected record"
+focus_mode = 2
+
+[node name="Close" type="Button" parent="Panel/Margin/Column/Actions"]
+unique_name_in_owner = true
+text = "Close  [Esc]"
+focus_mode = 2
+

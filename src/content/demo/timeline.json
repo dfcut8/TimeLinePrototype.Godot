@@ -1,0 +1,595 @@
+{
+  "schema_version": 1,
+  "timeline": {
+    "id": "possible-futures",
+    "title": "GALACTIC ARCHIVE",
+    "description": "A library of possible futures · Original prototype fiction",
+    "language": "en",
+    "time_axis": {
+      "id": "charter-years",
+      "label": "Years since the archive charter",
+      "unit": "year"
+    }
+  },
+  "eras": [
+    {
+      "id": "preservation",
+      "title": "I · Preservation",
+      "description": ""
+    },
+    {
+      "id": "connection",
+      "title": "II · Connection",
+      "description": ""
+    },
+    {
+      "id": "renewal",
+      "title": "III · Renewal",
+      "description": ""
+    },
+    {
+      "id": "fragments",
+      "title": "Undated fragments",
+      "description": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "record-01",
+      "kind": "image_text",
+      "title": "The Archive Charter",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Archive Charter marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 0,
+        "label": "Year 0",
+        "precision": "exact"
+      },
+      "sequence": 0,
+      "era_id": "preservation",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-02",
+      "kind": "image_text",
+      "title": "A Room for Every Voice",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "A Room for Every Voice marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 3,
+        "label": "Year 3",
+        "precision": "exact"
+      },
+      "sequence": 1,
+      "era_id": "preservation",
+      "media": {
+        "path": "media/orbit.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-03",
+      "kind": "video_text",
+      "title": "The First Transmission",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The First Transmission marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 12,
+        "label": "Year 12",
+        "precision": "exact"
+      },
+      "sequence": 2,
+      "era_id": "preservation",
+      "media": {
+        "path": "media/calibration.ogv",
+        "description": "A generated color and motion calibration chart with a quiet 220 Hz tone.",
+        "credit": {
+          "text": "Original prototype calibration clip generated with FFmpeg."
+        },
+        "poster": {
+          "path": "media/orbit.png",
+          "description": "The spatial library concept study.",
+          "credit": {
+            "text": "Project concept art · AI-generated"
+          }
+        },
+        "transcript": "Playback calibration: colored bands and a moving test pattern repeat over six seconds. A quiet constant tone demonstrates volume, mute and pause. This is test media, not narrative footage."
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-04",
+      "kind": "image_text",
+      "title": "Two Messages, One Day",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "Two Messages, One Day marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 12,
+        "label": "Year 12",
+        "precision": "exact"
+      },
+      "sequence": 3,
+      "era_id": "preservation",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-05",
+      "kind": "image_text",
+      "title": "The Record Keepers",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Record Keepers marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 20,
+        "label": "Year 20",
+        "precision": "exact"
+      },
+      "sequence": 4,
+      "era_id": "preservation",
+      "media": {
+        "path": "media/orbit.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-06",
+      "kind": "image_text",
+      "title": "The Outer Libraries",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Outer Libraries marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 35,
+        "label": "Approximately Year 35",
+        "precision": "approximate"
+      },
+      "sequence": 5,
+      "era_id": "preservation",
+      "media": {
+        "path": "media/records.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-07",
+      "kind": "image_text",
+      "title": "A Map of Shared Memory",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "A Map of Shared Memory marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 60,
+        "label": "Year 60",
+        "precision": "exact"
+      },
+      "sequence": 6,
+      "era_id": "connection",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-08",
+      "kind": "image_text",
+      "title": "The Quiet Century",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Quiet Century marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 100,
+        "label": "Years 100–130",
+        "precision": "range",
+        "end": 130
+      },
+      "sequence": 7,
+      "era_id": "connection",
+      "media": {
+        "path": "media/orbit.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-09",
+      "kind": "image_text",
+      "title": "The Lost Dispatch",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Lost Dispatch marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.\n\nThis media file is intentionally absent. The reader must keep this text, descriptions, credit and navigation available and offer Retry.",
+      "date": {
+        "start": 140,
+        "label": "Year 140",
+        "precision": "exact"
+      },
+      "sequence": 8,
+      "era_id": "connection",
+      "media": {
+        "path": "media/missing-dispatch.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-10",
+      "kind": "image_text",
+      "title": "An Open Catalog",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "An Open Catalog marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 200,
+        "label": "Year 200",
+        "precision": "exact"
+      },
+      "sequence": 9,
+      "era_id": "connection",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-11",
+      "kind": "video_text",
+      "title": "The Relay Network",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Relay Network marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 215,
+        "label": "Year 215",
+        "precision": "exact"
+      },
+      "sequence": 10,
+      "era_id": "connection",
+      "media": {
+        "path": "media/calibration.ogv",
+        "description": "A generated color and motion calibration chart with a quiet 220 Hz tone.",
+        "credit": {
+          "text": "Original prototype calibration clip generated with FFmpeg."
+        },
+        "poster": {
+          "path": "media/orbit.png",
+          "description": "The spatial library concept study.",
+          "credit": {
+            "text": "Project concept art · AI-generated"
+          }
+        },
+        "transcript": "Playback calibration: colored bands and a moving test pattern repeat over six seconds. A quiet constant tone demonstrates volume, mute and pause. This is test media, not narrative footage."
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-12",
+      "kind": "image_text",
+      "title": "A New Reading Room",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "A New Reading Room marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 280,
+        "label": "Year 280",
+        "precision": "exact"
+      },
+      "sequence": 11,
+      "era_id": "connection",
+      "media": {
+        "path": "media/records.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-13",
+      "kind": "image_text",
+      "title": "The Long Crossing",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Long Crossing marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 340,
+        "label": "Year 340",
+        "precision": "exact"
+      },
+      "sequence": 12,
+      "era_id": "renewal",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-14",
+      "kind": "image_text",
+      "title": "The Return of the Surveyors",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Return of the Surveyors marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 500,
+        "label": "Year 500",
+        "precision": "exact"
+      },
+      "sequence": 13,
+      "era_id": "renewal",
+      "media": {
+        "path": "media/orbit.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-15",
+      "kind": "image_text",
+      "title": "The Public Collection",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Public Collection marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 700,
+        "label": "Year 700",
+        "precision": "exact"
+      },
+      "sequence": 14,
+      "era_id": "renewal",
+      "media": {
+        "path": "media/records.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-16",
+      "kind": "image_text",
+      "title": "A Common Calendar",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "A Common Calendar marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 720,
+        "label": "Year 720",
+        "precision": "exact"
+      },
+      "sequence": 15,
+      "era_id": "renewal",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-17",
+      "kind": "image_text",
+      "title": "The Renewal Assembly",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "The Renewal Assembly marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 900,
+        "label": "Year 900",
+        "precision": "exact"
+      },
+      "sequence": 16,
+      "era_id": "renewal",
+      "media": {
+        "path": "media/orbit.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-18",
+      "kind": "image_text",
+      "title": "An Archive Without Walls",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "An Archive Without Walls marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": 1200,
+        "label": "Year 1200",
+        "precision": "exact"
+      },
+      "sequence": 17,
+      "era_id": "renewal",
+      "media": {
+        "path": "media/records.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-19",
+      "kind": "image_text",
+      "title": "An Unattributed Fragment",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "An Unattributed Fragment marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": null,
+        "label": "Date unknown",
+        "precision": "unknown"
+      },
+      "sequence": 18,
+      "era_id": "fragments",
+      "media": {
+        "path": "media/library.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    },
+    {
+      "id": "record-20",
+      "kind": "image_text",
+      "title": "An Unfinished Letter",
+      "summary": "An original account from a civilization learning to preserve and share its memory.",
+      "body": "An Unfinished Letter marks a chapter in this original illustrative history. Communities across a scattered civilization contribute their observations to a shared archive. Each record preserves a particular point of view, and the catalog keeps its context visible.\n\nThe library was designed for readers who might never meet the people who made these records. Dates provide order; descriptions preserve uncertainty. The spaces between entries are editorial, so a century can be crossed as easily as a day.\n\nThis record is sample content for the working prototype. Replace this JSON document and its local media with your own timeline without changing a Godot scene.",
+      "date": {
+        "start": null,
+        "label": "Date unknown",
+        "precision": "unknown"
+      },
+      "sequence": 19,
+      "era_id": "fragments",
+      "media": {
+        "path": "media/orbit.png",
+        "description": "Original concept art showing the proposed galactic library and archive objects.",
+        "credit": {
+          "text": "Project concept art · AI-generated spatial library study"
+        }
+      },
+      "sources": [
+        {
+          "title": "Original prototype fiction",
+          "locator": "Demonstration record; no historical or canonical claim."
+        }
+      ]
+    }
+  ]
+}

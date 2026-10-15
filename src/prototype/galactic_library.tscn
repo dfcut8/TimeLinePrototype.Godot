@@ -1,0 +1,439 @@
+[gd_scene format=3]
+[ext_resource type="PackedScene" path="res://assets/wall_infill_bay/library_catalog_perimeter.tscn" id="perimeter"]
+[ext_resource type="PackedScene" path="res://assets/grounded_room_review/library_floor.tscn" id="floor"]
+[ext_resource type="PackedScene" path="res://assets/reading_bench/configurable_reading_alcove.tscn" id="row"]
+[ext_resource type="PackedScene" path="res://prototype/gallery/gallery_sector.tscn" id="gallery"]
+[ext_resource type="PackedScene" path="res://assets/radial_roof_beam/radial_roof_beam.tscn" id="beam"]
+[ext_resource type="PackedScene" path="res://assets/oculus_curb_segment/oculus_curb_segment.tscn" id="curb"]
+[ext_resource type="PackedScene" path="res://assets/record_stack_end_cap/configurable_archive_island.tscn" id="island"]
+
+[node name="GalacticLibrary" type="Node3D"]
+
+[node name="Perimeter" parent="." instance=ExtResource("perimeter")]
+
+[node name="Floor" parent="." instance=ExtResource("floor")]
+
+[node name="Gallery0_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 0.0, 0)
+
+[node name="Gallery0_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 0.0, 0)
+
+[node name="Beam0" parent="." instance=ExtResource("beam")]
+position = Vector3(10.15, 14.75, -0.0)
+rotation = Vector3(0, 0.0, 0)
+
+[node name="Curb0" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 0.0, 0)
+
+[node name="Gallery1_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 0.2617993877991494, 0)
+
+[node name="Gallery1_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 0.2617993877991494, 0)
+
+[node name="Beam1" parent="." instance=ExtResource("beam")]
+position = Vector3(9.804147136834043, 14.75, -2.6270133077905857)
+rotation = Vector3(0, 0.2617993877991494, 0)
+
+[node name="Curb1" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 0.2617993877991494, 0)
+
+[node name="Gallery2_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 0.5235987755982988, 0)
+
+[node name="Gallery2_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 0.5235987755982988, 0)
+
+[node name="Beam2" parent="." instance=ExtResource("beam")]
+position = Vector3(8.790157848412052, 14.75, -5.074999999999999)
+rotation = Vector3(0, 0.5235987755982988, 0)
+
+[node name="Curb2" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 0.5235987755982988, 0)
+
+[node name="Gallery3_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 0.7853981633974483, 0)
+
+[node name="Gallery3_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 0.7853981633974483, 0)
+
+[node name="Beam3" parent="." instance=ExtResource("beam")]
+position = Vector3(7.177133829043458, 14.75, -7.177133829043457)
+rotation = Vector3(0, 0.7853981633974483, 0)
+
+[node name="Curb3" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 0.7853981633974483, 0)
+
+[node name="Gallery4_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 1.0471975511965976, 0)
+
+[node name="Gallery4_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 1.0471975511965976, 0)
+
+[node name="Beam4" parent="." instance=ExtResource("beam")]
+position = Vector3(5.075000000000001, 14.75, -8.790157848412052)
+rotation = Vector3(0, 1.0471975511965976, 0)
+
+[node name="Curb4" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 1.0471975511965976, 0)
+
+[node name="Gallery5_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 1.3089969389957472, 0)
+
+[node name="Gallery5_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 1.3089969389957472, 0)
+
+[node name="Beam5" parent="." instance=ExtResource("beam")]
+position = Vector3(2.6270133077905857, 14.75, -9.804147136834043)
+rotation = Vector3(0, 1.3089969389957472, 0)
+
+[node name="Curb5" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 1.3089969389957472, 0)
+
+[node name="Gallery6_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 1.5707963267948966, 0)
+
+[node name="Gallery6_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 1.5707963267948966, 0)
+
+[node name="Beam6" parent="." instance=ExtResource("beam")]
+position = Vector3(6.214877245648565e-16, 14.75, -10.15)
+rotation = Vector3(0, 1.5707963267948966, 0)
+
+[node name="Curb6" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 1.5707963267948966, 0)
+
+[node name="Gallery7_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 1.8325957145940461, 0)
+
+[node name="Gallery7_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 1.8325957145940461, 0)
+
+[node name="Beam7" parent="." instance=ExtResource("beam")]
+position = Vector3(-2.6270133077905866, 14.75, -9.804147136834043)
+rotation = Vector3(0, 1.8325957145940461, 0)
+
+[node name="Curb7" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 1.8325957145940461, 0)
+
+[node name="Gallery8_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 2.0943951023931953, 0)
+
+[node name="Gallery8_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 2.0943951023931953, 0)
+
+[node name="Beam8" parent="." instance=ExtResource("beam")]
+position = Vector3(-5.0749999999999975, 14.75, -8.790157848412052)
+rotation = Vector3(0, 2.0943951023931953, 0)
+
+[node name="Curb8" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 2.0943951023931953, 0)
+
+[node name="Gallery9_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 2.356194490192345, 0)
+
+[node name="Gallery9_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 2.356194490192345, 0)
+
+[node name="Beam9" parent="." instance=ExtResource("beam")]
+position = Vector3(-7.177133829043457, 14.75, -7.177133829043458)
+rotation = Vector3(0, 2.356194490192345, 0)
+
+[node name="Curb9" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 2.356194490192345, 0)
+
+[node name="Gallery10_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 2.6179938779914944, 0)
+
+[node name="Gallery10_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 2.6179938779914944, 0)
+
+[node name="Beam10" parent="." instance=ExtResource("beam")]
+position = Vector3(-8.790157848412052, 14.75, -5.074999999999999)
+rotation = Vector3(0, 2.6179938779914944, 0)
+
+[node name="Curb10" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 2.6179938779914944, 0)
+
+[node name="Gallery11_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 2.8797932657906435, 0)
+
+[node name="Gallery11_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 2.8797932657906435, 0)
+
+[node name="Beam11" parent="." instance=ExtResource("beam")]
+position = Vector3(-9.804147136834043, 14.75, -2.6270133077905884)
+rotation = Vector3(0, 2.8797932657906435, 0)
+
+[node name="Curb11" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 2.8797932657906435, 0)
+
+[node name="Gallery12_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 3.141592653589793, 0)
+
+[node name="Gallery12_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 3.141592653589793, 0)
+
+[node name="Beam12" parent="." instance=ExtResource("beam")]
+position = Vector3(-10.15, 14.75, -1.242975449129713e-15)
+rotation = Vector3(0, 3.141592653589793, 0)
+
+[node name="Curb12" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 3.141592653589793, 0)
+
+[node name="Gallery13_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 3.4033920413889427, 0)
+
+[node name="Gallery13_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 3.4033920413889427, 0)
+
+[node name="Beam13" parent="." instance=ExtResource("beam")]
+position = Vector3(-9.804147136834043, 14.75, 2.627013307790586)
+rotation = Vector3(0, 3.4033920413889427, 0)
+
+[node name="Curb13" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 3.4033920413889427, 0)
+
+[node name="Gallery14_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 3.6651914291880923, 0)
+
+[node name="Gallery14_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 3.6651914291880923, 0)
+
+[node name="Beam14" parent="." instance=ExtResource("beam")]
+position = Vector3(-8.790157848412052, 14.75, 5.075000000000001)
+rotation = Vector3(0, 3.6651914291880923, 0)
+
+[node name="Curb14" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 3.6651914291880923, 0)
+
+[node name="Gallery15_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 3.9269908169872414, 0)
+
+[node name="Gallery15_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 3.9269908169872414, 0)
+
+[node name="Beam15" parent="." instance=ExtResource("beam")]
+position = Vector3(-7.177133829043459, 14.75, 7.177133829043457)
+rotation = Vector3(0, 3.9269908169872414, 0)
+
+[node name="Curb15" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 3.9269908169872414, 0)
+
+[node name="Gallery16_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 4.1887902047863905, 0)
+
+[node name="Gallery16_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 4.1887902047863905, 0)
+
+[node name="Beam16" parent="." instance=ExtResource("beam")]
+position = Vector3(-5.075000000000005, 14.75, 8.79015784841205)
+rotation = Vector3(0, 4.1887902047863905, 0)
+
+[node name="Curb16" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 4.1887902047863905, 0)
+
+[node name="Gallery17_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 4.4505895925855405, 0)
+
+[node name="Gallery17_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 4.4505895925855405, 0)
+
+[node name="Beam17" parent="." instance=ExtResource("beam")]
+position = Vector3(-2.6270133077905844, 14.75, 9.804147136834043)
+rotation = Vector3(0, 4.4505895925855405, 0)
+
+[node name="Curb17" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 4.4505895925855405, 0)
+
+[node name="Gallery18_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 4.71238898038469, 0)
+
+[node name="Gallery18_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 4.71238898038469, 0)
+
+[node name="Beam18" parent="." instance=ExtResource("beam")]
+position = Vector3(-1.8644631736945695e-15, 14.75, 10.15)
+rotation = Vector3(0, 4.71238898038469, 0)
+
+[node name="Curb18" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 4.71238898038469, 0)
+
+[node name="Gallery19_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 4.974188368183839, 0)
+
+[node name="Gallery19_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 4.974188368183839, 0)
+
+[node name="Beam19" parent="." instance=ExtResource("beam")]
+position = Vector3(2.6270133077905813, 14.75, 9.804147136834045)
+rotation = Vector3(0, 4.974188368183839, 0)
+
+[node name="Curb19" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 4.974188368183839, 0)
+
+[node name="Gallery20_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 5.235987755982989, 0)
+
+[node name="Gallery20_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 5.235987755982989, 0)
+
+[node name="Beam20" parent="." instance=ExtResource("beam")]
+position = Vector3(5.075000000000001, 14.75, 8.790157848412052)
+rotation = Vector3(0, 5.235987755982989, 0)
+
+[node name="Curb20" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 5.235987755982989, 0)
+
+[node name="Gallery21_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 5.497787143782138, 0)
+
+[node name="Gallery21_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 5.497787143782138, 0)
+
+[node name="Beam21" parent="." instance=ExtResource("beam")]
+position = Vector3(7.177133829043456, 14.75, 7.177133829043459)
+rotation = Vector3(0, 5.497787143782138, 0)
+
+[node name="Curb21" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 5.497787143782138, 0)
+
+[node name="Gallery22_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 5.759586531581287, 0)
+
+[node name="Gallery22_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 5.759586531581287, 0)
+
+[node name="Beam22" parent="." instance=ExtResource("beam")]
+position = Vector3(8.79015784841205, 14.75, 5.075000000000005)
+rotation = Vector3(0, 5.759586531581287, 0)
+
+[node name="Curb22" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 5.759586531581287, 0)
+
+[node name="Gallery23_5" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 5.0, 0)
+rotation = Vector3(0, 6.021385919380437, 0)
+
+[node name="Gallery23_10" parent="." instance=ExtResource("gallery")]
+position = Vector3(0, 10.0, 0)
+rotation = Vector3(0, 6.021385919380437, 0)
+
+[node name="Beam23" parent="." instance=ExtResource("beam")]
+position = Vector3(9.804147136834043, 14.75, 2.627013307790585)
+rotation = Vector3(0, 6.021385919380437, 0)
+
+[node name="Curb23" parent="." instance=ExtResource("curb")]
+position = Vector3(0, 14.15, 0)
+rotation = Vector3(0, 6.021385919380437, 0)
+
+[node name="ReadingAlcove0" parent="." instance=ExtResource("row")]
+position = Vector3(10.749999999999998, 0, -18.619546181365433)
+rotation_degrees = Vector3(0, -30, 0)
+bay_count = 3
+
+[node name="ReadingAlcove1" parent="." instance=ExtResource("row")]
+position = Vector3(18.61954618136543, 0, -10.750000000000002)
+rotation_degrees = Vector3(0, -60, 0)
+bay_count = 3
+
+[node name="ReadingAlcove2" parent="." instance=ExtResource("row")]
+position = Vector3(18.619546181365433, 0, 10.749999999999995)
+rotation_degrees = Vector3(0, -120, 0)
+bay_count = 3
+
+[node name="ReadingAlcove3" parent="." instance=ExtResource("row")]
+position = Vector3(10.749999999999998, 0, 18.619546181365433)
+rotation_degrees = Vector3(0, -150, 0)
+bay_count = 3
+
+[node name="ReadingAlcove4" parent="." instance=ExtResource("row")]
+position = Vector3(-10.750000000000002, 0, 18.61954618136543)
+rotation_degrees = Vector3(0, -210, 0)
+bay_count = 3
+
+[node name="ReadingAlcove5" parent="." instance=ExtResource("row")]
+position = Vector3(-18.619546181365425, 0, 10.750000000000009)
+rotation_degrees = Vector3(0, -240, 0)
+bay_count = 3
+
+[node name="ReadingAlcove6" parent="." instance=ExtResource("row")]
+position = Vector3(-18.61954618136543, 0, -10.750000000000002)
+rotation_degrees = Vector3(0, -300, 0)
+bay_count = 3
+
+[node name="ReadingAlcove7" parent="." instance=ExtResource("row")]
+position = Vector3(-10.750000000000009, 0, -18.619546181365425)
+rotation_degrees = Vector3(0, -330, 0)
+bay_count = 3
+

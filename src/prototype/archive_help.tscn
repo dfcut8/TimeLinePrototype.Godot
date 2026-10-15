@@ -1,0 +1,57 @@
+[gd_scene format=3]
+
+[node name="ArchiveHelp" type="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+visible = false
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.01, 0.025, 0.045, 0.82)
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_left = 32.0
+offset_top = 90.0
+offset_right = -32.0
+offset_bottom = -30.0
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+theme_override_constants/margin_left = 22
+theme_override_constants/margin_right = 22
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="Column" type="VBoxContainer" parent="Panel/Margin"]
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+text = "EXPLORE THE ARCHIVE"
+theme_override_font_sizes/font_size = 24
+
+[node name="Body" type="RichTextLabel" parent="Panel/Margin/Column"]
+size_flags_horizontal = 3
+size_flags_vertical = 3
+focus_mode = 2
+text = "The room and timeline remain fixed. The camera moves around them.\n\nBROWSE\nLeft/Right or Up/Down: previous/next record\nPage Up/Down: jump five records · Home/End: first/last\nEnter: open focused record · I: index · F1: help\nMouse wheel: browse · Ctrl + wheel or + / −: zoom\nDrag empty space: orbit · Q/E: orbit · R: reset view\nUse the on-screen orbit buttons for mouse-only exploration.\n\nREAD\nEscape closes one layer at a time. Alt + Left/Right changes records.\nVideo starts only when you press Play. Space on the video pauses/resumes.\nEnlarge media preserves playback and your reading position.\nTab / Shift+Tab moves through visible controls.\n\nCONTENT\nChoose a local timeline JSON in Settings. Images and Ogg Theora video resolve relative to it. Reload keeps the previous valid archive when the replacement is invalid.\n\nEarlier/later describes chronological order, not distance. From behind, the projected direction reverses; near an end-on view use the index or Reset View. Undated records are a separate section.\n\nThe bundled 20-record archive is original illustrative fiction. Concept images are presentation studies; the calibration clip is a generated playback test. It is not Foundation canon."
+
+[node name="Close" type="Button" parent="Panel/Margin/Column"]
+unique_name_in_owner = true
+text = "Return to archive  [Esc]"
+focus_mode = 2
+
